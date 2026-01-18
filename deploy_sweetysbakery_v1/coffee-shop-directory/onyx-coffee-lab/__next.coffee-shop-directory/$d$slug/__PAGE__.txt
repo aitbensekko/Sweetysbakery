@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[44748,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/025e0672f4ec8e0f.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"bg-gray-50 min-h-screen","children":["$","$L2",null,{"shop":{"id":"coffee-11","slug":"onyx-coffee-lab","type":"coffee_shop","name":"Onyx Coffee Lab","address":"101 E Walnut St","city":"Rogers","state":"AR","zip":"72756","coordinates":[36.33,-94.12],"rating":4.9,"reviewCount":2200,"priceRange":"$$$$","specialties":["Geometry Blend","Seasonal Pour Over","Matcha"],"imageUrl":"https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=80","description":"A scientific approach to coffee. Known for their transparency, sustainability, and award-winning roasts.","website":"https://onyxcoffeelab.com"}}]}],[["$","script","script-0",{"src":"/_next/static/chunks/025e0672f4ec8e0f.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null

@@ -81,7 +81,8 @@ export const RecipeScaler: React.FC<RecipeScalerProps> = ({ setActiveTool, bread
             breadcrumbs={breadcrumbs}
             toolId="recipe-scaler"
         >
-            <div className="grid lg:grid-cols-2 gap-8">
+
+            <div className="grid xl:grid-cols-2 gap-8">
                 <div>
                     <div className="flex justify-between items-center mb-4">
                         <h3 className="font-serif font-bold text-2xl text-brand-text-title">Original Recipe</h3>
@@ -90,10 +91,21 @@ export const RecipeScaler: React.FC<RecipeScalerProps> = ({ setActiveTool, bread
                         </div>
                     </div>
 
+                    {/* Column Headers */}
+                    <div className="hidden lg:flex gap-2 mb-2 px-2 text-xs font-bold text-brand-text-body/60 uppercase tracking-wider">
+                        <div className="flex-grow">Ingredient</div>
+                        <div className="flex gap-2">
+                            <div className="w-20">Qty</div>
+                            <div className="w-24">Unit</div>
+                            <div className="w-24">Weight (g)</div>
+                            <div className="w-8"></div> {/* Spacer for Remove Button */}
+                        </div>
+                    </div>
+
                     <div className="space-y-3 mb-6 bg-gray-50 p-4 rounded-xl border border-gray-100">
                         {ingredients.map((ing, index) => (
-                            <div key={ing.id} className="relative flex flex-col sm:flex-row gap-2 items-start sm:items-center group bg-white p-2 rounded-lg border border-gray-200 sm:border-none sm:bg-transparent sm:p-0">
-                                <div className="flex-grow w-full sm:w-auto">
+                            <div key={ing.id} className="relative flex flex-col lg:flex-row gap-2 items-start lg:items-center group bg-white p-2 rounded-lg border border-gray-200 lg:border-none lg:bg-transparent lg:p-0">
+                                <div className="flex-grow w-full lg:w-auto">
                                     <input
                                         type="text"
                                         placeholder={`Ingredient ${index + 1}`}
@@ -103,45 +115,45 @@ export const RecipeScaler: React.FC<RecipeScalerProps> = ({ setActiveTool, bread
                                         aria-label={`Ingredient ${index + 1} name`}
                                     />
                                 </div>
-                                <div className="grid grid-cols-3 sm:flex gap-2 w-full sm:w-auto items-center mt-2 sm:mt-0">
-                                    <div className="w-full sm:w-20">
+                                <div className="grid grid-cols-3 lg:flex gap-2 w-full lg:w-auto items-center mt-2 lg:mt-0">
+                                    <div className="w-full lg:w-20">
                                         <input
                                             type="number"
                                             placeholder="Qty"
                                             value={ing.quantity}
                                             onChange={e => handleIngredientChange(ing.id, 'quantity', e.target.value)}
-                                            className="w-full px-2 sm:px-3 py-2 bg-white border border-brand-border rounded-lg text-sm focus:ring-2 focus:ring-brand-pink/50 focus:border-brand-pink"
+                                            className="w-full px-2 lg:px-3 py-2 bg-white border border-brand-border rounded-lg text-sm focus:ring-2 focus:ring-brand-pink/50 focus:border-brand-pink"
                                             min="0"
                                             step="any"
                                             aria-label="Quantity"
                                         />
                                     </div>
-                                    <div className="w-full sm:w-24">
+                                    <div className="w-full lg:w-24">
                                         <input
                                             type="text"
                                             placeholder="Unit"
                                             value={ing.unit}
                                             onChange={e => handleIngredientChange(ing.id, 'unit', e.target.value)}
-                                            className="w-full px-2 sm:px-3 py-2 bg-white border border-brand-border rounded-lg text-sm focus:ring-2 focus:ring-brand-pink/50 focus:border-brand-pink"
+                                            className="w-full px-2 lg:px-3 py-2 bg-white border border-brand-border rounded-lg text-sm focus:ring-2 focus:ring-brand-pink/50 focus:border-brand-pink"
                                             aria-label="Unit"
                                         />
                                     </div>
-                                    <div className="w-full sm:w-24 relative">
+                                    <div className="w-full lg:w-24 relative">
                                         <input
                                             type="number"
                                             placeholder="g"
                                             value={ing.weight}
                                             onChange={e => handleIngredientChange(ing.id, 'weight', e.target.value)}
-                                            className="w-full px-2 sm:px-3 py-2 bg-white border border-brand-border rounded-lg text-sm focus:ring-2 focus:ring-brand-pink/50 focus:border-brand-pink pr-6"
+                                            className="w-full px-2 lg:px-3 py-2 bg-white border border-brand-border rounded-lg text-sm focus:ring-2 focus:ring-brand-pink/50 focus:border-brand-pink pr-6"
                                             min="0"
                                             step="any"
                                             aria-label="Weight in grams"
                                         />
-                                        <span className="absolute right-1 sm:right-2 top-1/2 -translate-y-1/2 text-gray-400 text-[10px] sm:text-xs pointer-events-none">g</span>
+                                        <span className="absolute right-1 lg:right-2 top-1/2 -translate-y-1/2 text-gray-400 text-[10px] lg:text-xs pointer-events-none">g</span>
                                     </div>
                                     <button
                                         onClick={() => removeIngredient(ing.id)}
-                                        className={`absolute -top-2 -right-2 bg-white rounded-full shadow-sm border border-gray-100 sm:static sm:bg-transparent sm:shadow-none sm:border-none text-gray-400 hover:text-red-500 p-1 sm:p-2 transition-colors flex-shrink-0 ${ingredients.length === 1 ? 'hidden sm:block sm:opacity-0 sm:pointer-events-none' : ''}`}
+                                        className={`absolute -top-2 -right-2 bg-white rounded-full shadow-sm border border-gray-100 lg:static lg:bg-transparent lg:shadow-none lg:border-none text-gray-400 hover:text-red-500 p-1 lg:p-2 transition-colors flex-shrink-0 ${ingredients.length === 1 ? 'hidden lg:block lg:opacity-0 lg:pointer-events-none' : ''}`}
                                         title="Remove ingredient"
                                         aria-label="Remove ingredient"
                                     >

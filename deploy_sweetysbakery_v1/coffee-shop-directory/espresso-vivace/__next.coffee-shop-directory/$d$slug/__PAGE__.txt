@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[44748,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/025e0672f4ec8e0f.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"bg-gray-50 min-h-screen","children":["$","$L2",null,{"shop":{"id":"coffee-3","slug":"espresso-vivace","type":"coffee_shop","name":"Espresso Vivace","address":"532 Broadway E","city":"Seattle","state":"WA","zip":"98102","coordinates":[47.62,-122.32],"rating":4.7,"reviewCount":2100,"priceRange":"$$$","specialties":["Cafe Nico","Espresso","Latte Art"],"imageUrl":"https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80","description":"A Seattle institution dedicated to the art of espresso. Famous for their Cafe Nico.","website":"https://espressovivace.com"}}]}],[["$","script","script-0",{"src":"/_next/static/chunks/025e0672f4ec8e0f.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null

@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[44748,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/025e0672f4ec8e0f.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"bg-gray-50 min-h-screen","children":["$","$L2",null,{"shop":{"id":"coffee-17","slug":"panther-coffee","type":"coffee_shop","name":"Panther Coffee","address":"2390 NW 2nd Ave","city":"Miami","state":"FL","zip":"33127","coordinates":[25.8,-80.2],"rating":4.7,"reviewCount":3200,"priceRange":"$$$","specialties":["Cold Brew","Espresso","Single Origin"],"imageUrl":"https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80","description":"A Miami staple in Wynwood specializing in small-batch roasting and direct-trade coffees.","website":"https://panthercoffee.com"}}]}],[["$","script","script-0",{"src":"/_next/static/chunks/025e0672f4ec8e0f.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null

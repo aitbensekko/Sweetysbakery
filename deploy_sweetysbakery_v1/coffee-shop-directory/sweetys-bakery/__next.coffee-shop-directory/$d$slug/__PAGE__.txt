@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[44748,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/025e0672f4ec8e0f.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"bg-gray-50 min-h-screen","children":["$","$L2",null,{"shop":{"id":"bakery-user","slug":"sweetys-bakery","type":"bakery","name":"Sweety's Bakery","address":"Marrakech","city":"Marrakech","state":"Morocco","zip":"40000","coordinates":[31.6295,-7.9811],"rating":5,"reviewCount":348,"priceRange":"$$$","specialties":["Custom Cakes","Cake Rolls","Gourmet Cookies"],"imageUrl":"https://sweetysbakery.com/images/img%20sb.jpeg","description":"Your premier destination for custom cakes and edible art in Marrakech. Mixing passion with perfection.","website":"https://www.instagram.com/sweetys.bakery/"}}]}],[["$","script","script-0",{"src":"/_next/static/chunks/025e0672f4ec8e0f.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
