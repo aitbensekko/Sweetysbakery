@@ -18,7 +18,8 @@ function getToolUrls() {
             urls.push({
                 loc: `${DOMAIN}${path}`,
                 changefreq: 'weekly',
-                priority: '0.8'
+                priority: '0.8',
+                images: [] // Tools usually don't have a specific main image in this context, but we keep structure consistent
             });
         }
     }
@@ -27,7 +28,8 @@ function getToolUrls() {
     urls.push({
         loc: DOMAIN + '/',
         changefreq: 'daily',
-        priority: '1.0'
+        priority: '1.0',
+        images: []
     });
 
     console.log(`Found ${urls.length} tool/static pages`);
@@ -39,16 +41,42 @@ function getProductUrls() {
     const content = fs.readFileSync(productsPath, 'utf8');
     const urls = [];
 
-    // Match slug: 'some-slug'
-    const regex = /slug:\s*['"`]([^'"`]+)['"`]/g;
-    let match;
+    // We need to parse objects. Since it's unstructured text, valid regex is tricky for nested data.
+    // However, the file structure seems consistent.
+    // We will use a regex that captures the block of a product object approx.
+    // Assuming format: { ... slug: '...', ... imageUrl: '...', ... }
 
-    while ((match = regex.exec(content)) !== null) {
-        urls.push({
-            loc: `${DOMAIN}/products/${match[1]}`,
-            changefreq: 'monthly',
-            priority: '0.7'
-        });
+    // Simplistic parser: split by "{" to get blocks, then regex each block
+    const blocks = content.split('    {'); // primitive splitting based on indentation
+
+    for (const block of blocks) {
+        const slugMatch = /slug:\s*['"`]([^'"`]+)['"`]/.exec(block);
+        const imageMatch = /imageUrl:\s*['"`]([^'"`]+)['"`]/.exec(block);
+        const nameMatch = /name:\s*['"`]([^'"`]+)['"`]/.exec(block); // For image title/caption relative to product
+
+        if (slugMatch) {
+            const img = imageMatch ? imageMatch[1] : null;
+            const name = nameMatch ? nameMatch[1] : '';
+
+            const images = [];
+            if (img) {
+                // specific correction for relative paths or absolute
+                // If it starts with /, append domain. If http, keep as is.
+                // Google Image Sitemap requires absolute URL.
+                const imgUrl = img.startsWith('http') ? img : `${DOMAIN}${img}`;
+                images.push({
+                    loc: imgUrl,
+                    title: name
+                });
+            }
+
+            urls.push({
+                loc: `${DOMAIN}/products/${slugMatch[1]}`,
+                changefreq: 'monthly',
+                priority: '0.7',
+                images: images
+            });
+        }
     }
 
     console.log(`Found ${urls.length} product pages`);
@@ -60,22 +88,37 @@ function getBlogUrls() {
     const content = fs.readFileSync(blogPath, 'utf8');
     const urls = [];
 
-    // Match slug and type to determine path
-    // We look for objects that have both matching properties
-    // This simple regex strategy assumes consistent formatting
-    const regex = /slug:\s*['"`]([^'"`]+)['"`][\s\S]*?type:\s*['"`]([^'"`]+)['"`]/g;
-    let match;
+    // Similar split strategy
+    const blocks = content.split('    {');
 
-    while ((match = regex.exec(content)) !== null) {
-        const slug = match[1];
-        const type = match[2];
-        const prefix = type === 'recipe' ? '/recipes/' : '/blog/';
+    for (const block of blocks) {
+        const slugMatch = /slug:\s*['"`]([^'"`]+)['"`]/.exec(block);
+        const typeMatch = /type:\s*['"`]([^'"`]+)['"`]/.exec(block);
+        const imageMatch = /image:\s*['"`]([^'"`]+)['"`]/.exec(block);
+        const titleMatch = /title:\s*['"`]([^'"`]+)['"`]/.exec(block);
 
-        urls.push({
-            loc: `${DOMAIN}${prefix}${slug}`,
-            changefreq: 'monthly',
-            priority: '0.7'
-        });
+        if (slugMatch && typeMatch) {
+            const slug = slugMatch[1];
+            const type = typeMatch[1];
+            const prefix = type === 'recipe' ? '/recipes/' : '/blog/';
+
+            const images = [];
+            if (imageMatch) {
+                const img = imageMatch[1];
+                const imgUrl = img.startsWith('http') ? img : `${DOMAIN}${img}`;
+                images.push({
+                    loc: imgUrl,
+                    title: titleMatch ? titleMatch[1] : ''
+                });
+            }
+
+            urls.push({
+                loc: `${DOMAIN}${prefix}${slug}`,
+                changefreq: 'monthly',
+                priority: '0.7',
+                images: images
+            });
+        }
     }
 
     console.log(`Found ${urls.length} blog/recipe pages`);
@@ -92,16 +135,30 @@ function generateSitemap() {
     const allUrls = [...toolUrls, ...productUrls, ...blogUrls];
 
     // Remove duplicates based on loc
-    const uniqueUrls = Array.from(new Map(allUrls.map(item => [item.loc, item])).values());
+    const uniqueMap = new Map();
+    allUrls.forEach(item => uniqueMap.set(item.loc, item));
+    const uniqueUrls = Array.from(uniqueMap.values());
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${uniqueUrls.map(url => `  <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${uniqueUrls.map(url => {
+        let imageStr = '';
+        if (url.images && url.images.length > 0) {
+            imageStr = url.images.map(img => `
+    <image:image>
+      <image:loc>${img.loc}</image:loc>
+      ${img.title ? `<image:title><![CDATA[${img.title}]]></image:title>` : ''}
+    </image:image>`).join('');
+        }
+
+        return `  <url>
     <loc>${url.loc}</loc>
     <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
-    <priority>${url.priority}</priority>
-  </url>`).join('\n')}
+    <priority>${url.priority}</priority>${imageStr}
+  </url>`;
+    }).join('\n')}
 </urlset>`;
 
     const outDir = path.join(process.cwd(), 'out');
