@@ -126,50 +126,71 @@ export const DoughTemperatureCalculator: React.FC<DoughTemperatureCalculatorProp
 };
 
 const DoughTemperatureCalculatorContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Set DDT:</strong> Enter your Desired Dough Temperature (usually 75-78°F for sourdough).</li>
-                <li><strong>Measure Temps:</strong> Input the current temperature of your flour and room.</li>
-                <li><strong>Set Friction:</strong> Choose a friction factor based on your mixing method (Hand vs Machine).</li>
-                <li><strong>Get Water Temp:</strong> The tool calculates the exact water temperature needed to hit your target.</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Master Your Fermentation with DDT</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Consistency is the hallmark of a professional baker. If your bread rises perfectly one day but over-proofs the next, the culprit is often <strong>Dough Temperature</strong>. By controlling the <strong>Desired Dough Temperature (DDT)</strong>—typically 75°F to 78°F for sourdough—you ensure your wild yeast behaves predictably every single bake. Our calculator helps you find the exact water temperature needed to balance out the heat of your flour, room, and mixer friction.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Why is DDT important?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Yeast activity is driven by temperature. Consistent dough temperature means consistent fermentation times, leading to predictable and better bread.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        What if the water temp is negative?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        This means your flour or room is too hot! You need to use ice water. Weigh your ice as part of the total water weight.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        How do I find my exact friction factor?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Mix a dough, measure its final temp, and work the formula backward. If your dough is 80°F but you wanted 78°F, your friction was higher than estimated.
-                    </p>
-                </details>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    Understanding Friction Factor
+                </h3>
+                <p className="text-sm text-brand-text-body/80 mb-4">
+                    Friction warms your dough during mixing. The longer and faster you mix, the more heat is generated.
+                </p>
+                <ul className="space-y-3 text-sm text-brand-text-body/80">
+                    <li className="flex items-start gap-2">
+                        <span className="font-bold text-brand-pink whitespace-nowrap">Hand Mix (0-2°F):</span>
+                        <span>Gentle mixing generates almost no heat.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                        <span className="font-bold text-brand-pink whitespace-nowrap">Stand Mixer (10-25°F):</span>
+                        <span>A KitchenAid on speed 2-4 generates significant heat over 10 minutes.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                        <span className="font-bold text-brand-pink whitespace-nowrap">Food Processor (30°F+):</span>
+                        <span>Blades spin very fast, heating dough rapidly in just 45 seconds.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why is my water temp negative?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            If the calculator says -5°F, it means your room or flour is way too hot! You physically cannot get the dough cool enough with liquid water alone. <strong>Switch to ice water</strong> (weigh the ice!) and try to cool your flour in the fridge before mixing.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Does sourdough starter temp matter?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Yes! If you use a lot of levain (like 1:2:2 ratio), its temperature will impact the final dough. Toggle the "Include Preferment" switch above to account for it.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is the best DDT for Sourdough?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Most artisan bakers aim for <strong>76°F - 78°F (24°C - 26°C)</strong>. This temperature favors the yeast (rise) versus the bacteria (acid), giving you a balanced flavor and a 3-4 hour bulk fermentation.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

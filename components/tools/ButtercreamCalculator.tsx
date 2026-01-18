@@ -249,50 +249,72 @@ export const ButtercreamCalculator: React.FC<ButtercreamCalculatorProps> = ({ se
 };
 
 const ButtercreamCalculatorContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Define Tiers:</strong> Add the size and shape of each cake tier. You can add multiple tiers for wedding cakes.</li>
-                <li><strong>Select Style:</strong> Choose how much frosting you plan to use (Naked, Standard, or Extra for piping).</li>
-                <li><strong>Get Estimate:</strong> The calculator provides the total volume in cups, plus weight in pounds and grams.</li>
-                <li><strong>Plan Ahead:</strong> Use the "Filling" vs "Coating" breakdown to manage your batch production.</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">The Ultimate Buttercream Frosting Calculator</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                One of the most common questions bakers ask is: <strong>"How much buttercream do I need for a cake?"</strong> Running out of frosting halfway through decorating is a nightmare, but making way too much is a waste of money. Our <strong>Frosting Calculator</strong> solves this problem. Whether you are using <strong>American Buttercream</strong>, <strong>Swiss Meringue</strong>, or <strong>Ganache</strong>, this tool calculates the exact volume required for filling, crumb coating, and decorating your cake tiers.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Does this work for Swiss Meringue?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Yes! While the weight (grams) might vary slightly due to air content, the volume (cups) estimate remains accurate for covering the surface area of the cake.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        How much is 1 cup of buttercream?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        For American Buttercream, 1 cup weighs approximately 227g (0.5 lbs). Swiss and Italian Meringue buttercreams are lighter, weighing around 150-170g per cup.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Should I make extra?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Always! We recommend making 10-15% more than calculated to account for waste, tasting, and accidents. It freezes beautifully if you have leftovers.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Calculate Frosting Quantity
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Define Your Tiers:</strong> select the shape (Round/Square) and size for each tier. Add multiple tiers for <strong>Wedding Cakes</strong>.</li>
+                    <li><strong>Choose Your Style:</strong>
+                        <ul className="list-disc pl-4 mt-1 space-y-1">
+                            <li><strong>Naked:</strong> Just filling and a barely-there scrape.</li>
+                            <li><strong>Standard:</strong> A classic smooth finish suitable for most birthday cakes.</li>
+                            <li><strong>Generous:</strong> Includes a thick outer coat and simple borders.</li>
+                            <li><strong>Extra:</strong> Uses 2x the standard amount, perfect for <strong>Rosettes</strong>, ruffles, or heavy piping.</li>
+                        </ul>
+                    </li>
+                    <li><strong>View Results:</strong> get your total in Cups, Grams, and Pounds.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Does this work for Swiss Meringue Buttercream (SMBC)?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Yes! This tool calculates <strong>Volume (Cups)</strong> which applies to all frosting types. However, weight varies. SMBC is lighter than American Buttercream, so 1 cup of SMBC weighs ~150g, while 1 cup of American weighs ~225g.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How much frosting for cupcakes?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            On average:
+                            <ul className="list-disc pl-4 mt-2 mb-2">
+                                <li><strong>Flat/Spatula Spread:</strong> 1-1.5 tbsp per cupcake.</li>
+                                <li><strong>Classic Swirl:</strong> 2-3 tbsp per cupcake.</li>
+                                <li><strong>Tall Bakery Swirl:</strong> 3-4 tbsp per cupcake.</li>
+                            </ul>
+                            A standard batch of buttercream (4 cups) typically frosts 24 cupcakes with a classic swirl.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How much frosting to fill a cake?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            For a standard 3-layer cake (8-inch), you need approximately <strong>1.5 to 2 cups</strong> just for the filling between layers, depending on how thick you like it (usually 1/4 to 1/2 inch thick).
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

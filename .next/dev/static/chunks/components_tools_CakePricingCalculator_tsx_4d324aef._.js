@@ -1206,6 +1206,83 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
         className: "mt-12 space-y-12 pt-8 border-t border-brand-border",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "prose prose-pink max-w-none",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "font-serif text-3xl font-bold text-brand-text-title mb-4",
+                        children: "The Ultimate Cake Pricing Calculator for Bakers"
+                    }, void 0, false, {
+                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                        lineNumber: 389,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-lg text-brand-text-body/80 leading-relaxed",
+                        children: [
+                            "Turning your baking passion into a business? The biggest challenge is ensuring you're actually making a profit. Our free ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Cake Pricing Calculator"
+                            }, void 0, false, {
+                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                lineNumber: 391,
+                                columnNumber: 138
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " takes the guesswork out of billing. Whether you are selling ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "custom birthday cakes"
+                            }, void 0, false, {
+                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                lineNumber: 391,
+                                columnNumber: 239
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            ", ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "wedding cakes"
+                            }, void 0, false, {
+                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                lineNumber: 391,
+                                columnNumber: 279
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            ", or ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "cupcakes"
+                            }, void 0, false, {
+                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                lineNumber: 391,
+                                columnNumber: 314
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " by the dozen, this tool accounts for everything—total ingredient costs, your valuable time (labor), overhead expenses, and even delivery."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                        lineNumber: 390,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-lg text-brand-text-body/80 leading-relaxed mt-4",
+                        children: [
+                            "Designed for home bakers and small business owners, this ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                children: "Bakery Cost App"
+                            }, void 0, false, {
+                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                lineNumber: 394,
+                                columnNumber: 74
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ensures you never undercharge for your hard work again."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                        lineNumber: 393,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                lineNumber: 388,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-gradient-to-br from-brand-pink/5 to-white p-6 rounded-2xl border border-brand-pink/10 shadow-sm",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1213,7 +1290,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                         children: "Recommended Gear for Your Business"
                     }, void 0, false, {
                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                        lineNumber: 389,
+                        lineNumber: 400,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1230,7 +1307,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                         children: "📦"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 392,
+                                        lineNumber: 403,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1240,7 +1317,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                 children: "Cake Box Starter Kit"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 394,
+                                                lineNumber: 405,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1248,19 +1325,19 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                 children: "Professional packaging adds value to your cakes."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 395,
+                                                lineNumber: 406,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 393,
+                                        lineNumber: 404,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 391,
+                                lineNumber: 402,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1274,7 +1351,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                         children: "📝"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 399,
+                                        lineNumber: 410,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1284,7 +1361,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                 children: "Order Order Pad"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 401,
+                                                lineNumber: 412,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1292,25 +1369,25 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                 children: "Keep track of every custom order detail."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 402,
+                                                lineNumber: 413,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 400,
+                                        lineNumber: 411,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 398,
+                                lineNumber: 409,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                        lineNumber: 390,
+                        lineNumber: 401,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1318,13 +1395,13 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                         children: "*As an Amazon Associate, we earn from qualifying purchases. This helps keep our tools free!"
                     }, void 0, false, {
                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                        lineNumber: 406,
+                        lineNumber: 417,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                lineNumber: 388,
+                lineNumber: 399,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1340,14 +1417,14 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                         className: "w-6 h-6 text-brand-pink"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 414,
+                                        lineNumber: 425,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    "How to Use"
+                                    "How to Price a Cake Correctly"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 413,
+                                lineNumber: 424,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1360,14 +1437,14 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                         children: "Ultimate Guide to Cake Pricing"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 418,
+                                        lineNumber: 429,
                                         columnNumber: 46
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " for a deep dive."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 417,
+                                lineNumber: 428,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -1376,65 +1453,65 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Select a Template:"
+                                                children: "Start with Ingredients:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 421,
+                                                lineNumber: 432,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            " Start quickly with a preset for Wedding Cakes, Birthdays, or Cupcakes."
+                                            " List every item, including packaging (cake boards, boxes). This is your base cost."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 421,
+                                        lineNumber: 432,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "List Ingredients:"
+                                                children: "Add Your Labor:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 422,
+                                                lineNumber: 433,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            " Enter every item used. Don't forget small things like baking powder, salt, or packaging (boxes, boards)."
+                                            " Don't work for free! Charge a fair hourly rate for shopping, baking, decorating, and cleaning."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 422,
+                                        lineNumber: 433,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Set Labor:"
+                                                children: "Factor Overhead:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 423,
+                                                lineNumber: 434,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            " Be honest about your hourly rate and the total time spent (baking, decorating, cleaning)."
+                                            ' Cover the "hidden" costs like electricity, water, insurance, and equipment wear (usually 10-20% is safe).'
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 423,
+                                        lineNumber: 434,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Add Overhead:"
+                                                children: "Set Profit Margin:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 424,
+                                                lineNumber: 435,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            " This covers electricity, water, equipment wear, and marketing. 10-20% is standard for home bakeries."
+                                            " This is for business growth. A 30-50% margin is standard for sustainable bakeries."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 424,
+                                        lineNumber: 435,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1443,42 +1520,26 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                 children: "Delivery & Tax:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 425,
+                                                lineNumber: 436,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            " Add a base delivery fee plus mileage, and don't forget to collect sales tax if required!"
+                                            " Add mileage rates for delivery and ensure you calculate sales tax if local laws require it."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 425,
-                                        columnNumber: 21
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Determine Profit:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 426,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            " Set your desired profit margin (usually 30-50%+) to ensure business growth."
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 426,
+                                        lineNumber: 436,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 420,
+                                lineNumber: 431,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                        lineNumber: 412,
+                        lineNumber: 423,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1489,7 +1550,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                 children: "Frequently Asked Questions"
                             }, void 0, false, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 431,
+                                lineNumber: 441,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1501,19 +1562,19 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
                                                 children: [
-                                                    "What is a good profit margin?",
+                                                    "What is a good profit margin for cakes?",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-brand-pink group-open:rotate-180 transition-transform",
                                                         children: "▼"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 436,
+                                                        lineNumber: 446,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 434,
+                                                lineNumber: 444,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1524,20 +1585,20 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                         children: "30% to 50%"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 439,
+                                                        lineNumber: 449,
                                                         columnNumber: 82
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    " is recommended. This ensures you're paid for your talent, not just your time and ingredients."
+                                                    " is recommended. This profit allows you to reinvest in your business (new mixers, branding, marketing) and protects you from unexpected costs."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 438,
+                                                lineNumber: 448,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 433,
+                                        lineNumber: 443,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -1546,43 +1607,43 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
                                                 children: [
-                                                    "How do I calculate overhead?",
+                                                    "How do I calculate overhead for a home bakery?",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-brand-pink group-open:rotate-180 transition-transform",
                                                         children: "▼"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 445,
+                                                        lineNumber: 455,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 443,
+                                                lineNumber: 453,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-sm text-brand-text-body/80 mt-2 leading-relaxed",
                                                 children: [
-                                                    "Overhead includes indirect costs like utilities, insurance, and equipment. A simple method for home bakers is to add ",
+                                                    "Since you can't easily meter your oven's specific usage, a simple method is to add a percentage (usually ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: "10-20%"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 448,
-                                                        columnNumber: 146
+                                                        lineNumber: 458,
+                                                        columnNumber: 134
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    " to your ingredient and labor costs."
+                                                    ") to your direct costs (Ingredients + Labor). This creates a buffer that covers utilities and wear-and-tear."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 447,
+                                                lineNumber: 457,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 442,
+                                        lineNumber: 452,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -1591,33 +1652,33 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
                                                 children: [
-                                                    "Should I charge for tasting?",
+                                                    "Should I charge for cake tasting boxes?",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-brand-pink group-open:rotate-180 transition-transform",
                                                         children: "▼"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 454,
+                                                        lineNumber: 464,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 452,
+                                                lineNumber: 462,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-sm text-brand-text-body/80 mt-2 leading-relaxed",
-                                                children: "Yes! Tasting boxes cost money and time to produce. Many bakers charge a fee (e.g., $30-$50) which can be deducted from the final order total if they book with you."
+                                                children: "Yes! Tasting boxes require ingredients, time, and packaging. Many professionals charge a consultation fee (e.g., $30-$50) which can be deducted from the final wedding cake order if the client books with you."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 456,
+                                                lineNumber: 466,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 451,
+                                        lineNumber: 461,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -1626,218 +1687,19 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
                                                 children: [
-                                                    "How do I price different cake flavors?",
+                                                    "How do I price specialized diets (Vegan/GF)?",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-brand-pink group-open:rotate-180 transition-transform",
                                                         children: "▼"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 463,
+                                                        lineNumber: 473,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 461,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-brand-text-body/80 mt-2 leading-relaxed",
-                                                children: [
-                                                    "Premium flavors like ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Red Velvet Cake"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 466,
-                                                        columnNumber: 50
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " or ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Carrot Cake"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 466,
-                                                        columnNumber: 86
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " often have more expensive ingredients (cream cheese, nuts) than a standard ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Vanilla Cake"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 466,
-                                                        columnNumber: 190
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " or ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Chocolate Cake"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 466,
-                                                        columnNumber: 223
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    ". Always calculate the specific cost for each flavor profile."
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 465,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 460,
-                                        columnNumber: 21
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                                        className: "group",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
-                                                className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
-                                                children: [
-                                                    "Should I charge for delivery?",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-brand-pink group-open:rotate-180 transition-transform",
-                                                        children: "▼"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 472,
-                                                        columnNumber: 29
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 470,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-brand-text-body/80 mt-2 leading-relaxed",
-                                                children: [
-                                                    "Absolutely. ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Cake delivery"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 475,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " requires time, gas, and vehicle wear. Charge a base fee plus a per-mile rate. For delicate items like a ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Wedding Cake"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 475,
-                                                        columnNumber: 176
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    ", factor in the stress and setup time too!"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 474,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 469,
-                                        columnNumber: 21
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                                        className: "group",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
-                                                className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
-                                                children: [
-                                                    "Can I price dessert boxes and gift baskets?",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-brand-pink group-open:rotate-180 transition-transform",
-                                                        children: "▼"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 481,
-                                                        columnNumber: 29
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 479,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-brand-text-body/80 mt-2 leading-relaxed",
-                                                children: [
-                                                    "Yes! This tool works for ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Dessert Gifting"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 484,
-                                                        columnNumber: 54
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " too. Whether it's ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Cookie Gift Baskets"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 484,
-                                                        columnNumber: 105
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    ", ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Brownie Gift Delivery"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 484,
-                                                        columnNumber: 143
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    ", or ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Chocolate-Covered Strawberries"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 484,
-                                                        columnNumber: 186
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    ", simply list your components as ingredients. Don't forget to price the ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Luxury Gift Box"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 484,
-                                                        columnNumber: 305
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " packaging!"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 483,
-                                                columnNumber: 25
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 478,
-                                        columnNumber: 21
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                                        className: "group",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
-                                                className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
-                                                children: [
-                                                    "How do I price special diet items?",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-brand-pink group-open:rotate-180 transition-transform",
-                                                        children: "▼"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 490,
-                                                        columnNumber: 29
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 488,
+                                                lineNumber: 471,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1848,7 +1710,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                         children: "Gluten-Free Cakes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 493,
+                                                        lineNumber: 476,
                                                         columnNumber: 46
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     ", ",
@@ -1856,7 +1718,7 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                         children: "Vegan Cakes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 493,
+                                                        lineNumber: 476,
                                                         columnNumber: 82
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     ", or ",
@@ -1864,46 +1726,83 @@ const CakePricingCalculatorContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported
                                                         children: "Keto Desserts"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 493,
+                                                        lineNumber: 476,
                                                         columnNumber: 115
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    " often require specialized, pricier ingredients (almond flour, sweeteners). Ensure you pass these costs to the customer to maintain your profit on these ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: "Gourmet Dessert Delivery"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                        lineNumber: 493,
-                                                        columnNumber: 298
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    " items."
+                                                    " use specialty ingredients (almond flour, sweeteners) that cost more. Always use a calculator to track these higher costs and price accordingly."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                                lineNumber: 492,
+                                                lineNumber: 475,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                        lineNumber: 487,
+                                        lineNumber: 470,
+                                        columnNumber: 21
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
+                                        className: "group",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
+                                                className: "flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors",
+                                                children: [
+                                                    "How much should I charge for cake delivery?",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-brand-pink group-open:rotate-180 transition-transform",
+                                                        children: "▼"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                                        lineNumber: 482,
+                                                        columnNumber: 29
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                                lineNumber: 480,
+                                                columnNumber: 25
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-brand-text-body/80 mt-2 leading-relaxed",
+                                                children: [
+                                                    "Charge a base fee for your time plus a per-mile rate (IRS standard is ~67 cents/mile). For ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                        children: "Wedding Cake Delivery"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                                        lineNumber: 485,
+                                                        columnNumber: 120
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    ", which involves setup and high stress, many bakers charge a premium hourly rate for the travel time."
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                                lineNumber: 484,
+                                                columnNumber: 25
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/tools/CakePricingCalculator.tsx",
+                                        lineNumber: 479,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                                lineNumber: 432,
+                                lineNumber: 442,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                        lineNumber: 430,
+                        lineNumber: 440,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tools/CakePricingCalculator.tsx",
-                lineNumber: 411,
+                lineNumber: 422,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]

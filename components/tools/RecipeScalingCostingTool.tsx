@@ -345,6 +345,65 @@ Suggested Price: $${financials.suggestedPriceTotal.toFixed(2)} ($${financials.su
                     </div>
                 </div>
             </div>
+            <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+                {/* SEO Text */}
+                <div className="prose prose-pink max-w-none">
+                    <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Professional Recipe Costing for Home Bakers</h2>
+                    <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                        Turning a baking hobby into a business starts with the numbers. If you don't know exactly what it costs to make a single cupcake, you can't price it for profit. This double-duty tool helps you <strong>scale recipes</strong> up for large catering orders (like a wedding) AND calculates the exact <strong>food cost</strong> per serving. It's the essential spreadsheet replacement for serious bakers.
+                    </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                            <UsersIcon className="w-6 h-6 text-brand-pink" />
+                            Scaling for Large Events
+                        </h3>
+                        <p className="text-sm text-brand-text-body/80 mb-4">
+                            Scaling recipes isn't just multiplication. Here are professional tips for scaling up:
+                        </p>
+                        <ul className="space-y-3 text-sm text-brand-text-body/80 list-disc pl-4 marker:text-brand-pink marker:font-bold">
+                            <li><strong>Leavening doesn't scale linearly:</strong> When 4x-ing a recipe, you often need slightly less baking powder than 4x the amount. Start with 10-15% less leavening.</li>
+                            <li><strong>Pan Surface Area:</strong> If changing pan sizes (e.g., 6-inch to 10-inch cake), calculate the area of the circle (πr²), not just the width. A 10-inch cake needs almost 3x more batter than a 6-inch!</li>
+                            <li><strong>Mixing Time:</strong> Large batches take longer to mix. Rely on visual cues (like "light and fluffy") rather than strict timer settings.</li>
+                        </ul>
+                    </div>
+
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Pricing for Profit</h3>
+                        <div className="space-y-4">
+                            <details className="group">
+                                <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                                    What is a good profit margin?
+                                    <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                                </summary>
+                                <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                                    For a home bakery, aim for a <strong>70% Gross Margin</strong>. This means your ingredient cost (COGS) should be only 30% of the sale price. If ingredients cost $10, sell the cake for at least $33.
+                                </p>
+                            </details>
+                            <details className="group">
+                                <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                                    How do I calculate overhead?
+                                    <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                                </summary>
+                                <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                                    Overhead includes utilities, insurance, marketing, and wear-and-tear. A simple way is to add a flat rate per hour of baking (e.g., $1.50/hr) to your labor cost.
+                                </p>
+                            </details>
+                            <details className="group">
+                                <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                                    Should I charge for delivery?
+                                    <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                                </summary>
+                                <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                                    Absolutely. Charge at least the IRS mileage rate (approx $0.67/mile) plus your hourly driving rate. Delivery is labor!
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </ToolContainer>
     );
 };

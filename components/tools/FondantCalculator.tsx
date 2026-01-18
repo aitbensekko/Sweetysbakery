@@ -115,50 +115,60 @@ export const FondantCalculator: React.FC<FondantCalculatorProps> = ({ setActiveT
 };
 
 const FondantCalculatorContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Select Shape:</strong> Choose between a round or square cake.</li>
-                <li><strong>Enter Dimensions:</strong> Input the diameter (or side length) and height of your cake in inches.</li>
-                <li><strong>Get Estimate:</strong> The calculator gives you the weight of fondant needed in both ounces and grams.</li>
-                <li><strong>Roll & Cover:</strong> Use the estimate to weigh out your fondant before rolling.</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Calculate How Much Fondant You Need</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Achieving a flawless, smooth finish on a cake starts with rolling out the right amount of fondant. Roll it too thin, and it tears; roll it too thick, and you waste expensive ingredients. Our <strong>Fondant Quantities Chart</strong> and calculator takes the guesswork out of decorating. Simply enter your cake's diameter and height, and we'll tell you exactly how many <strong>ounces or grams of fondant</strong> you need to cover it perfectly, including a buffer for trimming.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Does this include waste?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Yes! The calculation includes a buffer for the fondant that gets trimmed off the bottom. It assumes a standard 1/8 inch thickness.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        How thin should I roll it?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        We recommend rolling fondant to about 1/8 inch (3mm) thick. Too thin and it tears; too thick and it's heavy and unpleasant to eat.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        What if I have multiple tiers?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Calculate the fondant needed for each tier individually and then sum them up to get the total amount required for the entire cake.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Use
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Measure accurately:</strong> Measure the <strong>Diameter</strong> (across the top) and <strong>Height</strong> of your cake <i>after</i> you have applied the ganache or buttercream crumb coat.</li>
+                    <li><strong>Select Shape:</strong> Choose Round vs Square (Square cakes require approximately 20% more fondant due to corners).</li>
+                    <li><strong>Enter Details:</strong> Input your dimensions into the <strong>Fondant Calculator</strong>.</li>
+                    <li><strong>Weigh & Roll:</strong> Weigh out the recommended amount. Knead until pliable, then roll to 1/8 inch thickness.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How thick should I roll my fondant?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Standard industry practice is <strong>1/8 inch (approx 3mm)</strong>. This provides enough stability to lift and drape without tearing, but isn't so thick that it overpowers the cake's flavor. The calculation above assumes this thickness.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Does this include pieces for decoration?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            No, this calculates the amount strictly for <strong>covering the cake</strong>. If you plan to make fondant figures, bows, or ruffles, you should add an extra 0.5 - 1 lb (250-500g) of fondant to your total.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why is the amount higher than other charts?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            We include a "Buffer Zone" (trimming allowance) in the math. You physically need a larger circle of fondant than the cake's surface area to be able to smooth the sides down without pleats. You will cut off the excess at the bottom.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

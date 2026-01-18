@@ -218,24 +218,72 @@ export const FrostingColorMixer: React.FC<FrostingColorMixerProps> = ({ setActiv
                     </div>
                 </div>
 
-                <div className="mt-12 pt-8 border-t border-brand-border">
-                    <h3 className="font-serif font-bold text-2xl mb-6 text-brand-text-title">Tips for Perfect Frosting Colors</h3>
-                    <div className="grid md:grid-cols-2 gap-6">
-                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                            <h4 className="font-bold text-lg text-brand-pink mb-2">Start Small</h4>
-                            <p className="text-brand-text-body/80 text-sm leading-relaxed">It's easier to add color than to remove it. Use a toothpick to add tiny amounts of gel food coloring at a time, especially for dark colors like black or red.</p>
+                <div className="mt-12 pt-8 border-t border-brand-border space-y-12">
+
+                    {/* SEO Text */}
+                    <div className="prose prose-pink max-w-none">
+                        <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Buttercream Color Mixing Chart</h2>
+                        <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                            Achieving the perfect shade of buttercream can be tricky. Whether you're trying to get a deep, true <strong>black buttercream</strong> without it tasting bitter, or mixing a subtle <strong>boho sage green</strong> for a wedding cake, color theory is key. Our interactive mixing chart takes the guesswork out of food coloring ratios. We help you mix standard gel colors to create custom, trendy shades that will elevate your cake designs.
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                            <h3 className="font-serif font-bold text-2xl mb-6 text-brand-text-title">Tips for Perfect Frosting Colors</h3>
+                            <div className="space-y-6">
+                                <div>
+                                    <h4 className="font-bold text-lg text-brand-pink mb-2">Let Dark Colors Develop</h4>
+                                    <p className="text-brand-text-body/80 text-sm leading-relaxed">
+                                        Deep colors like Red, Black, and Navy need time to "bloom." The color will darken significantly as the buttercream sits. Mix your frosting <strong>24 hours in advance</strong> for the deepest shades, which means you can use less food coloring (and avoid bitter tastes!).
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 className="font-bold text-lg text-brand-pink mb-2">The Immersion Blender Trick</h4>
+                                    <p className="text-brand-text-body/80 text-sm leading-relaxed">
+                                        Need dark colors fast? Use an immersion blender (stick blender) to mix your buttercream. This emulsifies the color pigments more thoroughly than a stand mixer, instantly deepening the shade.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 className="font-bold text-lg text-brand-pink mb-2">Muting Bright Colors</h4>
+                                    <p className="text-brand-text-body/80 text-sm leading-relaxed">
+                                        Store-bought colors are often neon-bright. To achieve <strong>vintage or boho</strong> tones, add a tiny drop of the opposite color on the color wheel (e.g., add red to mute green, or purple to mute yellow). A speck of black or brown also works wonders for "dusty" shades.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                            <h4 className="font-bold text-lg text-brand-pink mb-2">Let it Deepen</h4>
-                            <p className="text-brand-text-body/80 text-sm leading-relaxed">Colors, especially reds, blues, and blacks, will darken or "develop" over time. Mix your color a few hours ahead for the most accurate shade.</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                            <h4 className="font-bold text-lg text-brand-pink mb-2">Mute Your Colors</h4>
-                            <p className="text-brand-text-body/80 text-sm leading-relaxed">To get dusty or muted tones (like sage green or dusty rose), add a tiny touch of the color's opposite on the color wheel, or a speck of black/brown.</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                            <h4 className="font-bold text-lg text-brand-pink mb-2">Beware the Base</h4>
-                            <p className="text-brand-text-body/80 text-sm leading-relaxed">These ratios assume a pure white base. If your frosting is yellowish from butter, it will affect the final color (e.g., blue + yellow butter = green).</p>
+
+                        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                            <div className="space-y-4">
+                                <details className="group">
+                                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                                        Why is my black frosting grey?
+                                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                                    </summary>
+                                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                                        Start with a <strong>Chocolate Buttercream</strong> base instead of white! It's much easier to go from brown to black than white to black. You'll need far less food coloring.
+                                    </p>
+                                </details>
+                                <details className="group">
+                                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                                        Does the butter color matter?
+                                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                                    </summary>
+                                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                                        Yes! American buttercream made with real butter has a yellow tint. If you try to make blue, it might turn teal (Blue + Yellow = Green). For pure white or true blue colors, neutralize the yellow with a tiny speck of purple food coloring first.
+                                    </p>
+                                </details>
+                                <details className="group">
+                                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                                        Oil-based vs. Gel colors?
+                                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                                    </summary>
+                                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                                        <strong>Gel colors</strong> (like Americolor or Wilton) are best for buttercream as they are concentrated and won't add too much liquid. Avoid liquid grocery store food coloring. <strong>Oil-based colors</strong> are for chocolate/ganache only, not buttercream.
+                                    </p>
+                                </details>
+                            </div>
                         </div>
                     </div>
                 </div>

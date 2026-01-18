@@ -6,5 +6,7 @@
   "/products/[slug]/page": "app/products/[slug]/page.js",
   "/products/page": "app/products/page.js",
   "/recipes/page": "app/recipes/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/tools/[slug]/page": "app/tools/[slug]/page.js",
+  "/tools/recipe-scaler/page": "app/tools/recipe-scaler/page.js"
 }

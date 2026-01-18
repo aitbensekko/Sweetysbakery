@@ -167,24 +167,82 @@ export const FlavorPairingGuide: React.FC<FlavorPairingGuideProps> = ({ setActiv
                 </div>
             </div>
 
-            <div className="mt-12 pt-8 border-t border-brand-border">
-                <h3 className="font-serif font-bold text-2xl mb-6 text-brand-text-title">Pro Tips for Flavor Pairing</h3>
-                <div className="grid md:grid-cols-2 gap-6">
-                    <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                        <h4 className="font-bold text-lg text-brand-pink mb-2">Balance is Key</h4>
-                        <p className="text-brand-text-body/80 text-sm leading-relaxed">Great pairings often balance contrasting profiles. Pair a sweet flavor like caramel with something salty (sea salt) or tart (apple). Pair a rich flavor like chocolate with something bright and acidic (raspberry).</p>
+            <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+                {/* SEO Intro Section */}
+                <div className="prose prose-pink max-w-none text-center max-w-4xl mx-auto">
+                    <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">How to Create Professional Flavor Profiles</h2>
+                    <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                        The difference between a "good" cake and a "memorable" one is often the flavor profile. As professional pastry chefs know, <strong>flavor pairing</strong> isn't random—it's based on balancing the five tastes: sweet, salty, sour, bitter, and umami. Our guide helps you move beyond basic vanilla and chocolate to create sophisticated combinations like <strong>White Chocolate & Lavender</strong>, <strong>Dark Chocolate & Sea Salt</strong>, or <strong>Lemon & Thyme</strong>.
+                    </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <h3 className="font-serif font-bold text-xl mb-6 text-brand-text-title">4 Rules of Flavor Balancing</h3>
+                        <ul className="space-y-4">
+                            <li className="flex gap-4 items-start">
+                                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-pink/10 text-brand-pink font-bold flex items-center justify-center">1</span>
+                                <div>
+                                    <h4 className="font-bold text-brand-text-title">Acid Cuts Fat</h4>
+                                    <p className="text-sm text-brand-text-body/80">Rich, fatty desserts (cheesecake, buttercream) need acid (lemon, raspberry, passion fruit) to cleanse the palate and prevent heaviness.</p>
+                                </div>
+                            </li>
+                            <li className="flex gap-4 items-start">
+                                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-pink/10 text-brand-pink font-bold flex items-center justify-center">2</span>
+                                <div>
+                                    <h4 className="font-bold text-brand-text-title">Salt Enhances Sweet</h4>
+                                    <p className="text-sm text-brand-text-body/80">Salt suppresses bitterness and makes sugar taste sweeter. Always add a pinch of salt to chocolate and caramel.</p>
+                                </div>
+                            </li>
+                            <li className="flex gap-4 items-start">
+                                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-pink/10 text-brand-pink font-bold flex items-center justify-center">3</span>
+                                <div>
+                                    <h4 className="font-bold text-brand-text-title">Spices Add Depth</h4>
+                                    <p className="text-sm text-brand-text-body/80">Warm spices (cinnamon, nutmeg, cardamom) bridge the gap between fruit and dough, making pies and tarts feel cohesive.</p>
+                                </div>
+                            </li>
+                            <li className="flex gap-4 items-start">
+                                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-pink/10 text-brand-pink font-bold flex items-center justify-center">4</span>
+                                <div>
+                                    <h4 className="font-bold text-brand-text-title">Texture is Flavor</h4>
+                                    <p className="text-sm text-brand-text-body/80">We "taste" texture! Contrast creamy mousses with crunchy pralines or crumbles.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                        <h4 className="font-bold text-lg text-brand-pink mb-2">Consider Intensity</h4>
-                        <p className="text-brand-text-body/80 text-sm leading-relaxed">Match the intensity of your flavors. A delicate flavor like lavender can be easily overpowered, so pair it with other subtle notes like honey or white chocolate.</p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                        <h4 className="font-bold text-lg text-brand-pink mb-2">Think About Texture</h4>
-                        <p className="text-brand-text-body/80 text-sm leading-relaxed">Flavor isn't just about taste. Contrast creamy textures with crunchy ones. For example, a creamy cheesecake is enhanced by a crunchy graham cracker crust and crunchy pecans.</p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm">
-                        <h4 className="font-bold text-lg text-brand-pink mb-2">Start Simple</h4>
-                        <p className="text-brand-text-body/80 text-sm leading-relaxed">When experimenting, start by adding just one or two new flavors to a familiar base. This helps you understand how each new ingredient impacts the final taste.</p>
+
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Trending Combinations</h3>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                                <h4 className="font-bold text-brand-pink mb-1">Floral & Citrus</h4>
+                                <p className="text-sm font-semibold text-gray-700">Lemon + Lavender</p>
+                                <p className="text-xs text-gray-500 mt-1">Perfect for spring tea cakes.</p>
+                            </div>
+                            <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                                <h4 className="font-bold text-brand-pink mb-1">Earthy & Sweet</h4>
+                                <p className="text-sm font-semibold text-gray-700">Matcha + White Choc</p>
+                                <p className="text-xs text-gray-500 mt-1">A modern classic for cookies.</p>
+                            </div>
+                            <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                                <h4 className="font-bold text-brand-pink mb-1">Spicy & Rich</h4>
+                                <p className="text-sm font-semibold text-gray-700">Dark Choc + Chili</p>
+                                <p className="text-xs text-gray-500 mt-1">Warmth that lingers.</p>
+                            </div>
+                            <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                                <h4 className="font-bold text-brand-pink mb-1">Nutty & Fruity</h4>
+                                <p className="text-sm font-semibold text-gray-700">Pistachio + Raspberry</p>
+                                <p className="text-xs text-gray-500 mt-1">Visually stunning contrast.</p>
+                            </div>
+                        </div>
+                        <div className="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-100">
+                            <h4 className="text-sm font-bold text-blue-800 mb-1 flex items-center gap-2">
+                                <span className="text-lg">💡</span> Pro Tip
+                            </h4>
+                            <p className="text-sm text-blue-700">
+                                When testing a new pairing, trust your nose! Approximately 80% of what we perceive as "taste" is actually smell. If two ingredients smell good together, they will likely taste good together.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

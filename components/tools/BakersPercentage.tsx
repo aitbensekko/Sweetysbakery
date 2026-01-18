@@ -220,50 +220,66 @@ export const BakersPercentage: React.FC<BakersPercentageProps> = ({ setActiveToo
 };
 
 const BakersPercentageContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Set Flour Weight:</strong> Enter the total amount of flour in grams. This is your 100% base.</li>
-                <li><strong>Add Ingredients:</strong> List water, salt, yeast, and enrichments. Use grams for everything.</li>
-                <li><strong>Check Percentages:</strong> The tool automatically calculates the baker's percentage for each item.</li>
-                <li><strong>Monitor Hydration:</strong> Keep an eye on the "Total Hydration" to predict dough texture (e.g., 65% is standard, 80% is wet/open crumb).</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Master Baker's Math & Hydration</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Professional bakers don't use cups; they use <strong>Baker's Percentages</strong>. This distinctive formula sets the total weight of flour as 100%, and all other ingredients as a percentage of that flour. This makes scaling recipes up (for a bakery) or down (for a single loaf) incredibly easy. Our <strong>Bread Hydration Calculator</strong> helps you find the perfect water-to-flour ratio for everything from stiff <strong>Bagel dough (55%)</strong> to airy <strong>Ciabatta (80%)</strong>.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        What is a good hydration for sourdough?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        For beginners, <strong>70-75%</strong> is a great sweet spot. It's manageable but still yields an open crumb. High hydration (80%+) requires more handling skill.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Why use grams instead of cups?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Accuracy! A cup of flour can vary by 20% in weight. Baker's math relies on precise ratios, so a digital scale is your best friend.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Does starter count as flour/water?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Technically, yes. A 100% hydration starter is half flour, half water. Advanced bakers subtract this from the total, but for simple formulas, listing it as a separate ingredient is fine.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Use Baker's Math
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Set Base Flour:</strong> Enter the total amount of flour in grams. This is always your <strong>100%</strong>.</li>
+                    <li><strong>Add Ingredients:</strong> Input weights for water, salt, yeast, and starters.</li>
+                    <li><strong>Analyze Hydration:</strong>
+                        <ul className="list-disc pl-4 mt-1 space-y-1">
+                            <li><strong>50-60%:</strong> Stiff dough (Bagels, Pretzels).</li>
+                            <li><strong>60-70%:</strong> Standard dough (Sandwich bread, Pizza).</li>
+                            <li><strong>70-80%+:</strong> Wet/High hydration dough (Sourdough, Ciabatta).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Scale:</strong> To make a larger batch, simply increase the flour weight, and the tool can help you calculate the new ingredient ratios.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why uses grams instead of volume?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Volume is inaccurate. One cup of flour can weigh anywhere from 120g to 150g depending on how it's packed. For consistent <strong>sourdough starter</strong> and bread results, weighing ingredients is non-negotiable.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Does sourdough starter count as hydration?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Yes! A standard 100% hydration starter is composed of equal parts flour and water. Professional formulas subtract this flour and water from the base amounts, but for home baking, adding it as a separate ingredient (as shown here) is standard practice.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is "High Hydration"?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Doughs with 75% water or more are considered high hydration. They produce an open crumb with large holes but are sticky and harder to handle. They usually require techniques like <strong>coil folds</strong> instead of traditional kneading.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

@@ -149,50 +149,60 @@ export const GanacheCalculator: React.FC<GanacheCalculatorProps> = ({ setActiveT
 };
 
 const GanacheCalculatorContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Select Chocolate:</strong> Choose the type of chocolate you are using. White and Ruby need less cream than dark chocolate.</li>
-                <li><strong>Choose Use:</strong> Select what you're making (Drip, Filling, Frosting, or Truffles).</li>
-                <li><strong>Enter Amount:</strong> Input the weight of your chocolate.</li>
-                <li><strong>Get Ratio:</strong> The calculator instantly tells you exactly how much heavy cream to add.</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Master Chocolate Ganache Ratios</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Chocolate ganache is one of the most versatile recipes in baking, used for everything from <strong>drip cakes</strong> and <strong>truffles</strong> to <strong>macaron fillings</strong> and <strong>whipped frosting</strong>. But getting the texture right depends entirely on the <strong>chocolate-to-cream ratio</strong>. Our <strong>Ganache Calculator</strong> does the math for you. Whether you're using white, milk, or dark chocolate, simply select your desired consistency, and we'll tell you exactly how much heavy cream to add.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Why did my ganache split?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        It likely got too hot or was stirred too vigorously. To fix it, try whisking in a tablespoon of warm milk until it comes back together.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Can I use chocolate chips?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        We don't recommend it. Chips contain stabilizers that prevent them from melting smoothly. Use high-quality baking bars or couverture chocolate for the best ganache.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        How do I store ganache?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Ganache can be kept at room temperature for 2 days. For longer storage, refrigerate for up to 2 weeks or freeze for up to 3 months.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    Understanding Ganache Ratios
+                </h3>
+                <ul className="space-y-3 text-sm text-brand-text-body/80 list-disc pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>1:1 Ratio (Semi-Sweet):</strong> Equal parts chocolate and cream. Perfect for <strong>glazes</strong>, <strong>drips</strong>, and thick fillings.</li>
+                    <li><strong>2:1 Ratio (Semi-Sweet):</strong> Two parts chocolate to one part cream. This makes a firm "fudge-like" ganache perfect for <strong>truffles</strong> or piping.</li>
+                    <li><strong>3:1 Ratio (White Chocolate):</strong> White chocolate contains no cocoa solids, so it needs much less cream to set firm.</li>
+                    <li><strong>Whipped Ganache:</strong> Allow a 1:1 mixture to cool completely, then whip it like heavy cream for a fluffy frosting.</li>
+                </ul>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why did my ganache split?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Splitting (when oil separates) happens if the cream is too hot or you stir too vigorously. To fix it, try whisking in a tablespoon of cold heavy cream until it comes back together.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Can I use chocolate chips?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            We don't recommend it. Chips contain stabilizers to help them hold their shape, which prevents them from melting into a smooth emulsion. Use high-quality <strong>baking bars</strong> or <strong>couverture chocolate</strong> for a silky finish.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How do I store ganache?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Ganache can be kept at cool room temperature for 2 days. For longer storage, refrigerate for up to 2 weeks or freeze for up to 3 months. Let it come to room temperature before using.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

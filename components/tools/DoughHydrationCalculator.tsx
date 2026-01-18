@@ -166,50 +166,60 @@ export const DoughHydrationCalculator: React.FC<DoughHydrationCalculatorProps> =
 };
 
 const DoughHydrationCalculatorContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Add Flours:</strong> Enter the weight of all flours in your recipe. You can add multiple types (e.g., Bread Flour + Whole Wheat).</li>
-                <li><strong>Add Liquids:</strong> Enter the weight of all liquids (Water, Milk, Oil, Eggs, Honey).</li>
-                <li><strong>Check Hydration:</strong> The tool calculates the total hydration percentage.</li>
-                <li><strong>Adjust:</strong> Tweak the liquid amounts to reach your desired hydration target (e.g., 75% for sourdough).</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Master High Hydration Dough</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Hydration is the single most important factor in bread baking. It determines whether you get a dense, tight crumb (low hydration) or an open, airy structure with large irregular holes (<strong>high hydration</strong>). Sourdough bakers often aim for <strong>75% to 85% hydration</strong> for that perfect artisan loaf. Our calculator accounts for all liquid sources—including milk, eggs, and honey—to give you the true hydration percentage of your dough.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        What is hydration percentage?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        It's the ratio of water to flour by weight. If you have 1000g of flour and 750g of water, that's 75% hydration. It determines the dough's texture and crumb.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Does oil count as liquid?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Yes! Any liquid ingredient (milk, eggs, oil, honey, molasses) contributes to the hydration and should be included in the calculation.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        How does humidity affect flour?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Flour absorbs moisture from the air. In humid climates, you might need slightly less water than the recipe calls for. In dry climates, you might need more.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Handle Wet Dough
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Autolyse:</strong> Mix flour and water first and let it sit for 30-60 mins. This builds gluten structure before adding salt/yeast.</li>
+                    <li><strong>Wet Hands:</strong> Always wet your hands with water (not flour!) before handling sticky high-hydration doughs.</li>
+                    <li><strong>Coil Folds:</strong> Instead of kneading, perform gentle "coil folds" every 30 minutes during bulk fermentation to build strength without deflating the dough.</li>
+                    <li><strong>Cold Retard:</strong> Shaping cold dough is easier. Let your bulk rise happen, then refrigerate the dough overnight before final shaping.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What hydration is best for beginners?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Start with <strong>65% to 70%</strong>. This dough is tacky but manageable. Once you are comfortable with handling and shaping, you can slowly increase water by 2-3% in your next bake. Jumping straight to 80% often results in a flat, unmanageable pancake!
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Does oil count as liquid?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Yes! Any liquid ingredient (milk, eggs, oil, honey, molasses, sourdough starter water content) contributes to the hydration. However, fats (oil/eggs) tenderize the gluten, so a 70% enriched dough feels different than a 70% lean dough.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How does Whole Wheat affect hydration?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Whole grain flours absorb more water than white flour because of the bran. If you substitute 50% whole wheat into a white recipe, you will likely need to increase the hydration by 5-10% to get the same dough consistency.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

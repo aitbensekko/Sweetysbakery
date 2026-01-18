@@ -206,17 +206,61 @@ export const MacaronTroubleshooting: React.FC<MacaronTroubleshootingProps> = ({ 
                     />
                 ))}
             </div>
-            <div className="mt-8 pt-6 border-t border-brand-border">
-                <h3 className="font-serif font-bold text-2xl mb-4 text-brand-text-title">The Key to Perfect Macarons: Practice & Precision</h3>
-                <div className="prose max-w-none text-brand-text-body/90 leading-relaxed space-y-4">
-                    <p>
-                        Macarons are notoriously fickle, and even experienced bakers have off days. Don't be discouraged! The most common issues stem from three key areas: ingredient measurement, the meringue, and the "macaronage" (the process of folding the dry ingredients into the meringue).
+            <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+                {/* SEO Content */}
+                <div className="prose prose-pink max-w-none">
+                    <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">The Ultimate Macaron Troubleshooting Guide</h2>
+                    <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                        French Macarons are notorious for being the most finicky cookie in the world. Even professional pastry chefs have days where shells crack, feet spread, or tops turn lopsided. This <strong>visual troubleshooting guide</strong> is designed to help you diagnose exactly what went wrong with your batch so you can fix it next time. Whether it's <strong>hollow shells</strong>, <strong>no feet</strong>, or <strong>wrinkled tops</strong>, the culprit is usually found in one of three areas: the Meringue, the Macaronage, or the Oven.
                     </p>
-                    <ul className="list-disc pl-5">
-                        <li><strong>Use a Kitchen Scale:</strong> This is non-negotiable for macarons. Volume measurements (cups) are too inaccurate. Use our <a href={toolIdToSlug('measurement-converter')} onClick={(e) => { e.preventDefault(); setActiveTool('measurement-converter'); }} className="font-bold text-brand-pink hover:underline">Measurement Converter</a> to convert recipes to grams.</li>
-                        <li><strong>Master Your Meringue:</strong> Whether you're using the French, Italian, or Swiss method, your meringue must be whipped to stiff, glossy peaks. If it's too soft, your macarons will spread. If it's too dry, they might crack.</li>
-                        <li><strong>The "Lava" Stage:</strong> The macaronage is the most critical step. You must fold the batter until it flows off the spatula in a slow, continuous ribbon, like lava. Under-mixed batter will be too stiff and lead to lopsided shells. Over-mixed batter will be too runny and lead to flat shells with no feet.</li>
-                    </ul>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <div className="flex items-center gap-3 mb-4">
+                            <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-pink text-white font-bold text-sm">1</span>
+                            <h3 className="font-serif font-bold text-xl text-brand-text-title">The Meringue</h3>
+                        </div>
+                        <div className="space-y-3 text-sm text-brand-text-body/80">
+                            <p><strong>French vs. Italian:</strong> French meringue is easier but less stable. Italian meringue involves hot sugar syrup and creates a sturdier shell that is less prone to cracking.</p>
+                            <p><strong>Stiff Peaks:</strong> Your meringue must stand up straight without drooping. If the peaks curl over (soft peaks), your batter will be runny and shells will spread.</p>
+                        </div>
+                    </div>
+
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <div className="flex items-center gap-3 mb-4">
+                            <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-pink text-white font-bold text-sm">2</span>
+                            <h3 className="font-serif font-bold text-xl text-brand-text-title">The Macaronage</h3>
+                        </div>
+                        <div className="space-y-3 text-sm text-brand-text-body/80">
+                            <p><strong>Lava Consistency:</strong> You must fold the batter until it flows like molten lava. It should flow off the spatula in a slow, continuous ribbon that can form a 'figure 8'.</p>
+                            <p><strong>Stop!:</strong> The moment you can make a figure 8, stop folding. One extra fold can ruin the batch.</p>
+                        </div>
+                    </div>
+
+                    <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                        <div className="flex items-center gap-3 mb-4">
+                            <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-pink text-white font-bold text-sm">3</span>
+                            <h3 className="font-serif font-bold text-xl text-brand-text-title">The Oven</h3>
+                        </div>
+                        <div className="space-y-3 text-sm text-brand-text-body/80">
+                            <p><strong>True Temp:</strong> Oven dials are often lies. Use an external oven thermometer to ensure you are baking at exactly 300°F (150°C).</p>
+                            <p><strong>Hot Spots:</strong> Macarons hate uneven heat. Bake one tray at a time in the center rack. Flip the tray halfway through if your oven bakes unevenly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-brand-pink-light/30 p-6 md:p-8 rounded-3xl border border-brand-pink/20 text-center">
+                    <h3 className="font-serif font-bold text-2xl text-brand-text-title mb-4">Need to convert your recipe?</h3>
+                    <p className="text-brand-text-body/80 mb-6 max-w-2xl mx-auto">
+                        Macarons require precision. Cups and tablespoons are not accurate enough. Always weigh your ingredients in grams.
+                    </p>
+                    <button
+                        onClick={() => setActiveTool('measurement-converter')}
+                        className="inline-flex items-center justify-center px-6 py-3 bg-brand-pink text-white font-bold rounded-xl hover:bg-brand-pink-dark transition-colors shadow-lg shadow-brand-pink/20"
+                    >
+                        Open Grams Converter
+                    </button>
                 </div>
             </div>
         </ToolContainer>

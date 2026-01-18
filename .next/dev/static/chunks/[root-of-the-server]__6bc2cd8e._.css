@@ -3467,6 +3467,11 @@ img, video {
   border-color: rgb(113 63 18 / var(--tw-border-opacity, 1));
 }
 
+.border-red-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 226 226 / var(--tw-border-opacity, 1));
+}
+
 .border-b-brand-text-title {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(74 63 63 / var(--tw-border-opacity, 1));
@@ -5642,6 +5647,10 @@ img, video {
 
 .text-yellow-900\/80 {
   color: #713f12cc;
+}
+
+.text-red-700\/80 {
+  color: #b91c1ccc;
 }
 
 .underline {

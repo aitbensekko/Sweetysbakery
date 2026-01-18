@@ -163,50 +163,66 @@ export const YeastConverter: React.FC<YeastConverterProps> = ({ setActiveTool, b
 };
 
 const YeastConverterContent: React.FC = () => (
-    <div className="mt-8 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Select Unit:</strong> Choose whether you want to enter the amount in teaspoons or grams.</li>
-                <li><strong>Select Yeast Type:</strong> Choose the type of yeast your recipe calls for (Active Dry, Instant, or Fresh).</li>
-                <li><strong>Enter Amount:</strong> Type in the quantity.</li>
-                <li><strong>See Equivalents:</strong> The calculator instantly shows you how much of the other yeast types to use.</li>
-            </ol>
+    <div className="mt-8 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Live Cake Yeast vs. Instant Yeast Converter</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Found a vintage recipe calling for <strong>Fresh Yeast (Cake Yeast)</strong> but only have packets of <strong>Instant</strong> in the cupboard? Or maybe you're converting a professional sourdough formula to commercial yeast. Different types of yeast have different potencies. Using the wrong amount can lead to collapsed dough or an overpowering yeast flavor. Our calculator uses precise <strong>industry-standard ratios</strong> to convert between Active Dry, Instant, and Fresh yeast.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Can I kill my yeast?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Yes! Yeast dies at temperatures above 120°F (50°C). When dissolving yeast in water, aim for "blood warm" (around 100°F-110°F), which should feel comfortably warm but not hot to the touch.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Active Dry vs. Instant?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Active Dry granules are larger and need to be dissolved in water first. Instant yeast is finer and can be mixed directly into dry ingredients. Instant yeast is also more potent, so you use about 25% less.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        How to store yeast?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Keep unopened yeast in a cool, dry place. Once opened, store it in an airtight container in the refrigerator (lasts 4-6 months) or freezer (lasts 12+ months).
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Convert Yeast
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Identify Your Source:</strong> Select the yeast type listed in your recipe.</li>
+                    <li><strong>Enter Amount:</strong> Input the quantity in teaspoons or grams (grams are more accurate!).</li>
+                    <li><strong>Understand Potency:</strong>
+                        <ul className="list-disc pl-4 mt-1 space-y-1">
+                            <li><strong>Instant Yeast</strong> is the strongest (100% potency).</li>
+                            <li><strong>Active Dry</strong> is moderate (need about 25% more than instant).</li>
+                            <li><strong>Fresh Yeast</strong> is the weakest by weight (need 3x the weight of instant).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Standard Ratio:</strong> 7g Instant = 9g Active Dry = 21g Fresh.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Do I need to bloom Instant Yeast?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            No. Instant yeast (also called Rapid Rise) is processed to dissolve quickly and can be mixed directly into the flour. Active Dry yeast has a coating of dead cells and usually needs to be dissolved in warm water ("bloomed") first to wake it up.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is Fresh Yeast?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Fresh yeast (baker's yeast or cake yeast) is a moist block of live yeast cells. It's highly perishable and lasts only about 2 weeks in the fridge. Professional bakers prize it for its sweet, complex flavor and strong rising power in high-sugar doughs.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Can I freeze yeast?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Absolutely. Freezing extends the life of dry yeast significantly (often 1+ years past expiration). Just make sure it is in an airtight container or vacuum sealed to prevent moisture damage.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

@@ -261,50 +261,60 @@ export const CostPerRecipeCalculator: React.FC<CostPerRecipeCalculatorProps> = (
 };
 
 const CostPerRecipeCalculatorContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Enter Package Details:</strong> Input the total cost and weight of the ingredient package you bought (e.g., $5.00 for 2000g of flour).</li>
-                <li><strong>Enter Recipe Amount:</strong> Input how much of that ingredient you use in your specific recipe (e.g., 250g).</li>
-                <li><strong>Repeat:</strong> Do this for all ingredients. Use "Quick Add" for common items to save time.</li>
-                <li><strong>Set Servings:</strong> Enter how many items the recipe makes (e.g., 12 cupcakes) to see the cost per unit.</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Accurate Recipe Costing for Home Bakers</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Profitability starts with knowing your exact <strong>Cost of Goods Sold (COGS)</strong>. A common mistake for home bakery businesses is guessing ingredient costs. This free <strong>Recipe Cost Calculator</strong> helps you break down bulk ingredients (like a 50lb bag of flour) into the exact amount used in your cookie or cake recipe. It calculates the total batch cost and the cost per serving, so you know exactly how much to charge to make a profit.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Why weigh ingredients?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Weighing is the only way to be accurate. A "cup" of flour can weigh anywhere from 120g to 150g depending on how it's scooped, which drastically changes your cost and recipe outcome.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Does this include labor?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        No, this tool calculates <strong>Cost of Goods Sold (COGS)</strong> only. To price your cakes for sale including labor and profit, use our <button onClick={() => document.getElementById('cake-pricing-link')?.click()} className="text-brand-pink font-bold hover:underline">Cake Pricing Calculator</button>.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Can I save my recipes?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Currently, this is a quick calculator. We recommend taking a screenshot or copying the results to your notes.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Price Your Baking
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Calculate COGS:</strong> Use this tool to find the raw ingredient cost for one batch.</li>
+                    <li><strong>Add Labor:</strong> Estimate how many hours the batch takes and multiply by your hourly rate.</li>
+                    <li><strong>Add Overhead:</strong> Factor in utilities, packaging, and wear-and-tear on equipment (usually flat % or hourly rate).</li>
+                    <li><strong>Add Profit:</strong> Most successful bakeries aim for a <strong>Food Cost Percentage</strong> of 20-30%. This means your final price should be 3x-5x the ingredient cost.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why is my cost so high?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Small ingredients add up! Vanilla extract, nuts, and high-quality chocolate are often the most expensive parts of a recipe. To lower costs, consider buying these items in bulk or finding wholesale suppliers.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Should I include packaging costs?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Yes! Boxes, cake boards, ribbon, and stickers are part of the direct cost of the product. You can add them as "ingredients" in this calculator or add a flat "Packaging" fee to the final total.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is a good profit margin?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            A gross profit margin of <strong>70%</strong> is a good target for bakeries. This means if you sell a cake for $100, the ingredients (and direct labor) should cost no more than $30.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

@@ -276,50 +276,66 @@ export const OvenTemperatureConverter: React.FC<OvenTemperatureConverterProps> =
 };
 
 const OvenTemperatureConverterContent: React.FC = () => (
-    <div className="mt-8 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Enter Temperature:</strong> Type the temperature from your recipe into the correct field (Fahrenheit or Celsius).</li>
-                <li><strong>See Conversions:</strong> The tool instantly calculates the equivalent for the other unit, plus the Gas Mark.</li>
-                <li><strong>Check Fan Oven:</strong> If you have a fan/convection oven, use the "Fan Oven" result, which is typically 20°C (approx 25-50°F) lower.</li>
-                <li><strong>Use Slider:</strong> Use the slider for quick adjustments or to find a "moderate" oven temperature.</li>
-            </ol>
+    <div className="mt-8 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Oven Temperature Conversion Chart & Calculator</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Finding an old British recipe that calls for "Gas Mark 4" or a European one using Celsius? Don't let conversion confusion burn your biscuits. Our <strong>Baking Temperature Converter</strong> instantly switches between <strong>Fahrenheit (°F)</strong>, <strong>Celsius (°C)</strong>, and <strong>Gas Marks</strong>. It also calculates the adjustment needed for modern <strong>Fan / Convection Ovens</strong>, which typically cook faster than conventional setting.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Why is my oven different?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Ovens cycle heat on and off, so the temperature fluctuates. Also, calibration varies wildy. A "350°F" setting might actually be 325°F or 375°F.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Convection vs. Conventional?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Convection (fan) ovens circulate hot air, cooking food faster and more evenly. You generally need to reduce the temperature by 25°F (20°C) to prevent burning the outside before the inside is cooked.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        What is Gas Mark?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Gas Mark is a temperature scale used on gas ovens in the UK and Ireland. Gas Mark 4 (350°F/180°C) is a standard "moderate" oven.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Convert Temperatures
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Enter Current Temp:</strong> Type the number you have into the Fahrenheit or Celsius box.</li>
+                    <li><strong>Check Fan Adjustment:</strong> If you are using a Fan/Convection oven, use the "Fan Oven" value (usually 20-25°C lower).</li>
+                    <li><strong>Gas Mark:</strong> The tool automatically finds the nearest Gas Mark setting for older ovens.</li>
+                    <li><strong>Quick Reference:</strong>
+                        <ul className="list-disc pl-4 mt-1 space-y-1">
+                            <li><strong>350°F</strong> = 180°C = Gas Mark 4 (Moderate)</li>
+                            <li><strong>400°F</strong> = 200°C = Gas Mark 6 (Hot)</li>
+                            <li><strong>300°F</strong> = 150°C = Gas Mark 2 (Slow)</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is the difference for Fan ovens?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Fan (Convection) ovens blow hot air around the food, cooking it faster and more evenly. You generally need to <strong>reduce the temperature by 25°F (20°C)</strong> to match a conventional oven recipe.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why does my oven burn everything?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Oven dials are often inaccurate. Your "350°F" setting might actually be 375°F. We highly recommend buying an inexpensive <strong>oven thermometer</strong> to hang inside so you know the <i>real</i> temperature.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is Gas Mark?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Gas Mark is a scale used on gas ovens in the UK and Ireland. It adjusts the gas flow to regulate heat. Gas Mark 1 is roughly 275°F (Cool), while Gas Mark 8 is 450°F (Very Hot).
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>

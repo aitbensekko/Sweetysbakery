@@ -293,19 +293,59 @@ export const AllergenGuide: React.FC<AllergenGuideProps> = ({ setActiveTool, bre
             </div>
 
             <div className="mt-12">
-                <div className="max-w-4xl mx-auto bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-brand-border">
-                    <h2 className="font-serif text-3xl font-bold text-brand-text-title text-center mb-6">Understanding Allergen Substitutions in Baking</h2>
-                    <div className="prose max-w-none text-brand-text-body/90 leading-relaxed space-y-4">
-                        <p>Replacing an allergen is more than just swapping one ingredient for another; it's about understanding the role that ingredient plays. This tool gives you specific suggestions, but here's a little of the science behind them.</p>
-                        <h3 className="font-bold text-xl">What Are We Replacing?</h3>
-                        <ul>
-                            <li><strong>Gluten (from Wheat):</strong> Gluten provides structure and elasticity. We replace it with a blend of gluten-free flours and starches, plus a binder like xanthan gum to mimic that stretchy quality.</li>
-                            <li><strong>Eggs:</strong> Eggs wear many hats! They can be a binder, a leavener, or a source of moisture and fat. The right substitute depends on the job the egg is doing. A flax egg is a great binder, while applesauce provides moisture.</li>
-                            <li><strong>Dairy (Milk, Butter):</strong> Dairy provides fat, moisture, and flavor. Plant-based milks and vegan butters are often easy vegan baking swaps, but the fat and protein content can vary, affecting the final texture.</li>
-                        </ul>
-                        <h3 className="font-bold text-xl">A Note on Cross-Contamination</h3>
-                        <p>For someone with a severe allergy or Celiac Disease, using safe ingredients isn't enough. It's critical to also prevent cross-contamination from surfaces, utensils, or even airborne flour. Learn more in our <strong className="text-brand-text-title">guide to avoiding cross-contamination</strong> in the kitchen.</p>
+                <div className="max-w-4xl mx-auto space-y-8">
+
+                    {/* Intro Section */}
+                    <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-brand-border">
+                        <h2 className="font-serif text-3xl font-bold text-brand-text-title text-center mb-6">The Science of Allergen-Free Baking</h2>
+                        <div className="prose max-w-none text-brand-text-body/90 leading-relaxed text-center">
+                            <p className="mb-4">
+                                Baking is chemistry. When you remove a key ingredient like eggs, gluten, or dairy, you aren't just removing a flavor—you're removing structure, moisture, or binding power. The secret to successful <strong>vegan and allergy-friendly baking</strong> is knowing exactly <em>why</em> an ingredient is there, so you can choose the scientifically correct substitute.
+                            </p>
+                        </div>
                     </div>
+
+                    {/* 3 Columns Info */}
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm hover:shadow-md transition-shadow">
+                            <h3 className="font-serif font-bold text-xl text-brand-text-title mb-3 flex items-center gap-2">
+                                <span className="bg-brand-pink/10 p-2 rounded-lg text-brand-pink">🍞</span>
+                                Replacing Gluten
+                            </h3>
+                            <p className="text-sm text-brand-text-body/80 leading-relaxed">
+                                Gluten provides elasticity and structure. Without it, baked goods crumble. Always use a <strong>GF flour blend with Xanthan Gum</strong>, or add 1/4 tsp xanthan gum per cup of flour to bind your batter.
+                            </p>
+                        </div>
+                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm hover:shadow-md transition-shadow">
+                            <h3 className="font-serif font-bold text-xl text-brand-text-title mb-3 flex items-center gap-2">
+                                <span className="bg-brand-pink/10 p-2 rounded-lg text-brand-pink">🥚</span>
+                                Replacing Eggs
+                            </h3>
+                            <p className="text-sm text-brand-text-body/80 leading-relaxed">
+                                Eggs bind and leaven. For <strong>binding</strong> (cookies), use flax eggs. For <strong>leavening</strong> (cupcakes), use vinegar + baking soda. For <strong>moisture</strong> (muffins), use applesauce.
+                            </p>
+                        </div>
+                        <div className="bg-white p-6 rounded-xl border border-brand-border shadow-sm hover:shadow-md transition-shadow">
+                            <h3 className="font-serif font-bold text-xl text-brand-text-title mb-3 flex items-center gap-2">
+                                <span className="bg-brand-pink/10 p-2 rounded-lg text-brand-pink">🥛</span>
+                                Replacing Dairy
+                            </h3>
+                            <p className="text-sm text-brand-text-body/80 leading-relaxed">
+                                To replace buttermilk, add 1 tbsp lemon juice to soy or almond milk. Full-fat canned coconut milk is the best substitute for heavy cream in ganache and frosting.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Cross Contamination Warning */}
+                    <div className="bg-red-50 p-6 md:p-8 rounded-2xl border border-red-100 flex flex-col md:flex-row gap-6 items-center">
+                        <div className="flex-grow text-center md:text-left">
+                            <h3 className="font-serif font-bold text-2xl text-red-800 mb-2">⚠ Safety First: Cross-Contamination</h3>
+                            <p className="text-red-700/80 text-sm leading-relaxed">
+                                For Celiac disease or severe nut allergies, simply swapping ingredients isn't enough. Flour dust can linger in the air for 24 hours. Wooden spoons can harbor allergens in their grain. Always fully sanitize your kitchen, use dedicated metal/silicone tools, and check every single label for "processed in a facility" warnings.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

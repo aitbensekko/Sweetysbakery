@@ -254,6 +254,14 @@ const PAN_SIZE_CONVERSIONS = [
 
 const RecipeScalerContent: React.FC = () => (
     <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Master Your Bakes with Our Free Recipe Resizer</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Baking is a science, and precision is key. Whether you're a home baker needing to <strong>double a recipe</strong> for a party or a professional looking to scale down a commercial formula, our <strong>Recipe Resizer</strong> is your ultimate tool. Stop doing mental math and risking ruined batches. This <strong>Batch Multiplier</strong> instantly recalculates ingredient quantities—cups, grams, or ounces—maintaining the perfect ratios for success.
+            </p>
+        </div>
+
         {/* Recommended Gear Section */}
         <div className="bg-gradient-to-br from-brand-pink/5 to-white p-6 rounded-2xl border border-brand-pink/10 shadow-sm">
             <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Recommended Gear for Precise Scaling</h3>
@@ -302,13 +310,19 @@ const RecipeScalerContent: React.FC = () => (
             <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
                 <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
                     <InfoIcon className="w-6 h-6 text-brand-pink" />
-                    How to Use
+                    How to Scale a Recipe Correctly
                 </h3>
                 <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                    <li><strong>Enter Ingredients:</strong> List your recipe ingredients. Using weight (grams) is best for accuracy.</li>
-                    <li><strong>Set Multiplier:</strong> Enter a number to scale by (e.g., 2 for double, 0.5 for half).</li>
-                    <li><strong>Check Results:</strong> The tool instantly calculates the new amounts.</li>
-                    <li><strong>Copy:</strong> Click "Copy Scaled Recipe" to save the new version to your notes.</li>
+                    <li><strong>Input Your Ingredients:</strong> Enter the original amounts. For the most accuracy, convert volume (cups) to weight (grams) first.</li>
+                    <li><strong>Set Your Multiplier:</strong>
+                        <ul className="list-disc pl-4 mt-1 space-y-1">
+                            <li>To <strong>Double a Recipe</strong>: Enter <strong>2</strong></li>
+                            <li>To <strong>Half a Recipe</strong>: Enter <strong>0.5</strong></li>
+                            <li>To <strong>Triple a Recipe</strong>: Enter <strong>3</strong></li>
+                        </ul>
+                    </li>
+                    <li><strong>Review the New Totals:</strong> The <strong>recipe scaler</strong> instantly updates the values.</li>
+                    <li><strong>Bake & Enjoy:</strong> Remember to adjust baking time for larger or smaller pans!</li>
                 </ol>
             </div>
 
@@ -321,25 +335,34 @@ const RecipeScalerContent: React.FC = () => (
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Simply set the "Recipe Multiplier" to <strong>2</strong>. This will multiply all ingredient quantities by 2.
+                            Simply set the "Recipe Multiplier" to <strong>2</strong>. This will multiply all ingredient quantities by 2. This is perfect for when you need more servings for a party or event.
                         </p>
                     </details>
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            Does baking time change?
+                            Does baking time change when scaling?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Often, yes! Larger batches (especially in deeper pans) take longer to bake. Smaller batches bake faster. Always check for doneness early.
+                            Often, yes! If baking a larger batch in a single deeper pan, it will take longer. If splitting a double batch into two pans of the original size, the time stays roughly the same. Always checking for doneness with a toothpick is the safest bet.
                         </p>
                     </details>
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            Can I scale yeast recipes?
+                            Can I scale yeast recipes (bread, pizza dough)?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Yes, yeast scales linearly just like other ingredients. However, fermentation time might vary slightly due to the mass of the dough.
+                            Yes, yeast scales linearly just like other ingredients. Calculating bakers percentages is often helpful here. Note that larger masses of dough might ferment slightly faster due to heat retention, so watch your dough, not just the clock.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How do I convert cups to grams?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Scaling is most accurate with weight. Use our separate <a href="/tools/measurement-converter" className="text-brand-pink hover:underline">Measurement Converter</a> to switch from volume to weight before scaling your recipe.
                         </p>
                     </details>
                 </div>

@@ -384,6 +384,17 @@ export const CakePricingCalculator: React.FC<CakePricingCalculatorProps> = ({ se
 
 const CakePricingCalculatorContent: React.FC = () => (
     <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">The Ultimate Cake Pricing Calculator for Bakers</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Turning your baking passion into a business? The biggest challenge is ensuring you're actually making a profit. Our free <strong>Cake Pricing Calculator</strong> takes the guesswork out of billing. Whether you are selling <strong>custom birthday cakes</strong>, <strong>wedding cakes</strong>, or <strong>cupcakes</strong> by the dozen, this tool accounts for everything—total ingredient costs, your valuable time (labor), overhead expenses, and even delivery.
+            </p>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed mt-4">
+                Designed for home bakers and small business owners, this <strong>Bakery Cost App</strong> ensures you never undercharge for your hard work again.
+            </p>
+        </div>
+
         {/* Recommended Gear Section */}
         <div className="bg-gradient-to-br from-brand-pink/5 to-white p-6 rounded-2xl border border-brand-pink/10 shadow-sm">
             <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Recommended Gear for Your Business</h3>
@@ -412,18 +423,17 @@ const CakePricingCalculatorContent: React.FC = () => (
             <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
                 <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
                     <InfoIcon className="w-6 h-6 text-brand-pink" />
-                    How to Use
+                    How to Price a Cake Correctly
                 </h3>
                 <p className="text-sm text-brand-text-body/80 mb-4">
                     New to pricing? Read our <a href="/cake-pricing-guide" className="text-brand-pink font-bold hover:underline">Ultimate Guide to Cake Pricing</a> for a deep dive.
                 </p>
                 <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                    <li><strong>Select a Template:</strong> Start quickly with a preset for Wedding Cakes, Birthdays, or Cupcakes.</li>
-                    <li><strong>List Ingredients:</strong> Enter every item used. Don't forget small things like baking powder, salt, or packaging (boxes, boards).</li>
-                    <li><strong>Set Labor:</strong> Be honest about your hourly rate and the total time spent (baking, decorating, cleaning).</li>
-                    <li><strong>Add Overhead:</strong> This covers electricity, water, equipment wear, and marketing. 10-20% is standard for home bakeries.</li>
-                    <li><strong>Delivery & Tax:</strong> Add a base delivery fee plus mileage, and don't forget to collect sales tax if required!</li>
-                    <li><strong>Determine Profit:</strong> Set your desired profit margin (usually 30-50%+) to ensure business growth.</li>
+                    <li><strong>Start with Ingredients:</strong> List every item, including packaging (cake boards, boxes). This is your base cost.</li>
+                    <li><strong>Add Your Labor:</strong> Don't work for free! Charge a fair hourly rate for shopping, baking, decorating, and cleaning.</li>
+                    <li><strong>Factor Overhead:</strong> Cover the "hidden" costs like electricity, water, insurance, and equipment wear (usually 10-20% is safe).</li>
+                    <li><strong>Set Profit Margin:</strong> This is for business growth. A 30-50% margin is standard for sustainable bakeries.</li>
+                    <li><strong>Delivery & Tax:</strong> Add mileage rates for delivery and ensure you calculate sales tax if local laws require it.</li>
                 </ol>
             </div>
 
@@ -432,65 +442,47 @@ const CakePricingCalculatorContent: React.FC = () => (
                 <div className="space-y-4">
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            What is a good profit margin?
+                            What is a good profit margin for cakes?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            For custom cakes and baked goods, a profit margin of <strong>30% to 50%</strong> is recommended. This ensures you're paid for your talent, not just your time and ingredients.
+                            For custom cakes and baked goods, a profit margin of <strong>30% to 50%</strong> is recommended. This profit allows you to reinvest in your business (new mixers, branding, marketing) and protects you from unexpected costs.
                         </p>
                     </details>
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            How do I calculate overhead?
+                            How do I calculate overhead for a home bakery?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Overhead includes indirect costs like utilities, insurance, and equipment. A simple method for home bakers is to add <strong>10-20%</strong> to your ingredient and labor costs.
+                            Since you can't easily meter your oven's specific usage, a simple method is to add a percentage (usually <strong>10-20%</strong>) to your direct costs (Ingredients + Labor). This creates a buffer that covers utilities and wear-and-tear.
                         </p>
                     </details>
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            Should I charge for tasting?
+                            Should I charge for cake tasting boxes?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Yes! Tasting boxes cost money and time to produce. Many bakers charge a fee (e.g., $30-$50) which can be deducted from the final order total if they book with you.
+                            Yes! Tasting boxes require ingredients, time, and packaging. Many professionals charge a consultation fee (e.g., $30-$50) which can be deducted from the final wedding cake order if the client books with you.
                         </p>
                     </details>
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            How do I price different cake flavors?
+                            How do I price specialized diets (Vegan/GF)?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Premium flavors like <strong>Red Velvet Cake</strong> or <strong>Carrot Cake</strong> often have more expensive ingredients (cream cheese, nuts) than a standard <strong>Vanilla Cake</strong> or <strong>Chocolate Cake</strong>. Always calculate the specific cost for each flavor profile.
+                            Niche items like <strong>Gluten-Free Cakes</strong>, <strong>Vegan Cakes</strong>, or <strong>Keto Desserts</strong> use specialty ingredients (almond flour, sweeteners) that cost more. Always use a calculator to track these higher costs and price accordingly.
                         </p>
                     </details>
                     <details className="group">
                         <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            Should I charge for delivery?
+                            How much should I charge for cake delivery?
                             <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
                         </summary>
                         <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Absolutely. <strong>Cake delivery</strong> requires time, gas, and vehicle wear. Charge a base fee plus a per-mile rate. For delicate items like a <strong>Wedding Cake</strong>, factor in the stress and setup time too!
-                        </p>
-                    </details>
-                    <details className="group">
-                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            Can I price dessert boxes and gift baskets?
-                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                        </summary>
-                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Yes! This tool works for <strong>Dessert Gifting</strong> too. Whether it's <strong>Cookie Gift Baskets</strong>, <strong>Brownie Gift Delivery</strong>, or <strong>Chocolate-Covered Strawberries</strong>, simply list your components as ingredients. Don't forget to price the <strong>Luxury Gift Box</strong> packaging!
-                        </p>
-                    </details>
-                    <details className="group">
-                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                            How do I price special diet items?
-                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                        </summary>
-                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                            Niche items like <strong>Gluten-Free Cakes</strong>, <strong>Vegan Cakes</strong>, or <strong>Keto Desserts</strong> often require specialized, pricier ingredients (almond flour, sweeteners). Ensure you pass these costs to the customer to maintain your profit on these <strong>Gourmet Dessert Delivery</strong> items.
+                            Charge a base fee for your time plus a per-mile rate (IRS standard is ~67 cents/mile). For <strong>Wedding Cake Delivery</strong>, which involves setup and high stress, many bakers charge a premium hourly rate for the travel time.
                         </p>
                     </details>
                 </div>

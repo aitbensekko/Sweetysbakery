@@ -289,50 +289,69 @@ export const MeasurementConverter: React.FC<MeasurementConverterProps> = ({ setA
 };
 
 const MeasurementConverterContent: React.FC = () => (
-    <div className="mt-12 grid md:grid-cols-2 gap-8 pt-8 border-t border-brand-border">
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
-                <InfoIcon className="w-6 h-6 text-brand-pink" />
-                How to Use
-            </h3>
-            <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
-                <li><strong>Select Ingredient:</strong> Choose the specific ingredient you are converting. Different ingredients have different densities (e.g., 1 cup of flour ≠ 1 cup of sugar).</li>
-                <li><strong>Enter Amount:</strong> Type the quantity you have.</li>
-                <li><strong>Choose Units:</strong> Select the unit you are starting with (e.g., Cups) and the unit you want (e.g., Grams).</li>
-                <li><strong>Get Result:</strong> The tool instantly calculates the precise conversion.</li>
-            </ol>
+    <div className="mt-12 space-y-12 pt-8 border-t border-brand-border">
+        {/* SEO Intro Section */}
+        <div className="prose prose-pink max-w-none">
+            <h2 className="font-serif text-3xl font-bold text-brand-text-title mb-4">Professional Baking Conversions: Cups to Grams & More</h2>
+            <p className="text-lg text-brand-text-body/80 leading-relaxed">
+                Baking is chemistry. A few extra grams of flour can turn a light cake into a dense brick. Our **Baking Measurement Converter** is designed for precision. Easily convert **cups to grams**, **tablespoons to milliliters**, and **ounces to grams**. Whether you are using **all-purpose flour**, **sugar**, or **butter**, this tool handles the specific densities of over 25 ingredients to ensure your recipe turns out perfectly.
+            </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
-            <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
-            <div className="space-y-4">
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Why is weighing better?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        Volume measurements (cups) are notoriously inaccurate. Depending on how you scoop, a cup of flour can vary by 30%. Weighing ensures your recipe works every time.
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        What is "Dip and Sweep"?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        If you must use cups, fluff your flour, dip the cup in, and sweep the excess off with a knife. Do not pack it down!
-                    </p>
-                </details>
-                <details className="group">
-                    <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
-                        Are fluid ounces the same as ounces?
-                        <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
-                        No! Fluid ounces measure volume (like cups), while ounces measure weight (like grams). Water is the only ingredient where they are roughly equal.
-                    </p>
-                </details>
+        <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title flex items-center gap-2">
+                    <InfoIcon className="w-6 h-6 text-brand-pink" />
+                    How to Use
+                </h3>
+                <ol className="space-y-3 text-sm text-brand-text-body/80 list-decimal pl-4 marker:text-brand-pink marker:font-bold">
+                    <li><strong>Select Ingredient:</strong> Choose the specific ingredient you are converting. Different ingredients have different densities (e.g., 1 cup of flour ≠ 1 cup of sugar).</li>
+                    <li><strong>Enter Amount:</strong> Type the quantity you have.</li>
+                    <li><strong>Choose Units:</strong> Select the unit you are starting with (e.g., Cups) and the unit you want (e.g., Grams).</li>
+                    <li><strong>Get Result:</strong> The tool instantly calculates the precise conversion.</li>
+                </ol>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-brand-border shadow-sm">
+                <h3 className="font-serif font-bold text-xl mb-4 text-brand-text-title">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Why is weighing better than cups?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            Volume measurements (cups) are notoriously inaccurate. Depending on how you scoop, a cup of flour can vary by 30%. Weighing in <strong>grams</strong> ensures your recipe works every time, exactly as the author intended.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            What is the "Dip and Sweep" method?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            If you must use cups, fluff your flour with a spoon, dip the cup into the container, and sweep the excess off with a flat knife. Do not scoop directly or pack it down, as this traps extra flour.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            Are fluid ounces the same as ounces?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            No! <strong>Fluid ounces (fl oz)</strong> measure volume (like cups), while <strong>ounces (oz)</strong> measure weight (like grams). Water is the only ingredient where they are roughly equal.
+                        </p>
+                    </details>
+                    <details className="group">
+                        <summary className="flex justify-between items-center font-bold text-brand-text-title cursor-pointer hover:text-brand-pink transition-colors">
+                            How many grams is a cup of flour?
+                            <span className="text-brand-pink group-open:rotate-180 transition-transform">▼</span>
+                        </summary>
+                        <p className="text-sm text-brand-text-body/80 mt-2 leading-relaxed">
+                            A standard cup of All-Purpose Flour weighs approximately <strong>120 grams</strong>. However, this can vary by brand and scooping method, which is why we recommend using this converter and a scale.
+                        </p>
+                    </details>
+                </div>
             </div>
         </div>
     </div>
