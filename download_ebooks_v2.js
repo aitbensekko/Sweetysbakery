@@ -1,7 +1,10 @@
+import fs from 'fs';
+import https from 'https';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const fs = require('fs');
-const https = require('https');
-const path = require('path');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const images = [
     { url: 'https://images-na.ssl-images-amazon.com/images/P/B0CTZBSHT8.01.LZZZZZZZ.jpg', name: 'milk-street-bakes.jpg' },

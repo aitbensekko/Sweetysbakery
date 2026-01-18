@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Image from 'next/image';
 import { Footer } from './Footer';
 import { ToolId, toolIdToSlug } from './utils/slugs';
 import {
@@ -51,10 +52,12 @@ export const About: React.FC<AboutProps> = ({ setActiveTool, breadcrumbs }) => {
             {/* Hero Section */}
             <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden mb-16">
                 <div className="absolute inset-0 bg-black/40 z-10"></div>
-                <img
+                <Image
                     src="/images/about-hero.png"
                     alt="Sweety's Bakery Kitchen"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    fill
+                    className="object-cover"
+                    priority
                 />
                 <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 max-w-4xl mx-auto">
                     <div className="inline-block px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-white font-bold text-sm mb-6 tracking-wide uppercase border border-white/30">
@@ -83,10 +86,11 @@ export const About: React.FC<AboutProps> = ({ setActiveTool, breadcrumbs }) => {
                                     </div>
 
                                     {/* Image (if available) */}
-                                    <img
+                                    <Image
                                         src="/images/sarah-main.jpg"
                                         alt="Sarah Aitdahan"
-                                        className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+                                        fill
+                                        className="object-cover transition-opacity duration-300"
                                     />
 
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent md:hidden"></div>

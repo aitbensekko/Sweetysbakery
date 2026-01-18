@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-image-export-optimizer && npm run sitemap",
+    "build": "node download_ebooks_v2.js && next build && next-image-export-optimizer && npm run sitemap",
     "start": "next start",
     "lint": "next lint",
     "sitemap": "node scripts/generate-sitemap.mjs"
