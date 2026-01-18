@@ -125,14 +125,57 @@ function getBlogUrls() {
     return urls;
 }
 
+function getMyArtUrl() {
+    // Rich Alt Text / Titles for better SEO matching the UI component
+    const altTexts = [
+        "Custom cake design - Wedding cake, birthday cake, cake decorating ideas",
+        "Edible art cake - Sculptural cake design, 3D cake, artistic dessert",
+        "Professional cake decorating - Custom birthday cake, celebration cake",
+        "Wedding cake design - Elegant wedding cake, custom cake, cake gallery",
+        "Birthday cake ideas - Custom birthday cake, decorated cake, cake inspiration",
+        "Cake decorating inspiration - Unique cake design, artistic cake, edible masterpiece",
+        "3D sculptural cake - Modern cake design, geometric cake, gravity-defying cake",
+        "Custom dessert art - Hand-painted cake, metallic cake, textured buttercream",
+        "Specialty cake design - Anniversary cake, celebration cake, custom order",
+        "Artisan cake creation - Fondant cake, buttercream cake, cake art",
+        "Gourmet cake design - Premium cake, luxury dessert, custom bakery",
+        "Creative cake decorating - Innovative cake design, trendy cake, modern pastry art"
+    ];
+
+    // Generate My Art Images (Limit 1000 per page as per Google specs)
+    // Images 5 to 1151 exist, we take 5 to 1004 to stay <= 1000
+    const myArtImages = Array.from({ length: 1000 }, (_, i) => {
+        const imgNum = i + 5;
+        // Hostinger image path format: /images/Sweeetys Bakery IMG (X).JPG
+        // We must encode space as %20 for valid XML/URL
+
+        // Use rotating alt text based on index
+        const altText = altTexts[i % altTexts.length];
+
+        return {
+            loc: `${DOMAIN}/images/Sweeetys%20Bakery%20IMG%20(${imgNum}).JPG`,
+            title: `${altText} #${imgNum}` // Combine rich text with unique ID
+        };
+    });
+
+    return [{
+        loc: `${DOMAIN}/tools/my-art`,
+        changefreq: 'daily',
+        priority: '0.9', // High priority for this gallery
+        images: myArtImages
+    }];
+}
+
 function generateSitemap() {
     console.log('Starting sitemap generation...');
 
     const toolUrls = getToolUrls();
     const productUrls = getProductUrls();
     const blogUrls = getBlogUrls();
+    const myArtUrl = getMyArtUrl();
 
-    const allUrls = [...toolUrls, ...productUrls, ...blogUrls];
+    // myArtUrl comes last to overwrite any generic entry from toolUrls
+    const allUrls = [...toolUrls, ...productUrls, ...blogUrls, ...myArtUrl];
 
     // Remove duplicates based on loc
     const uniqueMap = new Map();
