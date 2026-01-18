@@ -20,6 +20,11 @@ export interface BlogPost {
             ratingValue: number;  // e.g., 4.5 (out of 5)
             ratingCount: number;  // e.g., 127 (number of ratings)
         };
+        ingredients?: string[];
+        instructions?: {
+            name?: string;
+            text: string;
+        }[];
     };
 }
 
@@ -1743,6 +1748,254 @@ export const blogPosts: BlogPost[] = [
             }
         },
         content: `<h2><a href="/moist-banana-bread-recipe" style="color: #E65A88; text-decoration: underline;">Moist Banana Bread</a></h2><p>The ultimate comfort food. This banana bread is incredibly moist, tender, and packed with banana flavor. It's the best way to save those brown bananas on your counter.</p><h3>Why It's The Best</h3><p>We use melted butter for flavor and a lots of mashed bananas for moisture. The brown sugar adds a hint of caramel richness.</p><h3>Ingredients</h3><ul><li>3 very ripe bananas, mashed</li><li>1/2 cup melted butter</li><li>3/4 cup brown sugar</li><li>1 egg, beaten</li><li>1 tsp vanilla extract</li><li>1 tsp baking soda</li><li>Pinch of salt</li><li>1 1/2 cups all-purpose flour</li></ul><h3>Instructions</h3><ol><li><strong>Prep:</strong> Preheat oven to 350°F (175°C). Grease a loaf pan.</li><li><strong>Mix Wet:</strong> In a large bowl, mix mashed bananas with melted butter. Stir in brown sugar, egg, and vanilla.</li><li><strong>Mix Dry:</strong> Sprinkle baking soda and salt over the wet mixture and stir.</li><li><strong>Combine:</strong> Gently fold in the flour until just combined. Do not overmix!</li><li><strong>Bake:</strong> Pour batter into the prepared loaf pan. Bake for 55-65 minutes until a toothpick comes out clean.</li></ol>`
+    },
+    {
+        id: 405,
+        slug: 'chocolate-pistachio-cookies',
+        title: `Chewy Salted Chocolate Pistachio Cookies | Best Cookie Recipe by Sarah Ait dahan`,
+        excerpt: `These thick, chewy Chocolate Pistachio Cookies are loaded with chunks of dark chocolate and bright green pistachios. Finished with flaky sea salt, they are the perfect balance of sweet, salty, and nutty.`,
+        imageUrl: '/images/blog/chocolate-pistachio-cookies-hero.png',
+        category: 'Baking Recipes',
+        author: 'Sarah Ait dahan',
+        date: 'January 18, 2026',
+        readTime: '15 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT15M",
+            cookTime: "PT12M",
+            totalTime: "PT40M",
+            recipeYield: "18 cookies",
+            calories: 180,
+            rating: {
+                ratingValue: 5.0,
+                ratingCount: 12
+            },
+            ingredients: [
+                "1/2 cup (115g) unsalted butter, softened",
+                "1/2 cup (100g) granulated sugar",
+                "1/2 cup (100g) light brown sugar, packed",
+                "1 large egg, room temperature",
+                "1 tsp vanilla extract",
+                "1 1/4 cups (160g) all-purpose flour",
+                "1/2 tsp baking soda",
+                "1/4 tsp salt",
+                "1 cup (170g) dark chocolate chunks (70% cocoa)",
+                "1/2 cup (60g) shelled pistachios, roughly chopped",
+                "Flaky sea salt, for sprinkling"
+            ],
+            instructions: [
+                {
+                    name: "Prep",
+                    text: "Preheat oven to 350°F (175°C). Line two baking sheets with parchment paper."
+                },
+                {
+                    name: "Cream Butter & Sugars",
+                    text: "In a large bowl or stand mixer, cream the softened butter, granulated sugar, and brown sugar together on medium speed until light and fluffy (about 2-3 minutes)."
+                },
+                {
+                    name: "Add Wet Ingredients",
+                    text: "Beat in the egg and vanilla extract until well combined, scraping down the sides of the bowl as needed."
+                },
+                {
+                    name: "Add Dry Ingredients",
+                    text: "In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add this to the wet ingredients, mixing on low speed until just combined (do not overmix)."
+                },
+                {
+                    name: "Fold in Mix-ins",
+                    text: "Gently fold in the dark chocolate chunks and chopped pistachios with a spatula."
+                },
+                {
+                    name: "Chill",
+                    text: "Chill the dough in the refrigerator for at least 30 minutes. This is crucial for texture and preventing spreading."
+                },
+                {
+                    name: "Scoop & Bake",
+                    text: "Scoop the dough into balls (approx 2 tbsp each) and place on baking sheets, spaced 2 inches apart. Bake for 10-12 minutes, or until edges are golden brown but centers still look slightly soft."
+                },
+                {
+                    name: "Cool",
+                    text: "Bang the pan on the counter once to flatten slightly (optional). Sprinkle immediately with flaky sea salt. Let cool on the pan for 5 minutes before transferring to a wire rack."
+                }
+            ]
+        },
+        content: `<h2>Chewy Salted Chocolate Pistachio Cookies</h2><p>Welcome to my kitchen! I'm <strong>Sarah Ait dahan</strong>, and I'm obsessed with the combination of dark chocolate and pistachio. These cookies are my latest creation: distinctively green, incredibly chewy, and punctuated with pools of melted chocolate and crunchy nuts. The final sprinkle of sea salt elevates them to a gourmet level.</p><img src="/images/blog/chocolate-pistachio-cookies-hero.png" alt="Stack of Chewy Chocolate Pistachio Cookies" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Why You'll Love This Recipe</h3><p>This isn't just another chocolate chip cookie. The pistachios bring a buttery, floral note that pairs perfectly with the bitterness of dark chocolate. The texture is soft in the center with crispy edges—the holy grail of cookies.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><h3>Ingredients Notes</h3><ul><li><strong>Pistachios:</strong> Use shelled, unsalted roasted pistachios. The color really pops if you roughly chop them.</li><li><strong>Dark Chocolate:</strong> I recommend a 70% dark chocolate bar chopped into chunks rather than chips for better melt.</li><li><strong>Sea Salt:</strong> Flaky sea salt (like Maldon) is essential for the finish.</li></ul><h3>Step-by-Step Instructions</h3><h4>Step 1: Make the Dough</h4><p>Cream the butter and sugars until light and fluffy. Beat in the egg and vanilla. Fold in the dry ingredients, then stir in the chocolate chunks and pistachios. The dough will be thick and studded with goodness.</p><img src="/images/blog/chocolate-pistachio-cookies-dough.png" alt="Mixing chocolate pistachio cookie dough" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: Chill</h4><p>This is crucial: Chill the dough for at least 30 minutes. This prevents spreading and deepens the flavor.</p><h4>Step 3: Scoop and Bake</h4><p>Scoop the dough onto parchment-lined baking sheets. Bake at 350°F (175°C) for 10-12 minutes. They will look underbaked in the center—that's what you want! Let them cool on the pan to set.</p><img src="/images/blog/chocolate-pistachio-cookies-tray.png" alt="Baked pistachio cookies on tray" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Sarah's Pro Tips</h3><ul><li><strong>Bang the Pan:</strong> For that crinkled look, bang the pan on the counter once halfway through baking.</li><li><strong>Extra Toppings:</strong> Press a few extra pistachio pieces and chocolate chunks on top of the warm cookies for a bakery-style look.</li></ul>`
+    },
+    {
+        id: 406,
+        slug: 'chocolate-pistachio-bar',
+        title: `No-Bake Chocolate Pistachio Bars | Decadent & Easy by Sarah Ait dahan`,
+        excerpt: `A crunchy, salty pistachio crust topped with a rich, silky dark chocolate ganache. These No-Bake Chocolate Pistachio Bars are an elegant, effortless dessert.`,
+        imageUrl: '/images/blog/chocolate-pistachio-bar-hero.png',
+        category: 'Dessert Recipes',
+        author: 'Sarah Ait dahan',
+        date: 'January 18, 2026',
+        readTime: '20 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT20M",
+            cookTime: "PT0M",
+            totalTime: "PT140M",
+            recipeYield: "16 bars",
+            calories: 210,
+            rating: {
+                ratingValue: 4.9,
+                ratingCount: 8
+            },
+            ingredients: [
+                "1 1/2 cups (200g) pretzels, crushed",
+                "1 cup (125g) shelled pistachios, finely chopped",
+                "1/2 cup (115g) unsalted butter, melted",
+                "2 tbsp granulated sugar",
+                "12 oz (340g) dark chocolate (60-70% cocoa), chopped",
+                "1 cup (240ml) heavy cream",
+                "2 tbsp unsalted butter (for ganache)",
+                "Pinch of sea salt"
+            ],
+            instructions: [
+                {
+                    name: "Make Crust",
+                    text: "In a food processor, pulse pretzels and pistachios until specific crumb size is reached. Stir in the melted butter and sugar. Press firmly into the bottom of an 8x8 inch square baking pan lined with parchment paper."
+                },
+                {
+                    name: "Chill Crust",
+                    text: "Place the crust in the refrigerator to set for at least 30 minutes."
+                },
+                {
+                    name: "Prepare Ganache",
+                    text: "Place chopped dark chocolate, 2 tbsp butter, and salt in a medium heat-proof bowl. Heat the heavy cream in a small saucepan until it just begins to simmer (do not boil over)."
+                },
+                {
+                    name: "Combine",
+                    text: "Pour the hot cream over the chocolate mixture. Let it sit for 5 minutes, then gently whisk in the center until the mixture is smooth and glossy."
+                },
+                {
+                    name: "Assemble",
+                    text: "Pour the ganache over the chilled crust. Sprinkle with extra chopped pistachios and sea salt if desired."
+                },
+                {
+                    name: "Chill & Set",
+                    text: "Refrigerate for at least 3-4 hours, or until the ganache is firm. Remove from pan using parchment overhang and slice into bars."
+                }
+            ]
+        },
+        content: `<h2>No-Bake Chocolate Pistachio Bars</h2><p>Sometimes you need a show-stopping dessert without turning on the oven. Enter my <strong>No-Bake Chocolate Pistachio Bars</strong>. With a salty-sweet crust made from crushed pistachios and pretzels, and a layer of ultra-rich dark chocolate ganache, this dessert screams luxury but is secretly incredibly easy to make.</p><img src="/images/blog/chocolate-pistachio-bar-hero.png" alt="Slice of No-Bake Chocolate Pistachio Bar" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Why You Need This Recipe</h3><p>Detailed piping and baking can be daunting. This recipe relies on high-quality ingredients doing the heavy lifting. The bitterness of the chocolate balances perfectly with the nutty, salty crust.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><h3>Ingredients Notes</h3><ul><li><strong>Pistachios:</strong> You'll need them for both the crust and the topping. Unsalted is best so you can control the sodium.</li><li><strong>Pretzels:</strong> Use standard salted pretzels for the crust to add that crucial crunch and saltiness.</li><li><strong>Heavy Cream:</strong> Use full-fat heavy whipping cream for the ganache to ensure it sets properly.</li></ul><h3>Step-by-Step Instructions</h3><h4>Step 1: The Crust</h4><p>Pulse pistachios, pretzels, and melted butter in a food processor until it resembles wet sand. Press firmly into a square pan lined with parchment paper. Chill while you make the filling.</p><img src="/images/blog/chocolate-pistachio-bar-crust.png" alt="Pressing pistachio crust into pan" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: The Ganache</h4><p>Heat the heavy cream until just simmering. Pour over the chopped dark chocolate and butter. Let sit for 5 minutes, then stir gently until smooth and glossy. Pour this liquid gold over your chilled crust.</p><img src="/images/blog/chocolate-pistachio-bar-pouring.png" alt="Pouring chocolate ganache" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 3: Chill & Serve</h4><p>Refrigerate for at least 2 hours until the ganache is set. Lift out using the parchment paper, slice into squares with a hot knife for clean cuts, and enjoy!</p><img src="/images/blog/chocolate-pistachio-bar-slice.png" alt="Slicing chocolate pistachio bar" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Sarah's Pro Tips</h3><ul><li><strong>Clean Slices:</strong> Dip your knife in hot water and wipe it dry between every cut for those perfect, sharp edges.</li><li><strong>Storage:</strong> keep these in the fridge; they get soft at room temperature essentially turning into a delicious pudding (which isn't bad, but not a bar!).</li></ul>`
+    },
+    {
+        id: 407,
+        slug: 'homemade-pistachio-butter',
+        title: `Homemade Pistachio Butter | 100% Natural & Creamy by Sarah Ait dahan`,
+        excerpt: `Ditch the expensive store-bought jars. All you need is pistachios and a blender to make this ultra-creamy, vibrant green Homemade Pistachio Butter. Naturally vegan and gluten-free.`,
+        imageUrl: '/images/blog/homemade-pistachio-butter-hero.png',
+        category: 'Essentials',
+        author: 'Sarah Ait dahan',
+        date: 'January 18, 2026',
+        readTime: '10 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT30M",
+            cookTime: "PT10M",
+            totalTime: "PT40M",
+            recipeYield: "1 cup",
+            calories: 160,
+            rating: {
+                ratingValue: 5.0,
+                ratingCount: 35
+            },
+            ingredients: [
+                "3 cups (375g) raw shelled pistachios (unsalted)",
+                "1/2 tsp sea salt",
+                "1-2 tbsp neutral oil (like grapeseed or sunflower), optional",
+                "1-2 tbsp honey or powdered sugar (optional, for sweetness)"
+            ],
+            instructions: [
+                {
+                    name: "Roast",
+                    text: "Preheat oven to 350°F (175°C). Spread pistachios on a baking sheet. Roast for 8-10 minutes until fragrant but not browned."
+                },
+                {
+                    name: "Cool",
+                    text: "Allow pistachios to cool slightly (warm nuts blend better, but hot nuts can overheat your machine)."
+                },
+                {
+                    name: "Blend - Phase 1 (Crumbs)",
+                    text: "Add pistachios to a food processor or high-speed blender. Process for 1-2 minutes until you have fine crumbs."
+                },
+                {
+                    name: "Blend - Phase 2 (Ball)",
+                    text: "Continue processing. The mixture will clump together into a thick ball. Scrape down the sides."
+                },
+                {
+                    name: "Blend - Phase 3 (Butter)",
+                    text: "Keep processing until the oils release and the mixture turns creamy and liquid. This can take 5-15 minutes depending on your machine."
+                },
+                {
+                    name: "Season",
+                    text: "Add salt (and oil/sugar if using). Pulse to combine."
+                },
+                {
+                    name: "Store",
+                    text: "Transfer to a sterilized glass jar. Store in the refrigerator for up to 1 month."
+                }
+            ]
+        },
+        content: `<h2>Homemade Pistachio Butter</h2><p>Once you make your own <strong>Pistachio Butter</strong>, you will never go back. It's vibrant green, incredibly smooth, and tastes purely of roasted pistachios. Store-bought versions often contain fillers, added oils, or weird colorings. This recipe is pure, simple, and luxurious.</p><img src="/images/blog/homemade-pistachio-butter-hero.png" alt="Jar of homemade pistachio butter" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Why Make It Yourself?</h3><p>Firstly, the color! Commercial pastes can be brown or artificially neon. Homemade is a stunning natural green. Secondly, the flavor is intense and fresh. Thirdly, it's significantly cheaper than gourmet brands.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><h3>Ingredients Notes</h3><ul><li><strong>Pistachios:</strong> Raw, shelled, unsalted pistachios are best. You roast them yourself to release the oils.</li><li><strong>Salt:</strong> A pinch of sea salt brings out the nutty flavor.</li><li><strong>Optional:</strong> A drop of neutral oil (like grapeseed) if your blender struggles, or a touch of honey if you want it sweet.</li></ul><h3>Step-by-Step Instructions</h3><h4>Step 1: Roast the Nuts</h4><p>Roast the pistachios at 350°F (175°C) for 8-10 minutes. This warms the natural oils, making them easier to blend and deepening the flavor.</p><img src="/images/blog/homemade-pistachio-butter-roasting.png" alt="Roasting pistachios on baking sheet" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: The Grinding Phase</h4><p>Add warm pistachios to a food processor. Pulse until you have fine crumbs. Keep going.</p><img src="/images/blog/homemade-pistachio-butter-grinding.png" alt="Ground pistachios in food processor" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 3: The Creamy Phase</h4><p>After about 5-10 minutes (patience!), the mixture will clump up and then suddenly release its oils and turn into liquid gold. Blend until silky smooth.</p><img src="/images/blog/homemade-pistachio-butter-creamy.png" alt="Creamy pistachio butter in processor" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Serving Suggestion</h4><p>Spread it on toast, swirl it into oatmeal, or us it as a filling for macron and cakes!</p><img src="/images/blog/homemade-pistachio-butter-toast.png" alt="Pistachio butter on toast" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">`
+    },
+    {
+        id: 408,
+        slug: 'sweet-pistachio-cream',
+        title: `Luxurious Sweet Pistachio Cream | Better than Store-Bought by Sarah Ait dahan`,
+        excerpt: `Imagine Nutella, but made with pistachios and white chocolate. This Sweet Pistachio Cream (Pistachio Creme) is silky, decadent, and perfect for filling pastries or just eating with a spoon.`,
+        imageUrl: '/images/blog/sweet-pistachio-cream-hero.png',
+        category: 'Dessert Recipes',
+        author: 'Sarah Ait dahan',
+        date: 'January 18, 2026',
+        readTime: '15 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT40M",
+            cookTime: "PT10M",
+            totalTime: "PT50M",
+            recipeYield: "1.5 cups",
+            calories: 190,
+            rating: {
+                ratingValue: 5.0,
+                ratingCount: 42
+            },
+            ingredients: [
+                "1 cup (125g) shelled pistachios, unsalted",
+                "3.5 oz (100g) white chocolate, chopped",
+                "1/4 cup (60g) unsalted butter",
+                "1/3 cup (80ml) milk (or cream for richer texture)",
+                "1 tbsp powdered sugar (optional)"
+            ],
+            instructions: [
+                {
+                    name: "Blanch",
+                    text: "Bring a small pot of water to a boil. Add shelled pistachios and boil for 1 minute."
+                },
+                {
+                    name: "Peel",
+                    text: "Drain pistachios and transfer to a clean kitchen towel. Rub vigorously to remove the purple skins. Pick out the bright green nuts and discard skins."
+                },
+                {
+                    name: "Make Paste",
+                    text: "Transfer peeled pistachios to a food processor. Process until a smooth green paste forms (this takes patience, similar to nut butter)."
+                },
+                {
+                    name: "Melt",
+                    text: "Melt white chocolate and butter together (microwave in bursts or use a double boiler). Stir until smooth."
+                },
+                {
+                    name: "Combine",
+                    text: "Add the melted chocolate mixture and milk to the food processor with the pistachio paste. Blend until ultra-smooth and emulsified."
+                },
+                {
+                    name: "Chill",
+                    text: "Transfer to a jar. The cream will be liquid while warm but will thicken into a spreadable consistency as it cools in the fridge."
+                }
+            ]
+        },
+        content: `<h2>Luxurious Sweet Pistachio Cream (Pistachio Creme)</h2><p>If you've ever had those expensive jars of Italian Pistachio Cream, you know how addictive it is. Good news: you can make it at home for a fraction of the price. This <strong>Sweet Pistachio Cream</strong> is essentially a white chocolate ganache blended with homemade pistachio paste. It's liquid velvet.</p><img src="/images/blog/sweet-pistachio-cream-hero.png" alt="Jar of sweet pistachio cream" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>How to Use It</h3><p>Spread it on toast, drizzle it over ice cream, use it to fill croissants or donuts, or just eat it straight from the jar (no judgment!).</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><h3>Ingredients Notes</h3><ul><li><strong>Pistachios:</strong> You NEED to blanch and peel them for that bright green color. If you leave the skins on, the cream will be brownish-green.</li><li><strong>White Chocolate:</strong> Use high-quality white chocolate (like Lindt or Ghirardelli), not chips if possible (though chips work in a pinch).</li><li><strong>Butter:</strong> Adds richness and shine.</li></ul><h3>Step-by-Step Instructions</h3><h4>Step 1: Blanch & Peel</h4><p>Boil pistachios for 1 minute, then drain and rub them in a towel to remove the purple skins. Reveal those bright green gems!</p><img src="/images/blog/sweet-pistachio-cream-blanching.png" alt="Blanching pistachios" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: Grind to Paste</h4><p>Process the peeled pistachios until smooth, similar to the pistachio butter recipe, but get it as fine as possible.</p><h4>Step 3: Melt Chocolate</h4><p>Melt white chocolate and butter together until smooth. Adding a little milk or cream here helps emulsify it.</p><img src="/images/blog/sweet-pistachio-cream-melting.png" alt="Melting white chocolate" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 4: Blend Everything</h4><p>Add the white chocolate mixture to the blender with the pistachio paste and blend until ultra-smooth. It will thicken as it cools.</p><img src="/images/blog/sweet-pistachio-cream-blending.png" alt="Blending pistachio cream" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Enjoy!</h4><p>Fill your favorite pastries or enjoy it simply.</p><img src="/images/blog/sweet-pistachio-cream-croissant.png" alt="Pistachio cream filled croissant" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">`
     },
 ];
 

@@ -1,6 +1,10 @@
 {
+  "/[...slug]/page": "app/[...slug]/page.js",
+  "/about/page": "app/about/page.js",
   "/baking-ebooks/page": "app/baking-ebooks/page.js",
   "/page": "app/page.js",
   "/products/[slug]/page": "app/products/[slug]/page.js",
-  "/products/page": "app/products/page.js"
+  "/products/page": "app/products/page.js",
+  "/recipes/page": "app/recipes/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }

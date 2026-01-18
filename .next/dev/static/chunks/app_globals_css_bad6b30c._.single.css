@@ -1379,6 +1379,14 @@ img, video {
   top: -20%;
 }
 
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1739,6 +1747,22 @@ img, video {
   margin-top: auto;
 }
 
+.-mr-40 {
+  margin-right: -10rem;
+}
+
+.-mt-40 {
+  margin-top: -10rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .line-clamp-1 {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -1798,6 +1822,10 @@ img, video {
 
 .aspect-video {
   aspect-ratio: 16 / 9;
+}
+
+.aspect-\[3\/4\] {
+  aspect-ratio: 3 / 4;
 }
 
 .h-0 {
@@ -2718,6 +2746,10 @@ img, video {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .-space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -4165,6 +4197,18 @@ img, video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-black\/50 {
+  --tw-gradient-from: #00000080 var(--tw-gradient-from-position);
+  --tw-gradient-to: #0000 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-brand-text-title {
+  --tw-gradient-from: #4a3f3f var(--tw-gradient-from-position);
+  --tw-gradient-to: #4a3f3f00 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-\[\#F59E0B\] {
   --tw-gradient-to: #f59e0b00 var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #f59e0b var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -4228,6 +4272,11 @@ img, video {
 .via-white\/80 {
   --tw-gradient-to: #fff0 var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #fffc var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-black\/40 {
+  --tw-gradient-to: #0000 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #0006 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-\[\#B45309\] {
@@ -4400,6 +4449,14 @@ img, video {
 
 .to-yellow-50 {
   --tw-gradient-to: #fefce8 var(--tw-gradient-to-position);
+}
+
+.to-brand-pink-light\/20 {
+  --tw-gradient-to: #fdf0f433 var(--tw-gradient-to-position);
+}
+
+.to-gray-900 {
+  --tw-gradient-to: #111827 var(--tw-gradient-to-position);
 }
 
 .bg-clip-text {
@@ -6661,6 +6718,11 @@ details[open] summary .accordion-arrow {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-brand-text-title:hover {
+  --tw-text-opacity: 1;
+  color: rgb(74 63 63 / var(--tw-text-opacity, 1));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -7624,6 +7686,10 @@ details[open] summary .accordion-arrow {
     grid-column: span 5 / span 5;
   }
 
+  .md\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+
   .md\:mx-0 {
     margin-left: 0;
     margin-right: 0;
@@ -7673,6 +7739,10 @@ details[open] summary .accordion-arrow {
     margin-left: 20rem;
   }
 
+  .md\:-ml-16 {
+    margin-left: -4rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -7707,6 +7777,10 @@ details[open] summary .accordion-arrow {
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-\[600px\] {
+    height: 600px;
   }
 
   .md\:min-h-\[500px\] {
@@ -7924,6 +7998,10 @@ details[open] summary .accordion-arrow {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:p-20 {
+    padding: 5rem;
   }
 
   .md\:px-10 {
@@ -8185,6 +8263,11 @@ details[open] summary .accordion-arrow {
     padding-bottom: 5rem;
   }
 
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .lg\:pl-8 {
     padding-left: 2rem;
   }
@@ -8221,6 +8304,11 @@ details[open] summary .accordion-arrow {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }
 

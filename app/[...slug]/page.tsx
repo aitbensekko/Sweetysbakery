@@ -230,5 +230,11 @@ function generateRecipeSchema(post: import('../../data/blogPosts').BlogPost) {
             ratingValue: post.recipeData.rating.ratingValue,
             ratingCount: post.recipeData.rating.ratingCount
         } : undefined,
+        recipeIngredient: post.recipeData.ingredients,
+        recipeInstructions: post.recipeData.instructions ? post.recipeData.instructions.map(step => ({
+            '@type': 'HowToStep',
+            name: step.name,
+            text: step.text
+        })) : undefined,
     };
 }
