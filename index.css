@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1em;
+  color: #E65A88;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for a more refined look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FBF9F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E65A88;
+  border-radius: 4px;
+  border: 2px solid #FBF9F7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d94b79;
+}
+
+/* Styling for details/summary accordion in FAQ */
+details>summary {
+  list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary .accordion-arrow {
+  transform: rotate(90deg);
+}
+
+/* Subtle fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Dark Mode Styles Removed */

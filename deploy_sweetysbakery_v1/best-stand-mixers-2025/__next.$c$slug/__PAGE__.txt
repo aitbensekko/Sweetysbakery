@@ -1,0 +1,15 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T557,<h2><a href="/best-stand-mixers-2025" style="color: #E65A88; text-decoration: underline;">Best Stand Mixers 2025</a></h2>
+        <p>If you are serious about baking, a stand mixer is non-negotiable. It saves your arms, ensures consistent mixing, and opens the door to advanced techniques like brioche and meringue. But with prices ranging from $100 to $800, which one should you buy?</p>
+        <h3>1. KitchenAid Artisan Series</h3>
+        <p>The gold standard. It features a tilt-head design, 10 speeds, and a dizzying array of colors. It's powerful enough for bread dough but gentle enough for egg whites.</p>
+        <h3>2. Kenwood Chef Titanium</h3>
+        <p>A beast of a machine. It has a higher wattage motor than the KitchenAid, making it better for heavy, stiff doughs. The bowl illumination is a nice touch.</p>
+        <h3>3. Cuisinart Precision Master</h3>
+        <p>A fantastic budget-friendly alternative. It offers similar performance to the KitchenAid Classic at a fraction of the price.</p>
+        <p><strong>Verdict:</strong> If you want aesthetics and performance, go KitchenAid. If you bake 10 loaves of bread a week, go Kenwood.</p>
+        <img src="https://sweetysbakery.com/images/Sweeetys%20Bakery%20IMG%20(15).JPG" alt="Best Stand Mixers 2025 - KitchenAid Artisan" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0;">0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":301,"slug":"best-stand-mixers-2025","title":"Best Stand Mixers 2025: The Ultimate Buying Guide","excerpt":"Is a KitchenAid worth it? We review the top stand mixers of 2025 to help you find the perfect partner for your baking adventures.","imageUrl":"https://sweetysbakery.com/images/Sweeetys%20Bakery%20IMG%20(15).JPG","category":"Equipment","author":"Sweety's Bakery","date":"November 28, 2025","readTime":"8 min","type":"article","content":"$3"}}],[["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

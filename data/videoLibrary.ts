@@ -1,0 +1,21 @@
+export const videoLibrary = [
+    { id: 'hOZK4m8r04Y', title: 'Fluffy Yogurt Dessert', duration: '5:12', category: 'Dessert' },
+    { id: 'Uoh6UwZT288', title: 'Featured Recipe', duration: '12:30', category: 'Baking' },
+    { id: 'ayWYdfb2CXw', title: 'Artisan Technique', duration: '8:45', category: 'Technique' },
+    { id: 'hClUTxyfCEg', title: 'Bakery Secrets', duration: '15:20', category: 'Pro Tips' },
+    { id: 'LvkWUrnHYEs', title: 'Sweet Treats', duration: '6:15', category: 'Dessert' },
+    { id: '_RvPwvezSG0', title: 'Dough Masterclass', duration: '22:10', category: 'Bread' },
+    { id: 'J_T8YICdxjc', title: 'Perfect Crust', duration: '14:00', category: 'Technique' },
+    { id: 'fYPqQVV9L-k', title: 'Cake Decorating', duration: '18:45', category: 'Cake' },
+    { id: 'fVbz82Uo5MY', title: 'Pastry Basics', duration: '10:30', category: 'Pastry' },
+    { id: 'jzlWnqDypLU', title: 'Advanced Shaping', duration: '16:20', category: 'Bread' },
+    { id: 'zFkDZ1ljNC8', title: 'Kitchen Essentials', duration: '9:50', category: 'Tools' },
+    { id: 'Hvxp1EAnt8g', title: 'Holiday Special', duration: '25:00', category: 'Seasonal' },
+    { id: 'zXINureNBgA', title: 'Quick Bakes', duration: '7:40', category: 'Quick' },
+    { id: 'GF8A6wtPq_w', title: 'Sourdough Starter', duration: '11:15', category: 'Sourdough' },
+    { id: 'P_xOGUo4kQw', title: 'Cookie Perfection', duration: '8:30', category: 'Cookies' },
+    { id: 'RdlXWE2Vgoc', title: 'Chocolate Work', duration: '14:45', category: 'Chocolate' },
+    { id: '_waDKj9bZXY', title: 'Vegan Baking', duration: '13:20', category: 'Vegan' },
+    { id: 'R6jFO2KVzjQ', title: 'Gluten Free', duration: '19:10', category: 'Healthy' },
+    { id: 'drUkS97Il9Q', title: 'Master Chef Tips', duration: '21:00', category: 'Pro' }
+];

@@ -1,0 +1,15 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T469,<h2><a href="/why-you-need-a-kitchen-scale" style="color: #E65A88; text-decoration: underline;">Why You Need a Kitchen Scale</a></h2>
+        <p>Baking is chemistry. If you add too much flour, your cake will be dry. If you add too little, it will collapse. The problem with measuring cups is that they are inaccurate. A "cup" of flour can weigh anywhere from 120g to 150g depending on how you scoop it.</p>
+        <h3>The Benefits of Weighing</h3>
+        <ul>
+            <li><strong>Accuracy:</strong> 120g is always 120g.</li>
+            <li><strong>Less Cleanup:</strong> You can measure everything into one bowl, hitting "tare" (zero) between ingredients. No more washing 10 measuring spoons.</li>
+            <li><strong>Consistency:</strong> Your recipe will turn out exactly the same every single time.</li>
+        </ul>
+        <p>For less than $20, a digital scale is the best investment you can make.</p>
+        <img src="https://sweetysbakery.com/images/Sweeetys%20Bakery%20IMG%20(25).JPG" alt="Why You Need a Kitchen Scale - Precise Baking" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0;">0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":302,"slug":"why-you-need-a-kitchen-scale","title":"Why You Need a Kitchen Scale: The Secret to Better Baking","excerpt":"Stop using measuring cups! Learn why weighing your ingredients is the single biggest upgrade you can make to your baking.","imageUrl":"https://sweetysbakery.com/images/Sweeetys%20Bakery%20IMG%20(25).JPG","category":"Essentials","author":"Sweety's Bakery","date":"November 29, 2025","readTime":"5 min","type":"article","content":"$3"}}],[["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

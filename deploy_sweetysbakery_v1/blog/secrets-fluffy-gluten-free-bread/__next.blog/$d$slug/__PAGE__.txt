@@ -1,0 +1,16 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T41e,<h2>Rise to the Occasion with <a href="https://www.kingarthurbaking.com/blog/2015/02/13/gluten-free-baking-tips" target="_blank" rel="noopener noreferrer" style="color: #E65A88; text-decoration: underline;">Gluten-Free Bread Tips</a></h2>
+        <p>Gluten provides the elastic network that traps gas bubbles. Without it, we need new strategies to get that loft.</p>
+
+        <h3>Hydration is Key</h3>
+        <p>Gluten-free dough should be much wetter than traditional dough—more like a thick batter. Don't be tempted to add more flour; moisture is what creates the steam for lift.</p>
+
+        <h3>The Power of Psyllium Husk</h3>
+        <p>Xanthan gum is common, but <strong>psyllium husk powder</strong> is the game changer for bread. It creates a gel-like structure that allows the dough to be kneaded and shaped, providing that chewy, bread-like texture.</p>
+
+        <h3>Longer Proofing</h3>
+        <p>Give your yeast time and warmth. GF flours don't offer food for yeast as readily as wheat, so a warm, humid rising environment is crucial.</p>0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":107,"slug":"secrets-fluffy-gluten-free-bread","title":"Secrets to Baking Soft, Fluffy Gluten-Free Bread","excerpt":"Say goodbye to dense, brick-like loaves. Learn the hydration and fermentation secrets that professional bakers use for airy gluten-free bread.","imageUrl":"/images/blog/cookies.png","category":"Baking Tips","author":"Sweety's Bakery","date":"November 20, 2025","readTime":"8 min","type":"article","content":"$3"}}],[["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

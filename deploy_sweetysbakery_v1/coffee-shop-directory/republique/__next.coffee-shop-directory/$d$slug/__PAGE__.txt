@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[44748,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/025e0672f4ec8e0f.js"],"default"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"bg-gray-50 min-h-screen","children":["$","$L2",null,{"shop":{"id":"la-2","slug":"republique","type":"bakery","name":"République","address":"624 S La Brea Ave","city":"Los Angeles","state":"CA","zip":"90036","coordinates":[34.0624,-118.344],"rating":4.7,"reviewCount":5400,"priceRange":"$$$$","specialties":["French Pastries","Brunch","Bread"],"imageUrl":"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80","description":"A grand French bakery and restaurant housed in a historic building, serving some of the best pastries in the city.","website":"https://republiquela.com"}}]}],[["$","script","script-0",{"src":"/_next/static/chunks/025e0672f4ec8e0f.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

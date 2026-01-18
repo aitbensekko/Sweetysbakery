@@ -1,0 +1,16 @@
+# Sweety's Bakery LLM Documentation
+
+## About
+Sweety's Bakery is a premier online resource for baking enthusiasts, offering tools, recipes, and custom cake ordering services in Marrakech.
+
+## Core Tools & Resources
+- **Cake Pricing Calculator**: Calculate costs and pricing for custom cakes.
+- **Recipe Scaler**: Resize baking recipes easily.
+- **Baking Conversion Charts**: Convert ingredients between cups, grams, and ounces.
+- **Macaron Troubleshooting Guide**: Fix common macaron issues.
+- **Baking Ebooks**: Curated collection of top baking guides.
+- **Baking Sources**: Hand-picked directory of baking blogs and resources.
+
+## Contact
+- Email: hello@sweetysbakery.com
+- Location: Marrakech, Morocco

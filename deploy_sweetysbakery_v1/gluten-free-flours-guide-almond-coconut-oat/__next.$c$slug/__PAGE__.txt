@@ -1,0 +1,16 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T538,<h2>Mastering <a href="https://www.kingarthurbaking.com/learn/guides/gluten-free" target="_blank" rel="noopener noreferrer" style="color: #E65A88; text-decoration: underline;">Gluten-Free Baking Essentials</a></h2>
+        <p>Transitioning to <strong>gluten-free baking</strong> opens up a world of new textures and flavors. However, swapping out wheat flour isn't a 1:1 ratio. Understanding your flours is the first step to success.</p>
+        
+        <h3>Almond Flour</h3>
+        <p>Made from blanched almonds, this flour adds incredible moisture and a nutty flavor. It's high in fat and low in carbs, making it perfect for <strong>keto baking</strong>. It works best in cakes, cookies, and tart crusts but lacks binding power, so it's often paired with egg whites or gums.</p>
+
+        <h3>Coconut Flour</h3>
+        <p>The sponge of the flour world! Coconut flour absorbs liquid like crazy. You generally only need 1/4 to 1/3 cup of coconut flour to replace 1 cup of regular flour, and you'll need significantly more eggs or liquid to prevent a dry, crumbly mess.</p>
+
+        <h3>Oat Flour</h3>
+        <p>A great whole-grain option that mimics the fluffiness of wheat flour. Certified <strong>gluten-free oat flour</strong> is essential for safety. It has a mild, sweet flavor ideal for pancakes, muffins, and quick breads.</p>0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":104,"slug":"gluten-free-flours-guide-almond-coconut-oat","title":"The Ultimate Guide to Gluten-Free Flours: Almond, Coconut, & Oat","excerpt":"Confused by gluten-free flour options? We break down the differences between almond, coconut, and oat flour, and how to use them for perfect baking results.","imageUrl":"/images/blog/cookies.png","category":"Baking Tips","author":"Sweety's Bakery","date":"November 15, 2025","readTime":"9 min","type":"article","content":"$3"}}],[["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

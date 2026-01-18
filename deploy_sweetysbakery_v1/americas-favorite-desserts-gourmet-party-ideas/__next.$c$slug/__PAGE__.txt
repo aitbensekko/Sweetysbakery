@@ -1,0 +1,24 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8cf,<h2><a href="/most-popular-desserts-in-america" style="color: #E65A88; text-decoration: underline;">Most Popular Desserts in America</a>: A Sweet Tour</h2>
+        <p>What defines the sweet tooth of a nation? The <strong>most popular desserts in America</strong> range from humble comfort foods to sophisticated patisserie. Classics like Apple Pie, Cheesecake, and Chocolate Chip Cookies remain undefeated champions. However, there is a growing appetite for <strong>gourmet dessert recipes</strong> that elevate these classics with premium ingredients and modern techniques.</p>
+
+        <h3><a href="/dessert-ideas-for-parties" style="color: #E65A88; text-decoration: underline;">Dessert Ideas for Parties</a></h3>
+        <p>Hosting a gathering? Here are some winning <strong>dessert ideas for parties</strong> that cater to every crowd:</p>
+        <ul>
+            <li><strong>Miniature Dessert Shooters:</strong> Layers of mousse, crumble, and fruit in shot glasses. Easy to eat and visually striking.</li>
+            <li><strong>DIY Topping Bars:</strong> Set up a station for <strong>cheesecake</strong> or brownies where guests can add their own toppings like caramel, nuts, and berries.</li>
+            <li><strong>Dessert Charcuterie Boards:</strong> A grazing board filled with cookies, chocolates, fruits, and dips. It's the ultimate social snacking experience.</li>
+        </ul>
+
+        <h3>Elevating with <a href="/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a></h3>
+        <p>To truly impress, try these twists on favorites:</p>
+        <ul>
+            <li><strong>Brown Butter & Sage Cookies:</strong> Adding savory herbs to sweet cookies creates a complex, gourmet flavor profile.</li>
+            <li><strong>Lavender Lemon Bars:</strong> Infusing floral notes into a classic citrus bar for an elegant tea-time treat.</li>
+            <li><strong>Dark Chocolate & Sea Salt Tart:</strong> A rich, glossy ganache in a chocolate sablé crust, finished with Maldon sea salt.</li>
+        </ul>
+        <img src="/images/blog/cookies.png" alt="Gourmet dessert spread" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":102,"slug":"americas-favorite-desserts-gourmet-party-ideas","title":"America's Favorite Desserts: Gourmet Party Ideas & Recipes","excerpt":"From classic apple pie to decadent brownies, explore the most popular desserts in America. Plus, get gourmet dessert ideas for your next party!","imageUrl":"/images/blog/cookies.png","category":"Recipes & Ideas","author":"Sweety's Bakery","date":"November 11, 2025","readTime":"7 min","type":"article","content":"$3"}}],[["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

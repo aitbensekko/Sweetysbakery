@@ -1,0 +1,54 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+3:T11cb,<h2><a href="/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a> to Try at Home</h2>
+        <p>Sometimes, a simple cookie just won't cut it. You want to impress. You want to challenge yourself. You want to create something that looks like it came out of a Parisian patisserie window. These <strong>gourmet dessert recipes</strong> are for those moments. They require patience, precision, and perhaps a few specialized tools, but the result is worth every second. Consult our <a href="/tools/ingredient-glossary" style="color: #E65A88; text-decoration: underline;">Ingredient Glossary</a> if you encounter unfamiliar terms like "glucose syrup" or "pectin NH".</p>
+
+        <h3>1. The Chocolate Soufflé: Mastering the Rise</h3>
+        <p>The soufflé has a reputation for being temperamental, but it's actually all about science.
+        <br><strong>The Base:</strong> A thick, rich pastry cream or chocolate ganache base.
+        <br><strong>The Lift:</strong> Egg whites whipped to stiff peaks.
+        <br><strong>The Secret:</strong> Butter your ramekins with upward strokes and coat them in sugar. This gives the soufflé "grip" to climb up the sides.
+        <br><strong>The Service:</strong> Serve immediately! A soufflé waits for no one. Dust with powdered sugar and serve with a crème anglaise pour-over.</p>
+
+        <h3>2. Opera Cake (Gâteau Opéra): Layers of Luxury</h3>
+        <p>This French classic is a study in precision. It typically consists of six distinct layers, yet should only be about 4cm tall.
+        <br><strong>The Layers:</strong>
+        <ol>
+            <li><strong>Joconde Sponge:</strong> An almond flour sponge that is thin and flexible.</li>
+            <li><strong>Coffee Syrup:</strong> Soaked into the sponge to keep it moist and add flavor.</li>
+            <li><strong>Coffee Buttercream:</strong> Rich, French-style buttercream made with egg yolks.</li>
+            <li><strong>Chocolate Ganache:</strong> A dark chocolate layer for bitterness.</li>
+            <li><strong>Chocolate Glaze:</strong> A shiny, mirror-like finish on top.</li>
+        </ol>
+        <br><strong>The Challenge:</strong> Getting every layer perfectly even. It requires chilling between steps.</p>
+
+        <h3>3. Mirror Glaze Mousse Cakes (Entremets)</h3>
+        <p>These are the shiny, colorful cakes you see on Instagram.
+        <br><strong>The Inside:</strong> Usually consists of a mousse body (white chocolate, strawberry, etc.) with an "insert" of fruit jelly (gelée) or cremeux, sitting on a base of dacquoise or crunch layer.
+        <br><strong>The Glaze:</strong> A mixture of sugar, water, glucose, condensed milk, gelatin, and white chocolate. It must be poured at exactly the right temperature (usually around 32°C/90°F) over a frozen cake to achieve that flawless shine.
+        <br><strong>The Effect:</strong> You can see your reflection in it. It's modern, sleek, and professional.</p>
+
+        <h3>4. Pâte à Choux: Eclairs and Paris-Brest</h3>
+        <p>Choux pastry is cooked on the stove before being baked. The steam created by the high moisture content causes it to puff up and create a hollow center.
+        <br><strong>Eclairs:</strong> Long shapes filled with pastry cream and dipped in fondant glaze.
+        <br><strong>Paris-Brest:</strong> A ring of choux pastry (resembling a bicycle wheel) filled with praline mousseline cream and topped with toasted almonds.
+        <br><strong>Craquelin:</strong> A cookie dough disc placed on top of the choux before baking to create a sweet, crunchy, crackled crust. This is the secret to gourmet cream puffs.</p>
+
+        <h3>5. Macarons: The Ultimate Test</h3>
+        <p>Two almond meringue shells sandwiched with a filling. Sounds simple? It's not.
+        <br><strong>The Feet:</strong> The ruffled edge at the bottom of the shell.
+        <br><strong>The Shell:</strong> Must be smooth, shiny, and not hollow.
+        <br><strong>The Filling:</strong> Ganache, buttercream, or jam.
+        <br><strong>Why try it:</strong> Once you master the "macaronage" (the folding technique), you can make them in any flavor or color.</p>
+
+        <p>These recipes are projects, not quick fixes. Put on some music, clear your schedule, and enjoy the process of creating edible art.</p>
+        <img src="/images/blog/chocolate-cake.png" alt="Gourmet Dessert Recipes - Chocolate Plated Dessert" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":209,"slug":"gourmet-dessert-recipes","title":"Gourmet Dessert Recipes to Try at Home","excerpt":"Bring the patisserie to your kitchen with these gourmet dessert recipes. Impressive, delicious, and easier than they look!","imageUrl":"/images/blog/chocolate-cake.png","category":"Recipes & Ideas","author":"Sweety's Bakery","date":"November 26, 2025","readTime":"7 min","type":"article","content":"$3"}}],["$L4","$L5","$L6","$L7","$L8"],"$L9"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]
+9:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

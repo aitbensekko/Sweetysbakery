@@ -1,0 +1,13 @@
+1:"$Sreact.fragment"
+2:I[99939,["/_next/static/chunks/240461da8f3815e6.js","/_next/static/chunks/347280fbbb565df6.js","/_next/static/chunks/a6b0b2a6a317aef1.js","/_next/static/chunks/91ccc9d5ed17d3c2.js","/_next/static/chunks/9e48a53e8f66a180.js","/_next/static/chunks/eeef5bd7e2739375.js","/_next/static/chunks/22350ad4a0dbb174.js","/_next/static/chunks/736ba9a76940971c.js"],"MainContentWrapper"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T423,<h2><a href="/luxury-cakes-for-events" style="color: #E65A88; text-decoration: underline;">Luxury Cakes for Events</a></h2>
+        <p>For high-end events, a standard sheet cake won't do. <strong>Luxury cakes for events</strong> are bespoke creations that serve as part of the decor. They often feature gold leaf, sugar flowers that take days to make, and architectural structures. Planning one? Use our <a href="/tools/cake-design-creator" style="color: #E65A88; text-decoration: underline;">Cake Design Creator</a> to visualize it.</p>
+        <h3>Trends in Luxury</h3>
+        <ul>
+            <li><strong>Projection Mapping:</strong> Projecting animated visuals onto a white tiered cake.</li>
+            <li><strong>Suspended Cakes:</strong> Hanging the cake from a chandelier or stand for a gravity-defying look.</li>
+        </ul>
+        <img src="/images/blog/chocolate-cake.png" alt="Luxury Cakes for Events - Elegant Multi-Tiered Design" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">0:{"buildId":"LIXo5cIISO3I13sKH-iRx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"activeTool":"baking-blog","activePost":{"id":221,"slug":"luxury-cakes-for-events","title":"Luxury Cakes for Events: Showstopping Centerpieces","excerpt":"Planning a gala or a grand wedding? Luxury cakes for events are edible art that leave a lasting impression on your guests.","imageUrl":"/images/blog/chocolate-cake.png","category":"Events","author":"Sweety's Bakery","date":"December 4, 2025","readTime":"6 min","type":"article","content":"$3"}}],[["$","script","script-0",{"src":"/_next/static/chunks/91ccc9d5ed17d3c2.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9e48a53e8f66a180.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/eeef5bd7e2739375.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/22350ad4a0dbb174.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/736ba9a76940971c.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
