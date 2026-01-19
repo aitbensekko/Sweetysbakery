@@ -247,7 +247,13 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                                                 <div className="p-1 bg-white border border-gray-100 rounded-lg shadow-sm">
                                                     <span className="block text-[10px] text-gray-400 text-center uppercase tracking-widest mb-1">Ad</span>
                                                     {/* In-Article: Large Rectangle 336x280 */}
-                                                    <AdSenseAd slotId="4784663984" width={336} height={280} style={{ display: 'inline-block', width: '336px', height: '280px' }} />
+                                                    <AdSenseAd
+                                                        slotId="4784663984"
+                                                        width={336}
+                                                        height={280}
+                                                        style={{ display: 'inline-block', width: '336px', height: '280px' }}
+                                                        responsive={false}
+                                                    />
                                                 </div>
                                             </div>
                                         )}
@@ -301,7 +307,13 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                             </div>
                             <div className="flex justify-center p-4 bg-gray-50/30">
                                 {/* Skyscraper 300x600 */}
-                                <AdSenseAd slotId="3105168656" width={300} height={600} style={{ width: 300, height: 600 }} />
+                                <AdSenseAd
+                                    slotId="3105168656"
+                                    width={300}
+                                    height={600}
+                                    style={{ width: 300, height: 600 }}
+                                    responsive={false}
+                                />
                             </div>
                         </div>
 
