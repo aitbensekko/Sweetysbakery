@@ -16,6 +16,7 @@ interface AdSenseAdProps {
 
 declare global {
     interface Window {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         adsbygoogle: any[] & { loaded?: boolean };
     }
 }
@@ -43,8 +44,10 @@ const AdSenseAd: React.FC<AdSenseAdProps> = ({
 
                     // Simple push
                     try {
+                        // eslint-disable-next-line @typescript-eslint/no-explicit-any
                         (window.adsbygoogle as any).push({});
                     } catch (e) {
+                        // eslint-disable-next-line no-console
                         console.error('AdSense push error:', e);
                     }
                 }
@@ -54,6 +57,7 @@ const AdSenseAd: React.FC<AdSenseAdProps> = ({
             const timer = setTimeout(pushAd, 500);
             return () => clearTimeout(timer);
         } catch (err) {
+            // eslint-disable-next-line no-console
             console.error('AdSense error:', err);
         }
     }, [slotId]);
