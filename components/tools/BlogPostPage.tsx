@@ -252,7 +252,6 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                                                         width={336}
                                                         height={280}
                                                         style={{ display: 'inline-block', width: '336px', height: '280px' }}
-                                                        responsive={false}
                                                     />
                                                 </div>
                                             </div>
@@ -312,7 +311,6 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                                     width={300}
                                     height={600}
                                     style={{ width: 300, height: 600 }}
-                                    responsive={false}
                                 />
                             </div>
                         </div>
@@ -338,7 +336,6 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                                     height={250}
                                     format="rectangle"
                                     style={{ width: 300, height: 250 }}
-                                    responsive={false}
                                 />
                             </div>
                         </div>
