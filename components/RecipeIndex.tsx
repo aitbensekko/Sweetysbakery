@@ -48,6 +48,16 @@ export const RecipeIndex: React.FC<RecipeIndexProps> = ({ posts }) => {
                 ))}
             </div>
 
+            {/* Mobile Top Ad - 320x100 Banner */}
+            <div className="flex justify-center mb-8 sm:hidden">
+                <AdSenseAd
+                    slotId="6260723727"
+                    width={320}
+                    height={100}
+                    style={{ width: '320px', height: '100px' }}
+                />
+            </div>
+
             {/* Recipe Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredPosts.map((post, index) => (
@@ -88,22 +98,35 @@ export const RecipeIndex: React.FC<RecipeIndexProps> = ({ posts }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* Insert Ad after every 6 items */}
-                        {(index + 1) % 6 === 0 && (
-                            <div className="flex items-center justify-center p-4 bg-gray-50 rounded-2xl border border-brand-border/50">
+                        {/* Insert Ad after every 3 items (increased frequency) */}
+                        {(index + 1) % 3 === 0 && (
+                            <div className="flex items-center justify-center p-4 bg-gray-50 rounded-2xl border border-brand-border/50 min-h-[300px]">
                                 <div className="text-center w-full">
                                     <span className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Advertisement</span>
                                     <AdSenseAd
                                         slotId="9025667689"
                                         layoutKey="-6t+ed+2i-1n-4w"
                                         format="fluid"
-                                        style={{ display: 'block' }}
+                                        style={{ display: 'block', minHeight: '250px' }}
                                     />
                                 </div>
                             </div>
                         )}
                     </React.Fragment>
                 ))}
+            </div>
+
+            {/* Bottom Ad - Responsive Display */}
+            <div className="mt-12 flex justify-center">
+                <div className="w-full max-w-[728px] overflow-hidden rounded-xl border border-brand-border/30 bg-gray-50 p-4 text-center">
+                    <span className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4 block">Sponsored</span>
+                    <AdSenseAd
+                        slotId="9928505998" // Using 300x250 slot but allowing responsive behavior or falling back
+                        format="auto"
+                        responsive={true}
+                        style={{ display: 'block', width: '100%' }}
+                    />
+                </div>
             </div>
 
             {filteredPosts.length === 0 && (

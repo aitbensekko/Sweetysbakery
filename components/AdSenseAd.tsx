@@ -67,13 +67,13 @@ const AdSenseAd: React.FC<AdSenseAdProps> = ({
         ...style
     };
 
-    if (process.env.NODE_ENV === 'development') {
-        return (
-            <div className={`flex justify-center my-6 ${className}`} style={{ ...defaultStyle, background: '#f0f0f0', border: '1px dashed #ccc', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ color: '#999', fontSize: '12px', fontWeight: 'bold' }}>ADVERTISEMENT (Dev Mode)</span>
-            </div>
-        );
-    }
+    // if (process.env.NODE_ENV === 'development') {
+    //     return (
+    //         <div className={`flex justify-center my-6 ${className}`} style={{ ...defaultStyle, background: '#f0f0f0', border: '1px dashed #ccc', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    //             <span style={{ color: '#999', fontSize: '12px', fontWeight: 'bold' }}>ADVERTISEMENT (Dev Mode)</span>
+    //         </div>
+    //     );
+    // }
 
     return (
         <div className={`flex justify-center my-6 overflow-hidden ${className}`}>

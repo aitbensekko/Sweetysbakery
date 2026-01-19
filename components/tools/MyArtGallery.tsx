@@ -284,35 +284,37 @@ export const MyArtGallery: React.FC<MyArtGalleryProps> = ({ setActiveTool, bread
             {showAdModal && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
                     <div className="bg-white rounded-xl shadow-2xl p-5 md:p-8 max-w-md w-full text-center animate-in fade-in zoom-in duration-300">
+                        <h3 className="text-xl font-bold text-gray-800 mb-4">
+                            {!showAdContent ? `Please wait ${countdown} seconds` : 'Advertisement'}
+                        </h3>
+
+                        {/* Always show Ad - 300x250 Medium Rectangle */}
+                        <div className="w-full min-h-[250px] bg-gray-50 mb-4 flex items-center justify-center overflow-hidden rounded-lg border border-gray-100 relative">
+                            <div className="absolute inset-0 flex items-center justify-center -z-10">
+                                <span className="text-gray-300 font-bold tracking-widest text-2xl opacity-20 select-none">ADVERTISEMENT</span>
+                            </div>
+                            <AdSenseAd
+                                slotId="9928505998"
+                                width={300}
+                                height={250}
+                                format="rectangle"
+                                style={{ display: 'block', width: '300px', height: '250px' }}
+                            />
+                        </div>
+
                         {!showAdContent ? (
                             <>
-                                <h3 className="text-2xl font-bold text-gray-800 mb-4">Please wait {countdown} seconds</h3>
-                                <div className="w-16 h-16 border-4 border-brand-gold border-t-transparent rounded-full animate-spin mx-auto mb-6"></div>
-                                <p className="text-gray-600">Your image will appear in {countdown} second{countdown !== 1 ? 's' : ''}</p>
+                                <div className="w-8 h-8 border-4 border-brand-gold border-t-transparent rounded-full animate-spin mx-auto mb-2"></div>
+                                <p className="text-sm text-gray-500">Loading your image...</p>
                             </>
                         ) : (
-                            <div className="flex flex-col items-center">
-                                <h3 className="text-xl font-bold text-gray-800 mb-4">Advertisement</h3>
-                                <div className="w-full min-h-[250px] bg-gray-50 mb-4 flex items-center justify-center overflow-hidden rounded-lg border border-gray-100">
-                                    {/* Display Responsive Ad */}
-                                    <div className="absolute inset-0 flex items-center justify-center -z-10">
-                                        <span className="text-gray-300 font-bold tracking-widest text-2xl opacity-20 select-none">ADVERTISEMENT</span>
-                                    </div>
-                                    <AdSenseAd
-                                        slotId="4002915412"
-                                        format="auto"
-                                        responsive={true}
-                                        style={{ display: 'block', width: '100%', minHeight: '250px' }}
-                                    />
-                                </div>
-                                <button
-                                    onClick={handleAdContinue}
-                                    className="w-full bg-brand-gold hover:bg-brand-gold/90 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md flex items-center justify-center gap-2"
-                                >
-                                    <span>Continue to Image</span>
-                                    <ChevronRightIcon className="w-5 h-5" />
-                                </button>
-                            </div>
+                            <button
+                                onClick={handleAdContinue}
+                                className="w-full bg-brand-gold hover:bg-brand-gold/90 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md flex items-center justify-center gap-2"
+                            >
+                                <span>Continue to Image</span>
+                                <ChevronRightIcon className="w-5 h-5" />
+                            </button>
                         )}
                     </div>
                 </div>

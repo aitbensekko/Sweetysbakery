@@ -2313,6 +2313,10 @@ img, video {
   max-width: 20rem;
 }
 
+.max-w-\[728px\] {
+  max-width: 728px;
+}
+
 .flex-1 {
   flex: 1;
 }
