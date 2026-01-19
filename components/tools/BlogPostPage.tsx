@@ -178,17 +178,14 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
 
                     {/* High-Priority Ad After Hero Image (Recipe Pages Only) */}
                     {post.imageUrl && post.type === 'recipe' && (
-                        <div className="my-8 flex justify-center bg-gradient-to-r from-brand-cream/30 to-brand-pink/10 py-6 rounded-xl border border-brand-gold/20 relative w-full overflow-hidden">
-                            <span className="text-[10px] uppercase font-bold text-brand-gold tracking-wider absolute -top-3 bg-white px-3 py-1 rounded-full shadow-sm">
-                                Advertisement
-                            </span>
-                            <div className="w-full max-w-full overflow-hidden">
-                                <AdSenseAd
-                                    slotId="4569891627"
-                                    format="auto"
-                                    responsive={true}
-                                    style={{ display: 'block', width: '100%', maxWidth: '100%', overflow: 'hidden' }}
-                                />
+                        <div className="my-8 flex justify-center w-full">
+                            {/* Mobile Banner 320x100 */}
+                            <div className="sm:hidden">
+                                <AdSenseAd slotId="6260723727" width={320} height={100} style={{ width: '320px', height: '100px' }} />
+                            </div>
+                            {/* Desktop Leaderboard 728x90 */}
+                            <div className="hidden sm:block">
+                                <AdSenseAd slotId="1376752077" width={728} height={90} style={{ width: '728px', height: '90px' }} />
                             </div>
                         </div>
                     )}
@@ -246,10 +243,11 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
 
                                         {/* Smart In-Content Ads - Every 3 Paragraphs for Recipes, Middle for Articles */}
                                         {(post.type === 'recipe' ? (index > 0 && index % 3 === 0) : index === middleIndex) && (
-                                            <div className="my-8 p-4 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl border border-dashed border-orange-200 relative w-full overflow-hidden">
-                                                <span className="text-[10px] uppercase font-bold text-orange-400 tracking-wider absolute -top-3 bg-white px-2">Advertisement</span>
-                                                <div className="w-full max-w-full overflow-hidden">
-                                                    <AdSenseAd slotId="6674582341" layout="in-article" format="fluid" style={{ display: 'block', textAlign: 'center', width: '100%', maxWidth: '100%' }} />
+                                            <div className="my-8 flex justify-center w-full">
+                                                <div className="p-1 bg-white border border-gray-100 rounded-lg shadow-sm">
+                                                    <span className="block text-[10px] text-gray-400 text-center uppercase tracking-widest mb-1">Ad</span>
+                                                    {/* In-Article: Large Rectangle 336x280 */}
+                                                    <AdSenseAd slotId="4784663984" width={336} height={280} style={{ display: 'inline-block', width: '336px', height: '280px' }} />
                                                 </div>
                                             </div>
                                         )}
@@ -265,11 +263,15 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                             });
                         })()}
 
-                        {/* Footer AdSense Ad (End of Article) - Enhanced Styling */}
-                        <div className="mt-12 mb-8 p-6 bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl border-2 border-pink-200 relative w-full overflow-hidden">
-                            <span className="text-xs font-bold text-pink-500 tracking-wider block text-center mb-4">— Advertisement —</span>
-                            <div className="w-full max-w-full overflow-hidden">
-                                <AdSenseAd slotId="6674582341" format="auto" responsive={true} style={{ display: 'block', minHeight: '250px', width: '100%', maxWidth: '100%' }} />
+                        {/* Footer AdSense Ad (End of Article) - Leaderboard 728x90 */}
+                        <div className="mt-12 mb-8 flex justify-center w-full">
+                            <div className="relative">
+                                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-white px-2 text-[10px] text-gray-400 uppercase tracking-widest z-10">Advertisement</span>
+                                <div className="border-t border-gray-100 pt-4">
+                                    <AdSenseAd slotId="1376752077" width={728} height={90} style={{ display: 'block', width: '728px', height: '90px' }} className="hidden sm:block" />
+                                    {/* Fallback for Mobile in same slot area if needed, or hide */}
+                                    <AdSenseAd slotId="6260723727" width={320} height={100} style={{ display: 'block', width: '320px', height: '100px' }} className="sm:hidden" />
+                                </div>
                             </div>
                         </div>
 
@@ -298,7 +300,8 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ setActiveTool, bread
                                 <span className="text-[10px] uppercase font-bold text-brand-gold tracking-wider">Advertisement</span>
                             </div>
                             <div className="flex justify-center p-4 bg-gray-50/30">
-                                <AdSenseAd slotId="4784663984" width={300} height={600} style={{ width: 300, height: 600 }} />
+                                {/* Skyscraper 300x600 */}
+                                <AdSenseAd slotId="3105168656" width={300} height={600} style={{ width: 300, height: 600 }} />
                             </div>
                         </div>
 
