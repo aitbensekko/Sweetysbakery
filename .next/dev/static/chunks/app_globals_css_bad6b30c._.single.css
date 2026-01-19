@@ -7274,6 +7274,10 @@ details[open] summary .accordion-arrow {
     display: inline;
   }
 
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:table-cell {
     display: table-cell;
   }
@@ -7392,6 +7396,10 @@ details[open] summary .accordion-arrow {
     justify-content: center;
   }
 
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm\:gap-10 {
     gap: 2.5rem;
   }
@@ -7416,6 +7424,10 @@ details[open] summary .accordion-arrow {
     gap: 1.5rem;
   }
 
+  .sm\:gap-0 {
+    gap: 0;
+  }
+
   .sm\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -7434,10 +7446,6 @@ details[open] summary .accordion-arrow {
 
   .sm\:self-center {
     align-self: center;
-  }
-
-  .sm\:overflow-visible {
-    overflow: visible;
   }
 
   .sm\:rounded-3xl {
@@ -7518,10 +7526,6 @@ details[open] summary .accordion-arrow {
   .sm\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .sm\:pb-0 {
-    padding-bottom: 0;
   }
 
   .sm\:text-right {

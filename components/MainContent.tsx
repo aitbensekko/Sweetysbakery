@@ -662,9 +662,27 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ activeTool, setActiveTool }) 
 
     if (path.length <= 1) return null;
 
+    const parent = path[path.length - 2];
+
     return (
-        <nav aria-label="breadcrumb" className="mb-6 text-sm text-brand-text-body/80 w-full overflow-hidden">
-            <ol className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar sm:flex-wrap sm:overflow-visible sm:pb-0 mask-linear-fade">
+        <nav aria-label="breadcrumb" className="mb-6 text-sm text-brand-text-body/80 w-full">
+            {/* Mobile View: Back Link */}
+            <div className="sm:hidden">
+                <a
+                    href={parent.toolId ? toolIdToSlug(parent.toolId) : '#'}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        if (parent.toolId) setActiveTool(parent.toolId);
+                    }}
+                    className="flex items-center gap-2 font-semibold text-brand-text-body hover:text-brand-pink transition-colors"
+                >
+                    <ArrowLeftIcon className="w-4 h-4" />
+                    Back to {parent.title}
+                </a>
+            </div>
+
+            {/* Desktop View: Full Breadcrumbs */}
+            <ol className="hidden sm:flex items-center gap-1.5">
                 {path.map((crumb, index) => {
                     const isLast = index === path.length - 1;
 

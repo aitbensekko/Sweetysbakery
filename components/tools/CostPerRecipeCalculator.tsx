@@ -102,7 +102,7 @@ export const CostPerRecipeCalculator: React.FC<CostPerRecipeCalculatorProps> = (
         >
             <div className="grid lg:grid-cols-3 gap-8">
                 <div className="lg:col-span-2 space-y-6">
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-0">
                         <h3 className="font-serif font-bold text-2xl text-brand-text-title">Ingredients</h3>
                         <div className="text-sm text-brand-text-body/60">
                             Enter package details & recipe usage
@@ -134,7 +134,7 @@ export const CostPerRecipeCalculator: React.FC<CostPerRecipeCalculatorProps> = (
                                         </button>
                                     </div>
 
-                                    <div className="grid grid-cols-3 gap-3">
+                                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                                         <div>
                                             <label className="block text-xs font-bold text-gray-400 mb-1">Package Cost</label>
                                             <div className="relative">
@@ -209,10 +209,23 @@ export const CostPerRecipeCalculator: React.FC<CostPerRecipeCalculatorProps> = (
                         <div className="bg-brand-pink-light p-6 rounded-2xl border border-brand-pink/20 text-center shadow-sm">
                             <RecipeCostIcon className="w-12 h-12 mx-auto text-brand-pink mb-3" />
                             <h3 className="font-serif text-xl font-bold text-brand-text-title mb-1">Total Recipe Cost</h3>
-                            <div className="flex items-center justify-center gap-2 mb-6">
-                                <p className="font-serif font-bold text-5xl text-brand-pink tracking-tight">${totalRecipeCost.toFixed(2)}</p>
-                                <button onClick={() => handleCopy(totalRecipeCost.toFixed(2), 'total')} title="Copy total cost" className="p-1 hover:bg-brand-pink/10 rounded-full transition-colors">
-                                    {copied === 'total' ? <CheckCircleIcon className="w-6 h-6 text-green-500" /> : <ClipboardIcon className="w-6 h-6 text-brand-text-body/40 hover:text-brand-pink" />}
+                            <div className="flex flex-col items-center mb-6">
+                                <p className="font-bold text-5xl text-brand-pink tracking-tight mb-2">${totalRecipeCost.toFixed(2)}</p>
+                                <button
+                                    onClick={() => handleCopy(totalRecipeCost.toFixed(2), 'total')}
+                                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-brand-pink/20 shadow-sm text-xs font-bold text-brand-text-body/70 hover:text-brand-pink hover:border-brand-pink transition-all active:scale-95"
+                                >
+                                    {copied === 'total' ? (
+                                        <>
+                                            <CheckCircleIcon className="w-3.5 h-3.5 text-green-500" />
+                                            <span className="text-green-600">Copied!</span>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <ClipboardIcon className="w-3.5 h-3.5" />
+                                            <span>Copy Cost</span>
+                                        </>
+                                    )}
                                 </button>
                             </div>
 
@@ -233,10 +246,23 @@ export const CostPerRecipeCalculator: React.FC<CostPerRecipeCalculatorProps> = (
                                         <UsersIcon className="w-5 h-5 text-brand-pink" />
                                         <h4 className="font-bold text-brand-text-title">Cost Per Serving</h4>
                                     </div>
-                                    <div className="flex items-center justify-center gap-2">
-                                        <p className="font-serif font-bold text-3xl text-brand-text-title">${costPerServing.toFixed(2)}</p>
-                                        <button onClick={() => handleCopy(costPerServing.toFixed(2), 'serving')} title="Copy cost per serving" className="p-1 hover:bg-brand-pink/10 rounded-full transition-colors">
-                                            {copied === 'serving' ? <CheckCircleIcon className="w-5 h-5 text-green-500" /> : <ClipboardIcon className="w-5 h-5 text-brand-text-body/40 hover:text-brand-pink" />}
+                                    <div className="flex flex-col items-center">
+                                        <p className="font-bold text-3xl text-brand-text-title mb-2">${costPerServing.toFixed(2)}</p>
+                                        <button
+                                            onClick={() => handleCopy(costPerServing.toFixed(2), 'serving')}
+                                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-brand-pink/20 shadow-sm text-xs font-bold text-brand-text-body/70 hover:text-brand-pink hover:border-brand-pink transition-all active:scale-95"
+                                        >
+                                            {copied === 'serving' ? (
+                                                <>
+                                                    <CheckCircleIcon className="w-3.5 h-3.5 text-green-500" />
+                                                    <span className="text-green-600">Copied!</span>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <ClipboardIcon className="w-3.5 h-3.5" />
+                                                    <span>Copy</span>
+                                                </>
+                                            )}
                                         </button>
                                     </div>
                                 </div>

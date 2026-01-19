@@ -2836,66 +2836,99 @@ const getPath = (toolId)=>{
 const Breadcrumbs = ({ activeTool, setActiveTool })=>{
     const path = getPath(activeTool);
     if (path.length <= 1) return null;
+    const parent = path[path.length - 2];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         "aria-label": "breadcrumb",
-        className: "mb-6 text-sm text-brand-text-body/80 w-full overflow-hidden",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
-            className: "flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar sm:flex-wrap sm:overflow-visible sm:pb-0 mask-linear-fade",
-            children: path.map((crumb, index)=>{
-                const isLast = index === path.length - 1;
-                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                    className: "flex items-center gap-1.5 flex-shrink-0 whitespace-nowrap",
+        className: "mb-6 text-sm text-brand-text-body/80 w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "sm:hidden",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    href: parent.toolId ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$utils$2f$slugs$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toolIdToSlug"])(parent.toolId) : '#',
+                    onClick: (e)=>{
+                        e.preventDefault();
+                        if (parent.toolId) setActiveTool(parent.toolId);
+                    },
+                    className: "flex items-center gap-2 font-semibold text-brand-text-body hover:text-brand-pink transition-colors",
                     children: [
-                        index > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ChevronRightIcon"], {
-                            className: "w-4 h-4 text-brand-text-body/50 flex-shrink-0"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ArrowLeftIcon"], {
+                            className: "w-4 h-4"
                         }, void 0, false, {
                             fileName: "[project]/components/MainContent.tsx",
-                            lineNumber: 673,
-                            columnNumber: 43
+                            lineNumber: 679,
+                            columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
-                        isLast ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "font-semibold text-brand-text-title",
-                            "aria-current": "page",
-                            children: crumb.title
-                        }, void 0, false, {
-                            fileName: "[project]/components/MainContent.tsx",
-                            lineNumber: 675,
-                            columnNumber: 33
-                        }, ("TURBOPACK compile-time value", void 0)) : crumb.toolId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$utils$2f$slugs$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toolIdToSlug"])(crumb.toolId),
-                            onClick: (e)=>{
-                                e.preventDefault();
-                                setActiveTool(crumb.toolId);
-                            },
-                            className: "hover:text-brand-pink transition-colors",
-                            children: crumb.title
-                        }, void 0, false, {
-                            fileName: "[project]/components/MainContent.tsx",
-                            lineNumber: 680,
-                            columnNumber: 37
-                        }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-brand-text-body",
-                            children: crumb.title
-                        }, void 0, false, {
-                            fileName: "[project]/components/MainContent.tsx",
-                            lineNumber: 684,
-                            columnNumber: 37
-                        }, ("TURBOPACK compile-time value", void 0))
+                        "Back to ",
+                        parent.title
                     ]
-                }, index, true, {
+                }, void 0, true, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 672,
-                    columnNumber: 25
-                }, ("TURBOPACK compile-time value", void 0));
-            })
-        }, void 0, false, {
-            fileName: "[project]/components/MainContent.tsx",
-            lineNumber: 667,
-            columnNumber: 13
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
+                    lineNumber: 671,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/components/MainContent.tsx",
+                lineNumber: 670,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                className: "hidden sm:flex items-center gap-1.5",
+                children: path.map((crumb, index)=>{
+                    const isLast = index === path.length - 1;
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-center gap-1.5 flex-shrink-0 whitespace-nowrap",
+                        children: [
+                            index > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ChevronRightIcon"], {
+                                className: "w-4 h-4 text-brand-text-body/50 flex-shrink-0"
+                            }, void 0, false, {
+                                fileName: "[project]/components/MainContent.tsx",
+                                lineNumber: 691,
+                                columnNumber: 43
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            isLast ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-semibold text-brand-text-title",
+                                "aria-current": "page",
+                                children: crumb.title
+                            }, void 0, false, {
+                                fileName: "[project]/components/MainContent.tsx",
+                                lineNumber: 693,
+                                columnNumber: 33
+                            }, ("TURBOPACK compile-time value", void 0)) : crumb.toolId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$utils$2f$slugs$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toolIdToSlug"])(crumb.toolId),
+                                onClick: (e)=>{
+                                    e.preventDefault();
+                                    setActiveTool(crumb.toolId);
+                                },
+                                className: "hover:text-brand-pink transition-colors",
+                                children: crumb.title
+                            }, void 0, false, {
+                                fileName: "[project]/components/MainContent.tsx",
+                                lineNumber: 698,
+                                columnNumber: 37
+                            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-brand-text-body",
+                                children: crumb.title
+                            }, void 0, false, {
+                                fileName: "[project]/components/MainContent.tsx",
+                                lineNumber: 702,
+                                columnNumber: 37
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, index, true, {
+                        fileName: "[project]/components/MainContent.tsx",
+                        lineNumber: 690,
+                        columnNumber: 25
+                    }, ("TURBOPACK compile-time value", void 0));
+                })
+            }, void 0, false, {
+                fileName: "[project]/components/MainContent.tsx",
+                lineNumber: 685,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
         fileName: "[project]/components/MainContent.tsx",
-        lineNumber: 666,
+        lineNumber: 668,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2906,7 +2939,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
         setActiveTool: setActiveTool
     }, void 0, false, {
         fileName: "[project]/components/MainContent.tsx",
-        lineNumber: 707,
+        lineNumber: 725,
         columnNumber: 25
     }, ("TURBOPACK compile-time value", void 0));
     const renderContent = ()=>{
@@ -2918,7 +2951,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                 handleNavigate: handleNavigate
             }, void 0, false, {
                 fileName: "[project]/components/MainContent.tsx",
-                lineNumber: 713,
+                lineNumber: 731,
                 columnNumber: 20
             }, ("TURBOPACK compile-time value", void 0));
         }
@@ -2929,7 +2962,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     handleNavigate: handleNavigate
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 718,
+                    lineNumber: 736,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'about':
@@ -2938,7 +2971,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 720,
+                    lineNumber: 738,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'cake-pricing':
@@ -2947,7 +2980,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 722,
+                    lineNumber: 740,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'cost-per-recipe':
@@ -2956,7 +2989,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 724,
+                    lineNumber: 742,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'recipe-scaler':
@@ -2965,7 +2998,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 726,
+                    lineNumber: 744,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'bakers-percentage':
@@ -2974,7 +3007,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 728,
+                    lineNumber: 746,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'dough-hydration':
@@ -2983,7 +3016,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 730,
+                    lineNumber: 748,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'ganache-calculator':
@@ -2992,7 +3025,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 732,
+                    lineNumber: 750,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'dough-temperature':
@@ -3001,7 +3034,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 734,
+                    lineNumber: 752,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'buttercream-calculator':
@@ -3010,7 +3043,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 736,
+                    lineNumber: 754,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'fondant-calculator':
@@ -3019,7 +3052,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 738,
+                    lineNumber: 756,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'temperature-converter':
@@ -3028,7 +3061,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 740,
+                    lineNumber: 758,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'bmi-calculator':
@@ -3037,7 +3070,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 742,
+                    lineNumber: 760,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'butterfat-converter':
@@ -3046,7 +3079,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 744,
+                    lineNumber: 762,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'hydration-converter':
@@ -3055,7 +3088,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 746,
+                    lineNumber: 764,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'measurement-converter':
@@ -3064,7 +3097,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 748,
+                    lineNumber: 766,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'simple-calculator':
@@ -3073,7 +3106,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 750,
+                    lineNumber: 768,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'percentage-calculator':
@@ -3082,7 +3115,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 752,
+                    lineNumber: 770,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'sweetener-converter':
@@ -3091,7 +3124,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 754,
+                    lineNumber: 772,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'protein-macro':
@@ -3100,7 +3133,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 756,
+                    lineNumber: 774,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baking-pan-converter':
@@ -3109,7 +3142,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 758,
+                    lineNumber: 776,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'yeast-converter':
@@ -3118,7 +3151,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 760,
+                    lineNumber: 778,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'privacy-policy':
@@ -3127,7 +3160,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 762,
+                    lineNumber: 780,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'terms-of-use':
@@ -3136,7 +3169,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 764,
+                    lineNumber: 782,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'contact-us':
@@ -3145,7 +3178,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 766,
+                    lineNumber: 784,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'oven-temp-converter':
@@ -3154,7 +3187,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 768,
+                    lineNumber: 786,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'volume-converter':
@@ -3163,7 +3196,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 770,
+                    lineNumber: 788,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'weight-converter':
@@ -3172,7 +3205,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 772,
+                    lineNumber: 790,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'management-dashboard':
@@ -3181,7 +3214,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 774,
+                    lineNumber: 792,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'order-management':
@@ -3191,12 +3224,12 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                         breadcrumbs: breadcrumbs
                     }, void 0, false, {
                         fileName: "[project]/components/MainContent.tsx",
-                        lineNumber: 778,
+                        lineNumber: 796,
                         columnNumber: 25
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 777,
+                    lineNumber: 795,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0));
             case 'inventory-management':
@@ -3206,12 +3239,12 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                         breadcrumbs: breadcrumbs
                     }, void 0, false, {
                         fileName: "[project]/components/MainContent.tsx",
-                        lineNumber: 784,
+                        lineNumber: 802,
                         columnNumber: 25
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 783,
+                    lineNumber: 801,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0));
             case 'dessert-calculator':
@@ -3220,7 +3253,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 788,
+                    lineNumber: 806,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'shopping-list':
@@ -3229,7 +3262,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 790,
+                    lineNumber: 808,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baker-schedule':
@@ -3238,7 +3271,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 792,
+                    lineNumber: 810,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'digital-notebook':
@@ -3247,7 +3280,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 794,
+                    lineNumber: 812,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'multiple-timer':
@@ -3256,7 +3289,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 796,
+                    lineNumber: 814,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'stopwatch':
@@ -3265,7 +3298,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 798,
+                    lineNumber: 816,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'recipe-box':
@@ -3274,7 +3307,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 800,
+                    lineNumber: 818,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'my-art':
@@ -3283,7 +3316,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 802,
+                    lineNumber: 820,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'kitchenaid-reviews':
@@ -3292,7 +3325,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 804,
+                    lineNumber: 822,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'frosting-color-mixer':
@@ -3301,7 +3334,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 806,
+                    lineNumber: 824,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'flavor-pairing-guide':
@@ -3310,7 +3343,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 808,
+                    lineNumber: 826,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'pregnancy-calculator':
@@ -3319,7 +3352,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 810,
+                    lineNumber: 828,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'calorie-calculator':
@@ -3328,7 +3361,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 812,
+                    lineNumber: 830,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'weight-loss-calculator':
@@ -3337,7 +3370,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 814,
+                    lineNumber: 832,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'body-fat-calculator':
@@ -3346,13 +3379,13 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 816,
+                    lineNumber: 834,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'shop-directory':
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ShopDirectory$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 818,
+                    lineNumber: 836,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'bmr-calculator':
@@ -3362,7 +3395,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     isBmrMode: true
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 820,
+                    lineNumber: 838,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'ideal-weight-calculator':
@@ -3371,7 +3404,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 822,
+                    lineNumber: 840,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'age-calculator':
@@ -3380,7 +3413,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 824,
+                    lineNumber: 842,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'date-calculator':
@@ -3389,7 +3422,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 826,
+                    lineNumber: 844,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'time-calculator':
@@ -3398,7 +3431,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 828,
+                    lineNumber: 846,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'payment-calculator':
@@ -3407,7 +3440,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 830,
+                    lineNumber: 848,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'mortgage-affordability':
@@ -3416,7 +3449,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 833,
+                    lineNumber: 851,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'mortgage-payoff':
@@ -3425,7 +3458,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 835,
+                    lineNumber: 853,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'tip-calculator':
@@ -3434,7 +3467,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 837,
+                    lineNumber: 855,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'allergen-guide':
@@ -3443,7 +3476,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 840,
+                    lineNumber: 858,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'ingredient-glossary':
@@ -3452,7 +3485,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 842,
+                    lineNumber: 860,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'ingredient-substitutions':
@@ -3461,7 +3494,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 844,
+                    lineNumber: 862,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baking-ebooks':
@@ -3470,7 +3503,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 846,
+                    lineNumber: 864,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'premium-templates':
@@ -3479,7 +3512,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 848,
+                    lineNumber: 866,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'macaron-troubleshooting':
@@ -3488,7 +3521,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 850,
+                    lineNumber: 868,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baking-bucket-list':
@@ -3497,7 +3530,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 852,
+                    lineNumber: 870,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'essential-recipes':
@@ -3506,7 +3539,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 854,
+                    lineNumber: 872,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baking-tutorials':
@@ -3515,7 +3548,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 856,
+                    lineNumber: 874,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'relaxing-videos':
@@ -3524,7 +3557,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 858,
+                    lineNumber: 876,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'drinks-videos':
@@ -3533,7 +3566,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 860,
+                    lineNumber: 878,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baking-blog':
@@ -3544,7 +3577,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     handleNavigate: handleNavigate
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 863,
+                    lineNumber: 881,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$tools$2f$BakingBlog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BakingBlog"], {
                     setActiveTool: setActiveTool,
@@ -3553,7 +3586,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     handleNavigate: handleNavigate
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 864,
+                    lineNumber: 882,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0));
             case 'recipe-index':
@@ -3564,13 +3597,13 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     handleNavigate: handleNavigate
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 867,
+                    lineNumber: 885,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RecipeIndex$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RecipeIndex"], {
                     posts: __turbopack_context__.r("[project]/data/blogPosts.tsx [app-client] (ecmascript)").blogPosts.filter((post)=>post.type === 'recipe')
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 868,
+                    lineNumber: 886,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0));
             case 'investment-calculator':
@@ -3579,7 +3612,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 870,
+                    lineNumber: 888,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'amortization-calculator':
@@ -3588,7 +3621,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 872,
+                    lineNumber: 890,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'disclaimer':
@@ -3597,7 +3630,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 874,
+                    lineNumber: 892,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'baking-sources':
@@ -3606,7 +3639,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 876,
+                    lineNumber: 894,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'all-tools':
@@ -3615,7 +3648,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 878,
+                    lineNumber: 896,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'custom-cake-order-builder':
@@ -3624,7 +3657,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 880,
+                    lineNumber: 898,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'recipe-scaling-costing':
@@ -3633,7 +3666,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 882,
+                    lineNumber: 900,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'cake-design-creator':
@@ -3643,12 +3676,12 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                         breadcrumbs: breadcrumbs
                     }, void 0, false, {
                         fileName: "[project]/components/MainContent.tsx",
-                        lineNumber: 886,
+                        lineNumber: 904,
                         columnNumber: 25
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 885,
+                    lineNumber: 903,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0));
             case 'bakery-order-planner':
@@ -3657,7 +3690,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 890,
+                    lineNumber: 908,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             case 'label-generator':
@@ -3666,7 +3699,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     breadcrumbs: breadcrumbs
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 892,
+                    lineNumber: 910,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             // Categories
@@ -3685,7 +3718,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     categoryId: activeTool
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 904,
+                    lineNumber: 922,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
             default:
@@ -3694,7 +3727,7 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                     handleNavigate: handleNavigate
                 }, void 0, false, {
                     fileName: "[project]/components/MainContent.tsx",
-                    lineNumber: 907,
+                    lineNumber: 925,
                     columnNumber: 24
                 }, ("TURBOPACK compile-time value", void 0));
         }
@@ -3711,26 +3744,26 @@ const MainContent = ({ activeTool, setActiveTool, activePost, handleNavigate })=
                         children: renderContent()
                     }, void 0, false, {
                         fileName: "[project]/components/MainContent.tsx",
-                        lineNumber: 919,
+                        lineNumber: 937,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/MainContent.tsx",
-                lineNumber: 917,
+                lineNumber: 935,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mt-auto border-t border-slate-200 bg-white"
             }, void 0, false, {
                 fileName: "[project]/components/MainContent.tsx",
-                lineNumber: 924,
+                lineNumber: 942,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/MainContent.tsx",
-        lineNumber: 913,
+        lineNumber: 931,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
