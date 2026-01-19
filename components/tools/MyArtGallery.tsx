@@ -298,6 +298,7 @@ export const MyArtGallery: React.FC<MyArtGalleryProps> = ({ setActiveTool, bread
                                 width={300}
                                 height={250}
                                 format="rectangle"
+                                responsive={false}
                                 style={{ display: 'block', width: '300px', height: '250px' }}
                             />
                         </div>
