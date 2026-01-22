@@ -18,6 +18,7 @@ import {
     MacaronIcon,
     ArrowLeftIcon
 } from './Icons';
+import { ViewAllButton } from './ViewAllButton';
 import { ImageModal } from './ImageModal';
 import type { ToolId } from './utils/slugs';
 import { toolIdToSlug } from './utils/slugs';
@@ -443,9 +444,10 @@ const HomepageContent: React.FC<{ setActiveTool: (toolId: ToolId) => void; handl
                 <section className="my-16">
                     <div className="flex items-center justify-between mb-8 px-4">
                         <h2 className="text-3xl font-serif font-bold text-brand-text-title">Popular Baking Ebooks</h2>
-                        <a href={toolIdToSlug('baking-ebooks')} onClick={(e) => { e.preventDefault(); setActiveTool('baking-ebooks'); }} className="text-brand-pink font-bold hover:underline flex items-center">
-                            View All <ChevronRightIcon className="w-4 h-4 ml-1" />
-                        </a>
+                        <ViewAllButton
+                            href={toolIdToSlug('baking-ebooks')}
+                            onClick={(e) => { e.preventDefault(); setActiveTool('baking-ebooks'); }}
+                        />
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
                         {affiliateProducts.filter(p => p.category === 'Ebooks').slice(0, 6).map((product) => (
@@ -458,9 +460,11 @@ const HomepageContent: React.FC<{ setActiveTool: (toolId: ToolId) => void; handl
                 <section className="my-16">
                     <div className="flex items-center justify-between mb-8 px-4">
                         <h2 className="text-3xl font-serif font-bold text-brand-text-title">Featured Bakeries & Cafes</h2>
-                        <a href={toolIdToSlug('shop-directory')} onClick={(e) => { e.preventDefault(); setActiveTool('shop-directory'); }} className="text-brand-pink font-bold hover:underline flex items-center">
-                            View Directory <ChevronRightIcon className="w-4 h-4 ml-1" />
-                        </a>
+                        <ViewAllButton
+                            href={toolIdToSlug('shop-directory')}
+                            onClick={(e) => { e.preventDefault(); setActiveTool('shop-directory'); }}
+                            label="View Directory"
+                        />
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto px-4">
                         {featuredShops.map((shop) => (

@@ -1,0 +1,25 @@
+import { MetadataRoute } from 'next';
+
+export default function manifest(): MetadataRoute.Manifest {
+    return {
+        name: "Sweety's Bakery Tools",
+        short_name: "Sweety's Bakery",
+        description: "Free professional baking tools, calculators, and resources.",
+        start_url: '/',
+        display: 'standalone',
+        background_color: '#ffffff',
+        theme_color: '#E65A88',
+        icons: [
+            {
+                src: '/icon.png',
+                sizes: '192x192',
+                type: 'image/png',
+            },
+            {
+                src: '/apple-icon.png',
+                sizes: '180x180',
+                type: 'image/png',
+            },
+        ],
+    };
+}
