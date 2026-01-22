@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "node download_ebooks_v2.js && next build && next-image-export-optimizer && npm run sitemap",
+    "build": "node download_ebooks_v2.js && next build && next-image-export-optimizer",
     "start": "next start",
-    "lint": "next lint",
-    "sitemap": "node scripts/generate-sitemap.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "@google/genai": "^1.24.0",
