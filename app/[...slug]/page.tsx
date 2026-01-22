@@ -140,13 +140,24 @@ export default async function CatchAllPage({ params }: Props) {
         );
     }
 
+
+
     // Handle /blog/[slug]
     if (slug[0] === 'blog' && slug.length === 2) {
         const post = findPostBySlug(slug[1]);
         if (post) {
             const activeTool = post.type === 'recipe' ? 'recipe-index' : 'baking-blog';
+            const jsonLd = generateArticleSchema(post);
             return (
-                <MainContentWrapper activeTool={activeTool} activePost={post} />
+                <>
+                    {jsonLd && (
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                        />
+                    )}
+                    <MainContentWrapper activeTool={activeTool} activePost={post} />
+                </>
             );
         }
     }
@@ -210,13 +221,15 @@ function generateRecipeSchema(post: import('../../data/blogPosts').BlogPost) {
         '@context': 'https://schema.org',
         '@type': 'Recipe',
         name: post.title,
-        image: [post.imageUrl],
+        image: [`https://sweetysbakery.com${post.imageUrl}`],
         author: {
             '@type': 'Person',
             name: post.author || "Sweety's Bakery",
         },
         datePublished: new Date(post.date).toISOString(),
         description: post.excerpt,
+        recipeCategory: post.category,
+        keywords: `${post.category}, baking, dessert, ${post.title.split('|')[0].trim()}`,
         prepTime: post.recipeData.prepTime,
         cookTime: post.recipeData.cookTime,
         totalTime: post.recipeData.totalTime,
@@ -236,5 +249,34 @@ function generateRecipeSchema(post: import('../../data/blogPosts').BlogPost) {
             name: step.name,
             text: step.text
         })) : undefined,
+    };
+}
+
+function generateArticleSchema(post: import('../../data/blogPosts').BlogPost) {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: post.title,
+        image: [`https://sweetysbakery.com${post.imageUrl}`],
+        author: {
+            '@type': 'Organization',
+            name: post.author || "Sweety's Bakery",
+            url: "https://sweetysbakery.com"
+        },
+        datePublished: new Date(post.date).toISOString(),
+        description: post.excerpt,
+        articleSection: post.category,
+        publisher: {
+            '@type': 'Organization',
+            name: "Sweety's Bakery",
+            logo: {
+                '@type': 'ImageObject',
+                url: "https://sweetysbakery.com/icon.png"
+            }
+        },
+        mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': `https://sweetysbakery.com/blog/${post.slug}`
+        }
     };
 }

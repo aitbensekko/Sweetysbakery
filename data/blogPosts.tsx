@@ -57,7 +57,37 @@ export const blogPosts: BlogPost[] = [
             rating: {
                 ratingValue: 5.0,
                 ratingCount: 15
-            }
+            },
+            ingredients: [
+                "Shelled unsalted pistachios",
+                "All-purpose flour",
+                "Unsalted butter, room temperature",
+                "Granulated sugar",
+                "Large eggs",
+                "Buttermilk",
+                "Baking powder",
+                "Salt",
+                "Cream cheese (for frosting)",
+                "Powdered sugar (for frosting)"
+            ],
+            instructions: [
+                {
+                    name: "Grind Pistachios",
+                    text: "Pulse shelled pistachios in a food processor with half of the flour until finely ground."
+                },
+                {
+                    name: "Mix Batter",
+                    text: "Cream butter and sugar until fluffy. Add eggs one at a time. Fold in dry ingredients (pistachio mixture) alternately with buttermilk."
+                },
+                {
+                    name: "Bake",
+                    text: "Pour into prepared pans and bake at 350°F (175°C) for 30-35 minutes until golden."
+                },
+                {
+                    name: "Frost",
+                    text: "Whip cream cheese frosting and spread over cooled cake. Garnish with chopped pistachios."
+                }
+            ]
         },
         content: `<h2><a href="/easy-pistachio-cake-recipe" style="color: #E65A88; text-decoration: underline;">Easy Pistachio Cake</a>: A Green Dream by Sarah Ait dahan</h2><p>Welcome to my kitchen! I'm <strong>Sarah Ait dahan</strong>, and today I'm sharing my absolute favorite recipe for an <strong>Easy Pistachio Cake</strong>. If you love the nutty, floral aroma of pistachios, this cake is going to be your new obsession. It's incredibly moist, has a tender crumb, and best of all, it gets its beautiful green hue naturally from real pistachios (with just a tiny drop of color if you want to make it pop!). No fancy equipment needed—just a food processor and a passion for baking.</p><h3>Why This is the Best Pistachio Cake</h3><p>Unlike many recipes that rely solely on pudding mixes, this cake uses <strong>real ground pistachios</strong> to form the base of the batter. This ensures an authentic flavor that artificial extracts just can't match. It's paired with a luscious cream cheese frosting that perfectly balances the nuttiness.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><img src="/images/blog/easy-pistachio-cake-hero.png" alt="Slice of Sarah Ait dahan's Easy Pistachio Cake" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Step-by-Step Guide: How to Make Pistachio Cake</h3><h4>Step 1: Grind the Pistachios</h4><p>Start by taking shelled, unsalted pistachios. Pulse them in a food processor with half of the flour until they are finely ground. <strong>Tip:</strong> Grinding them with flour prevents them from turning into pistachio butter!</p><img src="/images/blog/pistachio-cake-step-1-grinding.png" alt="Grinding pistachios in a food processor" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: Mix the Batter</h4><p>Cream your butter and sugar until fluffy. Add eggs one at a time, then fold in your dry ingredients (pistachio flour mixture) alternately with buttermilk. The buttermilk is the secret weapon for that ultra-moist texture. The batter should be a lovely pale green.</p><img src="/images/blog/pistachio-cake-step-2-batter.png" alt="Mixing the green pistachio cake batter" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 3: Bake to Perfection</h4><p>Pour the batter into prepared cake pans. Bake at 350°F (175°C) for about 30-35 minutes. You'll know it's done when the tops are golden brown and a toothpick comes out clean. Let them cool completely on a wire rack—patience is key here!</p><img src="/images/blog/pistachio-cake-step-3-baking.png" alt="Baked pistachio cake layers cooling" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 4: Frost and Decorate</h4><p>Whip up a tangy cream cheese frosting or a light swiss meringue buttercream. Spread it generously over the cooled cake. For the signature look, garnish with plenty of chopped green pistachios and perhaps some dried rose petals for an elegant finish.</p><img src="/images/blog/pistachio-cake-step-4-frosting.png" alt="Frosting the pistachio cake" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Sarah's Baker Tips</h3><ul><li><strong>Freshness Matters:</strong> Use fresh pistachios that aren't stale for the best color and flavor.</li><li><strong>Don't Overmix:</strong> Once you add the flour, mix gently. Overmixing leads to a dense, tough cake.</li><li><strong>Room Temperature Ingredients:</strong> Ensure butter, eggs, and buttermilk are at room temperature for a smooth, emulsified batter.</li></ul>`
     },
@@ -82,7 +112,37 @@ export const blogPosts: BlogPost[] = [
             rating: {
                 ratingValue: 5.0,
                 ratingCount: 22
-            }
+            },
+            ingredients: [
+                "All-purpose flour",
+                "Cocoa powder",
+                "Granulated sugar",
+                "Baking powder",
+                "Salt",
+                "Milk",
+                "Melted butter",
+                "Vanilla extract",
+                "Brown sugar",
+                "Boiling water"
+            ],
+            instructions: [
+                {
+                    name: "Make Batter",
+                    text: "Whisk flour, cocoa, sugar, baking powder, and salt. Add milk, melted butter, and vanilla. Stir until thick and glossy."
+                },
+                {
+                    name: "Spread",
+                    text: "Spread batter evenly into a greased 8x8 or 9x9 inch baking dish."
+                },
+                {
+                    name: "Add Topping",
+                    text: "Mix brown sugar and cocoa. Sprinkle evenly over the batter. Do not stir."
+                },
+                {
+                    name: "Add Water & Bake",
+                    text: "Pour boiling water over the top (do not stir!). Bake until the center is set but slightly jiggly."
+                }
+            ]
         },
         content: `<h2>Chocolate Brownie Pudding: A Vintage Magic Dessert</h2><p>Hi, I'm <strong>Sarah Ait dahan</strong>, and I'm thrilled to share this nostalgic <strong>Chocolate Brownie Pudding</strong> recipe with you. Also known as "Hot Fudge Pudding Cake" or "Chocolate Cobbler," this dessert is pure magic. You pour boiling water over the batter, and as it bakes, it creates a rich, gooey chocolate sauce underneath a tender brownie-like cake. It's warm, comforting, and absolutely irresistible with a scoop of vanilla ice cream.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><img src="/images/blog/chocolate-brownie-pudding-hero.png" alt="Warm chocolate brownie pudding with ice cream" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Step-by-Step Guide</h3><h4>Step 1: Make the Brownie Batter</h4><p>In a bowl, whisk together flour, cocoa powder, sugar, baking powder, and salt. Add milk, melted butter, and vanilla. Stir until you have a thick, glossy chocolate batter.</p><img src="/images/blog/brownie-pudding-step-1-batter.png" alt="Thick chocolate brownie batter" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: Spread in Pan</h4><p>Pour the batter into a greased 8x8 or 9x9 inch baking dish. Use a spatula to spread it evenly across the bottom.</p><img src="/images/blog/brownie-pudding-step-2-spread.png" alt="Spreading brownie batter in pan" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 3: Add the Topping</h4><p>Mix together brown sugar and cocoa powder. Sprinkle this mixture evenly over the batter. Don't stir it in—just let it sit on top!</p><img src="/images/blog/brownie-pudding-step-3-cocoa.png" alt="Sprinkling cocoa sugar topping" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 4: Pour Boiling Water</h4><p>Here's the magic: carefully pour boiling water over the entire surface. Do NOT stir. The water will look like it's ruining everything, but trust the process!</p><img src="/images/blog/brownie-pudding-step-4-water.png" alt="Pouring boiling water over brownie pudding" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Sarah's Baking Tips</h3><ul><li><strong>Serve Warm:</strong> This dessert is best enjoyed fresh from the oven when the sauce is hot and bubbly.</li><li><strong>Ice Cream is Essential:</strong> The cold vanilla ice cream against the warm pudding is perfection.</li><li><strong>Don't Overbake:</strong> The center should still jiggle slightly when you remove it from the oven.</li></ul>`
     },
@@ -107,7 +167,39 @@ export const blogPosts: BlogPost[] = [
             rating: {
                 ratingValue: 5.0,
                 ratingCount: 18
-            }
+            },
+            ingredients: [
+                "Pumpkin puree (100% pure)",
+                "Eggs",
+                "Vegetable oil",
+                "Vanilla extract",
+                "All-purpose flour",
+                "Granulated sugar",
+                "Baking soda",
+                "Cinnamon, Nutmeg, Ginger",
+                "Salt",
+                "Cream cheese",
+                "Butter",
+                "Powdered sugar"
+            ],
+            instructions: [
+                {
+                    name: "Wet Ingredients",
+                    text: "Whisk pumpkin puree, eggs, oil, and vanilla until smooth and bright orange."
+                },
+                {
+                    name: "Dry Ingredients",
+                    text: "Whisk flour, sugar, baking soda, spices, and salt. Fold into wet mixture."
+                },
+                {
+                    name: "Bake",
+                    text: "Pour into 9x13 pan. Bake at 350°F (175°C) for 35-40 minutes."
+                },
+                {
+                    name: "Frost",
+                    text: "Beat cream cheese, butter, powdered sugar, and vanilla until fluffy. Spread over cooled cake."
+                }
+            ]
         },
         content: `<h2>The Ultimate Pumpkin Cake with Cream Cheese Frosting</h2><p>Hello! I'm <strong>Sarah Ait dahan</strong>, and this <strong>Pumpkin Cake with Cream Cheese Frosting</strong> is my go-to recipe for fall gatherings. It's incredibly moist, perfectly spiced with cinnamon, nutmeg, and ginger, and topped with the most luscious cream cheese frosting. Whether you're celebrating Thanksgiving or just craving autumn flavors, this sheet cake is a crowd-pleaser.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><img src="/images/blog/pumpkin-cake-hero.png" alt="Slice of pumpkin cake with cream cheese frosting" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Step-by-Step Guide</h3><h4>Step 1: Mix Wet Ingredients</h4><p>In a large bowl, whisk together pumpkin puree, eggs, vegetable oil, and vanilla extract until smooth and well combined. The mixture should be bright orange and silky.</p><img src="/images/blog/pumpkin-cake-step-1-wet.png" alt="Mixing pumpkin puree with eggs and oil" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 2: Combine with Dry Ingredients</h4><p>In another bowl, whisk flour, sugar, baking soda, cinnamon, nutmeg, ginger, and salt. Gradually fold the dry ingredients into the wet mixture until you have a smooth, thick batter.</p><img src="/images/blog/pumpkin-cake-step-2-batter.png" alt="Smooth orange pumpkin cake batter" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 3: Bake Until Golden</h4><p>Pour the batter into a greased 9x13 inch pan. Bake at 350°F (175°C) for 35-40 minutes until a toothpick comes out clean. Let it cool completely on a wire rack.</p><img src="/images/blog/pumpkin-cake-step-3-baked.png" alt="Golden baked pumpkin cake cooling" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>Step 4: Frost with Cream Cheese Frosting</h4><p>Beat cream cheese and butter until fluffy. Add powdered sugar and vanilla, then beat until smooth. Spread generously over the cooled cake and swirl with an offset spatula. Dust with cinnamon.</p><img src="/images/blog/pumpkin-cake-step-4-frosting.png" alt="Swirling cream cheese frosting on pumpkin cake" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>Sarah's Pro Tips</h3><ul><li><strong>Use Pure Pumpkin:</strong> Make sure you're using 100% pumpkin puree, not pumpkin pie filling.</li><li><strong>Room Temperature Frosting Ingredients:</strong> This ensures a smooth, lump-free frosting.</li><li><strong>Make Ahead:</strong> This cake actually tastes better the next day as the flavors meld together.</li></ul>`
     },
@@ -132,7 +224,33 @@ export const blogPosts: BlogPost[] = [
             rating: {
                 ratingValue: 5.0,
                 ratingCount: 25
-            }
+            },
+            ingredients: [
+                "Cream cheese, room temperature",
+                "Granulated sugar",
+                "Large eggs",
+                "Heavy cream",
+                "Salt",
+                "Flour (small amount, optional)"
+            ],
+            instructions: [
+                {
+                    name: "Beat Cream Cheese",
+                    text: "Beat cream cheese until smooth and fluffy."
+                },
+                {
+                    name: "Add Ingredients",
+                    text: "Add sugar, then eggs one at a time. Mix in heavy cream and salt until smooth."
+                },
+                {
+                    name: "Prepare Pan",
+                    text: "Line a 9-inch springform pan with two overlapping sheets of parchment paper."
+                },
+                {
+                    name: "Bake",
+                    text: "Bake at 400°F (200°C) for 50-60 minutes until top is dark brown. Cool completely."
+                }
+            ]
         },
         content: `<h2>Basque Burnt Cheesecake: The Viral Sensation</h2><p>I'm <strong>Sarah Ait dahan</strong>, and I'm here to demystify the <strong>Basque Burnt Cheesecake</strong>. This Spanish dessert from San Sebastián has taken the world by storm with its deeply caramelized, almost burnt top and impossibly creamy, custardy interior. The best part? It's actually easier than traditional cheesecake—no water bath, no fuss, and the "imperfections" are what make it perfect.</p><img src="/images/blog/basque-cheesecake-hero.png" alt="Slice of Basque burnt cheesecake" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h3>What Makes Basque Cheesecake Special?</h3><p>Unlike New York-style cheesecake, this version is baked at a very high temperature (around 400-425°F), which creates that signature burnt, caramelized top. The center remains soft and almost jiggly when warm, then sets to a creamy, dense texture as it cools. There's no crust, and the rustic, wrinkled parchment paper lining adds to its charm.</p><div style="background: #FFF0F5; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #FFD1DC; text-align: center;"><p style="margin: 0; font-weight: bold; color: #E65A88;">Need to adjust the serving size?</p><p style="margin: 5px 0 0 0; font-size: 0.9em;">Use our free <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline; font-weight: bold;">Recipe Scaler</a> to resize this recipe instantly!</p></div><h3>Step-by-Step Guide</h3><h4>Step 1: Beat the Cream Cheese</h4><p>Start with room-temperature cream cheese. Beat it in a stand mixer or with a hand mixer until completely smooth and fluffy, about 3-4 minutes. Scrape down the sides frequently.</p><h4>Step 2: Add Sugar and Eggs</h4><p>Gradually add sugar and beat until combined. Add eggs one at a time, mixing on low speed just until incorporated. Then add heavy cream and a pinch of salt. The batter should be smooth and pourable.</p><h4>Step 3: Prepare the Pan</h4><p>Line a 9-inch springform pan with two overlapping sheets of parchment paper, letting the edges extend well above the rim. The wrinkles are intentional and add to the rustic look. Pour in the batter.</p><h4>Step 4: Bake Hot and Fast</h4><p>Bake at 400°F (200°C) for 50-60 minutes. The top should be deeply golden brown to almost black in spots, and the center will still jiggle. Let it cool to room temperature, then refrigerate for at least 4 hours or overnight.</p><h3>Sarah's Expert Tips</h3><ul><li><strong>Don't Fear the Burn:</strong> The dark, caramelized top is what gives this cheesecake its unique flavor. Don't pull it out too early!</li><li><strong>It Will Sink:</strong> As the cheesecake cools, the center will sink and crack. This is completely normal and part of its rustic charm.</li><li><strong>Serve Cold:</strong> While it's delicious warm, the texture is best after it's been chilled overnight.</li><li><strong>No Mixer? No Problem:</strong> You can make this by hand with a whisk, just make sure there are no lumps in the cream cheese.</li></ul>`
     },

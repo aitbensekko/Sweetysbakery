@@ -683,7 +683,36 @@ export const newSeoBlogPosts: BlogPost[] = [
         author: 'Sweetys Bakery',
         date: 'December 31, 2025',
         readTime: '18 min',
-        type: 'article',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT5M",
+            cookTime: "PT120H",
+            totalTime: "PT120H5M",
+            recipeYield: "1 starter culture",
+            calories: 50,
+            rating: {
+                ratingValue: 5.0,
+                ratingCount: 120
+            },
+            ingredients: [
+                "Whole wheat flour (or rye/all-purpose)",
+                "Filtered water"
+            ],
+            instructions: [
+                {
+                    name: "Day 1",
+                    text: "Mix 50g flour and 50g water in a jar. Cover loosely and let sit at room temp for 24 hours."
+                },
+                {
+                    name: "Day 2",
+                    text: "Discard half the starter (50g). Add 50g flour and 50g water. Stir and cover."
+                },
+                {
+                    name: "Days 3-7",
+                    text: "Repeat the feeding process daily (discard half, feed 1:1:1) until starter doubles in size consistently."
+                }
+            ]
+        },
         content: `<h2>Ultimate Sourdough Starter Guide: Science, Feeding Schedule & Troubleshooting</h2>
 
 <p>Sourdough baking has experienced a massive resurgence, and for good reason. The complex flavors, superior digestibility, and artisanal quality of sourdough bread are unmatched. At the heart of every great sourdough loaf is a healthy, active sourdough starter. This comprehensive guide will teach you everything you need to know about creating, maintaining, and troubleshooting your sourdough starter.</p>

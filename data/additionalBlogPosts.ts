@@ -205,7 +205,42 @@ export const additionalBlogPosts: BlogPost[] = [
         author: "Sweety's Bakery",
         date: 'November 22, 2025',
         readTime: '6 min',
-        type: 'article',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT10M",
+            cookTime: "PT30M",
+            totalTime: "PT40M",
+            recipeYield: "12 servings",
+            calories: 250,
+            rating: {
+                ratingValue: 4.9,
+                ratingCount: 45
+            },
+            ingredients: [
+                "All-purpose flour (or GF 1:1 blend)",
+                "Cocoa powder (Dutch-processed is best)",
+                "Sugar",
+                "Baking Soda",
+                "Salt",
+                "Oil (vegetable or canola)",
+                "Vinegar (Apple Cider or White)",
+                "Hot Coffee"
+            ],
+            instructions: [
+                {
+                    name: "Mix Dry Ingredients",
+                    text: "Whisk flour, cocoa powder, sugar, baking soda, and salt in a large bowl."
+                },
+                {
+                    name: "Add Wet Ingredients",
+                    text: "Add oil, vinegar, and hot coffee. Whisk until smooth and combined."
+                },
+                {
+                    name: "Bake",
+                    text: "Pour into a greased pan and bake at 350°F (175°C) for 30-35 minutes until a toothpick comes out clean."
+                }
+            ]
+        },
         content: `<h2>A <a href="https://minimalistbaker.com/one-bowl-vegan-chocolate-cake/" target="_blank" rel="noopener noreferrer" style="color: #E65A88; text-decoration: underline;">Vegan Dessert Classic</a></h2>
         <p>This recipe relies on a simple chemical reaction between baking soda and vinegar to create an ultra-light crumb, while hot coffee blooms the cocoa powder for deep flavor.</p>
         
