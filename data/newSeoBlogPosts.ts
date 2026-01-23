@@ -2479,5 +2479,1305 @@ export const newSeoBlogPosts: BlogPost[] = [
     </div>
   </div>
 </div>`
+    },
+    {
+        id: 1011,
+        slug: 'best-snow-day-recipes-baking-ideas',
+        title: '15 Best Snow Day Recipes to Bake When It\'s Cold Outside',
+        excerpt: 'Stuck inside? Warm up your kitchen with these comforting snow day recipes. From gooey cinnamon rolls to rich hot chocolate cookies, find the perfect treats for a snowy day.',
+        imageUrl: '/images/blog/snow_day_baking_hero.png',
+        category: 'Recipes & Ideas',
+        author: 'Sweetys Bakery',
+        date: 'January 15, 2026',
+        readTime: '15 min',
+        type: 'article',
+        content: `<h2>Cozy Baking: <a href="https://www.bonappetit.com/recipes/family-meals/slideshow/snow-day-recipes" target="_blank" rel="noopener noreferrer" style="color: #E65A88; text-decoration: underline;">Snow Day Recipes</a> to Warm Your Soul</h2>
+        <p>There is nothing quite like looking out the window at falling snow while the oven preheats. <strong>Snow day recipes</strong> are all about comfort, warmth, and filling your home with delicious aromas. Here are our top picks for baking away the winter blues.</p>
+
+        <h3>1. <a href="/blog/ultimate-cinnamon-rolls-recipe" style="color: #E65A88; text-decoration: underline;">The Ultimate Cinnamon Rolls</a></h3>
+        <img src="/images/blog/cinnamon_rolls_frosting.png" alt="Glazing cinnamon rolls" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Soft, fluffy dough swirled with cinnamon sugar and topped with cream cheese frosting. The yeasty scent alone is enough to make you forget the shoveling that awaits.</p>
+        <p><strong>Pro Tip:</strong> Pour slightly warmed heavy cream over the rolls right before baking. This makes them incredibly soft and gooey, just like Cinnabon!</p>
+
+        <h3>2. <a href="/blog/hot-chocolate-cookies-marshmallow-recipe" style="color: #E65A88; text-decoration: underline;">Hot Chocolate Cookies</a></h3>
+        <img src="/images/blog/hot_chocolate_cookies_marshmallow.png" alt="Hot chocolate cookies with toasted marshmallow" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Why drink it when you can eat it? These rich chocolate cookies are topped with a marshmallow that gets toasty in the oven. It's the quintessential <strong>snow day treat</strong>.</p>
+        <p><strong>Make it Special:</strong> Use a kitchen torch to toast the marshmallows if you want that campfire char, or place a piece of chocolate under the marshmallow for a surprise molten center.</p>
+        
+        <h3>3. <a href="/blog/warm-apple-crisp-recipe" style="color: #E65A88; text-decoration: underline;">Warm Apple Crisp</a></h3>
+        <img src="/images/blog/warm_apple_crisp_ice_cream.png" alt="Warm apple crisp with ice cream" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Easier than pie but just as satisfying. Toss sliced apples with cinnamon, nutmeg, and sugar, then top with a buttery oat crumble. Serve warm with vanilla ice cream.</p>
+        <p><strong>Secret Ingredient:</strong> Add a splash of bourbon or apple cider vinegar to the filling to cut through the sweetness and add depth.</p>
+
+        <h3>4. <a href="/blog/tomato-soup-grilled-cheese-recipe" style="color: #E65A88; text-decoration: underline;">Homemade Tomato Soup & Grilled Cheese</a></h3>
+        <img src="/images/blog/tomato_soup_grilled_cheese_dip.png" alt="Grilled cheese dipping into tomato soup" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Okay, it's not a dessert, but it is the savory king of snow days. Bake your own sandwich bread for the ultimate upgrade.</p>
+        <p><strong>Level Up:</strong> Use a mix of sharp cheddar, gruyère, and fontina for the ultimate cheese pull. Add roasted garlic to your tomato soup for extra warmth.</p>
+
+        <h3>5. <a href="/blog/creamy-chicken-pot-pie-recipe" style="color: #E65A88; text-decoration: underline;">Creamy Chicken Pot Pie</a></h3>
+        <img src="/images/blog/chicken_pot_pie.png" alt="Slice of chicken pot pie" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>The definition of comfort food. A flaky, golden crust hides a creamy filling of chicken, peas, carrots, and potatoes.</p>
+        <p><strong>Time Saver:</strong> Use a rotisserie chicken and store-bought puff pastry for a 30-minute version that tastes homemade.</p>
+
+        <h3>6. <a href="/blog/slow-cooker-beef-stew-recipe" style="color: #E65A88; text-decoration: underline;">Slow Cooker Beef Stew</a></h3>
+        <img src="/images/blog/slow_cooker_beef_stew.png" alt="Ladle of beef stew" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Set it and forget it! Let this stew simmer all day while you build a snowman. THe house will smell amazing.</p>
+        <p><strong>Flavor Boost:</strong> Sear the beef chunks in batches before adding them to the slow cooker to develop a rich, deep flavor.</p>
+
+        <h3>7. <a href="/blog/homemade-mac-and-cheese-recipe" style="color: #E65A88; text-decoration: underline;">Homemade Mac & Cheese</a></h3>
+        <img src="/images/blog/homemade_mac_and_cheese.png" alt="Baked mac and cheese" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Skip the box. Real cheese sauce and a crispy breadcrumb topping make this a meal worth staying in for.</p>
+        <p><strong>Pro Tip:</strong> Grate your own cheese! Pre-shredded cheese has anti-caking agents that prevent it from melting smoothly.</p>
+
+        <h3>8. <a href="/blog/classic-banana-bread-recipe" style="color: #E65A88; text-decoration: underline;">Classic Banana Bread</a></h3>
+        <img src="/images/blog/banana_bread.png" alt="Slice of banana bread with butter" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>The most popular snow day bake for a reason. It's moist, sweet, and perfect for breakfast or a snack.</p>
+        <p><strong>Variation:</strong> Add chocolate chips or swirls of Nutella for a decadent twist.</p>
+
+        <h3>9. <a href="/blog/fluffy-buttermilk-pancakes-recipe" style="color: #E65A88; text-decoration: underline;">Fluffy Buttermilk Pancakes</a></h3>
+        <img src="/images/blog/buttermilk_pancakes.png" alt="Stack of pancakes" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Snow days mean breakfast for dinner is 100% acceptable. These pancakes are light, airy, and soak up syrup perfectly.</p>
+        <p><strong>Science Tip:</strong> Don't overmix the batter! Lumps are okay. Overmixing develops gluten and makes pancakes tough.</p>
+
+        <h3>10. <a href="/blog/smoky-vegetarian-chili-recipe" style="color: #E65A88; text-decoration: underline;">Smoky Vegetarian Chili</a></h3>
+        <img src="/images/blog/vegetarian_chili.png" alt="Bowl of vegetarian chili" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Packed with beans, corn, and warming spices. It's healthy but hearty enough to satisfy everyone.</p>
+        <p><strong>Secret Ingredient:</strong> Add a square of dark chocolate or a pinch of cocoa powder to add savory depth and richness.</p>
+
+        <h3>11. <a href="/blog/french-onion-soup-recipe" style="color: #E65A88; text-decoration: underline;">French Onion Soup</a></h3>
+        <img src="/images/blog/french_onion_soup.png" alt="Crock of french onion soup" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Elegant yet rustic. Caramelized onions in a rich beef broth, topped with toasted bread and bubbly gruyère cheese.</p>
+        <p><strong>Patience is Key:</strong> Caramelize the onions slowly on low heat for at least 45 minutes for true sweetness.</p>
+
+        <h3>12. <a href="/blog/cheesy-lasagna-recipe" style="color: #E65A88; text-decoration: underline;">Cheesy Lasagna</a></h3>
+        <img src="/images/blog/cheesy_lasagna.png" alt="Slice of lasagna" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Layers of pasta, rich meat sauce, and creamy ricotta. It warms the kitchen and the belly.</p>
+        <p><strong>Pro Tip:</strong> Use "no-boil" noodles to save time and ensure the lasagna holds its shape better.</p>
+
+        <h3>13. <a href="/blog/shepherds-pie-recipe" style="color: #E65A88; text-decoration: underline;">Shepherd's Pie</a></h3>
+        <img src="/images/blog/slow_cooker_beef_stew.png" alt="Shepherd's Pie ingredients" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Savory ground lamb or beef with veggies, topped with a golden crust of cheesy mashed potatoes.</p>
+        <p><strong>Texture Tip:</strong> Drag a fork across the top of the mashed potatoes before baking to create crispy ridges.</p>
+
+        <h3>14. <a href="/blog/fudgy-brownies-recipe" style="color: #E65A88; text-decoration: underline;">Fudgy Brownies</a></h3>
+        <img src="/images/blog/hot_chocolate_cookies_marshmallow.png" alt="Plate of brownies" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Better than box mix. These have a shiny crackly top and a dense, fudgy center.</p>
+        <p><strong>Science Tip:</strong> Beat the sugar and eggs together for a full 5 minutes to get that paper-thin crinkly crust.</p>
+
+        <h3>15. <a href="/blog/loaded-potato-soup-recipe" style="color: #E65A88; text-decoration: underline;">Loaded Potato Soup</a></h3>
+        <img src="/images/blog/chicken_pot_pie.png" alt="Bowl of potato soup" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Creamy, cheesy, and topped with bacon. It's basically a baked potato in soup form.</p>
+        <p><strong>Thickener:</strong> Blend about 1/3 of the soup and add it back in for a naturally creamy texture without needing heavy cream.</p>
+
+        <h3>Activities for Kids</h3>
+        <p>Baking is a great way to keep kids entertained. Try simple recipes like <strong>sugar cookies</strong> or <strong>banana muffins</strong> that let them measure, mix, and decorate.</p>`
+    },
+    {
+        id: 1012,
+        slug: 'winter-recipes-baking-comfort-food',
+        title: 'Top 10 Winter Recipes for Cozy Home Baking',
+        excerpt: 'Embrace the season with our favorite winter recipes. Discover spiced cakes, hearty breads, and seasonal citrus desserts that make winter the best season for baking.',
+        imageUrl: '/images/blog/chocolate-cake.png',
+        category: 'Seasonal',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '7 min',
+        type: 'article',
+        content: `<h2>Embracing the Chill with <a href="https://www.foodandwine.com/comfort-food/winter-comfort-food-recipes" target="_blank" rel="noopener noreferrer" style="color: #E65A88; text-decoration: underline;">Winter Recipes</a></h2>
+        <p>Winter is the prime season for baking. The kitchen becomes the heart of the home, providing physical warmth and emotional comfort. These <strong>winter recipes</strong> focus on seasonal produce like citrus and pears, along with warming spices.</p>
+
+        <h3>1. <a href="/recipes/blood-orange-upside-down-cake-recipe" style="color: #E65A88; text-decoration: underline;">Blood Orange Upside-Down Cake</a></h3>
+        <img src="/images/blog/easy-pistachio-cake-hero.png" alt="Blood Orange Cake" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Winter is citrus season! This cake uses vibrant blood oranges to create a jewel-like top. The yogurt base keeps it moist for days.</p>
+
+        <h3>2. <a href="/recipes/cardamom-pear-loaf-recipe" style="color: #E65A88; text-decoration: underline;">Cardamom & Pear Loaf</a></h3>
+        <img src="/images/blog/moist-banana-bread-recipe.png" alt="Pear Loaf" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Pears and cardamom are a match made in heaven. This unsweetened tea loaf is perfect for a slow winter morning breakfast.</p>
+
+        <h3>3. <a href="/recipes/gingerbread-bundt-cake-recipe" style="color: #E65A88; text-decoration: underline;">Gingerbread Bundt Cake</a></h3>
+        <img src="/images/blog/chocolate-cake.png" alt="Gingerbread Cake" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Deep, dark, and spicy. This cake uses a whole cup of molasses for that authentic old-fashioned flavor.</p>
+
+        <h3>4. <a href="/recipes/rustic-sourdough-boule-recipe" style="color: #E65A88; text-decoration: underline;">Rustic Sourdough Boule</a></h3>
+        <img src="/images/blog/sourdough_boule.png" alt="Sourdough Bread" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Mastering sourdough is the ultimate winter project. This beginner-friendly recipe yields a crackling crust and chewy crumb.</p>
+
+        <h3>5. <a href="/recipes/japanese-milk-bread-recipe" style="color: #E65A88; text-decoration: underline;">Japanese Milk Bread</a></h3>
+        <img src="/images/blog/easy-no-knead-bread.png" alt="Milk Bread" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Using the Tangzhong method makes this bread impossibly soft and fluffy. It's like eating a cloud.</p>
+
+        <h3>6. <a href="/recipes/cranberry-orange-scones-recipe" style="color: #E65A88; text-decoration: underline;">Cranberry Orange Scones</a></h3>
+        <img src="/images/blog/cookies.png" alt="Scones" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Brighten up a grey day with these citrusy scones. The tart cranberries cut through the buttery richness perfectly.</p>
+
+        <h3>7. <a href="/recipes/chai-spiced-cookies-recipe" style="color: #E65A88; text-decoration: underline;">Chai Spiced Cookies</a></h3>
+        <img src="/images/blog/chocolate-pistachio-cookies-hero.png" alt="Chai Cookies" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Your favorite latte in cookie form. These chewy sugar cookies are rolled in a homemade chai spice blend.</p>
+
+        <h3>8. <a href="/recipes/sticky-toffee-pudding-recipe" style="color: #E65A88; text-decoration: underline;">Sticky Toffee Pudding</a></h3>
+        <img src="/images/blog/brownie-pudding-step-4-water.png" alt="Sticky Toffee Pudding" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>The ultimate comfort food. moist date cake drenched in a hot toffee sauce. Serve with vanilla ice cream.</p>
+
+        <h3>9. <a href="/recipes/rosemary-focaccia-recipe" style="color: #E65A88; text-decoration: underline;">Rosemary Focaccia</a></h3>
+        <img src="/images/blog/easy-no-knead-bread.png" alt="Focaccia" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Golden, crispy, and soaked in olive oil. This no-knead bread is easy enough for beginners but impressive enough for guests.</p>
+
+        <h3>10. <a href="/recipes/dark-chocolate-tart-recipe" style="color: #E65A88; text-decoration: underline;">Dark Chocolate Tart</a></h3>
+        <img src="/images/blog/chocolate-pistachio-bar-hero.png" alt="Chocolate Tart" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Simple elegance. A crisp shortbread crust filled with rich chocolate ganache. A little slice goes a long way.</p>`
+    },
+    {
+        id: 1013,
+        slug: 'daniel-fast-recipes-desserts-snacks',
+        title: 'Delicious Daniel Fast Recipes: Sweets & Snacks (No Sugar Added)',
+        excerpt: 'Observing the Daniel Fast doesn\'t mean giving up all treats. These plant-based, sugar-free, and unleavened recipes are compliant and naturally delicious.',
+        imageUrl: '/images/blog/cupcakes.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '6 min',
+        type: 'article',
+        content: `<h2>Satisfying Your Sweet Tooth: <a href="https://www.danielfast.com/recipes/" target="_blank" rel="noopener noreferrer" style="color: #E65A88; text-decoration: underline;">Daniel Fast Recipes</a></h2>
+        <p>The Daniel Fast is a spiritual fast based on the biblical book of Daniel. It involves eating only plant-based foods and avoiding added sugars, leavening agents, and processed foods. Finding <strong>Daniel Fast recipes</strong> for sweet cravings can be tough, but nature provides plenty of sweetness!</p>
+
+        <h3>1. <a href="/recipes/date-walnut-energy-bites" style="color: #E65A88; text-decoration: underline;">Date & Walnut Energy Bites</a></h3>
+        <img src="/images/blog/date-walnut-energy-bites.png" alt="Energy Bites" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>These little powerhouses taste like cookie dough but are made entirely of fruit and nuts. Perfect for a quick energy boost.</p>
+
+        <h3>2. <a href="/recipes/cinnamon-spiced-baked-apples" style="color: #E65A88; text-decoration: underline;">Cinnamon Spiced Baked Apples</a></h3>
+        <img src="/images/blog/warm_apple_crisp_ice_cream.png" alt="Baked Apples" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Warm, comforting, and naturally sweet. baking apples brings out their natural sugars, creating a syrup that tastes decadent.</p>
+
+        <h3>3. <a href="/recipes/2-ingredient-banana-oat-cookies" style="color: #E65A88; text-decoration: underline;">2-Ingredient Banana Oat Cookies</a></h3>
+        <img src="/images/blog/cookies.png" alt="Banana Oat Cookies" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Chewy, satisfying, and impossibly simple. Just ripe bananas and oats come together for a healthy cookie fix.</p>
+
+        <h3>4. <a href="/recipes/berry-chia-seed-pudding" style="color: #E65A88; text-decoration: underline;">Berry Chia Seed Pudding</a></h3>
+        <img src="/images/blog/cupcakes.png" alt="Chia Pudding" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Loaded with omega-3s and fiber. The chia seeds plump up in almond milk to create a tapioca-like texture.</p>
+
+        <h3>5. <a href="/recipes/chocolate-banana-nice-cream" style="color: #E65A88; text-decoration: underline;">Chocolate Banana "Nice" Cream</a></h3>
+        <img src="/images/blog/chocolate-brownie-pudding-hero.png" alt="Banana Nice Cream" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Frozen bananas blended into a creamy soft-serve texture with cocoa powder. No dairy, no sugar, all flavor.</p>
+
+        <h3>6. <a href="/recipes/cinnamon-roasted-almonds" style="color: #E65A88; text-decoration: underline;">Cinnamon Roasted Almonds</a></h3>
+        <img src="/images/blog/baking-ingredients.png" alt="Roasted Almonds" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Crunchy, nutty, and coated in warm cinnamon. A perfect portable snack for when hunger strikes.</p>
+
+        <h3>7. <a href="/recipes/no-bake-peanut-butter-bars" style="color: #E65A88; text-decoration: underline;">No-Bake Peanut Butter Bars</a></h3>
+        <img src="/images/blog/chocolate-pistachio-bar-slice.png" alt="Peanut Butter Bars" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Rich and fudge-like bars made with natural peanut butter and dates. A wholesome treat that feels like an indulgence.</p>
+
+        <h3>8. <a href="/recipes/warm-cinnamon-berry-compote" style="color: #E65A88; text-decoration: underline;">Warm Cinnamon Berry Compote</a></h3>
+        <img src="/images/blog/pumpkin-cake-hero.png" alt="Berry Compote" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Simmered berries release their juices to make a vibrant sauce. exquisite over oatmeal or nice cream.</p>
+
+        <h3>9. <a href="/recipes/roasted-cinnamon-chickpeas" style="color: #E65A88; text-decoration: underline;">Roasted Cinnamon Chickpeas</a></h3>
+        <img src="/images/blog/baking-ingredients.png" alt="Roasted Chickpeas" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Don't knock it 'til you try it! Crispy chickpeas dusted with cinnamon are a surprisingly addictive crunchy snack.</p>
+
+        <h3>10. <a href="/recipes/coconut-date-rolls" style="color: #E65A88; text-decoration: underline;">Coconut Date Rolls</a></h3>
+        <img src="/images/blog/cinnamon_rolls_frosting.png" alt="Date Rolls" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p>Simple spirals of date paste and coconut. Chewy, sweet, and satisfyingly simple.</p>
+
+        <div style="background-color: #fce7f3; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #E65A88;">
+            <h4 style="margin-top: 0; color: #be185d;">Fast Fact</h4>
+            <p style="margin-bottom: 0;">Did you know? The Daniel Fast focuses on whole, unprocessed foods. It's effectively a strict vegan diet with no sweeteners or breads!</p>
+        </div>`
+    },
+    {
+        id: 1014,
+        slug: 'ultimate-cinnamon-rolls-recipe',
+        title: 'The Ultimate Cinnamon Rolls Recipe',
+        excerpt: 'Soft, fluffy, and slathered in cream cheese frosting. These homemade cinnamon rolls are worth every minute of effort.',
+        imageUrl: '/images/blog/cinnamon_rolls_frosting.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '20 min',
+        type: 'recipe',
+        content: `<h2>The Ultimate Cinnamon Rolls</h2>
+        <p>These cinnamon rolls are pillowy soft and packed with sweet cinnamon flavor. The secret is the heavy cream poured over them before baking!</p>
+        
+        <img src="/images/blog/cinnamon_rolls_frosting.png" alt="Cinnamon Rolls" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li><strong>Dough:</strong> 4 cups flour, 1/3 cup sugar, 1 cup warm milk, 1 packet yeast, 1/2 cup butter.</li>
+            <li><strong>Filling:</strong> 1 cup brown sugar, 3 tbsp cinnamon, 1/2 cup butter.</li>
+            <li><strong>Frosting:</strong> Cream cheese, powdered sugar, butter, vanilla.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Activate yeast in warm milk. Mix dough ingredients and knead until smooth.</li>
+            <li>Let rise for 1 hour until doubled.</li>
+            <li>Roll out dough, spread filling, and roll up tight. Cut into 12 rolls.</li>
+            <li>Place in pan and let rise again for 30 mins.</li>
+            <li><strong>Pro Tip:</strong> Pour warm heavy cream over rolls now!</li>
+            <li>Bake at 350°F for 20-25 mins until golden. Frost while warm.</li>
+        </ol>`
+    },
+    {
+        id: 1015,
+        slug: 'hot-chocolate-cookies-marshmallow-recipe',
+        title: 'Hot Chocolate Cookies with Toasted Marshmallow Top',
+        excerpt: 'Fudgy chocolate cookies topped with a gooey toasted marshmallow. It\'s hot cocoa in cookie form!',
+        imageUrl: '/images/blog/hot_chocolate_cookies_marshmallow.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '15 min',
+        type: 'recipe',
+        content: `<h2>Hot Chocolate Cookies</h2>
+        <p>Rich, dark chocolate cookies that taste just like a mug of hot cocoa. The marshmallow topper makes them show-stopping.</p>
+
+        <img src="/images/blog/hot_chocolate_cookies_marshmallow.png" alt="Hot Chocolate Cookies" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1/2 cup butter</li>
+            <li>12 oz semi-sweet chocolate chips</li>
+            <li>1 1/2 cups flour, 1/4 cup cocoa powder</li>
+            <li>3 eggs, 1 cup sugar</li>
+            <li>12 large marshmallows</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Melt butter and chocolate together.</li>
+            <li>Beat eggs and sugar. Mix in chocolate mixture. Fold in dry ingredients.</li>
+            <li>Chill dough for 1 hour.</li>
+            <li>Scoop onto baking sheet. Bake at 325°F for 10 mins.</li>
+            <li>Top each cookie with a marshmallow half. Bake 2 more mins.</li>
+            <li>Optional: Torch the tops for that campfire look!</li>
+        </ol>`
+    },
+    {
+        id: 1016,
+        slug: 'warm-apple-crisp-recipe',
+        title: 'Easy Warm Apple Crisp Recipe',
+        excerpt: 'Sweet, spiced apples under a crunchy oat topping. The easiest and most comforting winter dessert.',
+        imageUrl: '/images/blog/warm_apple_crisp_ice_cream.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '15 min',
+        type: 'recipe',
+        content: `<h2>Warm Apple Crisp</h2>
+        <p>Forget peeling pie crusts. This crisp comes together in minutes and makes your house smell like heaven.</p>
+
+        <img src="/images/blog/warm_apple_crisp_ice_cream.png" alt="Apple Crisp" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li><strong>Filling:</strong> 5 cups sliced apples (Granny Smith or Honeycrisp), 1/2 cup sugar, 1 tsp cinnamon.</li>
+            <li><strong>Topping:</strong> 1 cup oats, 1 cup flour, 1 cup brown sugar, 1/2 cup cold butter.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Toss apples with sugar and cinnamon. Place in baking dish.</li>
+            <li>Mix topping ingredients until crumbly. Sprinkle over apples.</li>
+            <li>Bake at 350°F for 45 minutes until golden and bubbly.</li>
+            <li>Serve warm with a big scoop of vanilla ice cream.</li>
+        </ol>`
+    },
+    {
+        id: 1017,
+        slug: 'tomato-soup-grilled-cheese-recipe',
+        title: 'Homemade Tomato Soup & Ultimate Grilled Cheese',
+        excerpt: 'Roasted tomato soup with fresh basil, paired with a crispy, gooey 3-cheese sandwich.',
+        imageUrl: '/images/blog/tomato_soup_grilled_cheese_dip.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '25 min',
+        type: 'recipe',
+        content: `<h2>Tomato Soup & Grilled Cheese</h2>
+        <p>The ultimate comfort duo. Roasting the tomatoes first gives the soup an incredible depth of flavor.</p>
+
+        <img src="/images/blog/tomato_soup_grilled_cheese_dip.png" alt="Tomato Soup" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li><strong>Soup:</strong> 3 lbs tomatoes, 1 onion, garlic, broth, fresh basil, touch of cream.</li>
+            <li><strong>Sandwich:</strong> Sourdough bread, butter, cheddar, gruyère, fontina.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Roast halved tomatoes, onion, and garlic at 400°F for 40 mins.</li>
+            <li>Blend with broth and simmer. Stir in fresh basil and cream.</li>
+            <li>Butter bread generously. Layer cheeses.</li>
+            <li>Cook sandwich on low heat to ensure cheese melts before bread burns.</li>
+            <li>Dip and enjoy!</li>
+        </ol>`
+    },
+    {
+        id: 1018,
+        slug: 'creamy-chicken-pot-pie-recipe',
+        title: 'Creamy Chicken Pot Pie Recipe',
+        excerpt: 'A flaky golden crust filled with tender chicken and veggies in a rich creamy sauce. The perfect winter dinner.',
+        imageUrl: '/images/blog/chicken_pot_pie.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '30 min',
+        type: 'recipe',
+        content: `<h2>Creamy Chicken Pot Pie</h2>
+        <p>This pot pie is pure comfort. Use a rotisserie chicken to speed up the prep time!</p>
+
+        <img src="/images/blog/chicken_pot_pie.png" alt="Chicken Pot Pie" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 pie crusts (homemade or store bought)</li>
+            <li>2 cups cooked chicken, cubed</li>
+            <li>1 cup frozen peas and carrots</li>
+            <li>1/3 cup butter, 1/3 cup flour, 2 cups chicken broth, 1/2 cup milk.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Melt butter, whisk in flour. Slowly add broth and milk to make a thick sauce.</li>
+            <li>Stir in chicken and veggies. Season with thyme, salt, pepper.</li>
+            <li>Line pie dish with one crust. Pour in filling. Top with second crust.</li>
+            <li>Crimp edges and cut steam vents.</li>
+            <li>Bake at 425°F for 30-40 mins until golden brown.</li>
+        </ol>`
+    },
+    {
+        id: 1019,
+        slug: 'slow-cooker-beef-stew-recipe',
+        title: 'Easy Slow Cooker Beef Stew',
+        excerpt: 'Tender beef chunks, carrots, and potatoes in a rich, savory gravy. The perfect meal to come home to after playing in the snow.',
+        imageUrl: '/images/blog/slow_cooker_beef_stew.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '8 hours (cook time)',
+        type: 'recipe',
+        content: `<h2>Slow Cooker Beef Stew</h2>
+        <p>A hearty, warming stew that cooks itself while you enjoy your snow day.</p>
+
+        <img src="/images/blog/slow_cooker_beef_stew.png" alt="Beef Stew" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 lbs beef chuck roast, cubed</li>
+            <li>4 carrots, 3 potatoes, 1 onion, chopped</li>
+            <li>4 cups beef broth, 1 tbsp Worcestershire sauce</li>
+            <li>Thyme, rosemary, bay leaf.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Season beef with salt and pepper. Brown in a skillet for best flavor.</li>
+            <li>Add beef and veggies to slow cooker.</li>
+            <li>Pour in broth and seasonings.</li>
+            <li>Cover and cook on Low for 7-8 hours or High for 4 hours.</li>
+            <li>Thicken gravy with a cornstarch slurry if needed before serving.</li>
+        </ol>`
+    },
+    {
+        id: 1020,
+        slug: 'homemade-mac-and-cheese-recipe',
+        title: 'Crispy Baked Homemade Mac and Cheese',
+        excerpt: 'Creamy cheese sauce coating tender pasta, topped with a crunchy golden breadcrumb crust. Way better than the box.',
+        imageUrl: '/images/blog/homemade_mac_and_cheese.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '45 min',
+        type: 'recipe',
+        content: `<h2>Homemade Mac and Cheese</h2>
+        <p>Rich, creamy, and topped with a buttery crunch. This is the mac and cheese of your dreams.</p>
+
+        <img src="/images/blog/homemade_mac_and_cheese.png" alt="Mac and Cheese" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 lb elbow macaroni</li>
+            <li>1/2 cup butter, 1/2 cup flour, 4 cups milk</li>
+            <li>4 cups shredded cheese (cheddar & gruyere mix)</li>
+            <li>1 cup panko breadcrumbs, 2 tbsp melted butter.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Cook pasta al dente. Drain.</li>
+            <li>Melt butter, whisk in flour. Add milk and simmer until thick.</li>
+            <li>Remove from heat, stir in cheese until smooth. Mix with pasta.</li>
+            <li>Pour into baking dish. Top with buttery breadcrumbs.</li>
+            <li>Bake at 350°F for 30 mins until bubbly and golden.</li>
+        </ol>`
+    },
+    {
+        id: 1021,
+        slug: 'classic-banana-bread-recipe',
+        title: 'Classic Moist Banana Bread',
+        excerpt: 'The ultimate way to use up ripe bananas. Moist, sweet, and comforting, especially with a pat of melted butter.',
+        imageUrl: '/images/blog/banana_bread.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '1 hr 15 min',
+        type: 'recipe',
+        content: `<h2>Classic Banana Bread</h2>
+        <p>There's a reason everyone bakes banana bread when stuck at home. It's easy, delicious, and makes the house smell amazing.</p>
+
+        <img src="/images/blog/banana_bread.png" alt="Banana Bread" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>3 ripe bananas, mashed</li>
+            <li>1/3 cup melted butter, 3/4 cup sugar</li>
+            <li>1 egg, 1 tsp vanilla</li>
+            <li>1 1/2 cups flour, 1 tsp baking soda, pinch of salt.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix mashed bananas with melted butter.</li>
+            <li>Stir in sugar, egg, and vanilla.</li>
+            <li>Fold in dry ingredients until just combined.</li>
+            <li>Pour into loaf pan. Bake at 350°F for 50-60 minutes.</li>
+            <li>Let cool completely before slicing (if you can wait!).</li>
+        </ol>`
+    },
+    {
+        id: 1022,
+        slug: 'fluffy-buttermilk-pancakes-recipe',
+        title: 'Fluffy Buttermilk Pancakes from Scratch',
+        excerpt: 'Tall, fluffy, and tender. These pancakes are perfect for a slow snowy morning breakfast (or dinner!).',
+        imageUrl: '/images/blog/buttermilk_pancakes.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '20 min',
+        type: 'recipe',
+        content: `<h2>Fluffy Buttermilk Pancakes</h2>
+        <p>Ditch the mix. These homemade pancakes are lighter, fluffier, and taste so much better.</p>
+
+        <img src="/images/blog/buttermilk_pancakes.png" alt="Pancakes" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 cups flour, 2 tbsp sugar, 2 tsp baking powder, 1 tsp baking soda</li>
+            <li>2 cups buttermilk, 2 eggs, 1/4 cup melted butter</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Whisk dry ingredients in one bowl, wet in another.</li>
+            <li>Pour wet into dry and mix gently. Lumps are good!</li>
+            <li>Let batter rest for 5-10 minutes.</li>
+            <li>Cook on a hot, buttered griddle until bubbles form on top, then flip.</li>
+            <li>Serve with warm maple syrup.</li>
+        </ol>`
+    },
+    {
+        id: 1023,
+        slug: 'smoky-vegetarian-chili-recipe',
+        title: 'Hearty Smoky Vegetarian Chili',
+        excerpt: 'Packed with beans, veggies, and spices. This chili is so hearty you won\'t miss the meat.',
+        imageUrl: '/images/blog/vegetarian_chili.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '40 min',
+        type: 'recipe',
+        content: `<h2>Smoky Vegetarian Chili</h2>
+        <p>A warming bowl of chili is essential for snow days. The smoked paprika gives this veggie version a meat-like depth.</p>
+
+        <img src="/images/blog/vegetarian_chili.png" alt="Vegetarian Chili" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 cans black beans, 1 can kidney beans</li>
+            <li>1 can diced tomatoes, 1 cup frozen corn</li>
+            <li>1 onion, 2 peppers, diced</li>
+            <li>2 tbsp chili powder, 1 tbsp cumin, 1 tsp smoked paprika.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Sauté onion and peppers until soft. Add spices and cook 1 min.</li>
+            <li>Add tomatoes, beans, and corn.</li>
+            <li>Simmer for 30 minutes to let flavors meld.</li>
+            <li>Top with avocado, cheese, and sour cream.</li>
+            <li><strong>Pro Tip:</strong> Adds a square of dark chocolate for richness.</li>
+        </ol>`
+    },
+    {
+        id: 1024,
+        slug: 'french-onion-soup-recipe',
+        title: 'Classic French Onion Soup Gratinée',
+        excerpt: 'Rich beef broth, caramelized onions, and a crusty baguette slice topped with melted gruyère. Elegant and comforting.',
+        imageUrl: '/images/blog/french_onion_soup.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '1 hr',
+        type: 'recipe',
+        content: `<h2>French Onion Soup</h2>
+        <p>The key to this soup is patience. Caramelizing the onions slowly transforms them into sweet, golden perfection.</p>
+
+        <img src="/images/blog/french_onion_soup.png" alt="French Onion Soup" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>5 large onions, thinly sliced</li>
+            <li>3 tbsp butter, 1 tsp sugar</li>
+            <li>6 cups beef broth, 1/2 cup white wine</li>
+            <li>Baguette slices, 2 cups gruyère cheese.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Cook onions in butter on low heat for 45-60 mins until deep brown.</li>
+            <li>Deglaze pan with wine. Add broth and simmer.</li>
+            <li>Ladle soup into oven-safe bowls.</li>
+            <li>Top with bread slice and mound cheese on top.</li>
+            <li>Broil until cheese is bubbly and browned.</li>
+        </ol>`
+    },
+    {
+        id: 1025,
+        slug: 'cheesy-lasagna-recipe',
+        title: 'Classic Meat and Cheese Lasagna',
+        excerpt: 'Layers of tender pasta, rich meat sauce, and creamy ricotta filling. The ultimate crowd-pleaser meal.',
+        imageUrl: '/images/blog/cheesy_lasagna.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '1 hr 30 min',
+        type: 'recipe',
+        content: `<h2>Classic Lasagna</h2>
+        <p>A labor of love that feeds many. This lasagna is saucy, cheesy, and holds together perfectly.</p>
+
+        <img src="/images/blog/cheesy_lasagna.png" alt="Lasagna" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>12 lasagna noodles</li>
+            <li><strong>Sauce:</strong> 1 lb ground beef, 1 jar marinara sauce, onion, garlic.</li>
+            <li><strong>Cheese:</strong> 15oz ricotta, 1 egg, 4 cups mozzarella, 1/2 cup parmesan.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Brown meat with onion and garlic. Stir in sauce.</li>
+            <li>Mix ricotta with egg and parmesan.</li>
+            <li>Layer: Sauce, noodles, ricotta mixture, mozzarella. Repeat.</li>
+            <li>Bake covered at 375°F for 40 mins.</li>
+            <li>Uncover and bake 10 more mins until cheese is golden.</li>
+        </ol>`
+    },
+    {
+        id: 1026,
+        slug: 'shepherds-pie-recipe',
+        title: 'Traditional Shepherd\'s Pie',
+        excerpt: 'Savory meat and vegetable filling topped with creamy mashed potatoes baked to golden perfection.',
+        imageUrl: '/images/blog/slow_cooker_beef_stew.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '55 min',
+        type: 'recipe',
+        content: `<h2>Shepherd's Pie</h2>
+        <p>Comfort food at its finest. Use lamb for traditional flavor or beef for a "Cottage Pie" version.</p>
+
+        <img src="/images/blog/slow_cooker_beef_stew.png" alt="Shepherd's Pie" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 lb ground lamb or beef</li>
+            <li>1 cup peas and carrots, 1 onion</li>
+            <li>2 tbsp tomato paste, 1 cup broth</li>
+            <li>4 cups mashed potatoes.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Cook meat and veggies. Stir in tomato paste and broth to make a thick gravy.</li>
+            <li>Spread meat mixture in baking dish.</li>
+            <li>Top with mashed potatoes. texture the top with a fork.</li>
+            <li>Bake at 400°F for 20-25 mins until peaks are golden pieces.</li>
+        </ol>`
+    },
+    {
+        id: 1027,
+        slug: 'fudgy-brownies-recipe',
+        title: 'The Best Fudgy Brownies',
+        excerpt: 'Better than a box mix. These brownies have a crinkly top and a dense, fudgy chocolate center.',
+        imageUrl: '/images/blog/hot_chocolate_cookies_marshmallow.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '45 min',
+        type: 'recipe',
+        content: `<h2>Fudgy Brownies</h2>
+        <p>Deeply chocolatey and satisfyingly dense. A cold glass of milk is mandatory.</p>
+
+        <img src="/images/blog/hot_chocolate_cookies_marshmallow.png" alt="Brownies" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1/2 cup butter, melted</li>
+            <li>1 cup sugar, 2 eggs</li>
+            <li>1/3 cup cocoa powder, 1/2 cup flour</li>
+            <li>1/4 tsp salt, 1/2 cup chocolate chips.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Whisk melted butter and sugar. Add eggs and beat for 2 minutes.</li>
+            <li>Stir in cocoa, flour, and salt just until combined.</li>
+            <li>Fold in chocolate chips.</li>
+            <li>Bake in 8x8 pan at 350°F for 25-30 mins. Do not overbake!</li>
+        </ol>`
+    },
+    {
+        id: 1028,
+        slug: 'loaded-potato-soup-recipe',
+        title: 'Creamy Loaded Potato Soup',
+        excerpt: 'Like a baked potato in a bowl. Creamy, cheesy, and topped with crispy bacon and green onions.',
+        imageUrl: '/images/blog/chicken_pot_pie.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 16, 2026',
+        readTime: '40 min',
+        type: 'recipe',
+        content: `<h2>Loaded Potato Soup</h2>
+        <p>This soup is thick, creamy, and satisfying. Perfect for warming up after shoveling snow.</p>
+
+        <img src="/images/blog/chicken_pot_pie.png" alt="Potato Soup" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>6 potatoes, peeled and cubed</li>
+            <li>1 onion, chopped</li>
+            <li>4 cups chicken broth, 1 cup milk, 1/2 cup cream</li>
+            <li>Toppings: Bacon, cheddar cheese, chives.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Boil potatoes and onion in broth until tender.</li>
+            <li>Mash some potatoes in the pot for thickness.</li>
+            <li>Stir in milk and cream. Simmer 5 mins.</li>
+            <li>Serve topped with generous amounts of bacon and cheese.</li>
+        </ol>`
+    },
+    {
+        id: 1029,
+        slug: 'blood-orange-upside-down-cake-recipe',
+        title: 'Winter Blood Orange Upside-Down Cake',
+        excerpt: 'Stunningly beautiful and moist. The vibrant blood oranges caramelize on top for a citrusy, sweet winter treat.',
+        imageUrl: '/images/blog/easy-pistachio-cake-hero.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '1 hr 10 min',
+        type: 'recipe',
+        content: `<h2>Blood Orange Upside-Down Cake</h2>
+        <p>A showstopper dessert that captures the best of winter citrus. The yogurt base keeps it incredibly moist.</p>
+
+        <img src="/images/blog/easy-pistachio-cake-hero.png" alt="Blood Orange Cake" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>3 blood oranges, thinly sliced</li>
+            <li>1 cup sugar, 1/2 cup butter</li>
+            <li>1 1/2 cups flour, 2 tsp baking powder</li>
+            <li>1/2 cup greek yogurt, 2 eggs</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Arrange orange slices in a buttered and sugared cake pan.</li>
+            <li>Cream butter and sugar. Add eggs and yogurt.</li>
+            <li>Fold in dry ingredients. Pour batter over oranges.</li>
+            <li>Bake at 350°F for 40-50 mins.</li>
+            <li>Invert onto a plate while warm.</li>
+        </ol>`
+    },
+    {
+        id: 1030,
+        slug: 'cardamom-pear-loaf-recipe',
+        title: 'Spiced Cardamom & Pear Loaf',
+        excerpt: 'A cozy tea cake spiced with aromatic cardamom and studded with chunks of sweet pear. Perfect for breakfast.',
+        imageUrl: '/images/blog/moist-banana-bread-recipe.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '55 min',
+        type: 'recipe',
+        content: `<h2>Cardamom & Pear Loaf</h2>
+        <p>This loaf isn't too sweet, making it ideal for morning coffee. The cardamom adds a sophisticated warmth.</p>
+
+        <img src="/images/blog/moist-banana-bread-recipe.png" alt="Pear Loaf" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 ripe pears, diced</li>
+            <li>2 cups flour, 1 tsp baking powder</li>
+            <li>1 tbsp ground cardamom</li>
+            <li>1/2 cup melted butter, 3/4 cup honey</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Whisk flour, baking powder, and cardamom.</li>
+            <li>Mix butter, honey, and eggs.</li>
+            <li>Combine wet and dry ingredients. Fold in pears.</li>
+            <li>Bake in a loaf pan at 350°F for 50 mins.</li>
+        </ol>`
+    },
+    {
+        id: 1031,
+        slug: 'gingerbread-bundt-cake-recipe',
+        title: 'Old-Fashioned Gingerbread Bundt Cake',
+        excerpt: 'Dark, sticky, and spicy. This gingerbread bundt improves with age and is delicious with whipped cream.',
+        imageUrl: '/images/blog/chocolate-cake.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '1 hr 15 min',
+        type: 'recipe',
+        content: `<h2>Gingerbread Bundt Cake</h2>
+        <p>The smell of molasses and ginger baking is the scent of winter. This cake is dense, moist, and deeply flavorful.</p>
+
+        <img src="/images/blog/chocolate-cake.png" alt="Gingerbread Cake" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 cup molasses, 1 cup boiling water</li>
+            <li>2 1/2 cups flour, 1 tsp baking soda</li>
+            <li>2 tsp ginger, 1 tsp cinnamon, 1/2 tsp cloves</li>
+            <li>1/2 cup butter, 1/2 cup brown sugar</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix molasses and boiling water. Add baking soda (it will foam!).</li>
+            <li>Cream butter and sugar. Add egg and dry ingredients alternately with molasses mixture.</li>
+            <li>Pour into greased bundt pan.</li>
+            <li>Bake at 350°F for 45-50 mins.</li>
+        </ol>`
+    },
+    {
+        id: 1032,
+        slug: 'rustic-sourdough-boule-recipe',
+        title: 'Beginner Friendly Rustic Sourdough Boule',
+        excerpt: 'Crusty on the outside, chewy on the inside. Master the art of winter bread baking with this guide.',
+        imageUrl: '/images/blog/sourdough_boule.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '24 hours (process)',
+        type: 'recipe',
+        content: `<h2>Rustic Sourdough Boule</h2>
+        <p>Nothing beats fresh bread in winter. This recipe uses a long cold ferment for maximum flavor.</p>
+
+        <img src="/images/blog/sourdough_boule.png" alt="Sourdough Bread" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>500g bread flour</li>
+            <li>350g warm water</li>
+            <li>100g active starter</li>
+            <li>10g salt</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix flour and water. Autolyse for 1 hour.</li>
+            <li>Add starter and salt. Mix well.</li>
+            <li>Perform stretch and folds every 30 mins for 2 hours.</li>
+            <li>Bulk ferment until doubled. Shape and cold proof overnight.</li>
+            <li>Bake in dutch oven at 450°F for 20 mins lid on, 20 mins lid off.</li>
+        </ol>`
+    },
+    {
+        id: 1033,
+        slug: 'japanese-milk-bread-recipe',
+        title: 'Soft & Fluffy Japanese Milk Bread (Shokupan)',
+        excerpt: 'The softest bread you will ever eat. Using the Tangzhong method creates a cloud-like texture that stays fresh for days.',
+        imageUrl: '/images/blog/easy-no-knead-bread.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '4 hours',
+        type: 'recipe',
+        content: `<h2>Japanese Milk Bread</h2>
+        <p>This bread is a miracle of baking science. The Tangzhong starter gelatinizes the starch, locking in moisture.</p>
+
+        <img src="/images/blog/easy-no-knead-bread.png" alt="Milk Bread" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li><strong>Tangzhong:</strong> 2 tbsp flour, 1/2 cup milk.</li>
+            <li><strong>Dough:</strong> 2 1/2 cups flour, 1/4 cup sugar, 1 egg, 1/2 cup warm milk, yeast, butter.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Cook Tangzhong ingredients until thick paste forms. Cool.</li>
+            <li>Mix all dough ingredients with Tangzhong. Knead for 15-20 mins (windowpane test!).</li>
+            <li>Proof until doubled.</li>
+            <li>Divide into 3 balls, roll and fold, place in loaf pan.</li>
+            <li>Bake at 350°F for 30 mins. Glaze with milk immediately.</li>
+        </ol>`
+    },
+    {
+        id: 1034,
+        slug: 'cranberry-orange-scones-recipe',
+        title: 'Buttery Cranberry Orange Scones',
+        excerpt: 'Flaky, buttery scones studded with tart cranberries and orange zest. A bright spot on a grey winter morning.',
+        imageUrl: '/images/blog/cookies.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '35 min',
+        type: 'recipe',
+        content: `<h2>Cranberry Orange Scones</h2>
+        <p>The secret to great scones is cold butter and minimal mixing. These are flaky, tender, and bursting with citrus flavor.</p>
+
+        <img src="/images/blog/cookies.png" alt="Scones" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 cups flour, 1/3 cup sugar, 1 tbsp baking powder</li>
+            <li>1/2 cup cold butter, cubed</li>
+            <li>1/2 cup heavy cream, 1 egg</li>
+            <li>1 cup fresh or dried cranberries, zest of 1 orange.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Whisk dry ingredients and zest. Cut in butter until it looks like crumbs.</li>
+            <li>Whisk cream and egg. Stir into dry mix. Fold in berries.</li>
+            <li>Pat into a circle and cut into wedges.</li>
+            <li>Brush with cream & sugar. Bake at 400°F for 20 mins.</li>
+        </ol>`
+    },
+    {
+        id: 1035,
+        slug: 'chai-spiced-cookies-recipe',
+        title: 'Warm Chai Spiced Sugar Cookies',
+        excerpt: 'All the flavors of your favorite latte in a chewy sugar cookie. Cardamom, cinnamon, ginger, and cloves.',
+        imageUrl: '/images/blog/chocolate-pistachio-cookies-hero.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '30 min',
+        type: 'recipe',
+        content: `<h2>Chai Spiced Cookies</h2>
+        <p>A simple sugar cookie dough elevated with a homemade chai spice blend. Perfect for dipping in tea.</p>
+
+        <img src="/images/blog/chocolate-pistachio-cookies-hero.png" alt="Chai Cookies" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 cup butter, 1 1/2 cups sugar</li>
+            <li>2 eggs, 1 tsp vanilla</li>
+            <li>2 3/4 cups flour, 1 tsp baking soda</li>
+            <li><strong>Spice Blend:</strong> 2 tsp cinnamon, 1 tsp ginger, 1 tsp cardamom, 1/2 tsp cloves, 1/2 tsp allspice.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Cream butter and sugar. Add eggs and vanilla.</li>
+            <li>Whisk flour, soda, and spice blend. Add to wet ingredients.</li>
+            <li>Roll into balls and roll in spiced sugar.</li>
+            <li>Bake at 350°F for 10-12 mins.</li>
+        </ol>`
+    },
+    {
+        id: 1036,
+        slug: 'sticky-toffee-pudding-recipe',
+        title: 'Classic Sticky Toffee Pudding',
+        excerpt: 'A rich, moist sponge cake made with finely chopped dates, covered in a toffee sauce. The ultimate British comfort food.',
+        imageUrl: '/images/blog/brownie-pudding-step-4-water.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '50 min',
+        type: 'recipe',
+        content: `<h2>Sticky Toffee Pudding</h2>
+        <p>Served warm with a scoop of vanilla ice cream, this is perhaps the most comforting dessert in existence.</p>
+
+        <img src="/images/blog/brownie-pudding-step-4-water.png" alt="Sticky Toffee Pudding" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 cup dates (pitted and chopped), 1 cup boiling water, 1 tsp baking soda</li>
+            <li>1/3 cup butter, 3/4 cup sugar, 2 eggs, 1 1/3 cups flour</li>
+            <li><strong>Sauce:</strong> 1/2 cup butter, 1/2 cup brown sugar, 1/2 cup heavy cream.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Soak dates and baking soda in boiling water.</li>
+            <li>Cream butter and sugar. Add eggs. Fold in flour and date mixture.</li>
+            <li>Bake in a square pan at 350°F for 35 mins.</li>
+            <li>Simmer sauce ingredients for 5 mins. Pour over warm cake.</li>
+        </ol>`
+    },
+    {
+        id: 1037,
+        slug: 'rosemary-focaccia-recipe',
+        title: 'Easy No-Knead Rosemary Focaccia',
+        excerpt: 'Golden, olive oil-soaked bread with a crispy crust and soft airy crumb. Topped with fresh rosemary and sea salt.',
+        imageUrl: '/images/blog/easy-no-knead-bread.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '3 hr (mostly resting)',
+        type: 'recipe',
+        content: `<h2>Rosemary Focaccia</h2>
+        <p>The easiest bread you'll ever make. No kneading required, just patience and plenty of good olive oil.</p>
+
+        <img src="/images/blog/easy-no-knead-bread.png" alt="Focaccia" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>4 cups flour, 2 tsp salt, 2 tsp instant yeast</li>
+            <li>2 cups warm water</li>
+            <li>Extra virgin olive oil, fresh rosemary, flaky sea salt.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix flour, salt, yeast, and water. Cover and fridge overnight (or let rise 4 hours room temp).</li>
+            <li>Pour into an oiled baking pan. Let rest 1 hour.</li>
+            <li>Dimple the dough with your fingers. Drizzle generously with oil.</li>
+            <li>Top with rosemary and salt. Bake at 425°F for 20-25 mins.</li>
+        </ol>`
+    },
+    {
+        id: 1038,
+        slug: 'dark-chocolate-tart-recipe',
+        title: 'Elegant Dark Chocolate Tart',
+        excerpt: 'A buttery shortbread crust filled with silky smooth dark chocolate ganache. Simple, elegant, and intensely chocolatey.',
+        imageUrl: '/images/blog/chocolate-pistachio-bar-hero.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 20, 2026',
+        readTime: '4 hr (including chill)',
+        type: 'recipe',
+        content: `<h2>Dark Chocolate Tart</h2>
+        <p>This tart is for serious chocolate lovers. Use high-quality chocolate for the best ganache.</p>
+
+        <img src="/images/blog/chocolate-pistachio-bar-hero.png" alt="Chocolate Tart" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li><strong>Crust:</strong> 1 1/2 cups flour, 1/2 cup butter, 1/4 cup sugar, 1 egg yolk.</li>
+            <li><strong>Filling:</strong> 12 oz dark chocolate, 1 cup heavy cream, 1/4 cup butter.</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix crust ingredients. Press into tart pan. Bake blind at 350°F for 20 mins. Cool.</li>
+            <li>Heat cream until simmering. Pour over chocolate and butter. Let sit 5 mins, then whisk until smooth.</li>
+            <li>Pour into crust. Chill for at least 3 hours to set.</li>
+            <li>Serve with sea salt flakes or berries.</li>
+        </ol>`
+    },
+    {
+        id: 1039,
+        slug: 'date-walnut-energy-bites',
+        title: 'Date & Walnut Energy Bites',
+        excerpt: 'Naturally sweet energy bites made with dates, walnuts, and coconut. The perfect refined sugar-free pick-me-up.',
+        imageUrl: '/images/blog/date-walnut-energy-bites.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '15 min',
+        type: 'recipe',
+        content: `<h2>Date & Walnut Energy Bites</h2>
+        <p>These little bites are lifesavers when you need something sweet but want to keep it wholesome. They come together in minutes.</p>
+        <img src="/images/blog/date-walnut-energy-bites.png" alt="Energy Bites" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 cup walnuts</li>
+            <li>1 cup medjool dates, pitted</li>
+            <li>1/2 cup shredded coconut (plus extra for rolling)</li>
+            <li>1/2 tsp cinnamon</li>
+            <li>Pinch of salt</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Pulse walnuts in food processor until crumbly.</li>
+            <li>Add dates, coconut, cinnamon, and salt. Process until a sticky dough forms.</li>
+            <li>Roll into 1-inch balls.</li>
+            <li>Roll each ball in extra shredded coconut to coat.</li>
+            <li>Store in the fridge.</li>
+        </ol>`
+    },
+    {
+        id: 1040,
+        slug: 'cinnamon-spiced-baked-apples',
+        title: 'Cinnamon Spiced Baked Apples',
+        excerpt: 'Warm, tender apples filled with raisins and nuts. A comforting dessert that celebrates natural sweetness.',
+        imageUrl: '/images/blog/warm_apple_crisp_ice_cream.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '45 min',
+        type: 'recipe',
+        content: `<h2>Cinnamon Spiced Baked Apples</h2>
+        <p>Simple and rustic, baked apples are a classic for a reason. As they bake, their juices caramelize into a natural syrup.</p>
+        <img src="/images/blog/warm_apple_crisp_ice_cream.png" alt="Baked Apples" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>4 large apples (Honeycrisp or Gala work well)</li>
+            <li>1/4 cup chopped pecans</li>
+            <li>1/4 cup raisins</li>
+            <li>1 tsp cinnamon</li>
+            <li>1/2 cup water</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Preheat oven to 375°F. Core apples, leaving the bottom intact.</li>
+            <li>Mix pecans, raisins, and cinnamon. Stuff into apples.</li>
+            <li>Place apples in a baking dish. Pour water into the bottom of the dish.</li>
+            <li>Bake for 35-45 minutes until apples are soft. Spoon pan juices over apples before serving.</li>
+        </ol>`
+    },
+    {
+        id: 1041,
+        slug: '2-ingredient-banana-oat-cookies',
+        title: '2-Ingredient Banana Oat Cookies',
+        excerpt: 'The simplest cookies you will ever make. Just bananas and oats for a healthy, chewy treat.',
+        imageUrl: '/images/blog/cookies.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '20 min',
+        type: 'recipe',
+        content: `<h2>2-Ingredient Banana Oat Cookies</h2>
+        <p>When we say 2 ingredients, we mean it. These are chewy, wholesome, and perfect for using up spotted bananas.</p>
+        <img src="/images/blog/cookies.png" alt="Banana Oat Cookies" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 large ripe bananas</li>
+            <li>1 1/2 cups rolled oats</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Preheat oven to 350°F. Line a baking sheet with parchment paper.</li>
+            <li>Mash bananas in a bowl until smooth.</li>
+            <li>Stir in oats until combined.</li>
+            <li>Scoop spoonfuls onto baking sheet and flatten slightly.</li>
+            <li>Bake for 12-15 minutes until set. Let cool on rack.</li>
+        </ol>`
+    },
+    {
+        id: 1042,
+        slug: 'berry-chia-seed-pudding',
+        title: 'Berry Chia Seed Pudding',
+        excerpt: 'Creamy vegan pudding loaded with antioxidants. The perfect make-ahead breakfast or dessert.',
+        imageUrl: '/images/blog/cupcakes.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '5 min (plus chill time)',
+        type: 'recipe',
+        content: `<h2>Berry Chia Seed Pudding</h2>
+        <p>Chia seeds are magical little things that transform liquid into a creamy pudding. </p>
+        <img src="/images/blog/cupcakes.png" alt="Chia Pudding" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>3 tbsp chia seeds</li>
+            <li>1 cup almond milk (unsweetened)</li>
+            <li>1/2 tsp vanilla extract</li>
+            <li>1 cup fresh berries</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix chia seeds, almond milk, and vanilla in a jar. Stir well.</li>
+            <li>Let sit for 5 minutes, then stir again to prevent clumps.</li>
+            <li>Refrigerate for at least 2 hours or overnight.</li>
+            <li>Top with fresh berries before serving.</li>
+        </ol>`
+    },
+    {
+        id: 1043,
+        slug: 'chocolate-banana-nice-cream',
+        title: 'Chocolate Banana "Nice" Cream',
+        excerpt: 'Rich chocolate soft serve made entirely from fruit. Dairy-free, sugar-free, and incredibly creamy.',
+        imageUrl: '/images/blog/chocolate-brownie-pudding-hero.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '5 min',
+        type: 'recipe',
+        content: `<h2>Chocolate Banana "Nice" Cream</h2>
+        <p>Craving ice cream? This frozen banana trick is a game changer. It s so creamy you wont believe it s dairy-free.</p>
+        <img src="/images/blog/chocolate-brownie-pudding-hero.png" alt="Nice Cream" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>3 frozen bananas, sliced</li>
+            <li>2 tbsp cocoa powder</li>
+            <li>Splash of almond milk (if needed)</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Place frozen banana slices and cocoa powder in a high-speed blender or food processor.</li>
+            <li>Blend until crumbly, scrape down sides.</li>
+            <li>Continue blending until smooth and creamy like soft serve. Add a splash of almond milk only if machine gets stuck.</li>
+            <li>Serve immediately.</li>
+        </ol>`
+    },
+    {
+        id: 1044,
+        slug: 'cinnamon-roasted-almonds',
+        title: 'Cinnamon Roasted Almonds',
+        excerpt: 'Crunchy toasted almonds with a warm cinnamon coating. A protein-packed snack for on-the-go.',
+        imageUrl: '/images/blog/baking-ingredients.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '20 min',
+        type: 'recipe',
+        content: `<h2>Cinnamon Roasted Almonds</h2>
+        <p>These smell amazing while roasting. Better than the expensive ones you buy at the mall.</p>
+        <img src="/images/blog/baking-ingredients.png" alt="Roasted Almonds" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 cups raw almonds</li>
+            <li>1 tsp cinnamon</li>
+            <li>1/2 tsp sea salt</li>
+            <li>1 tsp olive oil (or water)</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Preheat oven to 325°F.</li>
+            <li>Toss almonds with oil (or water if strictly oil-free), cinnamon, and salt.</li>
+            <li>Spread on a baking sheet.</li>
+            <li>Roast for 15-20 minutes, stirring halfway through.</li>
+            <li>Let cool completely to crisp up.</li>
+        </ol>`
+    },
+    {
+        id: 1045,
+        slug: 'no-bake-peanut-butter-bars',
+        title: 'No-Bake Peanut Butter Bars',
+        excerpt: 'Fudgy, nutty bars made with only natural ingredients. A satisfying treat without the sugar crash.',
+        imageUrl: '/images/blog/chocolate-pistachio-bar-slice.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '15 min',
+        type: 'recipe',
+        content: `<h2>No-Bake Peanut Butter Bars</h2>
+        <p>These bars are dense, rich, and perfect for peanut butter lovers.</p>
+        <img src="/images/blog/chocolate-pistachio-bar-slice.png" alt="PB Bars" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 cup natural peanut butter</li>
+            <li>1 cup oat flour (blended oats)</li>
+            <li>1/2 cup date paste (blended dates)</li>
+            <li>1 tsp vanilla extract</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Mix all ingredients in a bowl until a dough forms.</li>
+            <li>Press firmly into a lined square pan.</li>
+            <li>Refrigerate for 1 hour to set.</li>
+            <li>Slice into bars and enjoy.</li>
+        </ol>`
+    },
+    {
+        id: 1046,
+        slug: 'warm-cinnamon-berry-compote',
+        title: 'Warm Cinnamon Berry Compote',
+        excerpt: 'A syrupy fruit sauce made from simmering berries with spices. Delicious over oatmeal or on its own.',
+        imageUrl: '/images/blog/pumpkin-cake-hero.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '10 min',
+        type: 'recipe',
+        content: `<h2>Warm Cinnamon Berry Compote</h2>
+        <p>Use any mix of berries for this. Frozen berries work beautifully.</p>
+        <img src="/images/blog/pumpkin-cake-hero.png" alt="Berry Compote" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 cups mixed berries (strawberries, blueberries, raspberries)</li>
+            <li>1 cinnamon stick</li>
+            <li>1 tsp lemon juice</li>
+            <li>1/4 cup water or orange juice</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Combine all ingredients in a small saucepan.</li>
+            <li>Bring to a boil, then reduce heat and simmer for 10 minutes.</li>
+            <li>The berries will break down and sauce will thicken.</li>
+            <li>Remove cinnamon stick and serve warm.</li>
+        </ol>`
+    },
+    {
+        id: 1047,
+        slug: 'roasted-cinnamon-chickpeas',
+        title: 'Roasted Cinnamon Chickpeas',
+        excerpt: 'A crunchy, fiber-rich snack that hits the spot when you need a little crunch.',
+        imageUrl: '/images/blog/baking-ingredients.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 23, 2026',
+        readTime: '40 min',
+        type: 'recipe',
+        content: `<h2>Roasted Cinnamon Chickpeas</h2>
+        <p>Crunchy chickpeas are a fantastic alternative to chips or nuts.</p>
+        <img src="/images/blog/baking-ingredients.png" alt="Chickpeas" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 can chickpeas, rinsed and drained</li>
+            <li>1 tsp olive oil</li>
+            <li>1 tsp cinnamon</li>
+            <li>1/2 tsp ginger</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Preheat oven to 400°F. Pat chickpeas very dry with a towel (crucial for crunch!).</li>
+            <li>Toss with oil and spices.</li>
+            <li>Spread on baking sheet. Bake for 30-40 minutes, shaking pan occasionally.</li>
+            <li>Let cool in the turned-off oven for maximum crispiness.</li>
+        </ol>`
+    },
+    {
+        id: 1048,
+        slug: 'coconut-date-rolls',
+        title: 'Coconut Date Rolls',
+        excerpt: 'Chewy, sweet spirals of dates and coconut. A simple confection that naturally impresses.',
+        imageUrl: '/images/blog/cinnamon_rolls_frosting.png',
+        category: 'Healthy Baking',
+        author: 'Sweetys Bakery',
+        date: 'January 25, 2026',
+        readTime: '20 min',
+        type: 'recipe',
+        content: `<h2>Coconut Date Rolls</h2>
+        <p>These look like little sushi rolls but taste like candy.</p>
+        <img src="/images/blog/cinnamon_rolls_frosting.png" alt="Date Rolls" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 lb pitted dates</li>
+            <li>1 cup shredded coconut (unsweetened)</li>
+            <li>1/2 cup chopped walnuts (optional)</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Process dates in food processor until they form a smooth paste ball.</li>
+            <li>Place paste between two sheets of parchment paper and roll into a rectangle.</li>
+            <li>Sprinkle coconut and walnuts over the date sheet.</li>
+            <li>Roll up tightly like a cinnamon roll.</li>
+            <li>Slice into rounds. Roll edges in extra coconut.</li>
+        </ol>`
     }
 ];
