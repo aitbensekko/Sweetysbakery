@@ -2387,6 +2387,17 @@ export const newSeoBlogPosts: BlogPost[] = [
 <li><strong>Best For:</strong> Singles, couples, or anyone with limited counter space.</li>
 </ul>
 
+<div class="my-6 border rounded-xl p-4 shadow-sm bg-gray-50 flex flex-col sm:flex-row items-center gap-6">
+  <div class="relative w-48 h-48 flex-shrink-0">
+    <img src="/images/blog/ninja-creami-nc301.png" alt="Ninja CREAMi NC301" class="object-contain w-full h-full">
+  </div>
+  <div class="flex-grow text-center sm:text-left">
+    <h5 class="text-xl font-bold mb-2">Ninja CREAMi (NC301)</h5>
+    <p class="text-gray-600 mb-4 text-sm">The viral original. Perfect for personal use.</p>
+    <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Check Best Price</a>
+  </div>
+</div>
+
 <h4>2. Ninja CREAMi Deluxe (NC501) - The Upgrade</h4>
 <p>The Deluxe is larger and offers more versatility.</p>
 <ul>
@@ -2394,6 +2405,17 @@ export const newSeoBlogPosts: BlogPost[] = [
 <li><strong>Functions:</strong> 11-in-1 (Adds Frozen Yogurt, Creamiccino, Frozen Drink, Slushi).</li>
 <li><strong>Best For:</strong> Families, entertainers, or those who want to make larger batches at once.</li>
 </ul>
+
+<div class="my-6 border rounded-xl p-4 shadow-sm bg-gray-50 flex flex-col sm:flex-row items-center gap-6">
+  <div class="relative w-48 h-48 flex-shrink-0">
+    <img src="/images/blog/ninja-creami-deluxe.png" alt="Ninja CREAMi Deluxe NC501" class="object-contain w-full h-full">
+  </div>
+  <div class="flex-grow text-center sm:text-left">
+    <h5 class="text-xl font-bold mb-2">Ninja CREAMi Deluxe (NC501)</h5>
+    <p class="text-gray-600 mb-4 text-sm">Bigger pints, more functions, 50% more ice cream.</p>
+    <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Check Best Price</a>
+  </div>
+</div>
 
 <h3>Pros and Cons</h3>
 
@@ -2420,26 +2442,35 @@ export const newSeoBlogPosts: BlogPost[] = [
 
 <hr>
 
-<h3>Shop the Ninja CREAMi & Accessories</h3>
+<h3>Shop the Ninja CREAMi Collection</h3>
 
 <p>Ready to start spinning? Here are the best deals on the machines and essential accessories:</p>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
-  <div class="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow bg-white text-center">
+  <div class="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow bg-white text-center flex flex-col items-center">
+    <div class="w-32 h-32 mb-4 relative">
+        <img src="/images/blog/ninja-creami-nc301.png" alt="Ninja CREAMi" class="object-contain w-full h-full">
+    </div>
     <h4 class="text-lg font-bold mb-2">Ninja CREAMi (NC301)</h4>
-    <p class="text-sm text-gray-600 mb-4">The original 7-in-1 ice cream maker.</p>
-    <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Check Price on Amazon</a>
+    <p class="text-sm text-gray-600 mb-4 flex-grow">The original 7-in-1 ice cream maker.</p>
+    <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Check Price</a>
   </div>
 
-  <div class="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow bg-white text-center">
+  <div class="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow bg-white text-center flex flex-col items-center">
+    <div class="w-32 h-32 mb-4 relative">
+        <img src="/images/blog/ninja-creami-deluxe.png" alt="Ninja CREAMi Deluxe" class="object-contain w-full h-full">
+    </div>
     <h4 class="text-lg font-bold mb-2">Ninja CREAMi Deluxe (NC501)</h4>
-    <p class="text-sm text-gray-600 mb-4">11-in-1 XL capacity for families.</p>
-    <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Check Price on Amazon</a>
+    <p class="text-sm text-gray-600 mb-4 flex-grow">11-in-1 XL capacity for families.</p>
+    <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Check Price</a>
   </div>
 
-  <div class="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow bg-white text-center">
+  <div class="border rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow bg-white text-center flex flex-col items-center">
+    <div class="w-32 h-32 mb-4 relative">
+        <img src="/images/blog/creami-pints.png" alt="CREAMi Pints" class="object-contain w-full h-full">
+    </div>
     <h4 class="text-lg font-bold mb-2">Extra Pints & Lids</h4>
-    <p class="text-sm text-gray-600 mb-4">Dishwasher safe extra containers.</p>
+    <p class="text-sm text-gray-600 mb-4 flex-grow">Dishwasher safe extra containers.</p>
     <a href="https://www.amazon.com/Containers-Compatible-Accessories-Dishwasher-Assorted/dp/B0DK1GL6B4?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=ea8d60e28a50c2f45cedf83a91b065fd&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-pink text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold transition-colors">Shop Accessories</a>
   </div>
 </div>`
