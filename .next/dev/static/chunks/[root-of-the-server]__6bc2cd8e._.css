@@ -2422,6 +2422,10 @@ img, video {
   max-width: 70%;
 }
 
+.max-w-\[728px\] {
+  max-width: 728px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -2448,10 +2452,6 @@ img, video {
 
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-\[728px\] {
-  max-width: 728px;
 }
 
 .flex-1 {
@@ -4135,12 +4135,6 @@ img, video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-brand-cream\/30 {
-  --tw-gradient-from: #fbf9f74d var(--tw-gradient-from-position);
-  --tw-gradient-to: #fbf9f700 var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-brand-gold {
   --tw-gradient-from: #d4af37 var(--tw-gradient-from-position);
   --tw-gradient-to: #d4af3700 var(--tw-gradient-to-position);
@@ -4543,10 +4537,6 @@ img, video {
   --tw-gradient-to: #fff9 var(--tw-gradient-to-position);
 }
 
-.to-yellow-50 {
-  --tw-gradient-to: #fefce8 var(--tw-gradient-to-position);
-}
-
 .bg-clip-text {
   -webkit-background-clip: text;
   background-clip: text;
@@ -4562,6 +4552,10 @@ img, video {
 
 .fill-yellow-400 {
   fill: #facc15;
+}
+
+.stroke-\[3\] {
+  stroke-width: 3px;
 }
 
 .object-contain {
@@ -5406,11 +5400,6 @@ img, video {
 .text-pink-400 {
   --tw-text-opacity: 1;
   color: rgb(244 114 182 / var(--tw-text-opacity, 1));
-}
-
-.text-pink-500 {
-  --tw-text-opacity: 1;
-  color: rgb(236 72 153 / var(--tw-text-opacity, 1));
 }
 
 .text-pink-600 {
@@ -7439,6 +7428,10 @@ details[open] summary .accordion-arrow {
     height: .5rem;
   }
 
+  .sm\:h-4 {
+    height: 1rem;
+  }
+
   .sm\:h-6 {
     height: 1.5rem;
   }
@@ -7449,6 +7442,10 @@ details[open] summary .accordion-arrow {
 
   .sm\:w-32 {
     width: 8rem;
+  }
+
+  .sm\:w-4 {
+    width: 1rem;
   }
 
   .sm\:w-6 {
@@ -7541,6 +7538,10 @@ details[open] summary .accordion-arrow {
     justify-content: space-between;
   }
 
+  .sm\:gap-0 {
+    gap: 0;
+  }
+
   .sm\:gap-10 {
     gap: 2.5rem;
   }
@@ -7563,10 +7564,6 @@ details[open] summary .accordion-arrow {
 
   .sm\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .sm\:gap-0 {
-    gap: 0;
   }
 
   .sm\:space-y-5 > :not([hidden]) ~ :not([hidden]) {

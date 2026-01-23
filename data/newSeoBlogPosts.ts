@@ -2393,7 +2393,9 @@ export const newSeoBlogPosts: BlogPost[] = [
   </div>
   <h4 class="text-2xl font-bold mb-2">Ninja CREAMi (NC301)</h4>
   <p class="text-gray-600 mb-6">The viral original 7-in-1 machine.<br>Best for most home kitchens.</p>
-  <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-[#E65A88] text-white font-bold py-3 px-10 rounded-full hover:bg-black transition-all transform hover:-translate-y-1 shadow-md">Check Price on Amazon</a>
+  <div style="text-align: center;">
+    <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E65A88; color: white; display: inline-block; padding: 12px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">Check Price on Amazon</a>
+  </div>
 </div>
 
 <h4>2. Ninja CREAMi Deluxe (NC501) - The Upgrade</h4>
@@ -2410,7 +2412,9 @@ export const newSeoBlogPosts: BlogPost[] = [
   </div>
   <h4 class="text-2xl font-bold mb-2">Ninja CREAMi Deluxe (NC501)</h4>
   <p class="text-gray-600 mb-6">Create 50% more ice cream with<br>11-in-1 functions for families.</p>
-  <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block bg-[#E65A88] text-white font-bold py-3 px-10 rounded-full hover:bg-black transition-all transform hover:-translate-y-1 shadow-md">Check Price on Amazon</a>
+  <div style="text-align: center;">
+    <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E65A88; color: white; display: inline-block; padding: 12px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">Check Price on Amazon</a>
+  </div>
 </div>
 
 <h3>Pros and Cons</h3>
@@ -2449,7 +2453,9 @@ export const newSeoBlogPosts: BlogPost[] = [
     </div>
     <h4 class="text-lg font-bold mb-2">Ninja CREAMi (NC301)</h4>
     <p class="text-sm text-gray-500 mb-6 flex-grow">The original 7-in-1 ice cream maker.</p>
-    <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block w-full bg-[#E65A88] text-white font-bold py-2 px-4 rounded-full hover:bg-black transition-colors text-sm">Check Price</a>
+    <div style="text-align: center; width: 100%;">
+      <a href="https://www.amazon.com/Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi+-+Ice+Cream+Maker&qid=1769125889&sprefix=creami+-+ice+cream+maker%2Caps%2C368&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=8f794c16fff9afedf0bc8883815de570&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E65A88; color: white; display: inline-block; padding: 10px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 0.875rem;">Check Price</a>
+    </div>
   </div>
 
   <div class="p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-all text-center flex flex-col items-center">
@@ -2458,7 +2464,9 @@ export const newSeoBlogPosts: BlogPost[] = [
     </div>
     <h4 class="text-lg font-bold mb-2">Ninja CREAMi Deluxe (NC501)</h4>
     <p class="text-sm text-gray-500 mb-6 flex-grow">11-in-1 XL capacity for families.</p>
-    <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block w-full bg-[#E65A88] text-white font-bold py-2 px-4 rounded-full hover:bg-black transition-colors text-sm">Check Price</a>
+    <div style="text-align: center; width: 100%;">
+      <a href="https://www.amazon.com/Ninja-NC501-Milkshakes-Programs-Containers/dp/B0B9CZ6XBQ?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-4&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=8b262938e903a2333dc0840068342979&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E65A88; color: white; display: inline-block; padding: 10px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 0.875rem;">Check Price</a>
+    </div>
   </div>
 
   <div class="p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-all text-center flex flex-col items-center">
@@ -2467,7 +2475,9 @@ export const newSeoBlogPosts: BlogPost[] = [
     </div>
     <h4 class="text-lg font-bold mb-2">Extra Pints & Lids</h4>
     <p class="text-sm text-gray-500 mb-6 flex-grow">Dishwasher safe extra containers.</p>
-    <a href="https://www.amazon.com/Containers-Compatible-Accessories-Dishwasher-Assorted/dp/B0DK1GL6B4?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=ea8d60e28a50c2f45cedf83a91b065fd&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" class="inline-block w-full bg-[#E65A88] text-white font-bold py-2 px-4 rounded-full hover:bg-black transition-colors text-sm">Shop Accessories</a>
+    <div style="text-align: center; width: 100%;">
+      <a href="https://www.amazon.com/Containers-Compatible-Accessories-Dishwasher-Assorted/dp/B0DK1GL6B4?crid=2GSDZ6C68FF56&dib=eyJ2IjoiMSJ9.N2leaeNP5dU5Btv-isUle8rV1nzYc7EbWyMYFjQjtJ8pkjDZIGSkbHoEwxGYILBDFxGLRUNW7HgsHpwfDhjbcS47rFYAwLpND0-FI1tOvPYq70PG0YUgl7xKWlHAd8NV3luF4N5fPdNYBEkYfPMqDyR6Bxc5mPyPOjbpd4chWmlKm78KfTW4ZBa6BKzzswyvDEsME4tDjx9poCi7EBpUgn2GotFza-y0EWc-vR1yBlE.NQNMIGfD9CFEW-R6Te9C0BwdCOwSLM_4UjcRqiyyaSE&dib_tag=se&keywords=CREAMi%2B-%2BIce%2BCream%2BMaker&qid=1769125889&sprefix=creami%2B-%2Bice%2Bcream%2Bmaker%2Caps%2C368&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=ea8d60e28a50c2f45cedf83a91b065fd&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E65A88; color: white; display: inline-block; padding: 10px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 0.875rem;">Shop Accessories</a>
+    </div>
   </div>
 </div>`
     }
