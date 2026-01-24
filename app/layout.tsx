@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     },
     verification: {
         google: 'M0bVdyUKKCEFYgt8zaBIEBxsHLT52M9vYN1oGCj3A5M',
+        other: {
+            'p:domain_verify': '03405095329c5661ddfdf31e2ee283dc',
+        },
     },
     alternates: {
         canonical: 'https://sweetysbakery.com',
