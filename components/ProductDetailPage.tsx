@@ -9,8 +9,16 @@ import AdSenseAd from './AdSenseAd';
 import { Footer } from './Footer';
 import { ToolId, toolIdToSlug } from './utils/slugs';
 
+interface RelatedRecipe {
+    slug: string;
+    title: string;
+    imageUrl: string;
+    type: 'recipe' | 'article';
+}
+
 interface ProductDetailPageProps {
     slug: string; // The slug will be passed from the router
+    relatedRecipes?: RelatedRecipe[];
 }
 
 const FAQItem = ({ question, answer }: { question: string; answer: string }) => {
@@ -41,7 +49,7 @@ const FAQItem = ({ question, answer }: { question: string; answer: string }) => 
     );
 };
 
-const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ slug }) => {
+const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ slug, relatedRecipes = [] }) => {
     const router = useRouter();
     const handleNavigate = (path: string) => router.push(path);
     const setActiveTool = (toolId: ToolId) => {
@@ -275,6 +283,46 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ slug }) => {
                 </div>
 
                 <AdSenseAd slotId="1978473644" className="my-12" />
+
+                {/* Related Recipes Section */}
+                {relatedRecipes && relatedRecipes.length > 0 && (
+                    <div className="mt-24 mb-12">
+                        <div className="flex items-center justify-between mb-8">
+                            <h2 className="text-3xl font-serif font-bold text-brand-text-title">Recipes Using This Product</h2>
+                            <button onClick={() => handleNavigate('/recipes')} className="text-brand-pink font-bold hover:underline hidden sm:block">View All Recipes</button>
+                        </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {relatedRecipes.map((recipe) => (
+                                <div
+                                    key={recipe.slug}
+                                    onClick={() => handleNavigate(`/${recipe.type === 'article' ? 'blog' : 'recipes'}/${recipe.slug}`)}
+                                    className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer border border-brand-border/50"
+                                >
+                                    <div className="relative h-48 w-full overflow-hidden">
+                                        <Image
+                                            src={recipe.imageUrl}
+                                            alt={recipe.title}
+                                            fill
+                                            className="object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                    </div>
+                                    <div className="p-6">
+                                        <h3 className="font-serif font-bold text-xl text-brand-text-title group-hover:text-brand-pink transition-colors line-clamp-2">
+                                            {recipe.title}
+                                        </h3>
+                                        <div className="mt-4 flex items-center text-brand-pink font-bold text-sm uppercase tracking-wider">
+                                            <span>Read Recipe</span>
+                                            <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
 
                 {/* Similar Products Section */}
                 <div className="mt-24">
