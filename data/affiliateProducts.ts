@@ -799,27 +799,57 @@ export const affiliateProducts: AffiliateProduct[] = [
         slug: '100-cookies-sarah-kieffer',
         imageUrl: '/images/ebooks/100-cookies.jpg',
         category: 'Ebooks',
-        excerpt: "The baking book for every kitchen, featuring classic cookies, novel treats, brownies, and bars.",
-        review: "Sarah Kieffer has done it again with <strong>100 Cookies</strong>. This book is a pure delight, offering a diverse range of recipes from classic chocolate chip to sophisticated bars and brownies. The famous 'pan-banging' technique for rippled, crispy edges is just the tip of the iceberg. Each recipe is clear, reliable, and produces bakery-quality results. It's the perfect gift for yourself or the cookie monster in your life—you'll find yourself reaching for this book time and time again.",
-        affiliateLink: 'https://www.amazon.com/100-Cookies-Kitchen-Classic-Brownies-ebook/dp/B0875LWBM5?crid=5RM4ZG07EZRB&dib=eyJ2IjoiMSJ9.bATbbaX8it0WXFA61mturNb4a4GwteHgg-Qqpb0SxwJ_5bcRkC4VYCD_syiDJBvX_q5K8AzH5IR04C-dQ_RuEpvE4xeY50O-0aIttd7_zQsZzg-ccHJEP5v8x21tlgE8KnpFSVtizuF4Oi_Ks193-MhUL-TzKKNvvJk_fznm7CvCSolQDV0Z4e_PDn49z10AoUH1a-p-F3OIdkZdUkyFFPxCzTwPWPijzUVc0fOMqqA.-hpCRGA6D7K3eDiZRuVV7i2mSqriudJ-ud-ZCk9eDmU&dib_tag=se&keywords=ebook+baking&qid=1764965251&sprefix=ebook+baking%2Caps%2C341&sr=8-8&linkCode=ll1&tag=lahcenaitbens-20&linkId=1a42e4c129d5638d724182511b420ea2&language=en_US&ref_=as_li_ss_tl',
+        excerpt: "100 Cookies: The Baking Book for Every Kitchen, with Classic Cookies, Novel Treats, Brownies, Bars, and More.",
+        review: "Sarah Kieffer's pan-banging cookies broke the internet, and this book proves she's no one-hit wonder. <strong>100 Cookies</strong> is a stunningly photographed collection that covers the entire cookie spectrum. From crisp and crunchy to soft and chewy, every recipe is a winner. The 'pan-banging' technique for ripples is explained perfectly, and the brownie recipes alone are worth the price of the book.",
+        affiliateLink: 'https://www.amazon.com/100-Cookies-Kitchen-Classic-Brownies-ebook/dp/B082ZRJTJD?crid=5RM4ZG07EZRB&dib=eyJ2IjoiMSJ9.bATbbaX8it0WXFA61mturNb4a4GwteHgg-Qqpb0SxwJ_5bcRkC4VYCD_syiDJBvX_q5K8AzH5IR04C-dQ_RuEpvE4xeY50O-0aIttd7_zQsZzg-ccHJEP5v8x21tlgE8KnpFSVtizuF4Oi_Ks193-MhUL-TzKKNvvJk_fznm7CvCSolQDV0Z4e_PDn49z10AoUH1a-p-F3OIdkZdUkyFFPxCzTwPWPijzUVc0fOMqqA.-hpCRGA6D7K3eDiZRuVV7i2mSqriudJ-ud-ZCk9eDmU&dib_tag=se&keywords=ebook+baking&qid=1764965251&sprefix=ebook+baking%2Caps%2C341&sr=8-8&linkCode=ll1&tag=lahcenaitbens-20&linkId=3347573be74c3d82a5c055684e2776c5&language=en_US&ref_=as_li_ss_tl',
         rating: 4.7,
         seoTitle: '100 Cookies by Sarah Kieffer',
         seoDescription: '100 Cookies: The Baking Book for Every Kitchen.',
         seoKeywords: ['cookies', 'baking', 'sarah kieffer', 'ebook'],
         imageAlt: "100 Cookies Book Cover",
-        pros: ['Innovative recipes', 'Beautiful photos', 'Crowd pleasers'],
+        pros: ['Trendy recipes', 'Beautiful photos', 'Pan-banging technique'],
         cons: ['None'],
         detailedDescription: `
-        <p><em>100 Cookies</em> by Sarah Kieffer is the ultimate cookie resource. It features a wide array of flavors and textures, organized into seven chapters for every craving.</p>
-        <h3>Why We Love It</h3>
+        <p>If you love cookies, you need this book. <em>100 Cookies</em> by Sarah Kieffer is a modern classic.</p>
+        <h3>Standout Features</h3>
         <ul>
-            <li><strong>The Pan-Banging Technique:</strong> Learn the secret to those Instagram-famous giant, crinkly cookies.</li>
-            <li><strong>Variety:</strong> From soft and chewy to crisp and crunchy, plus bars, brownies, and no-bake treats.</li>
-            <li><strong>Accessibility:</strong> Recipes are easy to follow for bakers of all skill levels.</li>
+            <li><strong>The Famous Pan-Banging Technique:</strong> Learn how to get those Instagram-perfect ripples.</li>
+            <li><strong>Range:</strong> Includes bars, brownies, and holiday specials.</li>
+            <li><strong>Reliability:</strong> Detailed instructions ensure success every time.</li>
         </ul>
-        <p>Whether you're baking for a holiday swap or a midnight snack, this book delivers consistent, delicious joy on every page.</p>
+        <p>A beautiful addition to any baker's bookshelf.</p>
         `
     },
+    {
+        id: 999,
+        lastUpdated: '2026-01-24',
+        name: "The No-Fuss Bread Machine Cookbook",
+        slug: 'no-fuss-bread-machine-cookbook',
+        imageUrl: '/images/books/no-fuss-bread-machine-cookbook.png',
+        category: 'Ebooks',
+        excerpt: "Michelle Anderson's hands-off guide to perfect homemade loaves in any machine.",
+        review: "Finally, a bread machine cookbook that actually makes baking easy. Michelle Anderson attempts to simplify the process with 'hands-off' recipes that work for 1lb, 1.5lb, and 2lb machines. We love that it includes creative recipes like vegetable breads and cheese loaves, not just basic white. The instructions are clear, and the troubleshooting section is a lifesaver for beginners.",
+        affiliateLink: 'https://www.amazon.com/No-Fuss-Bread-Machine-Cookbook-Hands-Off/dp/1623157536?crid=1F9LQ8SI8I09F&dib=eyJ2IjoiMSJ9.gBerr9lVTuq8HqyCyxPtfw3PAl1WeSQIgTC3wN-RGRNsec-niU3Qbm0ejS4QJfPumzdbWgFRv0YyGRE7Szdi0154JqwY9YV2tliYZ4memDfmkdIGCLufZEZrRY5Lx4VTU001OoNHIMVYs57dLMksFNs7K_Um1Eg5HibM3Chd6I94_BxkXojh0YSHBdkSezOzxazIaLIPKsG39Os2JPUTNJPxdqyAvCLl7wGrAsWQUpxUD0AYkW1J1NI7zLWyl_V8iowlu4Kp4FPHBlnsXC_UWnKUj17TWCgOWqhmcggTtz0.b7XJYMqtKvzSiD_UqDuTXXbKvLUNuMbL-Iy10cVlUaM&dib_tag=se&keywords=recipe+baking+book&qid=1769254703&sprefix=recipe+baking%2Caps%2C294&sr=8-1&linkCode=ll1&tag=lahcenaitbens-20&linkId=f015f14a08fb577608d8b8ed93687ee6&language=en_US&ref_=as_li_ss_tl',
+        rating: 4.4,
+        seoTitle: 'The No-Fuss Bread Machine Cookbook Review',
+        seoDescription: 'Hands-Off Recipes for Perfect Homemade Loaves by Michelle Anderson.',
+        seoKeywords: ['bread machine', 'cookbook', 'michelle anderson', 'baking', 'ebook'],
+        imageAlt: "The No-Fuss Bread Machine Cookbook Cover",
+        pros: ['Hands-off', 'Multi-size recipes', 'Great for beginners'],
+        cons: ['None'],
+        detailedDescription: `
+        <p>Unlock the full potential of your bread machine with <em>The No-Fuss Bread Machine Cookbook</em>. Whether you have a 1lb, 1.5lb, or 2lb machine, this book ensures perfect results.</p>
+        <h3>Why We Love It</h3>
+        <ul>
+            <li><strong>True Hands-Off:</strong> Recipes designed to let the machine do the work.</li>
+            <li><strong>Versatile:</strong> Includes Sourdough, Vegetable Breads, and Sweet Loaves.</li>
+            <li><strong>Troubleshooting:</strong> Helps you understand your machine's cycles.</li>
+        </ul>
+        <p>The must-have companion for your bread maker.</p>
+        `
+    },
+
+
     {
         id: 34,
         lastUpdated: '2025-11-23',

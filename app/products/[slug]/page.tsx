@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import ProductDetailPage from '../../../components/ProductDetailPage';
 import { affiliateProducts } from '../../../data/affiliateProducts';
 import { blogPosts } from '../../../data/blogPosts';
+import NoFussBreadBook from '../../../components/books/NoFussBreadBook';
 
 function getRelatedRecipes(product: typeof affiliateProducts[0]) {
     const searchTerms = [product.name, ...product.name.split(' ').filter(w => w.length > 4)]; // Use full name and significant words
@@ -135,6 +136,11 @@ export default async function ProductDetail({ params }: Props) {
                 },
             })),
         };
+    }
+
+    // Custom override for specific books/products that have dedicated landing pages (Redesign applied)
+    if (slug === 'no-fuss-bread-machine-cookbook') {
+        return <NoFussBreadBook />;
     }
 
     const breadcrumbSchema = {

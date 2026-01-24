@@ -90,11 +90,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         }
     });
 
+
+
     const items: MetadataRoute.Sitemap = [
         ...corePages,
         ...physicalRoutes,
         ...blogPages,
         ...productPages,
+
         {
             url: `${baseUrl}/tools/my-art`,
             lastModified: currentDate,

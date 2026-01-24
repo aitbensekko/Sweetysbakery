@@ -21,16 +21,12 @@ export const metadata: Metadata = {
     metadataBase: new URL('https://sweetysbakery.com'),
     description: "The ultimate collection of free baking tools and calculators. Price cakes for profit, scale recipes instantly, convert measurements, and master sourdough with our professional-grade bakery tools.",
     keywords: [
-        "free baking calculators", "cake pricing calculator", "recipe scaler", "baking conversion chart",
-        "sourdough hydration calculator", "macaron troubleshooting guide", "bakery business tools",
-        "cake cost calculator", "pastry chef tools", "baking math", "dough calculator",
-        "baking", "baking recipes", "easy baking recipes", "baking for beginners",
-        "baking soda", "baking powder", "gluten-free baking",
-        "cake recipes", "vanilla cake", "chocolate cake", "red velvet cake", "cupcakes recipe", "frosting recipe",
-        "cookie recipes", "chocolate chip cookies", "sugar cookies", "peanut butter cookies",
-        "brownie recipe", "fudgy brownies", "easy brownies",
-        "bread recipes", "banana bread", "sourdough bread",
-        "baking tools", "baking calculators", "baker's percentage"
+        "baking calculators", "cake pricing calculator", "recipe scaler",
+        "sourdough hydration calculator", "macaron troubleshooting", "bakery business tools",
+        "cake cost calculator", "baking math", "dough calculator",
+        "baking recipes", "easy baking recipes", "gluten-free baking",
+        "cake recipes", "cookie recipes", "bread recipes", "sourdough bread",
+        "baking tools", "Michelle Anderson cookbook", "bread machine recipes"
     ],
     robots: {
         index: true,
@@ -52,7 +48,7 @@ export const metadata: Metadata = {
         google: 'M0bVdyUKKCEFYgt8zaBIEBxsHLT52M9vYN1oGCj3A5M',
     },
     alternates: {
-        canonical: './',
+        canonical: 'https://sweetysbakery.com',
     },
     openGraph: {
         title: "Free Baking Calculators & Tools | Cake Pricing, Recipe Scaler & More",
