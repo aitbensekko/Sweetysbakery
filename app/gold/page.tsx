@@ -17,8 +17,8 @@ import {
 } from '../../components/Icons';
 
 export default function GoldSubscriptionPage() {
-    const [isPremium, setIsPremium] = useState<boolean | null>(null);
-    const [loading, setLoading] = useState(true);
+    const [isPremium, setIsPremium] = useState<boolean | null>(false);
+    const [loading, setLoading] = useState(false);
     const [activeTab, setActiveTab] = useState('overview'); // overview, master-guide, video-library, calculators
     const supabase = createClient();
 
@@ -205,14 +205,15 @@ export default function GoldSubscriptionPage() {
 
                 {/* Main Headline */}
                 <div className="text-center mb-16 space-y-6">
-                    <motion.h1
+                    <motion.div
                         initial={{ scale: 0.9, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
-                        className="font-serif text-5xl md:text-7xl font-bold leading-tight"
                     >
-                        Unlock the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FCD34D] via-[#F59E0B] to-[#FCD34D]">Secret Art</span> <br />
-                        of Professional Baking
-                    </motion.h1>
+                        <h1 className="font-serif text-5xl md:text-7xl font-bold leading-tight">
+                            Unlock the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FCD34D] via-[#F59E0B] to-[#FCD34D]">Secret Art</span> <br />
+                            of Professional Baking
+                        </h1>
+                    </motion.div>
                     <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
                         Join the <span className="text-white font-bold">Gold Subscription</span> to access our exclusive business calculators, advanced masterclasses, and private community.
                     </p>

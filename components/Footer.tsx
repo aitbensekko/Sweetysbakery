@@ -33,10 +33,10 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTool }) => {
                 <a href="https://web.facebook.com/SaPatissl/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FacebookIcon className="w-6 h-6 text-brand-text-body/50 hover:opacity-75 transition-opacity" /></a>
                 <a href="https://www.reddit.com/r/Baking/" target="_blank" rel="noopener noreferrer" aria-label="Reddit"><RedditIcon className="w-6 h-6 text-brand-text-body/50 hover:opacity-75 transition-opacity" /></a>
             </div>
-            <div className="flex justify-center flex-wrap gap-x-8 gap-y-2 mb-6 text-xs text-brand-text-body/60">
-                <span className="flex items-center gap-1">📍 Marrakech, Morocco</span>
+            <address className="flex justify-center flex-wrap gap-x-8 gap-y-2 mb-6 text-xs text-brand-text-body/60 not-italic">
+                <span className="flex items-center gap-1">📍 Marrakech, Morocco 40000</span>
                 <a href="mailto:hello@sweetysbakery.com" className="hover:text-brand-pink transition-colors">hello@sweetysbakery.com</a>
-            </div>
+            </address>
             <p>&copy; {new Date().getFullYear()} Sweety's Bakery Tools. All rights reserved.</p>
         </footer>
     );

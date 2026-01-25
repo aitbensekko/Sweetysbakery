@@ -24,12 +24,14 @@ const knownStaticPages = new Set([
     'oven-temp-converter', 'management-dashboard', 'order-management',
     'baking-tutorials', 'investment-calculator', 'weight-converter',
     'volume-converter', 'dessert-calculator', 'digital-notebook', 'multiple-timer',
-    'inventory-management', 'how-to-temper-chocolate' // Wait, is this a tool or missing post? 
-    // "how-to-temper-chocolate" looks like a missing post. I won't whitelist it unless I'm sure.
+    'ideal-weight-calculator',
+    'inventory-management'
 ]);
 
-// Special whitelist for known valid external-looking or weird links? 
-// No, we only want to keep valid internal pages.
+const aliases = {
+    'how-to-temper-chocolate': 'the-art-of-tempering-mastering-how-to-temper-chocolate'
+};
+
 
 function run() {
     console.log('Starting IMPROVED link fix process (Unlinking dead links)...');
@@ -76,6 +78,20 @@ function run() {
         const tagRegex = /<a\s+[^>]*href="\/([^"\/]+)"[^>]*>(.*?)<\/a>/gs;
 
         content = content.replace(tagRegex, (match, slug, linkText) => {
+            // Check aliases first
+            if (aliases[slug]) {
+                const newSlug = aliases[slug];
+                // Check if new slug is in map to get type
+                if (slugMap.has(newSlug)) {
+                    const type = slugMap.get(newSlug);
+                    let prefix = '/blog/';
+                    if (type === 'recipe') prefix = '/recipes/';
+                    fixedCount++;
+                    console.log(`Aliasing /${slug} -> ${prefix}${newSlug}`);
+                    return match.replace(`href="/${slug}"`, `href="${prefix}${newSlug}"`);
+                }
+            }
+
             // Check if slug is known internal page
             if (knownStaticPages.has(slug)) {
                 return match; // Keep as is

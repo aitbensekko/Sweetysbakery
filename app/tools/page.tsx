@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation';
+import { MainContentWrapper } from '../../components/MainContentWrapper';
 
 export default function ToolsIndex() {
-    redirect('/tools/all-tools');
+    return <MainContentWrapper activeTool="all-tools" activePost={null} />;
 }

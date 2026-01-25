@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Read sitemap
-const sitemapContent = fs.readFileSync('sitemap.xml', 'utf-8');
-const sitemapUrls = [...sitemapContent.matchAll(/<loc>https:\/\/www\.sweetysbakery\.com\/([^<]*)<\/loc>/g)]
+const sitemapContent = fs.readFileSync('out/sitemap.xml', 'utf-8');
+const sitemapUrls = [...sitemapContent.matchAll(/<loc>https:\/\/(?:www\.)?sweetysbakery\.com\/([^<]*)<\/loc>/g)]
     .map(match => match[1])
     .filter(url => url !== ''); // Remove empty homepage
 

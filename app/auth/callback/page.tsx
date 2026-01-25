@@ -65,9 +65,9 @@ function AuthCallbackContent() {
         <div className="fixed inset-0 bg-[#FDFBF7] flex flex-col items-center justify-center p-4">
             <div className="bg-white p-8 rounded-2xl shadow-xl text-center max-w-sm w-full border border-stone-100">
                 <div className="w-16 h-16 border-4 border-brand-pink border-t-transparent rounded-full animate-spin mx-auto mb-6"></div>
-                <h2 className="text-xl font-serif font-bold text-stone-900 mb-2">
+                <h1 className="text-xl font-serif font-bold text-stone-900 mb-2">
                     {status}
-                </h2>
+                </h1>
                 <p className="text-stone-500 text-sm">
                     Please wait while we log you in.
                 </p>
@@ -82,9 +82,9 @@ export default function AuthCallbackPage() {
             <div className="fixed inset-0 bg-[#FDFBF7] flex flex-col items-center justify-center p-4">
                 <div className="bg-white p-8 rounded-2xl shadow-xl text-center max-w-sm w-full border border-stone-100">
                     <div className="w-16 h-16 border-4 border-brand-pink border-t-transparent rounded-full animate-spin mx-auto mb-6"></div>
-                    <h2 className="text-xl font-serif font-bold text-stone-900 mb-2">
+                    <h1 className="text-xl font-serif font-bold text-stone-900 mb-2">
                         Loading...
-                    </h2>
+                    </h1>
                 </div>
             </div>
         }>

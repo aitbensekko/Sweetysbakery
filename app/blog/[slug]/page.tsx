@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import { MainContentWrapper } from '../../../components/MainContentWrapper';
 import { blogPosts, BlogPost } from '../../../data/blogPosts';
+import Script from 'next/script';
+import { generateArticleSchema, generateBreadcrumbSchema } from '../../utils/schema';
+
 import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -58,6 +61,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     }
 
     return (
-        <MainContentWrapper activeTool="baking-blog" activePost={post} />
+        <>
+            <Script
+                id="breadcrumb-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbSchema(post.slug, post.title, 'blog')) }}
+            />
+            <Script
+                id="article-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(generateArticleSchema(post)) }}
+            />
+            <MainContentWrapper activeTool="baking-blog" activePost={post} />
+        </>
     );
 }

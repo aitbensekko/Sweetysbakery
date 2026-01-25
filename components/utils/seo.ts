@@ -16,8 +16,8 @@ const getCanonicalUrl = (path: string): string => `https://sweetysbakery.com${pa
 // SEO data for each tool/page
 const seoDataMap: Record<string, SeoData> = {
   'home': {
-    title: "Free Baking Calculators & Tools | Cake Pricing, Recipe Scaler & More | Sweety's Bakery",
-    description: "The ultimate collection of free baking tools and calculators. Price cakes for profit, scale recipes instantly, convert measurements, and master sourdough with our professional-grade bakery tools.",
+    title: "Free Baking Calculators & Tools | Sweety's Bakery",
+    description: "Free baking tools: cake pricing, recipe scaler, conversions & more. Master your baking with professional-grade calculators.",
     keywords: [
       "free baking calculators", "cake pricing calculator", "recipe scaler", "baking conversion chart",
       "sourdough hydration calculator", "macaron troubleshooting guide", "bakery business tools",
@@ -33,64 +33,82 @@ const seoDataMap: Record<string, SeoData> = {
     ],
     imageUrl: getCanonicalUrl('/placeholder-image.jpg'), // Replace with a real general image
   },
+  'all-tools': {
+    title: "All Baking Tools & Calculators | Sweety's Bakery",
+    description: "Browse our complete collection of free baking calculators, converters, and business tools.",
+    keywords: ["baking tools", "bakery calculators", "free tools", "converters"],
+    imageUrl: getCanonicalUrl('/tools/all-tools.jpg'),
+  },
   'bakers-percentage': {
     title: "Baker's Percentage Calculator | Sweety's Bakery",
-    description: "Easily calculate ingredient weights using baker's percentages. Ensure consistency and scalability for any recipe.",
+    description: "Calculate ingredient weights with baker's percentages. accurate and scalable recipes made easy.",
     keywords: ["baker's percentage", "dough calculator", "recipe scaling", "baking math"],
     imageUrl: getCanonicalUrl('/calculators/bakers-percentage.jpg'),
   },
   'baking-pan-converter': {
     title: "Baking Pan Converter | Sweety's Bakery",
-    description: "Convert recipes between different pan sizes and shapes effortlessly. Adjust baking times and temperatures for perfect results.",
+    description: "Convert recipes for different pan sizes. Adjust baking times and temps for perfect results.",
     keywords: ["pan converter", "baking pan size", "recipe conversion", "cake pan calculator"],
     imageUrl: getCanonicalUrl('/converters/baking-pan.jpg'),
   },
   'recipe-scaler': {
     title: "Recipe Scaler | Sweety's Bakery",
-    description: "Scale any recipe up or down with precision. Perfect for adjusting serving sizes for parties, small batches, or professional needs.",
+    description: "Scale recipes up or down precisely. Ideal for party prep, small batches, or pro baking.",
     keywords: ["recipe scaler", "ingredient scaling", "baking adjustments", "quantity converter"],
     imageUrl: getCanonicalUrl('/scalers/recipe-scaler.jpg'),
   },
   'measurement-converter': {
     title: "Baking Measurement Converter | Sweety's Bakery",
-    description: "Convert between weight (grams, ounces, pounds) and volume (cups, ml, tsp, tbsp) for all your baking ingredients.",
+    description: "Convert baking ingredients between weight (g, oz) and volume (cups, tbsp) easily.",
     keywords: ["measurement converter", "baking conversion", "grams to cups", "volume to weight"],
     imageUrl: getCanonicalUrl('/converters/measurement.jpg'),
   },
   'baking-blog': {
     title: "Baking Blog | Sweety's Bakery",
-    description: "Explore baking tips, delicious recipes, and in-depth tutorials on the Sweety's Bakery blog. Your go-to resource for all things baking.",
+    description: "Baking tips, recipes, and in-depth tutorials. Your resource for everything baking.",
     keywords: ["baking blog", "pastry recipes", "baking tutorials", "dessert ideas"],
     imageUrl: getCanonicalUrl('/blog/main-image.jpg'),
   },
   'recipe-index': {
     title: "Recipe Index | Sweety's Bakery",
-    description: "Browse our complete collection of baking recipes, from cookies and cakes to breads and pastries. Filter by category to find your next baking project.",
+    description: "Browse our full collection of cookies, cakes, breads, and pastries. Find your next bake.",
     keywords: ["recipe index", "baking recipes", "cookie recipes", "cake recipes", "bread recipes"],
     imageUrl: getCanonicalUrl('/images/recipe-index-seo.png'),
   },
 
   'investment-calculator': {
     title: "Investment Calculator | Sweety's Bakery",
-    description: "Calculate the future value of your investments with our free and easy-to-use investment calculator.",
+    description: "Calculate future investment value with our easy, free financial tool.",
     keywords: ["investment calculator", "future value", "compound interest", "investment return"],
     imageUrl: getCanonicalUrl('/calculators/investment-calculator.jpg'),
   },
   'baking-ebooks': {
     title: "Popular Baking Ebooks | Sweety's Bakery",
-    description: "Discover our curated collection of the best baking ebooks. From sourdough guides to cookie cookbooks, find your next baking inspiration.",
+    description: "Curated baking ebooks: sourdough guides, cookie cookbooks & more. Find inspiration.",
     keywords: ["baking ebooks", "baking cookbooks", "recipe books", "baking guides", "ebooks"],
     imageUrl: getCanonicalUrl('/images/baking-ebooks.jpg'),
   },
   'cake-pricing': {
     title: "Free Cake Pricing Calculator | Sweety's Bakery",
-    description: "Calculate the exact cost of your cakes, including ingredients, labor, and overhead. Price your cakes for profit with our free bakery calculator.",
+    description: "Calculate cake costs: ingredients, labor, overhead. Price for profit with our free tool.",
     keywords: ["cake pricing calculator", "cake cost calculator", "price my cake", "bakery pricing", "food cost calculator"],
     imageUrl: getCanonicalUrl('/calculators/cake-pricing.jpg'),
   },
+  'age-calculator': {
+    title: "Free Age Calculator | Sweety's Bakery",
+    description: "Calculate your exact age in years, months, days. Simple and fun tool.",
+    keywords: ["age calculator", "birthday calculator", "calculate age"],
+    imageUrl: getCanonicalUrl('/calculators/age-calculator.jpg'), // Assuming consistent path
+  },
+  'baking-bucket-list': {
+    title: "Baking Bucket List | Sweety's Bakery",
+    description: "Track your baking journey with challenges for every skill level.",
+    keywords: ["baking bucket list", "baking challenges", "baking goals"],
+    imageUrl: getCanonicalUrl('/tools/bucket-list.jpg'),
+  },
   'default': {
     title: "Free Baking Tools | Sweety's Bakery",
-    description: "A collection of free tools and calculators to help you with your baking projects.",
+    description: "Free tools and calculators to help with your baking projects.",
     keywords: ["baking", "tools", "calculator", "free"],
     imageUrl: getCanonicalUrl('/placeholder-default.jpg'),
   }
@@ -138,7 +156,13 @@ export const updateSchema = (toolId: ToolId, seoData: SeoData, post: BlogPost | 
 
   if ((toolId as string) !== 'default' && !post) {
     // Specialized SoftwareApplication Schema for Tools
-    const isCalculator = toolId === 'cake-pricing' || toolId === 'recipe-scaler';
+    const isCalculator =
+      seoData.title.toLowerCase().includes('calculator') ||
+      seoData.title.toLowerCase().includes('converter') ||
+      toolId.includes('calculator') ||
+      toolId.includes('converter') ||
+      toolId.includes('generator') ||
+      toolId === 'recipe-scaler';
 
     if (isCalculator) {
       schema = {
@@ -156,9 +180,10 @@ export const updateSchema = (toolId: ToolId, seoData: SeoData, post: BlogPost | 
         "author": {
           "@type": "Organization",
           "name": "Sweety's Bakery",
-          "url": "https://sweetysbakery.com"
+          "url": "https://sweetysbakery.com",
+          "telephone": "07 19 43 28 24"
         },
-        "featureList": toolId === 'cake-pricing' ? "Calculate cake costs, profit margins, and suggested pricing" : "Scale baking recipes up or down accurately by weight or percentage",
+        "featureList": seoData.description,
         ...(toolId === 'recipe-scaler' && { "applicationCategory": "UtilityApplication" })
       };
     } else {
@@ -172,6 +197,7 @@ export const updateSchema = (toolId: ToolId, seoData: SeoData, post: BlogPost | 
         "publisher": {
           "@type": "Organization",
           "name": "Sweety's Bakery",
+          "telephone": "07 19 43 28 24",
           "logo": {
             "@type": "ImageObject",
             "url": getCanonicalUrl("/placeholders/logo.png")
@@ -269,6 +295,7 @@ export const updateSchema = (toolId: ToolId, seoData: SeoData, post: BlogPost | 
       "publisher": {
         "@type": "Organization",
         "name": "Sweety's Bakery",
+        "telephone": "07 19 43 28 24",
         "logo": {
           "@type": "ImageObject",
           "url": getCanonicalUrl("/placeholders/logo.png")

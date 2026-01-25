@@ -85,17 +85,32 @@ export default function RootLayout({
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "Organization",
+                "@type": "Bakery",
                 "@id": "https://sweetysbakery.com/#organization",
                 "name": "Sweety's Bakery",
                 "url": "https://sweetysbakery.com",
                 "logo": "https://sweetysbakery.com/icon.png",
+                "image": "https://sweetysbakery.com/icon.png",
+                "priceRange": "$$",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Marrakech",
+                    "addressLocality": "Marrakech",
+                    "addressRegion": "Marrakech-Safi",
+                    "postalCode": "40000",
+                    "addressCountry": "MA"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 31.6295,
+                    "longitude": -7.9811
+                },
                 "sameAs": [
                     "https://www.instagram.com/sweetys.bakery/",
                     "https://web.facebook.com/SaPatissl/",
                     "https://www.pinterest.com/Sweetysbakerys/"
                 ],
-                "description": "Free professional baking tools, calculators, and resources for bakers worldwide."
+                "description": "Free professional baking tools, calculators, and resources for bakers worldwide. Custom cakes in Marrakech."
             },
             {
                 "@type": "WebSite",

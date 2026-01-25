@@ -10,8 +10,8 @@ interface PremiumGuardProps {
 }
 
 export const PremiumGuard: React.FC<PremiumGuardProps> = ({ children }) => {
-    const [isPremium, setIsPremium] = useState<boolean | null>(null);
-    const [loading, setLoading] = useState(true);
+    const [isPremium, setIsPremium] = useState<boolean | null>(false);
+    const [loading, setLoading] = useState(false);
     const supabase = createClient();
 
     useEffect(() => {
@@ -19,11 +19,11 @@ export const PremiumGuard: React.FC<PremiumGuardProps> = ({ children }) => {
             const { data: { user } } = await supabase.auth.getUser();
 
             if (!user) {
-                setIsPremium(false);
-                setLoading(false);
+                // Already defaulted to false, just stop loading if we were loading (though we start false now)
                 return;
             }
 
+            // Only fetch if user exists
             const { data: profile } = await supabase
                 .from('profiles')
                 .select('is_premium')
@@ -31,7 +31,6 @@ export const PremiumGuard: React.FC<PremiumGuardProps> = ({ children }) => {
                 .single();
 
             setIsPremium(profile?.is_premium || false);
-            setLoading(false);
         };
 
         checkPremiumStatus();
@@ -71,7 +70,7 @@ export const PremiumGuard: React.FC<PremiumGuardProps> = ({ children }) => {
                     <LockIcon className="w-12 h-12" />
                 </div>
 
-                <h3 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mb-6 drop-shadow-sm">Premium Tool</h3>
+                <h1 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mb-6 drop-shadow-sm">Premium Tool</h1>
                 <p className="text-stone-600 max-w-lg mb-12 text-xl leading-relaxed mx-auto font-medium">
                     This advanced business calculator is reserved for <strong>Pro Members</strong>. Upgrade to unlock this and all other premium features.
                 </p>
