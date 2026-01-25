@@ -135,7 +135,7 @@ export function InternalLinkRecommendations() {
                         {recommendations.articles.map((article) => (
                             <Link
                                 key={article.slug}
-                                href={`/${article.slug}`}
+                                href={article.type === 'recipe' ? `/recipes/${article.slug}` : `/blog/${article.slug}`}
                                 className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-brand-gold/20 hover:border-brand-gold hover:scale-105"
                             >
                                 <div className="aspect-video relative overflow-hidden bg-gray-100">

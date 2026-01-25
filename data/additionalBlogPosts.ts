@@ -12,10 +12,10 @@ export const additionalBlogPosts: BlogPost[] = [
         date: 'November 10, 2025',
         readTime: '8 min',
         type: 'article',
-        content: `<h2><a href="/trending-cake-designs-2025" style="color: #E65A88; text-decoration: underline;">Trending Cake Designs 2025</a>: A Sweet Glimpse into the Future</h2>
+        content: `<h2><a href="/blog/trending-cake-designs-2025" style="color: #E65A88; text-decoration: underline;">Trending Cake Designs 2025</a>: A Sweet Glimpse into the Future</h2>
         <p>As we look ahead, <strong>trending cake designs 2025</strong> are all about bold expression and nostalgic comfort. The baking world is seeing a shift away from stark minimalism towards maximalist beauty and interactive elements. Whether you are planning a celebration or just looking for the <strong>best birthday cake ideas</strong>, this year's trends promise to be visually stunning and incredibly delicious.</p>
         
-        <h3>Top <a href="/cake-decoration-trends" style="color: #E65A88; text-decoration: underline;">Cake Decoration Trends</a></h3>
+        <h3>Top <a href="/blog/cake-decoration-trends" style="color: #E65A88; text-decoration: underline;">Cake Decoration Trends</a></h3>
         <p><strong>Cake decoration trends</strong> are evolving rapidly. Here is what is taking the spotlight:</p>
         <ul>
             <li><strong>Vintage "Lambeth" Piping:</strong> Intricate, over-the-top piping reminiscent of Victorian era cakes is making a huge comeback. Think pastel colors, frills, and cherries on top.</li>
@@ -24,7 +24,7 @@ export const additionalBlogPosts: BlogPost[] = [
             <li><strong>Botanical Pressed Flowers:</strong> Using edible, organic pressed flowers for a whimsical, cottage-core aesthetic.</li>
         </ul>
 
-        <h3><a href="/how-to-choose-a-wedding-cake" style="color: #E65A88; text-decoration: underline;">How to Choose a Wedding Cake</a> in 2025</h3>
+        <h3><a href="/blog/how-to-choose-a-wedding-cake" style="color: #E65A88; text-decoration: underline;">How to Choose a Wedding Cake</a> in 2025</h3>
         <p>Planning a wedding? Knowing <strong>how to choose a wedding cake</strong> can be overwhelming. In 2025, couples are opting for:</p>
         <ul>
             <li><strong>Separated Tiers:</strong> Using clear acrylic separators filled with flowers or lights to create height and drama.</li>
@@ -47,10 +47,10 @@ export const additionalBlogPosts: BlogPost[] = [
         date: 'November 11, 2025',
         readTime: '7 min',
         type: 'article',
-        content: `<h2><a href="/most-popular-desserts-in-america" style="color: #E65A88; text-decoration: underline;">Most Popular Desserts in America</a>: A Sweet Tour</h2>
+        content: `<h2><a href="/blog/most-popular-desserts-in-america" style="color: #E65A88; text-decoration: underline;">Most Popular Desserts in America</a>: A Sweet Tour</h2>
         <p>What defines the sweet tooth of a nation? The <strong>most popular desserts in America</strong> range from humble comfort foods to sophisticated patisserie. Classics like Apple Pie, Cheesecake, and Chocolate Chip Cookies remain undefeated champions. However, there is a growing appetite for <strong>gourmet dessert recipes</strong> that elevate these classics with premium ingredients and modern techniques.</p>
 
-        <h3><a href="/dessert-ideas-for-parties" style="color: #E65A88; text-decoration: underline;">Dessert Ideas for Parties</a></h3>
+        <h3><a href="/blog/dessert-ideas-for-parties" style="color: #E65A88; text-decoration: underline;">Dessert Ideas for Parties</a></h3>
         <p>Hosting a gathering? Here are some winning <strong>dessert ideas for parties</strong> that cater to every crowd:</p>
         <ul>
             <li><strong>Miniature Dessert Shooters:</strong> Layers of mousse, crumble, and fruit in shot glasses. Easy to eat and visually striking.</li>
@@ -58,7 +58,7 @@ export const additionalBlogPosts: BlogPost[] = [
             <li><strong>Dessert Charcuterie Boards:</strong> A grazing board filled with cookies, chocolates, fruits, and dips. It's the ultimate social snacking experience.</li>
         </ul>
 
-        <h3>Elevating with <a href="/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a></h3>
+        <h3>Elevating with <a href="/blog/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a></h3>
         <p>To truly impress, try these twists on favorites:</p>
         <ul>
             <li><strong>Brown Butter & Sage Cookies:</strong> Adding savory herbs to sweet cookies creates a complex, gourmet flavor profile.</li>
@@ -78,7 +78,7 @@ export const additionalBlogPosts: BlogPost[] = [
         date: 'November 13, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/cake-flavors-people-love" style="color: #E65A88; text-decoration: underline;">Cake Flavors People Love</a>: Beyond Vanilla</h2>
+        content: `<h2><a href="/blog/cake-flavors-people-love" style="color: #E65A88; text-decoration: underline;">Cake Flavors People Love</a>: Beyond Vanilla</h2>
         <p>While vanilla and chocolate are timeless, the <strong>cake flavors people love</strong> are expanding. Palates are becoming more adventurous. Current favorites include:</p>
         <ul>
             <li><strong>Salted Caramel:</strong> The perfect balance of sweet and salty.</li>
@@ -87,7 +87,7 @@ export const additionalBlogPosts: BlogPost[] = [
             <li><strong>Funfetti:</strong> Nostalgia in a slice! The colorful sprinkles bring joy to adults and kids alike.</li>
         </ul>
 
-        <h3><a href="/how-to-store-cakes-properly" style="color: #E65A88; text-decoration: underline;">How to Store Cakes Properly</a></h3>
+        <h3><a href="/blog/how-to-store-cakes-properly" style="color: #E65A88; text-decoration: underline;">How to Store Cakes Properly</a></h3>
         <p>Nothing is worse than a dry, stale cake. Knowing <strong>how to store cakes properly</strong> is essential for maintaining that fresh-baked taste.</p>
         
         <h4>Unfrosted Cakes</h4>

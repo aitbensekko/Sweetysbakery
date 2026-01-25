@@ -12,7 +12,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 14, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/best-birthday-cake-ideas" style="color: #E65A88; text-decoration: underline;">Best Birthday Cake Ideas</a> for Every Age: The Ultimate Guide</h2>
+        content: `<h2><a href="/blog/best-birthday-cake-ideas" style="color: #E65A88; text-decoration: underline;">Best Birthday Cake Ideas</a> for Every Age: The Ultimate Guide</h2>
         <p>A birthday isn't just another day; it's a milestone, a memory in the making, and let's be honest, an excuse to eat something delicious. But the centerpiece of this celebration—the cake—carries a lot of weight. Finding the <strong>best birthday cake ideas</strong> can be the difference between a polite "thank you" and a room full of gasps. Whether you're baking for a toddler who loves dinosaurs, a teen obsessed with aesthetics, or a milestone adult birthday that demands sophistication, the perfect cake reflects the personality of the celebrant. In this comprehensive guide, we will explore trending designs, flavor combinations, and even how you can <a href="/tools/cake-design-creator" style="color: #E65A88; text-decoration: underline;">design the perfect cake</a> virtually before you even preheat the oven.</p>
         
         <h3>For the Little Ones: Imagination Runs Wild</h3>
@@ -77,7 +77,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 16, 2025',
         readTime: '7 min',
         type: 'article',
-        content: `<h2><a href="/trending-cake-designs-2025" style="color: #E65A88; text-decoration: underline;">Trending Cake Designs 2025</a>: The Future of Baking</h2>
+        content: `<h2><a href="/blog/trending-cake-designs-2025" style="color: #E65A88; text-decoration: underline;">Trending Cake Designs 2025</a>: The Future of Baking</h2>
         <p>The baking world moves fast. Just as fashion trends cycle through seasons, <strong>trending cake designs 2025</strong> are shaping up to be a fascinating mix of nostalgic comfort and futuristic innovation. Social media platforms like TikTok and Instagram continue to drive these trends, rewarding visual "wow" factors and interactive elements. If you want your cakes to look current, or if you are a baker looking to update your portfolio, here is a deep dive into what you need to know. You can even try these styles virtually with our <a href="/tools/cake-design-creator" style="color: #E65A88; text-decoration: underline;">Cake Design Creator</a>.</p>
 
         <h3>1. The "Burn-Away" Cake: Theatrical Drama</h3>
@@ -133,7 +133,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 17, 2025',
         readTime: '8 min',
         type: 'article',
-        content: `<h2><a href="/how-to-choose-a-wedding-cake" style="color: #E65A88; text-decoration: underline;">How to Choose a Wedding Cake</a>: The Complete Step-by-Step Guide</h2>
+        content: `<h2><a href="/blog/how-to-choose-a-wedding-cake" style="color: #E65A88; text-decoration: underline;">How to Choose a Wedding Cake</a>: The Complete Step-by-Step Guide</h2>
         <p>Your wedding cake is more than just dessert; it is the centerpiece of your reception, a focal point for photos, and a sweet symbol of your new life together. But with endless flavors, styles, and bakers to choose from, knowing <strong>how to choose a wedding cake</strong> can quickly become overwhelming. Should you go for buttercream or fondant? Sugar flowers or fresh? And how much is this all going to cost? This comprehensive guide will walk you through every step of the process to ensure you get the cake of your dreams without the stress.</p>
 
         <h3>Step 1: Determine Your Wedding Style and Venue</h3>
@@ -196,7 +196,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 19, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/cake-flavors-people-love" style="color: #E65A88; text-decoration: underline;">Cake Flavors People Love</a>: The Ultimate Crowd-Pleasers</h2>
+        content: `<h2><a href="/blog/cake-flavors-people-love" style="color: #E65A88; text-decoration: underline;">Cake Flavors People Love</a>: The Ultimate Crowd-Pleasers</h2>
         <p>You can spend days crafting the most beautiful cake in the world, with intricate piping and handmade sugar flowers, but if it tastes like cardboard, that is all anyone will remember. When you bake, you want to be sure your creation gets eaten! We have rounded up the <strong>cake flavors people love</strong> universally, from timeless classics to modern favorites, ensuring empty plates and happy guests. If you need to adjust quantities for any of these recipes, our <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline;">Recipe Scaler</a> is a lifesaver.</p>
 
         <h3>The Classics: You Can't Go Wrong</h3>
@@ -251,7 +251,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 20, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/most-popular-desserts-in-america" style="color: #E65A88; text-decoration: underline;">Most Popular Desserts in America</a>: A Sweet Road Trip</h2>
+        content: `<h2><a href="/blog/most-popular-desserts-in-america" style="color: #E65A88; text-decoration: underline;">Most Popular Desserts in America</a>: A Sweet Road Trip</h2>
         <p>What defines the sweet tooth of a nation? The <strong>most popular desserts in America</strong> tell a story of history, immigration, local agriculture, and regional pride. From the apple orchards of Washington to the key lime groves of Florida, sugar unites us all. We have analyzed search trends, bakery sales, and cultural staples to rank the heavy hitters of the American dessert table. Warning: This list will make you hungry.</p>
 
         <h3>1. Apple Pie: The National Icon</h3>
@@ -313,7 +313,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 22, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/how-to-store-cakes-properly" style="color: #E65A88; text-decoration: underline;">How to Store Cakes Properly</a>: The Ultimate Freshness Guide</h2>
+        content: `<h2><a href="/blog/how-to-store-cakes-properly" style="color: #E65A88; text-decoration: underline;">How to Store Cakes Properly</a>: The Ultimate Freshness Guide</h2>
         <p>You have spent hours measuring, mixing, baking, and decorating. You have created a masterpiece. But now the party is over, and you have leftovers. Or maybe you are baking ahead of time for a big event. Knowing <strong>how to store cakes properly</strong> is the difference between a moist, delicious slice and a dry, crumbly disappointment. The rules change depending on the frosting, the filling, and how long you need to keep it. This guide covers every scenario to ensure your hard work doesn't go to waste.</p>
 
         <h3>The Golden Rule: Air is the Enemy</h3>
@@ -370,7 +370,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 23, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/cake-decoration-trends" style="color: #E65A88; text-decoration: underline;">Cake Decoration Trends</a>: Techniques to Master Now</h2>
+        content: `<h2><a href="/blog/cake-decoration-trends" style="color: #E65A88; text-decoration: underline;">Cake Decoration Trends</a>: Techniques to Master Now</h2>
         <p>Cake decorating is an art form that is constantly evolving. What was popular five years ago (looking at you, naked cakes) has evolved into something new. Today's <strong>cake decoration trends</strong> are shifting towards artistry, texture, and bold expression. It's no longer just about smooth sides and perfect piping; it's about creating a moment, a feeling, and a work of art. Whether you are a home baker or a pro, here are the techniques you should try to stay ahead of the curve. Need inspiration? Try our <a href="/tools/cake-design-creator" style="color: #E65A88; text-decoration: underline;">AI Cake Design Creator</a>.</p>
 
         <h3>1. Palette Knife Painting: Edible Impressionism</h3>
@@ -431,7 +431,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 25, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/dessert-ideas-for-parties" style="color: #E65A88; text-decoration: underline;">Dessert Ideas for Parties</a>: Sweet Finger Foods & Interactive Stations</h2>
+        content: `<h2><a href="/blog/dessert-ideas-for-parties" style="color: #E65A88; text-decoration: underline;">Dessert Ideas for Parties</a>: Sweet Finger Foods & Interactive Stations</h2>
         <p>Hosting a party is stressful enough without worrying about plating complicated desserts. The best <strong>dessert ideas for parties</strong> are those that guests can eat while mingling, holding a drink in one hand and a treat in the other. Forget the fork and knife; think bite-sized, portable, and interactive. Whether you are hosting a bridal shower, a birthday bash, or a casual get-together, these ideas will make you the hostess with the mostess. Planning for a crowd? Use our <a href="/tools/recipe-scaler" style="color: #E65A88; text-decoration: underline;">Recipe Scaler</a> to adjust your quantities.</p>
 
         <h3>1. Dessert Shooters: Layers of Flavor</h3>
@@ -493,7 +493,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 26, 2025',
         readTime: '7 min',
         type: 'article',
-        content: `<h2><a href="/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a> to Try at Home</h2>
+        content: `<h2><a href="/blog/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a> to Try at Home</h2>
         <p>Sometimes, a simple cookie just won't cut it. You want to impress. You want to challenge yourself. You want to create something that looks like it came out of a Parisian patisserie window. These <strong>gourmet dessert recipes</strong> are for those moments. They require patience, precision, and perhaps a few specialized tools, but the result is worth every second. Consult our <a href="/tools/ingredient-glossary" style="color: #E65A88; text-decoration: underline;">Ingredient Glossary</a> if you encounter unfamiliar terms like "glucose syrup" or "pectin NH".</p>
 
         <h3>1. The Chocolate Soufflé: Mastering the Rise</h3>
@@ -548,7 +548,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 28, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/buy-cakes-online" style="color: #E65A88; text-decoration: underline;">Buy Cakes Online</a>: The Ultimate Guide to Convenience and Quality</h2>
+        content: `<h2><a href="/blog/buy-cakes-online" style="color: #E65A88; text-decoration: underline;">Buy Cakes Online</a>: The Ultimate Guide to Convenience and Quality</h2>
         <p>Gone are the days when buying a cake meant rushing to the local bakery before 5 PM, hoping they still had something decent left in the display case. Today, you can <strong>buy cakes online</strong> from the comfort of your sofa, accessing thousands of designs, flavors, and bakeries from across the country. Whether it's a last-minute birthday panic or a carefully planned gift for a distant relative, online cake ordering has revolutionized how we celebrate. But how do you ensure the cake arrives in one piece? And does it actually taste good? This guide covers everything you need to know. Check out our guide on <a href="/blog/cake-delivery-near-me" style="color: #E65A88; text-decoration: underline;">Cake Delivery Near Me</a> for local options.</p>
 
         <h3>Why Buy Online? The Benefits</h3>
@@ -602,7 +602,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 29, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/cake-delivery-near-me" style="color: #E65A88; text-decoration: underline;">Cake Delivery Near Me</a>: Finding the Best Local Options</h2>
+        content: `<h2><a href="/blog/cake-delivery-near-me" style="color: #E65A88; text-decoration: underline;">Cake Delivery Near Me</a>: Finding the Best Local Options</h2>
         <p>It's 10 AM. You just realized it's your boss's birthday, or maybe you forgot your anniversary (oops). You frantically type <strong>"cake delivery near me"</strong> into Google. Millions of results pop up. How do you choose? Do you trust the grocery store app? The high-end bakery that might be booked out? Or a delivery service like DoorDash? This guide will help you navigate the local cake delivery landscape to ensure you get a delicious cake, on time, without the stress.</p>
 
         <h3>Option 1: Local Bakeries with In-House Delivery</h3>
@@ -670,7 +670,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 1, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/best-online-bakery-in-the-us" style="color: #E65A88; text-decoration: underline;">Best Online Bakery in the US</a>: Top Picks for 2025</h2>
+        content: `<h2><a href="/blog/best-online-bakery-in-the-us" style="color: #E65A88; text-decoration: underline;">Best Online Bakery in the US</a>: Top Picks for 2025</h2>
         <p>The internet has turned the entire country into your local bakery. You are no longer limited to the shop down the street. But with so many options, who truly deserves the title of the <strong>best online bakery in the US</strong>? We have taste-tested, ordered, and reviewed the top contenders based on flavor, shipping reliability, and presentation. Whether you are looking for a New York bagel, a Southern coconut cake, or a French macaron, these bakeries deliver (literally).</p>
 
         <h3>1. Milk Bar (New York, NY)</h3>
@@ -722,7 +722,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 3, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/send-birthday-cake-online" style="color: #E65A88; text-decoration: underline;">Send Birthday Cake Online</a>: The Perfect Surprise</h2>
+        content: `<h2><a href="/blog/send-birthday-cake-online" style="color: #E65A88; text-decoration: underline;">Send Birthday Cake Online</a>: The Perfect Surprise</h2>
         <p>It's your best friend's birthday. They live 2,000 miles away. A text message feels cheap. A card takes too long. The solution? <strong>Send birthday cake online</strong>. It is the ultimate "I'm thinking of you" gesture. It delivers a party in a box directly to their doorstep. But how do you choose the right one? And how do you make it personal? Here is your guide to mastering the art of long-distance cake gifting. Need ideas? See our <a href="/blog/best-birthday-cake-ideas" style="color: #E65A88; text-decoration: underline;">Best Birthday Cake Ideas</a>.</p>
 
         <h3>Why Send a Cake?</h3>
@@ -768,7 +768,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/order-dessert-delivery" style="color: #E65A88; text-decoration: underline;">Order Dessert Delivery</a>: Satisfy Your Cravings Instantly</h2>
+        content: `<h2><a href="/blog/order-dessert-delivery" style="color: #E65A88; text-decoration: underline;">Order Dessert Delivery</a>: Satisfy Your Cravings Instantly</h2>
         <p>It's 9 PM on a Tuesday. You are watching Netflix. Suddenly, the craving hits. You need something sweet. You don't want a granola bar; you want a warm, gooey cookie or a slice of rich cheesecake. Luckily, we live in the golden age of delivery. You can <strong>order dessert delivery</strong> and have it at your door before the next episode starts. But what are the best options? And how do you ensure it travels well? It's the perfect solution for <a href="/blog/dessert-gifts-delivered" style="color: #E65A88; text-decoration: underline;">Dessert Gifts</a> too.</p>
 
         <h3>The Late-Night Cookie Phenomenon</h3>
@@ -813,7 +813,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 1, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/custom-photo-cake" style="color: #E65A88; text-decoration: underline;">Custom Photo Cake</a>: Personalize Your Celebration</h2>
+        content: `<h2><a href="/blog/custom-photo-cake" style="color: #E65A88; text-decoration: underline;">Custom Photo Cake</a>: Personalize Your Celebration</h2>
         <p>A picture is worth a thousand words, but a picture on a cake is worth a thousand bites. The <strong>custom photo cake</strong> has made a huge comeback. Once considered a tacky 90s trend, modern technology has improved the quality, resolution, and taste of edible images, making them a fun and sentimental choice for birthdays, anniversaries, and corporate events. Here is how it works and how to get the best result.</p>
 
         <h3>How Does It Work?</h3>
@@ -859,7 +859,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 2, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2>Search for a <a href="/cake-shop-that-delivers" style="color: #E65A88; text-decoration: underline;">Cake Shop That Delivers</a> Nationwide</h2>
+        content: `<h2>Search for a <a href="/blog/cake-shop-that-delivers" style="color: #E65A88; text-decoration: underline;">Cake Shop That Delivers</a> Nationwide</h2>
         <p>Finding a local bakery is easy. You walk in, smell the sugar, point at a cake, and take it home. But finding a <strong>cake shop that delivers</strong> across the country? That requires a leap of trust. You are trusting a stranger to bake a delicate cake, pack it in a box, and hand it to a delivery driver who might drive over potholes. Yet, thousands of cakes are shipped successfully every day. This guide will help you find a reliable shop and understand the logistics behind the magic. Read our guide on <a href="/blog/buy-cakes-online" style="color: #E65A88; text-decoration: underline;">Buying Cakes Online</a> for more tips.</p>
 
         <h3>The Logistics of Cake Shipping</h3>
@@ -910,7 +910,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 2, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2>Get <a href="/cupcakes-delivered-to-your-door" style="color: #E65A88; text-decoration: underline;">Cupcakes Delivered to Your Door</a>: Happiness in a Box</h2>
+        content: `<h2>Get <a href="/blog/cupcakes-delivered-to-your-door" style="color: #E65A88; text-decoration: underline;">Cupcakes Delivered to Your Door</a>: Happiness in a Box</h2>
         <p>Why commit to a whole cake when you can have variety? <strong>Cupcakes delivered to your door</strong> allow you to mix and match flavors, ensuring everyone gets what they want. They are the perfect portion-controlled treat for gifts, office parties, or just a Tuesday night indulgence. Because they are smaller and lighter than cakes, they are also easier and cheaper to ship. Pick your favorites from <a href="/blog/cake-flavors-people-love" style="color: #E65A88; text-decoration: underline;">Cake Flavors People Love</a>.</p>
 
         <h3>Why Cupcakes are the Superior Gift</h3>
@@ -956,7 +956,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 3, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/gluten-free-cakes-online" style="color: #E65A88; text-decoration: underline;">Gluten-Free Cakes Online</a>: No Wheat, All Treat</h2>
+        content: `<h2><a href="/blog/gluten-free-cakes-online" style="color: #E65A88; text-decoration: underline;">Gluten-Free Cakes Online</a>: No Wheat, All Treat</h2>
         <p>Ten years ago, "gluten-free cake" was synonymous with "cardboard." It was dry, crumbly, and sad. But baking science has come a long way. Today, you can order <strong>gluten-free cakes online</strong> that are moist, fluffy, and indistinguishable from traditional cakes. Whether you have Celiac disease or a gluten sensitivity, you no longer have to skip dessert. Dedicated GF bakeries ensure <a href="/tools/allergen-guide" style="color: #E65A88; text-decoration: underline;">no cross-contamination</a>.</p>
 
         <h3>The Science of GF Baking</h3>
@@ -1003,7 +1003,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 3, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/vegan-cakes-delivered" style="color: #E65A88; text-decoration: underline;">Vegan Cakes Delivered</a>: Plant-Based Indulgence</h2>
+        content: `<h2><a href="/blog/vegan-cakes-delivered" style="color: #E65A88; text-decoration: underline;">Vegan Cakes Delivered</a>: Plant-Based Indulgence</h2>
         <p>Plant-based eating is booming, and so is the demand for <strong>vegan cakes delivered</strong> to your door. Whether for ethical reasons, health, or allergies (dairy/egg), more people are ditching animal products. But does that mean ditching flavor? Absolutely not. Using <a href="/tools/ingredient-substitutions" style="color: #E65A88; text-decoration: underline;">clever substitutes</a> like flax eggs, applesauce, and coconut milk, bakers are creating vegan treats that rival any dairy-filled cake.</p>
 
         <h3>How Do They Make It Vegan?</h3>
@@ -1052,7 +1052,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 4, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/keto-desserts-delivery" style="color: #E65A88; text-decoration: underline;">Keto Desserts Delivery</a>: Low Carb, High Flavor</h2>
+        content: `<h2><a href="/blog/keto-desserts-delivery" style="color: #E65A88; text-decoration: underline;">Keto Desserts Delivery</a>: Low Carb, High Flavor</h2>
         <p>The Keto diet (high fat, low carb) has changed how millions of people eat. But the number one reason people quit? The sweet cravings. It's hard to say no to a donut. Enter <strong>keto desserts delivery</strong>. These services specialize in high-fat, sugar-free treats that keep you in ketosis while satisfying your sweet tooth. They use alternative sweeteners and nut flours to create magic. Check out our <a href="/tools/sweetener-converter" style="color: #E65A88; text-decoration: underline;">Sweetener Converter</a> to understand the ingredients.</p>
 
         <h3>The Magic Ingredients</h3>
@@ -1098,7 +1098,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 4, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/luxury-cakes-for-events" style="color: #E65A88; text-decoration: underline;">Luxury Cakes for Events</a></h2>
+        content: `<h2><a href="/blog/luxury-cakes-for-events" style="color: #E65A88; text-decoration: underline;">Luxury Cakes for Events</a></h2>
         <p>For high-end events, a standard sheet cake won't do. <strong>Luxury cakes for events</strong> are bespoke creations that serve as part of the decor. They often feature gold leaf, sugar flowers that take days to make, and architectural structures. Planning one? Use our <a href="/tools/cake-design-creator" style="color: #E65A88; text-decoration: underline;">Cake Design Creator</a> to visualize it.</p>
         <h3>Trends in Luxury</h3>
         <ul>
@@ -1118,7 +1118,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/chocolate-fudge-cake-delivery" style="color: #E65A88; text-decoration: underline;">Chocolate Fudge Cake Delivery</a></h2>
+        content: `<h2><a href="/blog/chocolate-fudge-cake-delivery" style="color: #E65A88; text-decoration: underline;">Chocolate Fudge Cake Delivery</a></h2>
         <p>Sometimes you just need chocolate. <strong>Chocolate fudge cake delivery</strong> is one of the most popular online orders for a reason. It travels well and tastes even better slightly warmed up. It's a top contender for <a href="/blog/cake-flavors-people-love" style="color: #E65A88; text-decoration: underline;">Cake Flavors People Love</a>.</p>
         <h3>Serving Suggestion</h3>
         <p>Serve with a scoop of vanilla bean ice cream or a dollop of fresh whipped cream to cut through the richness of the fudge.</p>
@@ -1135,7 +1135,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/dessert-gifts-delivered" style="color: #E65A88; text-decoration: underline;">Dessert Gifts Delivered</a> Nationwide</h2>
+        content: `<h2><a href="/blog/dessert-gifts-delivered" style="color: #E65A88; text-decoration: underline;">Dessert Gifts Delivered</a> Nationwide</h2>
         <p>Flowers die, but chocolate is forever (on the hips!). <strong>Dessert gifts delivered</strong> are a universally appreciated gesture. From corporate clients to family members, everyone smiles when they see a bakery box.</p>
         <h3>Popular Gift Options</h3>
         <ul>
@@ -1156,7 +1156,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2>Best <a href="/chocolate-gift-boxes-usa" style="color: #E65A88; text-decoration: underline;">Chocolate Gift Boxes USA</a></h2>
+        content: `<h2>Best <a href="/blog/chocolate-gift-boxes-usa" style="color: #E65A88; text-decoration: underline;">Chocolate Gift Boxes USA</a></h2>
         <p>The US craft chocolate scene is exploding. <strong>Chocolate gift boxes USA</strong> now rival European chocolates in quality and creativity. Look for boxes that feature single-origin cacao or unique American flavors like bourbon, pecan, and sea salt. Perfect for <a href="/blog/dessert-gifts-delivered" style="color: #E65A88; text-decoration: underline;">Dessert Gifts</a>.</p>
         <img src="/images/blog/chocolate-cake.png" alt="Premium Chocolate Gift Boxes USA - Curated Selection" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">`
     },
@@ -1171,7 +1171,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/cookie-gift-baskets" style="color: #E65A88; text-decoration: underline;">Cookie Gift Baskets</a> for All Occasions</h2>
+        content: `<h2><a href="/blog/cookie-gift-baskets" style="color: #E65A88; text-decoration: underline;">Cookie Gift Baskets</a> for All Occasions</h2>
         <p><strong>Cookie gift baskets</strong> are the comfort food of the gifting world. They are durable, shareable, and evoke childhood memories. If you prefer something fudgier, try <a href="/blog/brownie-gift-delivery" style="color: #E65A88; text-decoration: underline;">Brownie Gift Delivery</a>.</p>
         <h3>Basket Themes</h3>
         <ul>
@@ -1191,7 +1191,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/brownie-gift-delivery" style="color: #E65A88; text-decoration: underline;">Brownie Gift Delivery</a></h2>
+        content: `<h2><a href="/blog/brownie-gift-delivery" style="color: #E65A88; text-decoration: underline;">Brownie Gift Delivery</a></h2>
         <p>Brownies are the unsung heroes of mail-order desserts. Their density makes them perfect for shipping. <strong>Brownie gift delivery</strong> ensures a moist, chewy treat upon arrival. They are a great alternative to <a href="/blog/chocolate-fudge-cake-delivery" style="color: #E65A88; text-decoration: underline;">Chocolate Fudge Cake</a>.</p>
         <h3>Flavors to Look For</h3>
         <p>Beyond plain chocolate, look for salted caramel swirl, walnut, cheesecake swirl, or blondies for variety.</p>
@@ -1208,7 +1208,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/gourmet-dessert-delivery" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Delivery</a></h2>
+        content: `<h2><a href="/blog/gourmet-dessert-delivery" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Delivery</a></h2>
         <p>For those special nights in, <strong>gourmet dessert delivery</strong> is the way to go. We are talking about delicate French macarons, multi-layered opera cakes, and artisanal pastries that look as good as they taste. Want to make them yourself? Try our <a href="/blog/gourmet-dessert-recipes" style="color: #E65A88; text-decoration: underline;">Gourmet Dessert Recipes</a>.</p>
         <p>These services often use specialized cold-shipping methods to ensure delicate mousses and creams arrive in perfect condition.</p>
         <img src="/images/blog/chocolate-cake.png" alt="Gourmet Dessert Delivery - Fine Dining Pastry" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">`
@@ -1224,7 +1224,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 28, 2025',
         readTime: '8 min',
         type: 'article',
-        content: `<h2><a href="/best-stand-mixers-2025" style="color: #E65A88; text-decoration: underline;">Best Stand Mixers 2025</a></h2>
+        content: `<h2><a href="/blog/best-stand-mixers-2025" style="color: #E65A88; text-decoration: underline;">Best Stand Mixers 2025</a></h2>
         <p>If you are serious about baking, a stand mixer is non-negotiable. It saves your arms, ensures consistent mixing, and opens the door to advanced techniques like brioche and meringue. But with prices ranging from $100 to $800, which one should you buy?</p>
         <h3>1. KitchenAid Artisan Series</h3>
         <p>The gold standard. It features a tilt-head design, 10 speeds, and a dizzying array of colors. It's powerful enough for bread dough but gentle enough for egg whites.</p>
@@ -1246,7 +1246,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 29, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/why-you-need-a-kitchen-scale" style="color: #E65A88; text-decoration: underline;">Why You Need a Kitchen Scale</a></h2>
+        content: `<h2><a href="/blog/why-you-need-a-kitchen-scale" style="color: #E65A88; text-decoration: underline;">Why You Need a Kitchen Scale</a></h2>
         <p>Baking is chemistry. If you add too much flour, your cake will be dry. If you add too little, it will collapse. The problem with measuring cups is that they are inaccurate. A "cup" of flour can weigh anywhere from 120g to 150g depending on how you scoop it.</p>
         <h3>The Benefits of Weighing</h3>
         <ul>
@@ -1268,7 +1268,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 29, 2025',
         readTime: '6 min',
         type: 'article',
-        content: `<h2><a href="/essential-piping-tips-for-beginners" style="color: #E65A88; text-decoration: underline;">Essential Piping Tips for Beginners</a></h2>
+        content: `<h2><a href="/blog/essential-piping-tips-for-beginners" style="color: #E65A88; text-decoration: underline;">Essential Piping Tips for Beginners</a></h2>
         <p>Piping can be intimidating, but it's just about pressure control and angle. Here are the basics to get you started.</p>
         <h3>The Essential Tips</h3>
         <ul>
@@ -1291,7 +1291,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'November 30, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/silicone-baking-mats-vs-parchment-paper" style="color: #E65A88; text-decoration: underline;">Silicone Baking Mats vs. Parchment Paper</a></h2>
+        content: `<h2><a href="/blog/silicone-baking-mats-vs-parchment-paper" style="color: #E65A88; text-decoration: underline;">Silicone Baking Mats vs. Parchment Paper</a></h2>
         <p>Should you invest in a Silpat or stick to the roll of paper? The answer depends on what you are baking.</p>
         <h3>Silicone Mats</h3>
         <p><strong>Pros:</strong> Reusable (eco-friendly), lays flat instantly, nothing sticks to it (great for sugar work).</p>
@@ -1313,7 +1313,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 1, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/why-oven-temperature-matters" style="color: #E65A88; text-decoration: underline;">Why Oven Temperature Matters</a></h2>
+        content: `<h2><a href="/blog/why-oven-temperature-matters" style="color: #E65A88; text-decoration: underline;">Why Oven Temperature Matters</a></h2>
         <p>Most ovens cycle on and off to maintain temperature, meaning they swing by 20-30 degrees. Furthermore, the dial might say 350°F, but the actual internal temperature could be 325°F or 375°F.</p>
         <p><strong>The Consequence:</strong>
         <br>Too hot: Burnt edges, raw center, peaked tops.
@@ -1332,7 +1332,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 2, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/why-you-need-a-bench-scraper" style="color: #E65A88; text-decoration: underline;">Why You Need a Bench Scraper</a></h2>
+        content: `<h2><a href="/blog/why-you-need-a-bench-scraper" style="color: #E65A88; text-decoration: underline;">Why You Need a Bench Scraper</a></h2>
         <p>It looks like a simple piece of metal, but the bench scraper is a baker's best friend. It acts as an extension of your hand.</p>
         <h3>Uses</h3>
         <ul>
@@ -1353,7 +1353,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 3, 2025',
         readTime: '5 min',
         type: 'article',
-        content: `<h2><a href="/french-vs-american-rolling-pins" style="color: #E65A88; text-decoration: underline;">French vs. American Rolling Pins</a></h2>
+        content: `<h2><a href="/blog/french-vs-american-rolling-pins" style="color: #E65A88; text-decoration: underline;">French vs. American Rolling Pins</a></h2>
         <p>The rolling pin is a simple tool, but the design makes a huge difference.</p>
         <h3>American (Ball Bearing)</h3>
         <p>These have handles and a central barrel that rotates. They are easy to use but offer less tactile feedback.</p>
@@ -1372,7 +1372,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 4, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/mastering-the-offset-spatula" style="color: #E65A88; text-decoration: underline;">Mastering the Offset Spatula</a></h2>
+        content: `<h2><a href="/blog/mastering-the-offset-spatula" style="color: #E65A88; text-decoration: underline;">Mastering the Offset Spatula</a></h2>
         <p>The bent blade of an offset spatula keeps your knuckles out of the frosting, allowing for smooth, sweeping motions.</p>
         <h3>Top Tips</h3>
         <ul>
@@ -1393,7 +1393,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 4, 2025',
         readTime: '3 min',
         type: 'article',
-        content: `<h2><a href="/importance-of-cooling-racks" style="color: #E65A88; text-decoration: underline;">The Importance of Cooling Racks</a></h2>
+        content: `<h2><a href="/blog/importance-of-cooling-racks" style="color: #E65A88; text-decoration: underline;">The Importance of Cooling Racks</a></h2>
         <p>Leaving cookies on a hot baking sheet means they keep baking. This leads to over-browned bottoms and dry textures.</p>
         <p>A wire cooling rack allows air to circulate underneath, stopping the cooking process immediately and preventing condensation from making the bottoms soggy.</p>
         <img src="https://sweetysbakery.com/images/Sweeetys%20Bakery%20IMG%20(95).JPG" alt="Importance of Cooling Racks - Wire Rack for Baking" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0;">`
@@ -1409,7 +1409,7 @@ export const seoBlogPosts: BlogPost[] = [
         date: 'December 5, 2025',
         readTime: '4 min',
         type: 'article',
-        content: `<h2><a href="/best-pastry-brushes" style="color: #E65A88; text-decoration: underline;">Best Pastry Brushes</a></h2>
+        content: `<h2><a href="/blog/best-pastry-brushes" style="color: #E65A88; text-decoration: underline;">Best Pastry Brushes</a></h2>
         <p>A good pastry brush is essential for that golden-brown shine on your pies and breads.</p>
         <h3>Boar Bristle</h3>
         <p>Holds liquid well and applies it gently. Great for delicate pastries. Harder to clean and can shed bristles.</p>

@@ -3337,16 +3337,16 @@ export const newSeoBlogPosts: BlogPost[] = [
         slug: 'cranberry-orange-scones-recipe',
         title: 'Buttery Cranberry Orange Scones',
         excerpt: 'Flaky, buttery scones studded with tart cranberries and orange zest. A bright spot on a grey winter morning.',
-        imageUrl: '/images/blog/cookies.png',
+        imageUrl: '/images/blog/buttery-cranberry-orange-scones.png',
         category: 'Recipes',
         author: 'Sweetys Bakery',
-        date: 'January 20, 2026',
+        date: 'January 25, 2026',
         readTime: '35 min',
         type: 'recipe',
         content: `<h2>Cranberry Orange Scones</h2>
         <p>The secret to great scones is cold butter and minimal mixing. These are flaky, tender, and bursting with citrus flavor.</p>
 
-        <img src="/images/blog/cookies.png" alt="Scones" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <img src="/images/blog/buttery-cranberry-orange-scones.png" alt="Scones" style="width: 100%; border-radius: 8px; margin: 20px 0;">
 
         <h3>Ingredients</h3>
         <ul>
@@ -3639,7 +3639,7 @@ export const newSeoBlogPosts: BlogPost[] = [
         slug: 'cinnamon-roasted-almonds',
         title: 'Cinnamon Roasted Almonds',
         excerpt: 'Crunchy toasted almonds with a warm cinnamon coating. A protein-packed snack for on-the-go.',
-        imageUrl: '/images/blog/baking-ingredients.png',
+        imageUrl: '/images/blog/cinnamon-roasted-almonds.png',
         category: 'Healthy Baking',
         author: 'Sweetys Bakery',
         date: 'January 23, 2026',
@@ -3727,7 +3727,7 @@ export const newSeoBlogPosts: BlogPost[] = [
         slug: 'roasted-cinnamon-chickpeas',
         title: 'Roasted Cinnamon Chickpeas',
         excerpt: 'A crunchy, fiber-rich snack that hits the spot when you need a little crunch.',
-        imageUrl: '/images/blog/baking-ingredients.png',
+        imageUrl: '/images/blog/roasted-cinnamon-chickpeas.png',
         category: 'Healthy Baking',
         author: 'Sweetys Bakery',
         date: 'January 23, 2026',
@@ -3735,7 +3735,7 @@ export const newSeoBlogPosts: BlogPost[] = [
         type: 'recipe',
         content: `<h2>Roasted Cinnamon Chickpeas</h2>
         <p>Crunchy chickpeas are a fantastic alternative to chips or nuts.</p>
-        <img src="/images/blog/baking-ingredients.png" alt="Chickpeas" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <img src="/images/blog/roasted-cinnamon-chickpeas.png" alt="Chickpeas" style="width: 100%; border-radius: 8px; margin: 20px 0;">
         <h3>Ingredients</h3>
         <ul>
             <li>1 can chickpeas, rinsed and drained</li>

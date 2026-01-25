@@ -111,7 +111,7 @@ import { CakeDesignCreator } from './tools/CakeDesignCreator';
 import { BakeryOrderPlanner } from './tools/BakeryOrderPlanner';
 import { LabelGenerator } from './tools/LabelGenerator';
 import { RecipeIndex } from './RecipeIndex';
-import type { BlogPost } from '../data/blogPosts';
+import { blogPosts as allBlogPosts, type BlogPost } from '../data/blogPosts';
 import Ad from './Ad';
 import AdSenseAd from './AdSenseAd';
 import { BakingEbooksPage } from './BakingEbooksPage';
@@ -332,6 +332,69 @@ const HomepageContent: React.FC<{ setActiveTool: (toolId: ToolId) => void; handl
                         </div>
                     </div>
                 </header>
+
+                {/* Latest Recipes Section - NEW */}
+                <section className="my-16">
+                    <div className="flex items-center justify-between mb-8 px-4">
+                        <h2 className="text-3xl font-serif font-bold text-brand-text-title">Fresh From the Oven</h2>
+                        <ViewAllButton
+                            href={toolIdToSlug('baking-blog')}
+                            onClick={(e) => { e.preventDefault(); setActiveTool('baking-blog'); }}
+                            label="View All Recipes"
+                        />
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+                        {/* Get and Sort Recipes */}
+                        {(() => {
+                            // Helper to parse dates like "January 25, 2026"
+                            const parseDate = (dateStr: string) => Date.parse(dateStr) || 0;
+
+                            const latestRecipes = [...allBlogPosts]
+                                .filter(post => post.type === 'recipe')
+                                .sort((a, b) => parseDate(b.date) - parseDate(a.date))
+                                .slice(0, 6);
+
+                            return latestRecipes.map((post) => (
+                                <a
+                                    key={post.id}
+                                    href={`/${post.type === 'recipe' ? 'recipes' : 'blog'}/${post.slug}`}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        handleNavigate(`/${post.type === 'recipe' ? 'recipes' : 'blog'}/${post.slug}`);
+                                    }}
+                                    className="group flex flex-col h-full bg-white rounded-2xl overflow-hidden shadow-sm border border-brand-border hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                                >
+                                    <div className="relative aspect-[4/3] overflow-hidden">
+                                        <Image
+                                            src={post.imageUrl}
+                                            alt={post.title}
+                                            width={600}
+                                            height={450}
+                                            className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110"
+                                        />
+                                        <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-brand-pink uppercase tracking-wider shadow-sm">
+                                            {post.category}
+                                        </div>
+                                    </div>
+                                    <div className="p-6 flex flex-col flex-grow">
+                                        <h3 className="text-xl font-serif font-bold text-brand-text-title mb-3 leading-tight group-hover:text-brand-pink transition-colors">
+                                            {post.title}
+                                        </h3>
+                                        <div className="flex items-center gap-2 text-xs text-brand-text-body/60 mb-4 font-medium uppercase tracking-wide">
+                                            <span>Updated: {post.date}</span>
+                                        </div>
+                                        <p className="text-brand-text-body/80 text-sm line-clamp-3 mb-6 flex-grow">
+                                            {post.excerpt}
+                                        </p>
+                                        <div className="flex items-center text-brand-pink font-bold text-sm group-hover:translate-x-1 transition-transform">
+                                            Read Recipe <ChevronRightIcon className="w-4 h-4 ml-1" />
+                                        </div>
+                                    </div>
+                                </a>
+                            ));
+                        })()}
+                    </div>
+                </section>
 
                 {/* AI Recipe Generator - Moved to Top */}
                 <RecipeGenerator />
