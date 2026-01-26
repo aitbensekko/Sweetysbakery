@@ -1,6 +1,6 @@
 {
   "summary": {
-    "total": 663,
+    "total": 673,
     "errors": [],
     "warnings": [
       {
@@ -910,6 +910,54 @@
           "viewport": true,
           "httpsLinks": {
             "total": 75,
+            "httpCount": 0,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "url": "/baking-soda-vs-baking-powder-guide/",
+        "issues": {
+          "title": {
+            "exists": true,
+            "length": 72,
+            "status": "warning"
+          },
+          "description": {
+            "exists": true,
+            "length": 137,
+            "status": "ok"
+          },
+          "h1": {
+            "count": 1,
+            "status": "ok"
+          },
+          "headers": {
+            "h2Count": 4,
+            "h3Count": 11,
+            "hierarchyOk": true,
+            "status": "ok"
+          },
+          "images": {
+            "total": 13,
+            "missingAlt": 0,
+            "status": "ok"
+          },
+          "content": {
+            "keywordInFirst100": true,
+            "status": "ok"
+          },
+          "internalLinks": 43,
+          "schema": {
+            "exists": false,
+            "types": []
+          }
+        },
+        "tech": {
+          "canonical": true,
+          "viewport": true,
+          "httpsLinks": {
+            "total": 79,
             "httpCount": 0,
             "status": "ok"
           }
@@ -9616,6 +9664,56 @@
         }
       },
       {
+        "url": "/nestle-chocolate-chip-cookie-recipe/",
+        "issues": {
+          "title": {
+            "exists": true,
+            "length": 71,
+            "status": "warning"
+          },
+          "description": {
+            "exists": true,
+            "length": 124,
+            "status": "ok"
+          },
+          "h1": {
+            "count": 1,
+            "status": "ok"
+          },
+          "headers": {
+            "h2Count": 4,
+            "h3Count": 9,
+            "hierarchyOk": true,
+            "status": "ok"
+          },
+          "images": {
+            "total": 13,
+            "missingAlt": 0,
+            "status": "ok"
+          },
+          "content": {
+            "keywordInFirst100": true,
+            "status": "ok"
+          },
+          "internalLinks": 43,
+          "schema": {
+            "exists": true,
+            "types": [
+              "Recipe"
+            ]
+          }
+        },
+        "tech": {
+          "canonical": true,
+          "viewport": true,
+          "httpsLinks": {
+            "total": 73,
+            "httpCount": 0,
+            "status": "ok"
+          }
+        }
+      },
+      {
         "url": "/ninja-creami-ice-cream-maker-review-2026/",
         "issues": {
           "title": {
@@ -10035,6 +10133,56 @@
           "schema": {
             "exists": false,
             "types": []
+          }
+        },
+        "tech": {
+          "canonical": true,
+          "viewport": true,
+          "httpsLinks": {
+            "total": 75,
+            "httpCount": 0,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "url": "/pink-salt-recipe-weight-loss/",
+        "issues": {
+          "title": {
+            "exists": true,
+            "length": 68,
+            "status": "warning"
+          },
+          "description": {
+            "exists": true,
+            "length": 153,
+            "status": "ok"
+          },
+          "h1": {
+            "count": 1,
+            "status": "ok"
+          },
+          "headers": {
+            "h2Count": 4,
+            "h3Count": 10,
+            "hierarchyOk": true,
+            "status": "ok"
+          },
+          "images": {
+            "total": 13,
+            "missingAlt": 0,
+            "status": "ok"
+          },
+          "content": {
+            "keywordInFirst100": true,
+            "status": "ok"
+          },
+          "internalLinks": 43,
+          "schema": {
+            "exists": true,
+            "types": [
+              "Recipe"
+            ]
           }
         },
         "tech": {
@@ -16581,8 +16729,8 @@
         }
       }
     ],
-    "schemaCount": 77,
-    "localCount": 663,
+    "schemaCount": 80,
+    "localCount": 673,
     "sitemapExists": true,
     "robotsExists": true
   },
@@ -18077,6 +18225,80 @@
       }
     },
     {
+      "url": "/baking-soda-vs-baking-powder-guide/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 72,
+          "status": "warning"
+        },
+        "description": {
+          "exists": true,
+          "length": 137,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 11,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbaking-soda-vs-powder.png&description=Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbaking-soda-vs-powder.png&description=Is%20baking%20soda%20the%20same%20as%20baking%20powder%3F%20Can%20you%20substitute%20one%20for%20the%20other%3F%20We%20answer%20all%20your%20leavening%20questions%20in%20this%20deep%20dive.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 79,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
       "url": "/baking-tutorials/",
       "onPage": {
         "title": {
@@ -18874,6 +19096,80 @@
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbest-vegan-egg-substitutes-baking&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Top%205%20Vegan%20Egg%20Substitutes%20for%20Flawless%20Baking",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbest-vegan-egg-substitutes-baking&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Top%205%20Vegan%20Egg%20Substitutes%20for%20Flawless%20Baking",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbest-vegan-egg-substitutes-baking&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Top%205%20Vegan%20Egg%20Substitutes%20for%20Flawless%20Baking"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 78,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "url": "/betty-crocker-new-baking-mix-review-2026/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 65,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 135,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 9,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbetty-crocker-review.png&description=Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbetty-crocker-review.png&description=We%20review%20the%20top%20Betty%20Crocker%20baking%20mixes%20and%20cookbooks%20for%20this%20year.%20Find%20out%20which%20new%20favorites%20are%20worth%20adding%20to%20your%20pantry.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026"
         ],
         "status": "ok"
       },
@@ -19855,6 +20151,80 @@
       }
     },
     {
+      "url": "/blog/baking-soda-vs-baking-powder-guide/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 49,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 137,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 11,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbaking-soda-vs-powder.png&description=Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbaking-soda-vs-powder.png&description=Is%20baking%20soda%20the%20same%20as%20baking%20powder%3F%20Can%20you%20substitute%20one%20for%20the%20other%3F%20We%20answer%20all%20your%20leavening%20questions%20in%20this%20deep%20dive.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbaking-soda-vs-baking-powder-guide&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Baking%20Soda%20vs.%20Baking%20Powder%3A%20The%20Ultimate%20Guide"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 79,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
       "url": "/blog/baking-tutorials/",
       "onPage": {
         "title": {
@@ -20354,6 +20724,80 @@
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbest-vegan-egg-substitutes-baking&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Top%205%20Vegan%20Egg%20Substitutes%20for%20Flawless%20Baking",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbest-vegan-egg-substitutes-baking&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Top%205%20Vegan%20Egg%20Substitutes%20for%20Flawless%20Baking",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbest-vegan-egg-substitutes-baking&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Top%205%20Vegan%20Egg%20Substitutes%20for%20Flawless%20Baking"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 78,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "url": "/blog/betty-crocker-new-baking-mix-review-2026/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 42,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 135,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 9,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbetty-crocker-review.png&description=Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fbetty-crocker-review.png&description=We%20review%20the%20top%20Betty%20Crocker%20baking%20mixes%20and%20cookbooks%20for%20this%20year.%20Find%20out%20which%20new%20favorites%20are%20worth%20adding%20to%20your%20pantry.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Fblog%2Fbetty-crocker-new-baking-mix-review-2026&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Must-Try%20Betty%20Crocker%20Essentials%20for%202026"
         ],
         "status": "ok"
       },
@@ -24905,7 +25349,7 @@
         },
         "headers": {
           "h2Count": 1,
-          "h3Count": 144,
+          "h3Count": 146,
           "hierarchyOk": true,
           "status": "ok"
         },
@@ -24918,7 +25362,7 @@
           "keywordInFirst100": true,
           "status": "ok"
         },
-        "internalLinks": 183,
+        "internalLinks": 185,
         "schema": {
           "exists": false,
           "types": []
@@ -24941,7 +25385,7 @@
         "canonical": true,
         "viewport": true,
         "httpsLinks": {
-          "total": 188,
+          "total": 190,
           "httpCount": 0,
           "status": "ok"
         }
@@ -39948,6 +40392,82 @@
       }
     },
     {
+      "url": "/how-to-make-authentic-beef-empanadas/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 54,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 157,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 10,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": true,
+          "types": [
+            "Recipe"
+          ]
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fempanadas.png&description=Authentic%20Beef%20Empanadas%20Recipe",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fempanadas.png&description=Learn%20how%20to%20make%20flaky%2C%20golden-brown%20beef%20empanadas%20from%20scratch.%20This%20step-by-step%20guide%20covers%20the%20perfect%20dough%2C%20savory%20beef%20filling%2C%20and%20baking%20secrets.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 75,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
       "url": "/how-to-make-pastry-cream/",
       "onPage": {
         "title": {
@@ -42133,6 +42653,82 @@
       }
     },
     {
+      "url": "/nestle-chocolate-chip-cookie-recipe/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 71,
+          "status": "warning"
+        },
+        "description": {
+          "exists": true,
+          "length": 124,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 9,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": true,
+          "types": [
+            "Recipe"
+          ]
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fnestle-cookies.png&description=Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fnestle-cookies.png&description=The%20original%2C%20famous%20recipe%20that%20started%20it%20all.%20Soft%2C%20chewy%2C%20and%20loaded%20with%20chocolate%20chips.%20The%20gold%20standard%20of%20cookies.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 73,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
       "url": "/ninja-creami-ice-cream-maker-review-2026/",
       "onPage": {
         "title": {
@@ -42930,6 +43526,82 @@
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fperfect-vanilla-cupcakes-2&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Vanilla%20Perfection%3A%20Your%20Guide%20to%20Perfect%20Vanilla%20Cupcakes%20%7C%20Sweety's%20Bakery",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fperfect-vanilla-cupcakes-2&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Vanilla%20Perfection%3A%20Your%20Guide%20to%20Perfect%20Vanilla%20Cupcakes%20%7C%20Sweety's%20Bakery",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fperfect-vanilla-cupcakes-2&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Vanilla%20Perfection%3A%20Your%20Guide%20to%20Perfect%20Vanilla%20Cupcakes%20%7C%20Sweety's%20Bakery"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 75,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "url": "/pink-salt-recipe-weight-loss/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 68,
+          "status": "warning"
+        },
+        "description": {
+          "exists": true,
+          "length": 153,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 10,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": true,
+          "types": [
+            "Recipe"
+          ]
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fpink-salt.png&description=Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fpink-salt.png&description=Discover%20the%20benefits%20of%20Pink%20Himalayan%20Salt%20%22Sole%20Water%22.%20A%20simple%20morning%20ritual%20used%20for%20hydration%2C%20mineral%20balance%2C%20and%20supporting%20weight%20loss%20goals.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)"
         ],
         "status": "ok"
       },
@@ -50893,6 +51565,80 @@
       }
     },
     {
+      "url": "/recipes/how-to-make-authentic-beef-empanadas/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 31,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 157,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 10,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fempanadas.png&description=Authentic%20Beef%20Empanadas%20Recipe",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fempanadas.png&description=Learn%20how%20to%20make%20flaky%2C%20golden-brown%20beef%20empanadas%20from%20scratch.%20This%20step-by-step%20guide%20covers%20the%20perfect%20dough%2C%20savory%20beef%20filling%2C%20and%20baking%20secrets.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fhow-to-make-authentic-beef-empanadas&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Authentic%20Beef%20Empanadas%20Recipe"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 75,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
       "url": "/recipes/how-to-make-pastry-cream/",
       "onPage": {
         "title": {
@@ -50985,12 +51731,12 @@
         },
         "headers": {
           "h2Count": 1,
-          "h3Count": 83,
+          "h3Count": 86,
           "hierarchyOk": true,
           "status": "ok"
         },
         "images": {
-          "total": 83,
+          "total": 86,
           "missingAlt": 0,
           "status": "ok"
         },
@@ -51546,6 +52292,80 @@
       }
     },
     {
+      "url": "/recipes/nestle-chocolate-chip-cookie-recipe/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 48,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 124,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 9,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fnestle-cookies.png&description=Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fnestle-cookies.png&description=The%20original%2C%20famous%20recipe%20that%20started%20it%20all.%20Soft%2C%20chewy%2C%20and%20loaded%20with%20chocolate%20chips.%20The%20gold%20standard%20of%20cookies.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fnestle-chocolate-chip-cookie-recipe&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Classic%20Nestle%20Toll%20House%20Chocolate%20Chip%20Cookies"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 73,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
       "url": "/recipes/no-bake-peanut-butter-bars/",
       "onPage": {
         "title": {
@@ -51971,6 +52791,80 @@
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fperfect-vanilla-cupcakes-2&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Vanilla%20Perfection%3A%20Your%20Guide%20to%20Perfect%20Vanilla%20Cupcakes%20%7C%20Sweety's%20Bakery",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fperfect-vanilla-cupcakes-2&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Vanilla%20Perfection%3A%20Your%20Guide%20to%20Perfect%20Vanilla%20Cupcakes%20%7C%20Sweety's%20Bakery",
           "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fperfect-vanilla-cupcakes-2&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Vanilla%20Perfection%3A%20Your%20Guide%20to%20Perfect%20Vanilla%20Cupcakes%20%7C%20Sweety's%20Bakery"
+        ],
+        "status": "ok"
+      },
+      "local": {
+        "hasAddress": true,
+        "hasPhone": true,
+        "hasMapOrGmb": false
+      },
+      "tech": {
+        "canonical": true,
+        "viewport": true,
+        "httpsLinks": {
+          "total": 75,
+          "httpCount": 0,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "url": "/recipes/pink-salt-recipe-weight-loss/",
+      "onPage": {
+        "title": {
+          "exists": true,
+          "length": 45,
+          "status": "ok"
+        },
+        "description": {
+          "exists": true,
+          "length": 153,
+          "status": "ok"
+        },
+        "h1": {
+          "count": 1,
+          "status": "ok"
+        },
+        "headers": {
+          "h2Count": 4,
+          "h3Count": 10,
+          "hierarchyOk": true,
+          "status": "ok"
+        },
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "status": "ok"
+        },
+        "content": {
+          "keywordInFirst100": true,
+          "status": "ok"
+        },
+        "internalLinks": 43,
+        "schema": {
+          "exists": false,
+          "types": []
+        }
+      },
+      "offPage": {
+        "socialLinks": [
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fpink-salt.png&description=Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2Fblog%2Fpink-salt.png&description=Discover%20the%20benefits%20of%20Pink%20Himalayan%20Salt%20%22Sole%20Water%22.%20A%20simple%20morning%20ritual%20used%20for%20hydration%2C%20mineral%20balance%2C%20and%20supporting%20weight%20loss%20goals.",
+          "https://www.instagram.com/sweetys.bakery/",
+          "https://web.facebook.com/SaPatissl/",
+          "https://www.pinterest.com/Sweetysbakerys/",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(5).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(6).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(7).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(8).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(9).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(10).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(11).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(12).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(13).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)",
+          "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsweetysbakery.com%2Frecipes%2Fpink-salt-recipe-weight-loss&media=https%3A%2F%2Fsweetysbakery.com%2Fimages%2FSweeetys%20Bakery%20IMG%20(14).JPG&description=Creation%20by%20Sweety's%20Bakery%20-%20Pink%20Salt%20Recipe%20for%20Weight%20Loss%20(Sole%20Water)"
         ],
         "status": "ok"
       },

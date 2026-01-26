@@ -2,6 +2,69 @@ import { BlogPost } from './blogPosts';
 
 export const newSeoBlogPosts: BlogPost[] = [
     {
+        id: 1010,
+        slug: 'how-much-baking-soda-is-safe-to-drink-daily',
+        title: 'How Much Baking Soda is Safe to Drink Daily? Safety Guide & Dosage',
+        excerpt: 'Drinking baking soda can help with indigestion, but it carries risks. Learn the safe daily limits, proper dosage for adults vs. seniors, and dangerous side effects to avoid.',
+        imageUrl: '/images/blog/baking_soda_drink_glass_1769385478346.png',
+        category: 'Health & Wellness',
+        author: 'Sweetys Bakery',
+        date: 'January 26, 2026',
+        readTime: '4 min',
+        type: 'article',
+        content: `<h2>How Much Baking Soda is Safe to Drink Daily?</h2>
+
+<p>Baking soda (sodium bicarbonate) is a common home remedy for heartburn, acid reflux, and indigestion. While it is generally effective as an antacid, it is highly potent. Drinking too much baking soda can lead to serious health issues, including electrolyte imbalances and even gastric rupture. This guide breaks down exactly how much is safe to consume.</p>
+
+<h3>The Safe Dosage Limits</h3>
+
+<p>According to manufacturers and health experts, here are the maximum safe limits for consuming baking soda dissolved in water:</p>
+
+<h4>For Adults (Under 60 Years Old)</h4>
+<ul>
+    <li><strong>Single Dose:</strong> ½ teaspoon dissolved in at least 4-6 ounces of water.</li>
+    <li><strong>Frequency:</strong> You may repeat this every 2 hours as needed.</li>
+    <li><strong>24-Hour Maximum:</strong> Do NOT exceed <strong>3 ½ teaspoons</strong> (approx. 7 doses) in a 24-hour period.</li>
+</ul>
+
+<h4>For Adults (Over 60 Years Old)</h4>
+<ul>
+    <li><strong>Single Dose:</strong> ½ teaspoon dissolved in at least 4-6 ounces of water.</li>
+    <li><strong>24-Hour Maximum:</strong> Do NOT exceed <strong>1 ½ teaspoons</strong> (approx. 3 doses) in a 24-hour period.</li>
+</ul>
+
+<h3>Important Safety Precautions</h3>
+
+<p>To use baking soda safely, you must follow these rules:</p>
+
+<ol>
+    <li><strong>Dissolve Completely:</strong> Ensure the powder is fully dissolved in water before drinking.</li>
+    <li><strong>Do Not Take on a Full Stomach:</strong> Taking baking soda when your stomach is overly full of food and liquid can cause extreme pressure buildup, leading to rare but fatal stomach ruptures.</li>
+    <li><strong>Limit Duration:</strong> Do not use this remedy for more than 2 weeks. If symptoms persist, see a doctor.</li>
+</ol>
+
+<h3>Who Should Avoid Drinking Baking Soda?</h3>
+
+<p>Do not use baking soda as an antacid if you:</p>
+<ul>
+    <li>Are on a sodium-restricted diet (baking soda is very high in sodium).</li>
+    <li>Take prescription drugs (it can interact with certain medications).</li>
+    <li>Are pregnant or nursing.</li>
+    <li>Have kidney disease or heart failure.</li>
+</ul>
+
+<h3>Side Effects of Overconsumption</h3>
+<p>Drinking too much baking soda can cause "milk-alkali syndrome" or severe electrolyte imbalances. Watch for symptoms like:</p>
+<ul>
+    <li>Severe headache</li>
+    <li>Nausea or vomiting</li>
+    <li>Muscle weakness or spasms</li>
+    <li>Swelling in the feet or lower legs</li>
+</ul>
+
+<p><em>Disclaimer: This article is for informational purposes only and does not constitute medical advice. Always consult your healthcare provider before starting any new home remedy.</em></p>`
+    },
+    {
         id: 1001,
         slug: 'how-to-price-cakes-for-profit-complete-calculator-guide-2025',
         title: 'Price Cakes for Profit: 2025 Calculator Guide',
@@ -3779,5 +3842,308 @@ export const newSeoBlogPosts: BlogPost[] = [
             <li>Roll up tightly like a cinnamon roll.</li>
             <li>Slice into rounds. Roll edges in extra coconut.</li>
         </ol>`
+    },
+    {
+        id: 1049,
+        slug: 'how-to-make-authentic-beef-empanadas',
+        title: 'Authentic Beef Empanadas Recipe',
+        excerpt: 'Learn how to make flaky, golden-brown beef empanadas from scratch. This step-by-step guide covers the perfect dough, savory beef filling, and baking secrets.',
+        imageUrl: '/images/blog/empanadas.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 26, 2026',
+        readTime: '45 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT45M",
+            cookTime: "PT25M",
+            totalTime: "PT1H10M",
+            recipeYield: "12 empanadas",
+            calories: 350,
+            rating: {
+                ratingValue: 4.9,
+                ratingCount: 85
+            },
+            ingredients: [
+                "3 cups all-purpose flour",
+                "1 stick (1/2 cup) unsalted butter, chilled and cubed",
+                "1 egg",
+                "1/2 cup water",
+                "1 lb ground beef",
+                "1 medium onion, chopped",
+                "1 tsp ground cumin",
+                "1 tsp paprika",
+                "1/2 cup green olives, chopped",
+                "Salt and pepper to taste"
+            ],
+            instructions: [
+                {
+                    name: "Prepare the Dough",
+                    text: "Mix flour and salt. Cut in butter until crumbly. Mix egg and water, add to flour. Knead gently until smooth. Wrap and chill for 30 mins."
+                },
+                {
+                    name: "Make the Filling",
+                    text: "Sauté onions until soft. Add ground beef and brown. Stir in cumin, paprika, salt, and pepper. Remove from heat and stir in olives. Let cool completely."
+                },
+                {
+                    name: "Assemble",
+                    text: "Roll out dough to 1/8 inch thick. Cut into 5-inch circles. Place 2 tbsp filing in center. Fold over and crimp edges with a fork."
+                },
+                {
+                    name: "Bake",
+                    text: "Brush with egg wash. Bake at 375°F (190°C) for 20-25 minutes until golden brown."
+                }
+            ]
+        },
+        content: `<h2>How to Make Authentic Beef Empanadas</h2>
+        
+        <p>There's nothing quite like a fresh, homemade empanada. The combination of buttery, flaky pastry and a savory, spiced beef filling is comfort food at its finest. In this guide, we'll walk you through every step of making authentic beef empanadas that taste just like they came from a traditional bakery.</p>
+        <img src="/images/blog/empanadas.png" alt="Beef Empanadas" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>The Secret to Flaky Dough</h3>
+        <p>The key to perfect empanada dough is keeping your ingredients cold, especially the butter. Just like pie crust, you want small pockets of butter to remain in the dough—these melt during baking to create those irresistible flaky layers.</p>
+
+        <h3>The Filling</h3>
+        <p>Our filling uses a classic blend of ground beef, onions, and simple spices like cumin and paprika. The addition of green olives adds a lovely briney contrast to the rich meat. <strong>Pro Tip:</strong> Ensure your filling is completely cool before assembling your empanadas to prevent the dough from getting soggy.</p>
+
+        <h3>Baking vs. Frying</h3>
+        <p>While traditional empanadas can be fried, this recipe is designed for baking. It yields a lighter, golden crust that's just as delicious but slightly healthier and less messy to prepare.</p>
+
+        <p><strong>Ready to start baking?</strong> Grab your rolling pin and let's get started!</p>`
+    },
+    {
+        id: 1050,
+        slug: 'pink-salt-recipe-weight-loss',
+        title: 'Pink Salt Recipe for Weight Loss (Sole Water)',
+        excerpt: 'Discover the benefits of Pink Himalayan Salt "Sole Water". A simple morning ritual used for hydration, mineral balance, and supporting weight loss goals.',
+        imageUrl: '/images/blog/pink-salt.png',
+        category: 'Healthy Living',
+        author: 'Sweetys Bakery',
+        date: 'January 26, 2026',
+        readTime: '10 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT2M",
+            cookTime: "PT0M",
+            totalTime: "PT2M",
+            recipeYield: "1 glass",
+            calories: 0,
+            ingredients: [
+                "1 tsp Pink Himalayan Salt (crystals or ground)",
+                "1 glass of warm filtered water",
+                "Optional: Lemon slice"
+            ],
+            instructions: [
+                {
+                    name: "Dissolve",
+                    text: "Add pink salt to warm water. Stir until fully dissolved."
+                },
+                {
+                    name: "Consume",
+                    text: "Drink on an empty stomach first thing in the morning."
+                }
+            ]
+        },
+        content: `<h2>Pink Salt Recipe for Weight Loss (Sole Water)</h2>
+
+        <p>You may have heard about the trend of drinking salt water in the morning. Known as "Sole Water" (pronounced so-lay), this mineral-rich solution made with Pink Himalayan Salt is praised by wellness enthusiasts for its potential health benefits, including supporting hydration and digestion.</p>
+        <img src="/images/blog/pink-salt.png" alt="Pink Salt Drink" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>What is Sole Water?</h3>
+        <p>Sole water is fully saturated water that has absorbed as much natural salt as it can. Pink Himalayan salt is preferred because it's believed to contain over 80 trace minerals, including potassium, magnesium, and calcium.</p>
+
+        <h3>Potential Benefits for Weight Loss & Health</h3>
+        <ul>
+            <li><strong>Hydration:</strong> The electrolytes in salt may help your body absorb water more effectively than plain water alone.</li>
+            <li><strong>Digestion:</strong> Salt activates salivary glands, which produce amylase, an enzyme that helps digest carbs.</li>
+            <li><strong>Mineral Balance:</strong> Replenishes minerals lost through sweat or detoxification.</li>
+        </ul>
+
+        <h3>How to Make It</h3>
+        <p>It's incredibly simple: Just dissolve a small amount of high-quality pink salt in warm water. Many people drink this first thing in the morning on an empty stomach.</p>
+
+        <p><em>Disclaimer: Always consult with a healthcare professional before making significant changes to your diet, especially if you have high blood pressure or are on a sodium-restricted diet.</em></p>`
+    },
+    {
+        id: 1051,
+        slug: 'betty-crocker-new-baking-mix-review-2026',
+        title: 'Must-Try Betty Crocker Essentials for 2026',
+        excerpt: 'We review the top Betty Crocker baking mixes and cookbooks for this year. Find out which new favorites are worth adding to your pantry.',
+        imageUrl: '/images/blog/betty-crocker-review.png',
+        category: 'Product Reviews',
+        author: 'Sweetys Bakery',
+        date: 'January 26, 2026',
+        readTime: '8 min',
+        type: 'article',
+        content: `<h2>Must-Try Betty Crocker Essentials for 2026</h2>
+        
+        <p>Betty Crocker has been a household name for generations, known for reliable, delicious baking mixes that make life easier. Whether you're a beginner baker or just short on time, their products deliver consistent results. We've rounded up three must-have items for your kitchen this year.</p>
+        <img src="/images/blog/betty-crocker-review.png" alt="Betty Crocker Review" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>1. Super Moist Chocolate Cake Mix</h3>
+        <p>There's a reason this is a classic. The "Super Moist" line lives up to its name, producing a rich, decadent cake that's hard to mess up. It's the perfect base for birthday cakes or a quick weeknight dessert. Pair it with a homemade ganache to elevate it to bakery quality.</p>
+        <div style="margin: 20px 0;">
+            <a href="https://www.amazon.com/Betty-Crocker-Super-Moist-Chocolate/dp/B00P9R1OAE?crid=EATM9ZNMD2L7&dib=eyJ2IjoiMSJ9.syMxz6S2bKRkhdTVZnC_YLQbN-BsFdgHIpveWfsvkOPUujA0dU5iEZ12b7QQVdxUTMBHY3JnJe9em03a8wFpbf9aQvyfzEU7rVHRXjmFy_0rtS1BhRchbsV8A7WzGa8u9PfZ3NAbqm-GYF8Cyb0ghrnbHXDY_qG6Z-KyZ4MA-jx6CG8BxGMHVyOxmDRwa_w-sXqGCn-QcbWzxg0L2LysnyCfgnVB1j5AHj_-feKSoQtM9rNmCuTPZhjCMbqGhPh2tg0LAWqvwIM3N-wJUK1OkpKPiZJkvGdaYmJJTh8_zIw.477qoZSv_2a6V1g1cYjnobQsKsN_074QyJyEBIc0MoY&dib_tag=se&keywords=betty%2Bcrocker%2Bnew%2Bbaking%2Bmix&qid=1769383833&sprefix=betty%2Bcrocker%2Bnew%2Bbaking%2Bmix%2Caps%2C470&sr=8-2&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=3e90c0bc14de6a1f33e5ab491967ecef&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E23F44; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">Check Price on Amazon</a>
+        </div>
+
+        <h3>2. Betty Crocker Pizza Crust Mix</h3>
+        <p>Homemade pizza night doesn't have to mean hours of dough rising. This 12-inch pizza crust mix is incredibly fast—just add water and heat. It creates a thin, crispy crust that holds up well to heavy toppings. A pantry staple for busy Fridays.</p>
+        <div style="margin: 20px 0;">
+            <a href="https://www.amazon.com/Betty-Crocker-Pizza-Crust-12-inch/dp/B0D81HWXBM?crid=EATM9ZNMD2L7&dib=eyJ2IjoiMSJ9.syMxz6S2bKRkhdTVZnC_YLQbN-BsFdgHIpveWfsvkOPUujA0dU5iEZ12b7QQVdxUTMBHY3JnJe9em03a8wFpbf9aQvyfzEU7rVHRXjmFy_0rtS1BhRchbsV8A7WzGa8u9PfZ3NAbqm-GYF8Cyb0ghrnbHXDY_qG6Z-KyZ4MA-jx6CG8BxGMHVyOxmDRwa_w-sXqGCn-QcbWzxg0L2LysnyCfgnVB1j5AHj_-feKSoQtM9rNmCuTPZhjCMbqGhPh2tg0LAWqvwIM3N-wJUK1OkpKPiZJkvGdaYmJJTh8_zIw.477qoZSv_2a6V1g1cYjnobQsKsN_074QyJyEBIc0MoY&dib_tag=se&keywords=betty%2Bcrocker%2Bnew%2Bbaking%2Bmix&qid=1769384061&sprefix=betty%2Bcrocker%2Bnew%2Bbaking%2Bmix%2Caps%2C470&sr=8-1&th=1&linkCode=ll1&tag=lahcenaitbens-20&linkId=6ebc7f28a33859adc778d9315c1c72a0&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E23F44; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">Check Price on Amazon</a>
+        </div>
+
+        <h3>3. Betty Crocker Cookbook: Everything You Need to Know to Cook Today (13th Edition)</h3>
+        <p>This is the bible of American home cooking. The 13th edition has been updated for modern kitchens but keeps the reliable, tested instructions Betty Crocker is famous for. From baking basics to full dinner menus, it's an essential resource for any cook.</p>
+        <div style="margin: 20px 0;">
+            <a href="https://www.amazon.com/Betty-Crocker-Cookbook-13th-Everything/dp/035840858X?crid=EATM9ZNMD2L7&dib=eyJ2IjoiMSJ9.syMxz6S2bKRkhdTVZnC_YLQbN-BsFdgHIpveWfsvkOPUujA0dU5iEZ12b7QQVdxUTMBHY3JnJe9em03a8wFpbf9aQvyfzEU7rVHRXjmFy_0rtS1BhRchbsV8A7WzGa8u9PfZ3NAbqm-GYF8Cyb0ghrnbHXDY_qG6Z-KyZ4MA-jx6CG8BxGMHVyOxmDRwa_w-sXqGCn-QcbWzxg0L2LysnyCfgnVB1j5AHj_-feKSoQtM9rNmCuTPZhjCMbqGhPh2tg0LAWqvwIM3N-wJUK1OkpKPiZJkvGdaYmJJTh8_zIw.477qoZSv_2a6V1g1cYjnobQsKsN_074QyJyEBIc0MoY&dib_tag=se&keywords=betty+crocker+new+baking+mix&qid=1769384061&sprefix=betty+crocker+new+baking+mix%2Caps%2C470&sr=8-3&linkCode=ll1&tag=lahcenaitbens-20&linkId=ef0552a9f29a7cb68569fc2d64ec674e&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style="background-color: #E23F44; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">Check Price on Amazon</a>
+        </div>`
+    },
+    {
+        id: 1052,
+        slug: 'baking-soda-vs-baking-powder-guide',
+        title: 'Baking Soda vs. Baking Powder: The Ultimate Guide',
+        excerpt: 'Is baking soda the same as baking powder? Can you substitute one for the other? We answer all your leavening questions in this deep dive.',
+        imageUrl: '/images/blog/baking-soda-vs-powder.png',
+        category: 'Baking Tips',
+        author: 'Sweetys Bakery',
+        date: 'January 27, 2026',
+        readTime: '15 min',
+        type: 'article',
+        content: `<h2>Baking Soda vs. Baking Powder: The Ultimate Guide</h2>
+        <p>If you've ever stood in your kitchen holding a teaspoon, staring at two similar-looking white powders and wondering <strong>"is baking soda the same as baking powder?"</strong>, you are not alone. This is one of the most common confusion points for home bakers.</p>
+        
+        <p>While both are chemical leavening agents used to help baked goods rise, they are chemically different and function in unique ways. Mixing them up can lead to metallic-tasting cakes, flat muffins, or cookies that spread into a giant puddle.</p>
+
+        <img src="/images/blog/baking-soda-vs-powder.png" alt="Baking Soda vs Baking Powder Comparison" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>What is Baking Soda?</h3>
+        <p><strong>What is baking soda?</strong> Scientifically known as <em>sodium bicarbonate</em>, baking soda is a base in the world of chemistry (alkaline). It's a powerful leavener that reacts immediately when it comes into contact with an acid and a liquid.</p>
+        <p>This reaction produces carbon dioxide bubbles, which expand in the oven heat to lift your cake or bread. Because it needs an acid to activate, you'll almost always see baking soda in recipes that include ingredients like buttermilk, yogurt, lemon juice, cocoa powder (natural), or brown sugar (molasses is acidic).</p>
+        <p><strong>Key characteristic:</strong> Baking soda is 4x stronger than baking powder.</p>
+
+        <h3>Is Baking Powder the Same as Baking Soda?</h3>
+        <p>The short answer is <strong>no, baking powder is not the same as baking soda</strong>. However, they are related.</p>
+        <p>Baking powder is actually a mixture of baking soda, a powdered acid (usually cream of tartar), and a cornstarch buffer to prevent them from reacting in the jar.</p>
+        <p>Because it contains its own acid, baking powder only needs moisture and heat to work. This makes it "double-acting"—it reacts once when mixed with wet ingredients, and again when hit with the heat of the oven. This provides a more reliable, sustained rise for recipes that don't have natural acids.</p>
+
+        <h3>Can I Use Baking Soda Instead of Baking Powder?</h3>
+        <p>This is the million-dollar question: <strong>can I use baking soda instead of baking powder?</strong></p>
+        <p><strong>If you have Baking Soda but need Baking Powder:</strong><br>
+        Yes, but you need to add an acid. The rule of thumb is mixing 1/4 teaspoon baking soda + 1/2 teaspoon cream of tartar to equal 1 teaspoon of baking powder.</p>
+
+        <p><strong>If you have Baking Powder but need Baking Soda:</strong><br>
+        This is harder. You need to use 3-4 times as much baking powder to get the same lifting power, but this often adds too much extra acid and liquid to the recipe, potentially ruining the taste and texture. In a pinch, it's safer to run to the store.</p>
+
+        <h3>How Much Baking Soda is Safe to Drink Daily?</h3>
+        <p>Beyond baking, people often use baking soda for health reasons, like settling an upset stomach. But <strong>how much baking soda is safe to drink daily?</strong></p>
+        <p>According to health experts, adults should not exceed ½ teaspoon dissolved in a glass of water every 2 hours, and no more than 3 ½ teaspoons total in a 24-hour period. For those over 60, the limit is 1 ½ teaspoons per day. Excessive consumption can disrupt your body's electrolyte balance and acid-base levels, leading to serious health issues.</p>
+        <p><em>Always consult your doctor before using baking soda as a regular supplement.</em></p>
+
+        <h3>Summary Table</h3>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr style="background-color: #f8f9fa;">
+                    <th style="padding: 12px; border: 1px solid #dee2e6;">Feature</th>
+                    <th style="padding: 12px; border: 1px solid #dee2e6;">Baking Soda</th>
+                    <th style="padding: 12px; border: 1px solid #dee2e6;">Baking Powder</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Main Ingredient</td>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Sodium Bicarbonate</td>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Sodium Bicarbonate + Acid</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Activation</td>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Needs Acid + Liquid</td>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Needs Liquid + Heat</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Strength</td>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Strong (4x)</td>
+                    <td style="padding: 12px; border: 1px solid #dee2e6;">Moderate (1x)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Hopefully, this guide clears up the confusion! Happy baking!</p>`
+    },
+    {
+        id: 1053,
+        slug: 'nestle-chocolate-chip-cookie-recipe',
+        title: 'Classic Nestle Toll House Chocolate Chip Cookies',
+        excerpt: 'The original, famous recipe that started it all. Soft, chewy, and loaded with chocolate chips. The gold standard of cookies.',
+        imageUrl: '/images/blog/nestle-cookies.png',
+        category: 'Recipes',
+        author: 'Sweetys Bakery',
+        date: 'January 27, 2026',
+        readTime: '30 min',
+        type: 'recipe',
+        recipeData: {
+            prepTime: "PT15M",
+            cookTime: "PT10M",
+            totalTime: "PT25M",
+            recipeYield: "5 dozen cookies",
+            calories: 108,
+            rating: {
+                ratingValue: 4.8,
+                ratingCount: 5240
+            },
+            ingredients: [
+                "2 1/4 cups all-purpose flour",
+                "1 tsp baking soda",
+                "1 tsp salt",
+                "1 cup (2 sticks) butter, softened",
+                "3/4 cup granulated sugar",
+                "3/4 cup packed brown sugar",
+                "1 tsp vanilla extract",
+                "2 large eggs",
+                "2 cups (12-oz. pkg.) semi-sweet chocolate morsels",
+                "1 cup chopped nuts (optional)"
+            ],
+            instructions: [
+                {
+                    name: "Preheat",
+                    text: "Preheat oven to 375°F."
+                },
+                {
+                    name: "Mix Dry Ingredients",
+                    text: "Combine flour, baking soda, and salt in small bowl."
+                },
+                {
+                    name: "Cream Butter & Sugars",
+                    text: "Beat butter, granulated sugar, brown sugar, and vanilla extract in large mixer bowl until creamy."
+                },
+                {
+                    name: "Add Eggs",
+                    text: "Add eggs, one at a time, beating well after each addition."
+                },
+                {
+                    name: "Combine",
+                    text: "Gradually beat in flour mixture. Stir in morsels and nuts."
+                },
+                {
+                    name: "Bake",
+                    text: "Drop by rounded tablespoon or ice cream scoop onto ungreased baking sheets. Bake for 9 to 11 minutes or until golden brown. Cool on baking sheets for 2 minutes; remove to wire racks to cool completely."
+                }
+            ]
+        },
+        content: `<h2>Classic Nestle Toll House Chocolate Chip Cookies</h2>
+        <p>This is the recipe that America grew up on. The "Original Nestle Toll House Chocolate Chip Cookie" is the standard by which all other cookies are judged. It strikes the perfect balance between crispy edges and a soft, chewy center.</p>
+        
+        <img src="/images/blog/nestle-cookies.png" alt="Nestle Toll House Cookies" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+
+        <h3>Why This Recipe Works</h3>
+        <p>The magic lie in the ratio of brown sugar to white sugar. <strong>Brown sugar</strong> provides moisture and chewiness (thanks to molasses), while <strong>white sugar</strong> encourages crispiness. Using equal parts of both gives you the best of both worlds.</p>
+
+        <h3>Tips for Success</h3>
+        <ul>
+            <li><strong>Room Temperature Butter:</strong> Ensure your butter is softened but not melted. Melted butter will cause the cookies to spread too much.</li>
+            <li><strong>Don't Overmix:</strong> Once you add the flour, mix just until combined. Overmixing develops gluten and makes tough cookies.</li>
+            <li><strong>Chill the Dough:</strong> If you have time, chilling the dough for even 30 minutes develops the flavor and improves texture.</li>
+        </ul>
+
+        <p>Grab a glass of milk and enjoy!</p>`
     }
 ];
