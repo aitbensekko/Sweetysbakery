@@ -36,13 +36,12 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
           local-dir: ./out/
           server-dir: /public_html/
           dangerous-clean-slate: false
           timeout: 600000 
           state-name: .ftp-deploy-sync-state.json
-          log-level: verbose
-          security: loose
           exclude: |
             **/.git*
             **/.git*/**
