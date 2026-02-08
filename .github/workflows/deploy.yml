@@ -37,8 +37,9 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
+          # Attempting to use the default root directory in case user is jailed
           local-dir: ./out/
-          server-dir: /public_html/
+          server-dir: ./
           dangerous-clean-slate: false
           timeout: 600000 
           state-name: .ftp-deploy-sync-state.json
