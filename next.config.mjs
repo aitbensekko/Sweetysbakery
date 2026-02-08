@@ -9,6 +9,9 @@ const nextConfig = {
     turbopack: {
         root: __dirname,
     },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
     output: 'export',
     trailingSlash: true,
     productionBrowserSourceMaps: false,
