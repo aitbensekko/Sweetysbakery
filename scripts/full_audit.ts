@@ -20,11 +20,6 @@ interface AuditResult {
         socialLinks: string[];
         status: 'ok' | 'warning';
     };
-    local: {
-        hasAddress: boolean;
-        hasPhone: boolean;
-        hasMapOrGmb: boolean;
-    };
     tech: {
         canonical: boolean;
         viewport: boolean;
@@ -139,15 +134,7 @@ function auditPage(filePath: string) {
     const canonical = !!$('link[rel="canonical"]').attr('href');
     const viewport = !!$('meta[name="viewport"]').attr('content');
 
-    // 9. Local (Footer/Body check)
-    // Matches common phone formats: (123) 456-7890, 123-456-7890, +1 234 567 8900
-    const phoneRegex = /(\+\d{1,3}[- ]?)?\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}/;
-    const hasPhone = phoneRegex.test(bodyText);
-    const hasAddress = bodyText.includes('Marrakech') || bodyText.toLowerCase().includes('morocco'); // Expanded check
-    const hasMapOrGmb = links.toArray().some(el => {
-        const href = $(el).attr('href') || '';
-        return href.includes('maps.google.com') || href.includes('goo.gl/maps') || href.includes('business.google.com');
-    });
+
 
     auditResults.push({
         url,
@@ -165,7 +152,7 @@ function auditPage(filePath: string) {
             socialLinks: [...new Set(socialLinks)],
             status: socialStatus
         },
-        local: { hasAddress, hasPhone, hasMapOrGmb },
+
         tech: {
             canonical,
             viewport,
@@ -193,13 +180,13 @@ const warnings = auditResults.filter(r =>
     r.tech.httpsLinks.status === 'warning'
 );
 const schemaCount = auditResults.filter(r => r.onPage.schema.exists).length;
-const localCount = auditResults.filter(r => r.local.hasAddress || r.local.hasPhone).length;
+
 
 console.log(`\n📊 Audited ${total} pages.`);
 console.log(`❌ Critical Errors: ${errors.length}`);
 console.log(`⚠️ Warnings: ${warnings.length}`);
 console.log(`✅ Pages with Schema: ${schemaCount}`);
-console.log(`📍 Pages with Local Info: ${localCount}`);
+
 
 const sitemapExists = fs.existsSync(path.join(outDir, 'sitemap.xml'));
 const robotsExists = fs.existsSync(path.join(outDir, 'robots.txt'));
@@ -211,7 +198,7 @@ fs.writeFileSync(path.join(process.cwd(), 'audit_results.json'), JSON.stringify(
         errors: errors.map(e => ({ url: e.url, issues: e.onPage })),
         warnings: warnings.map(e => ({ url: e.url, issues: e.onPage, tech: e.tech })),
         schemaCount,
-        localCount,
+
         sitemapExists,
         robotsExists
     },
