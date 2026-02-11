@@ -1,16 +1,6 @@
 
 # ----------------------------------------------------------------------
-# Legacy Redirects
-# ----------------------------------------------------------------------
-Redirect 301 /home/ /
-Redirect 301 /products/goodcook-nonstick-baking-sheet-set /products/goodcook-everyday-baking-sheet-set/
-Redirect 301 /products/le-creuset-bread-oven-oyster /products/le-creuset-bread-oven/
-Redirect 301 /vegan-baking-essentials /blog/plant-based-perfection-vegan-baking-essentials/
-Redirect 301 /products/electric-hand-mixer-bowls-set /products/5-speed-electric-hand-mixer-set/
-Redirect 301 /products/overmont-dutch-oven /products/overmont-enameled-cast-iron-dutch-oven/
-Redirect 301 /macaron-troubleshooting /blog/macaron-troubleshooting-15-common-problems-solutions/
-Redirect 301 /baker-schedule /dashboard/
-Redirect 301 /ultimate-cookie-decorating-ideas /recipes/best-sugar-cookies/
+
 
 # ----------------------------------------------------------------------
 # Rewrite Rules
@@ -26,6 +16,17 @@ Redirect 301 /ultimate-cookie-decorating-ideas /recipes/best-sugar-cookies/
   # 2. Redirect www to non-www
   RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
   RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+  # 2.5 Legacy Redirects
+  RewriteRule ^ultimate-cookie-decorating-ideas/?$ /recipes/best-sugar-cookies/ [R=301,L]
+  RewriteRule ^baker-schedule/?$ /dashboard/ [R=301,L]
+  RewriteRule ^macaron-troubleshooting/?$ /blog/macaron-troubleshooting-15-common-problems-solutions/ [R=301,L]
+  RewriteRule ^vegan-baking-essentials/?$ /blog/plant-based-perfection-vegan-baking-essentials/ [R=301,L]
+  RewriteRule ^home/?$ / [R=301,L]
+  RewriteRule ^products/goodcook-nonstick-baking-sheet-set/?$ /products/goodcook-everyday-baking-sheet-set/ [R=301,L]
+  RewriteRule ^products/le-creuset-bread-oven-oyster/?$ /products/le-creuset-bread-oven/ [R=301,L]
+  RewriteRule ^products/electric-hand-mixer-bowls-set/?$ /products/5-speed-electric-hand-mixer-set/ [R=301,L]
+  RewriteRule ^products/overmont-dutch-oven/?$ /products/overmont-enameled-cast-iron-dutch-oven/ [R=301,L]
 
   # 3. Handle trailing slashes (Optional, but good for consistency with next.config trailingSlash: true)
   # If a file exists without a trailing slash, redirect to it? 
