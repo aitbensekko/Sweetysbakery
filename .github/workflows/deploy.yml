@@ -30,20 +30,8 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
       
-      - name: 🚀 Deploy to Hostinger via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 21
-          # Attempting to use the default root directory in case user is jailed
-          local-dir: ./out/
-          server-dir: ./
-          dangerous-clean-slate: false
-          timeout: 600000 
-          state-name: .ftp-deploy-sync-state.json
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
+      - name: 🚀 Deploy to Hostinger via Fast FTP (lftp)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp -e "set ftp:ssl-allow no; set net:max-retries 2; set net:timeout 20; mirror -R -v -P 10 --parallel=10 ./out ./; quit" -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
