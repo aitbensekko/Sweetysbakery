@@ -1,5 +1,18 @@
 
 # ----------------------------------------------------------------------
+# Legacy Redirects
+# ----------------------------------------------------------------------
+Redirect 301 /home/ /
+Redirect 301 /products/goodcook-nonstick-baking-sheet-set /products/goodcook-everyday-baking-sheet-set/
+Redirect 301 /products/le-creuset-bread-oven-oyster /products/le-creuset-bread-oven/
+Redirect 301 /vegan-baking-essentials /blog/plant-based-perfection-vegan-baking-essentials/
+Redirect 301 /products/electric-hand-mixer-bowls-set /products/5-speed-electric-hand-mixer-set/
+Redirect 301 /products/overmont-dutch-oven /products/overmont-enameled-cast-iron-dutch-oven/
+Redirect 301 /macaron-troubleshooting /blog/macaron-troubleshooting-15-common-problems-solutions/
+Redirect 301 /baker-schedule /dashboard/
+Redirect 301 /ultimate-cookie-decorating-ideas /recipes/best-sugar-cookies/
+
+# ----------------------------------------------------------------------
 # Rewrite Rules
 # ----------------------------------------------------------------------
 <IfModule mod_rewrite.c>
