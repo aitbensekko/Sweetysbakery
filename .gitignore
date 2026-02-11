@@ -46,3 +46,6 @@ tsconfig.tsbuildinfo
 tsc_output.txt
 duplicates_report.txt
 sitemap_verification.json
+lint_final.txt
+lint_output.txt
+tsc_final.txt
