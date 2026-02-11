@@ -1,0 +1,18 @@
+name: Debug FTP Connection
+
+on:
+  push:
+    paths:
+      - '.github/workflows/debug_ftp.yml'
+  workflow_dispatch:
+
+jobs:
+  debug-ftp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍 Debug FTP Filesystem
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          echo "Connecting to FTP..."
+          lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; ls -la; echo '--- Listing public_html ---'; ls -la public_html; echo '--- Listing public_html/.htaccess if exists ---'; cat public_html/.htaccess; quit" -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
