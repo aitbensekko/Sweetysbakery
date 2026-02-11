@@ -17,7 +17,7 @@
   RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
   RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
-  # 2.5 Legacy Redirects
+  # 3. Legacy Redirects (must come before trailing slash rule)
   RewriteRule ^ultimate-cookie-decorating-ideas/?$ /recipes/best-sugar-cookies/ [R=301,L]
   RewriteRule ^baker-schedule/?$ /dashboard/ [R=301,L]
   RewriteRule ^macaron-troubleshooting/?$ /blog/macaron-troubleshooting-15-common-problems-solutions/ [R=301,L]
@@ -28,14 +28,14 @@
   RewriteRule ^products/electric-hand-mixer-bowls-set/?$ /products/5-speed-electric-hand-mixer-set/ [R=301,L]
   RewriteRule ^products/overmont-dutch-oven/?$ /products/overmont-enameled-cast-iron-dutch-oven/ [R=301,L]
 
-  # 3. Handle trailing slashes (Optional, but good for consistency with next.config trailingSlash: true)
+  # 4. Handle trailing slashes (Optional, but good for consistency with next.config trailingSlash: true)
   # If a file exists without a trailing slash, redirect to it? 
   # Actually, with trailingSlash:true, we WANT the slash.
   # So if someone visits /about (no slash), redirect to /about/
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*[^/])$ /$1/ [L,R=301]
 
-  # 4. Custom 404 Page
+  # 5. Custom 404 Page
   # Hostinger/Apache needs to know which file to serve for 404 errors
   ErrorDocument 404 /404.html
 </IfModule>
