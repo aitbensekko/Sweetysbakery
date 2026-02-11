@@ -34,4 +34,4 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y lftp
-          lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; set net:max-retries 2; set net:timeout 20; mirror -R -v -P 10 --parallel=10 ./out ./public_html; quit" -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
+          lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no; set net:max-retries 2; set net:timeout 20; mirror -R -v -P 10 --parallel=10 --no-perms ./out ./public_html; quit" -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
