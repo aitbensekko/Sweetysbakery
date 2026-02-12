@@ -22,10 +22,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Generate all core/tool pages dynamically
     const corePages = allToolIds.map((id: any) => {
         const path = toolIdToSlug(id);
+        // Ensure path ends with slash if it's not root (root is handled)
+        // Actually, if we want consistency: 
+        // root: https://sweetysbakery.com/
+        // other: https://sweetysbakery.com/tools/foo/
+
+        let fullUrl;
+        if (path === '/') {
+            fullUrl = `${baseUrl}/`;
+        } else {
+            fullUrl = `${baseUrl}${path}/`;
+        }
+
         const isHome = path === '/';
 
         return {
-            url: `${baseUrl}${isHome ? '' : path}`,
+            url: fullUrl,
             lastModified: currentDate,
             changeFrequency: 'weekly' as const,
             priority: isHome ? 1.0 : 0.8,
@@ -37,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'marrakech-custom-cakes',
         'gold'
     ].map(route => ({
-        url: `${baseUrl}/${route}`,
+        url: `${baseUrl}/${route}/`,
         lastModified: currentDate,
         changeFrequency: 'weekly' as const,
         priority: 0.8,
@@ -46,14 +58,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog posts - combine both regular and SEO blog posts
     const allBlogPosts = [...blogPosts, ...newSeoBlogPosts];
     const blogPages = allBlogPosts.map((post) => ({
-        url: `${baseUrl}/${post.type === 'recipe' ? 'recipes' : 'blog'}/${post.slug}`,
+        url: `${baseUrl}/${post.type === 'recipe' ? 'recipes' : 'blog'}/${post.slug}/`,
         lastModified: formatDate(post.date),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
     }));
 
     const productPages = affiliateProducts.map((product) => ({
-        url: `${baseUrl}/products/${product.slug}`,
+        url: `${baseUrl}/products/${product.slug}/`,
         lastModified: product.lastUpdated || currentDate,
         changeFrequency: 'monthly' as const,
         priority: 0.7,
@@ -99,7 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ...productPages,
 
         {
-            url: `${baseUrl}/tools/my-art`,
+            url: `${baseUrl}/tools/my-art/`,
             lastModified: currentDate,
             changeFrequency: 'daily' as const,
             priority: 0.9,
