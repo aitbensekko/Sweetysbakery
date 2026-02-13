@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "node download_ebooks_v2.js && next build && next-image-export-optimizer && node scripts/generate-redirects.js",
-    "start": "next start",
+    "build": "node download_ebooks_v2.js && next build",
+    "start": "node server.js",
     "lint": "next lint"
   },
   "dependencies": {
