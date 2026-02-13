@@ -17,6 +17,9 @@
   RewriteEngine On
   RewriteBase /
 
+  # Redirect old product URL
+  RewriteRule ^products/king-arthur-gf-flour/?$ https://sweetysbakery.com/products/king-arthur-measure-for-measure-gf-flour/ [R=301,L]
+
   # 1. Force HTTPS
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

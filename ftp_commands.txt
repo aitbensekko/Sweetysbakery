@@ -1,0 +1,6 @@
+open ftp.sweetysbakery.com
+u959247853
+Sweetys@2025
+cd public_html
+ls -la
+quit
