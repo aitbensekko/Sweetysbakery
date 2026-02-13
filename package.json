@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node download_ebooks_v2.js && next build",
+    "clean-build": "rm -rf .next && npm run build",
     "start": "node server.js",
     "lint": "next lint"
   },
@@ -21,7 +22,6 @@
     "framer-motion": "^12.23.26",
     "leaflet": "^1.9.4",
     "next": "^16.0.7",
-    "next-image-export-optimizer": "^1.20.1",
     "node-fetch": "^3.3.2",
     "react": "^19.2.1",
     "react-chartjs-2": "^5.3.1",
