@@ -147,6 +147,130 @@ const nextConfig = {
                 destination: '/blog/the-bakers-clock-mastering-time-calculations-in-the-kitchen',
                 permanent: true,
             },
+            // Fixes for 404s from Task List
+            {
+                source: '/baking-pan-converter',
+                destination: '/blog/pan-perfection-your-baking-pan-converter-guide',
+                permanent: true,
+            },
+            {
+                source: '/yeast-converter',
+                destination: '/blog/yeast-whisperer-your-guide-to-yeast-conversions',
+                permanent: true,
+            },
+            {
+                source: '/blog/sugar-substitutes-guide',
+                destination: '/blog/sweetener-conversion',
+                permanent: true,
+            },
+            {
+                source: '/blog/healthy-baking-substitutes',
+                destination: '/blog/ingredient-substitutions',
+                permanent: true,
+            },
+            {
+                source: '/blog/fall-baking-trends-2025',
+                destination: '/blog/autumnal-delights-seasonal-baking-ideas-for-fall',
+                permanent: true,
+            },
+            {
+                source: '/blog/best-frosting-for-cupcakes',
+                destination: '/blog/frosting-finesse-the-best-frosting-for-cupcakes',
+                permanent: true,
+            },
+            {
+                source: '/blog/how-to-make-pastry-cream',
+                destination: '/blog/french-patisserie-classics',
+                permanent: true,
+            },
+            {
+                source: '/blog/mastering-pie-crust',
+                destination: '/blog/the-art-of-the-crust-pies-tarts-masterclass',
+                permanent: true,
+            },
+            {
+                source: '/blog/getting-started-with-sourdough',
+                destination: '/blog/ultimate-sourdough-starter-guide-science-feeding-troubleshooting',
+                permanent: true,
+            },
+            {
+                source: '/blog/gluten-free-baking-tips',
+                destination: '/blog/ingredient-substitutions',
+                permanent: true,
+            },
+            {
+                source: '/blog/advanced-cake-decorating',
+                destination: '/blog/my-art-a-bakers-canvas-edible-artistry',
+                permanent: true,
+            },
+            {
+                source: '/blog/chocolate-tempering-guide',
+                destination: '/blog/the-art-of-tempering-mastering-how-to-temper-chocolate',
+                permanent: true,
+            },
+            {
+                source: '/blog/holiday-gift-guide-bakers',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/blog/best-baking-books-2025',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/the-ultimate-weekend-guide-15-breakfast-brunch-recipes',
+                destination: '/blog/fluffy-buttermilk-pancakes',
+                permanent: true,
+            },
+            {
+                source: '/basic-pastry-doughs',
+                destination: '/blog/foundational-flakiness-mastering-basic-pastry-doughs',
+                permanent: true,
+            },
+            {
+                source: '/30-fall-cake-recipe-ideas',
+                destination: '/blog/autumnal-delights-seasonal-baking-ideas-for-fall',
+                permanent: true,
+            },
+            {
+                source: '/understanding-leavening-agents',
+                destination: '/blog/the-breath-of-baking-understanding-leavening-agents',
+                permanent: true,
+            },
+            {
+                source: '/temp-converter',
+                destination: '/tools/temp-converter',
+                permanent: true,
+            },
+            {
+                source: '/healthy-dessert-alternatives',
+                destination: '/blog/ingredient-substitutions',
+                permanent: true,
+            },
+            {
+                source: '/baking-blog',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/scaler',
+                destination: '/tools/recipe-scaling-costing',
+                permanent: true,
+            },
+            {
+                source: '/weight-loss-calculator',
+                destination: '/tools',
+                permanent: true,
+            },
+            destination: '/blog/frosting-finesse-the-best-frosting-for-cupcakes',
+            permanent: true,
+            },
+            {
+    source: '/tools/placeholder-tool',
+        destination: '/tools',
+            permanent: true,
+            },
         ];
     },
 };
