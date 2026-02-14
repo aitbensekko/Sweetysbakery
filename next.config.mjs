@@ -364,6 +364,17 @@ const nextConfig = {
                 destination: '/tools',
                 permanent: true,
             },
+            // Final User Reported Fixes
+            {
+                source: '/tools/temp-converter',
+                destination: '/tools/temperature-converter',
+                permanent: true,
+            },
+            {
+                source: '/blog/fluffy-buttermilk-pancakes',
+                destination: '/blog/fluffy-buttermilk-pancakes-recipe',
+                permanent: true,
+            },
         ];
     },
 };
