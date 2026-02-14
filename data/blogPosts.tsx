@@ -1266,7 +1266,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         id: 86,
-        slug: 'cookie-canvas-ultimate-cookie-decorating-ideas',
+        slug: 'ultimate-cookie-decorating-ideas',
         title: `Cookie Canvas: Ultimate Cookie Decorating Ideas | Sweety's Bakery`,
         excerpt: `Welcome to Sweety's Bakery ultimate guide to cookie decorating ideas! Cookies are not just delicious treats; they are miniature canvases awaiting y...`,
         imageUrl: '/images/blog/cookies.png',
@@ -1279,7 +1279,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
         id: 87,
-        slug: 'plant-based-perfection-vegan-baking-essentials',
+        slug: 'vegan-baking-essentials',
         title: `Plant-Based Perfection: Vegan Baking Essentials | Sweety's Bakery`,
         excerpt: `Welcome to Sweety's Bakery guide to vegan baking essentials! Whether you're a seasoned vegan baker or just starting to explore plant-based options,...`,
         imageUrl: '/images/blog/baking-ingredients.png',

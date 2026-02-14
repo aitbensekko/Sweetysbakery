@@ -67,7 +67,7 @@ const nextConfig = {
             // Blog Redirects
             {
                 source: '/cookie-decorating-essentials',
-                destination: '/blog/cookie-decorating-ideas',
+                destination: '/blog/ultimate-cookie-decorating-ideas',
                 permanent: true,
             },
             {
@@ -104,7 +104,7 @@ const nextConfig = {
             // Specific Task.md Requests
             {
                 source: '/ultimate-cookie-decorating-ideas',
-                destination: '/blog/cookie-decorating-ideas',
+                destination: '/blog/ultimate-cookie-decorating-ideas',
                 permanent: true,
             },
             {
@@ -125,6 +125,11 @@ const nextConfig = {
             {
                 source: '/products/electric-hand-mixer-bowls-set',
                 destination: '/products/5-speed-electric-hand-mixer-set',
+                permanent: true,
+            },
+            {
+                source: '/vegan-baking-essentials',
+                destination: '/blog/vegan-baking-essentials',
                 permanent: true,
             },
             {
