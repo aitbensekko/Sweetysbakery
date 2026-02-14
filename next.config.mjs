@@ -273,6 +273,97 @@ const nextConfig = {
                 destination: '/tools',
                 permanent: true,
             },
+            // Additional 404 Fixes (Batch 2)
+            {
+                source: '/blog/cookie-decorating-ideas',
+                destination: '/blog/ultimate-cookie-decorating-ideas',
+                permanent: true,
+            },
+            {
+                source: '/payment-calculator',
+                destination: '/blog/sweet-transactions-payment-calculations-for-bakers',
+                permanent: true,
+            },
+            {
+                source: '/recipe-scaler',
+                destination: '/tools/recipe-scaler',
+                permanent: true,
+            },
+            {
+                source: '/protein-macro',
+                destination: '/blog/protein-macronutrients',
+                permanent: true,
+            },
+            {
+                source: '/podcasts',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/ideal-weight-calculator',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/sugar-free-baking-recipes',
+                destination: '/blog/sweet-without-guilt-exploring-healthy-dessert-alternatives',
+                permanent: true,
+            },
+            {
+                source: '/digital-notebook',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/oven-temp-converter',
+                destination: '/tools/temp-converter',
+                permanent: true,
+            },
+            {
+                source: '/fondant-calculator',
+                destination: '/blog/fondant-formulas-mastering-the-art-of-cake-decorating',
+                permanent: true,
+            },
+            {
+                source: '/gallery',
+                destination: '/tools/my-art',
+                permanent: true,
+            },
+            {
+                source: '/products/le-creuset-dutch-oven-licorice',
+                destination: '/products/le-creuset-signature-dutch-oven',
+                permanent: true,
+            },
+            {
+                source: '/sourdough-bread-starter-guide',
+                destination: '/blog/the-living-loaf-your-sourdough-bread-starter-guide',
+                permanent: true,
+            },
+            {
+                source: '/baking-for-special-occasions',
+                destination: '/blog/best-birthday-cake-ideas',
+                permanent: true,
+            },
+            {
+                source: '/products/large-glass-food-storage',
+                destination: '/products/large-glass-food-storage-container',
+                permanent: true,
+            },
+            {
+                source: '/chocolate-baking-hacks',
+                destination: '/blog/chocolate-alchemy-essential-chocolate-baking-hacks',
+                permanent: true,
+            },
+            {
+                source: '/frosting-color-mixer',
+                destination: '/blog/color-me-sweet-your-frosting-color-mixer-guide',
+                permanent: true,
+            },
+            {
+                source: '/body-fat-calculator',
+                destination: '/tools',
+                permanent: true,
+            },
         ];
     },
 };
