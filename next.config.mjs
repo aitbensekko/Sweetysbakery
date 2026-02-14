@@ -263,13 +263,15 @@ const nextConfig = {
                 destination: '/tools',
                 permanent: true,
             },
-            destination: '/blog/frosting-finesse-the-best-frosting-for-cupcakes',
-            permanent: true,
+            {
+                source: '/best-frosting-for-cupcakes',
+                destination: '/blog/frosting-finesse-the-best-frosting-for-cupcakes',
+                permanent: true,
             },
             {
-    source: '/tools/placeholder-tool',
-        destination: '/tools',
-            permanent: true,
+                source: '/tools/placeholder-tool',
+                destination: '/tools',
+                permanent: true,
             },
         ];
     },
