@@ -375,6 +375,42 @@ const nextConfig = {
                 destination: '/blog/fluffy-buttermilk-pancakes-recipe',
                 permanent: true,
             },
+            // Batch 4 User Reported Fixes
+            {
+                source: '/my-art',
+                destination: '/tools/my-art',
+                permanent: true,
+            },
+            {
+                source: '/category/photography',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/category/advertising',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/recipes/best-banana-bread-recipe',
+                destination: '/blog/classic-banana-bread-recipe',
+                permanent: true,
+            },
+            {
+                source: '/tools/my-art-gallery',
+                destination: '/tools/my-art',
+                permanent: true,
+            },
+            {
+                source: '/tools/mortgage-affordability-calculator',
+                destination: '/tools/mortgage-affordability',
+                permanent: true,
+            },
+            {
+                source: '/management-dashboard',
+                destination: '/tools/management-dashboard',
+                permanent: true,
+            },
         ];
     },
 };
