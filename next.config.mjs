@@ -54,11 +54,7 @@ const nextConfig = {
                 destination: '/tools/oven-temp-converter',
                 permanent: true,
             },
-            {
-                source: '/tools/temperature-converter',
-                destination: '/tools/temp-converter',
-                permanent: true,
-            },
+
             {
                 source: '/tools/mortgage-calculator',
                 destination: '/tools/mortgage-affordability',
@@ -240,7 +236,7 @@ const nextConfig = {
             },
             {
                 source: '/temp-converter',
-                destination: '/tools/temp-converter',
+                destination: '/tools/temperature-converter',
                 permanent: true,
             },
             {
@@ -316,7 +312,7 @@ const nextConfig = {
             },
             {
                 source: '/oven-temp-converter',
-                destination: '/tools/temp-converter',
+                destination: '/tools/oven-temp-converter',
                 permanent: true,
             },
             {
