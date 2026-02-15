@@ -417,6 +417,11 @@ const nextConfig = {
                 destination: '/tools/management-dashboard',
                 permanent: true,
             },
+            {
+                source: '/contact',
+                destination: '/contact-us',
+                permanent: true,
+            },
         ];
     },
 };
