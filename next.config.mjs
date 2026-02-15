@@ -448,6 +448,217 @@ const nextConfig = {
                 destination: '/products',
                 permanent: true,
             },
+            // Fixes for 503 Errors (Crawled - Not Indexed)
+            {
+                source: '/tools/ideal-weight-calculator/',
+                destination: '/tools/ideal-weight-calculator',
+                permanent: true,
+            },
+            {
+                source: '/blog/baking-basics-easy-cake-recipes-for-beginners',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/blog/gluten-free-gold-mastering-gluten-free-baking-tips',
+                destination: '/blog/common-gluten-free-baking-mistakes',
+                permanent: true,
+            },
+            {
+                source: '/blog/sweet-returns-understanding-compound-interest-in-baking-business',
+                destination: '/blog/cake-pricing-guide',
+                permanent: true,
+            },
+            {
+                source: '/blog/gourmet-dessert-recipes',
+                destination: '/blog/americas-favorite-desserts-gourmet-party-ideas',
+                permanent: true,
+            },
+            {
+                source: '/blog/gluten-free-flours-guide-almond-coconut-oat/',
+                destination: '/blog/gluten-free-flours-guide-almond-coconut-oat',
+                permanent: true,
+            },
+            {
+                source: '/products/the-christmas-cookie-cookbook',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/date-calculator',
+                destination: '/tools/date-calculator',
+                permanent: true,
+            },
+            {
+                source: '/blog/trending-cake-designs-2025',
+                destination: '/blog/trending-cake-designs-2025-birthday-wedding-ideas',
+                permanent: true,
+            },
+            {
+                source: '/blog/yeast-whisperer-your-guide-to-yeast-conversions',
+                destination: '/tools/yeast-converter',
+                permanent: true,
+            },
+            {
+                source: '/blog/best-birthday-cake-ideas',
+                destination: '/blog/trending-cake-designs-2025-birthday-wedding-ideas',
+                permanent: true,
+            },
+            {
+                source: '/blog/volume-versatility-your-baking-volume-converter',
+                destination: '/tools/volume-converter',
+                permanent: true,
+            },
+            {
+                source: '/blog/how-to-store-cakes-properly',
+                destination: '/blog/cake-care-101-flavors-storage-freshness',
+                permanent: true,
+            },
+            {
+                source: '/blog/age-calculator',
+                destination: '/tools/age-calculator',
+                permanent: true,
+            },
+            {
+                source: '/blog/allergen-guide',
+                destination: '/tools/allergen-guide',
+                permanent: true,
+            },
+            {
+                source: '/marrakech-custom-cakes',
+                destination: '/contact-us',
+                permanent: true,
+            },
+            {
+                source: '/products/overmont-enameled-cast-iron-dutch-oven',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/products/100-cookies-cookbook',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/blog/date-calculator',
+                destination: '/tools/date-calculator',
+                permanent: true,
+            },
+            {
+                source: '/blog/color-me-sweet-your-frosting-color-mixer-guide',
+                destination: '/tools/frosting-color-mixer',
+                permanent: true,
+            },
+            {
+                source: '/products/etekcity-food-kitchen-scale-digital',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/recipes/soft-chewy-pretzels',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/cake-delivery-near-me',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/chocolate-fudge-cake-delivery',
+                destination: '/blog/chocolate-fudge-cake-delivery',
+                permanent: true,
+            },
+            {
+                source: '/blog/weighty-matters-your-baking-weight-converter-guide',
+                destination: '/tools/weight-converter',
+                permanent: true,
+            },
+            {
+                source: '/blog/little-bakers-big-fun-easy-kids-baking-recipes',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/blog/how-to-blind-bake-pie-crust',
+                destination: '/blog/flaky-gluten-free-pie-crust',
+                permanent: true,
+            },
+            {
+                source: '/blog/the-digital-recipe-box-your-culinary-command-center',
+                destination: '/tools/recipe-box',
+                permanent: true,
+            },
+            {
+                source: '/blog/bakers-percentage',
+                destination: '/tools/bakers-percentage',
+                permanent: true,
+            },
+            {
+                source: '/blog/mastering-the-recipe-scaler-bake-for-any-crowd',
+                destination: '/tools/recipe-scaler',
+                permanent: true,
+            },
+            {
+                source: '/blog/mastering-macarons',
+                destination: '/blog/vegan-meringue-aquafaba-magic',
+                permanent: true,
+            },
+            {
+                source: '/why-you-need-a-kitchen-scale',
+                destination: '/blog/why-you-need-a-kitchen-scale',
+                permanent: true,
+            },
+            {
+                source: '/products/le-creuset-bread-oven-oyster',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/pyrex-glass-measuring-cups-set',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/warm-brussels-sprouts-salad-with-bacon-and-apple',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/maillard-reaction-baking',
+                destination: '/blog/oven-temperature-translations-your-baking-conversion-tool',
+                permanent: true,
+            },
+            {
+                source: '/apple-cinnamon-baked-oatmeal-cups',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/brown-sugar-butterscotch-cupcakes',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/melissa-doug-slice-bake-cookies',
+                destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/sugar-free-baking-recipes',
+                destination: '/blog/keto-desserts-delivery',
+                permanent: true,
+            },
+            {
+                source: '/drinks-videos',
+                destination: '/tools/drinks-videos',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/goodcook-nonstick-baking-sheet-set',
+                destination: '/products',
+                permanent: true,
+            },
         ];
     },
 };
