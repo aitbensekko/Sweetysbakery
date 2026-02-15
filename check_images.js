@@ -1,25 +1,34 @@
+
 const https = require('https');
 
-const checkUrl = (url) => {
+const imageUrls = [
+    'https://m.media-amazon.com/images/I/91YrLTBnMcL._SL1500_.jpg',
+    'https://m.media-amazon.com/images/I/61PVl9OMPPL._SL1351_.jpg',
+    'https://m.media-amazon.com/images/I/61eUSfKnceL._AC_SL1500_.jpg',
+    'https://m.media-amazon.com/images/I/81QpXcPUtmL._SX679_.jpg' // Updated URL from file
+];
+
+function checkUrl(url) {
     return new Promise((resolve) => {
-        https.get(url, (res) => {
-            resolve({ url, status: res.statusCode });
-        }).on('error', () => {
-            resolve({ url, status: 'error' });
+        const req = https.get(url, (res) => {
+            console.log(`${url}: ${res.statusCode}`);
+            resolve(res.statusCode);
         });
+
+        req.on('error', (e) => {
+            console.error(`${url}: Error - ${e.message}`);
+            resolve(500);
+        });
+
+        req.end();
     });
-};
+}
 
-const run = async () => {
-    const promises = [];
-    for (let i = 1; i <= 30; i++) {
-        const url = `https://sweetysbakery.com/images/Sweeetys%20Bakery%20IMG%20(${i}).JPG`;
-        promises.push(checkUrl(url));
+async function run() {
+    console.log('Checking image URLs...');
+    for (const url of imageUrls) {
+        await checkUrl(url);
     }
-
-    const results = await Promise.all(promises);
-    const valid = results.filter(r => r.status === 200).map(r => r.url);
-    console.log('Valid Images:', JSON.stringify(valid, null, 2));
-};
+}
 
 run();
