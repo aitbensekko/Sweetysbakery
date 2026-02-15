@@ -161,7 +161,7 @@ const nextConfig = {
             },
             {
                 source: '/blog/healthy-baking-substitutes',
-                destination: '/blog/ingredient-substitutions',
+                destination: '/tools/ingredient-substitutions',
                 permanent: true,
             },
             {
@@ -191,7 +191,7 @@ const nextConfig = {
             },
             {
                 source: '/blog/gluten-free-baking-tips',
-                destination: '/blog/ingredient-substitutions',
+                destination: '/tools/ingredient-substitutions',
                 permanent: true,
             },
             {
@@ -241,7 +241,7 @@ const nextConfig = {
             },
             {
                 source: '/healthy-dessert-alternatives',
-                destination: '/blog/ingredient-substitutions',
+                destination: '/tools/ingredient-substitutions',
                 permanent: true,
             },
             {
@@ -420,6 +420,32 @@ const nextConfig = {
             {
                 source: '/contact',
                 destination: '/contact-us',
+                permanent: true,
+            },
+            // Fixes for Crawled - Not Indexed (User Screenshot)
+            {
+                source: '/dough-hydration/',
+                destination: '/tools/dough-hydration',
+                permanent: true,
+            },
+            {
+                source: '/ingredient-substitutions/',
+                destination: '/tools/ingredient-substitutions',
+                permanent: true,
+            },
+            {
+                source: '/blog/baking-bucket-list',
+                destination: '/tools/baking-bucket-list',
+                permanent: true,
+            },
+            {
+                source: '/blog/cake-pricing-guide',
+                destination: '/tools/cake-pricing-calculator',
+                permanent: true,
+            },
+            {
+                source: '/products/cornbread-and-beyond',
+                destination: '/products',
                 permanent: true,
             },
         ];
