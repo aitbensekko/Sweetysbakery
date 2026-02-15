@@ -443,11 +443,7 @@ const nextConfig = {
                 destination: '/tools/cake-pricing-calculator',
                 permanent: true,
             },
-            {
-                source: '/products/cornbread-and-beyond',
-                destination: '/products',
-                permanent: true,
-            },
+
             // Fixes for 503 Errors (Crawled - Not Indexed)
             {
                 source: '/tools/ideal-weight-calculator/',
@@ -479,11 +475,7 @@ const nextConfig = {
                 destination: '/blog/gluten-free-flours-guide-almond-coconut-oat',
                 permanent: true,
             },
-            {
-                source: '/products/the-christmas-cookie-cookbook',
-                destination: '/products',
-                permanent: true,
-            },
+
             {
                 source: '/date-calculator',
                 destination: '/tools/date-calculator',
@@ -529,16 +521,8 @@ const nextConfig = {
                 destination: '/contact-us',
                 permanent: true,
             },
-            {
-                source: '/products/overmont-enameled-cast-iron-dutch-oven',
-                destination: '/products',
-                permanent: true,
-            },
-            {
-                source: '/products/100-cookies-cookbook',
-                destination: '/products',
-                permanent: true,
-            },
+
+
             {
                 source: '/blog/date-calculator',
                 destination: '/tools/date-calculator',
@@ -549,11 +533,7 @@ const nextConfig = {
                 destination: '/tools/frosting-color-mixer',
                 permanent: true,
             },
-            {
-                source: '/products/etekcity-food-kitchen-scale-digital',
-                destination: '/products',
-                permanent: true,
-            },
+
             {
                 source: '/recipes/soft-chewy-pretzels',
                 destination: '/recipes',
@@ -616,7 +596,7 @@ const nextConfig = {
             },
             {
                 source: '/product-tools/pyrex-glass-measuring-cups-set',
-                destination: '/products',
+                destination: '/products/pyrex-essentials-glass-measuring-cups',
                 permanent: true,
             },
             {
@@ -641,7 +621,7 @@ const nextConfig = {
             },
             {
                 source: '/product-tools/melissa-doug-slice-bake-cookies',
-                destination: '/products',
+                destination: '/products/melissa-and-doug-slice-and-bake-cookies',
                 permanent: true,
             },
             {
@@ -656,7 +636,269 @@ const nextConfig = {
             },
             {
                 source: '/product-tools/goodcook-nonstick-baking-sheet-set',
+                destination: '/products/goodcook-everyday-baking-sheet-set',
+                permanent: true,
+            },
+            // Batch 6 (User Screenshots) Fixes
+            {
+                source: '/product-tools/natures-own-brioche-hamburger-buns',
+                destination: '/products/natures-own-brioche-hamburger-buns',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/king-arthur-gf-flour',
+                destination: '/products/king-arthur-measure-for-measure-gf-flour',
+                permanent: true,
+            },
+            {
+                source: '/tools/stopwatch',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/food-photography-tips-for-bakers',
+                destination: '/blog/food-photography-tips-for-bakers',
+                permanent: true,
+            },
+            {
+                source: '/the-ultimate-guide-to-black-velvet-cupcakes',
+                destination: '/recipes/red-velvet-cupcakes',
+                permanent: true,
+            },
+            {
+                source: '/baked-apple-cider-donuts',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/etekcity-food-kitchen-scale',
+                destination: '/products/etekcity-food-kitchen-scale-digital',
+                permanent: true,
+            },
+            {
+                source: '/brown-sugar-shortbread-cookies',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/if-you-care-parchment-baking-paper',
+                destination: '/products/if-you-care-parchment-baking-paper',
+                permanent: true,
+            },
+            {
+                source: '/apple-cinnamon-scones',
+                destination: '/recipes/apple-cinnamon-crumb-muffins',
+                permanent: true,
+            },
+            {
+                source: '/easy-cake-recipes-for-beginners',
+                destination: '/blog/baking-101-simple-cakes',
+                permanent: true,
+            },
+            {
+                source: '/black-velvet-cupcakes',
+                destination: '/recipes/red-velvet-cupcakes',
+                permanent: true,
+            },
+            {
+                source: '/recipe-box',
+                destination: '/tools/recipe-box',
+                permanent: true,
+            },
+            {
+                source: '/tools/my-art-generator',
+                destination: '/tools/my-art',
+                permanent: true,
+            },
+            {
+                source: '/testimonials',
+                destination: '/about',
+                permanent: true,
+            },
+            {
+                source: '/glazed-doughnuts-recipe',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/products/fotile-chefcubii-combi-steam-oven',
+                destination: '/products/fotile-chefcubii-steam-oven',
+                permanent: true,
+            },
+            {
+                source: '/products/amazon-basics-bakeware-set',
+                destination: '/products/amazon-basics-6-piece-bakeware-set',
+                permanent: true,
+            },
+            {
+                source: '/product',
                 destination: '/products',
+                permanent: true,
+            },
+            {
+                source: '/product-tools/pillsbury-ready-bake-cookie-dough',
+                destination: '/products/pillsbury-ready-to-bake-cookie-dough',
+                permanent: true,
+            },
+            {
+                source: '/volume-converter',
+                destination: '/tools/volume-converter',
+                permanent: true,
+            },
+            {
+                source: '/products/piping-bags-tips-set',
+                destination: '/products/piping-bags-and-tips-set',
+                permanent: true,
+            },
+            {
+                source: '/common-bread-baking-mistakes',
+                destination: '/blog/common-bread-baking-mistakes',
+                permanent: true,
+            },
+            {
+                source: '/kids-baking-recipes',
+                destination: '/blog/little-bakers-big-fun-easy-kids-baking-recipes',
+                permanent: true,
+            },
+            {
+                source: '/the-ultimate-fudgy-brownies',
+                destination: '/recipes/the-ultimate-fudgy-brownies',
+                permanent: true,
+            },
+            {
+                source: '/videos',
+                destination: '/tools/drinks-videos',
+                permanent: true,
+            },
+            {
+                source: '/buttercream-calculator',
+                destination: '/tools/buttercream-calculator',
+                permanent: true,
+            },
+            {
+                source: '/embrace-the-cozy-your-ultimate-guide-to-fall-baking-season',
+                destination: '/blog/autumnal-delights-seasonal-baking-ideas-for-fall',
+                permanent: true,
+            },
+            {
+                source: '/calorie-calculator',
+                destination: '/tools/calorie-calculator',
+                permanent: true,
+            },
+            {
+                source: '/dessert-calculator',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/banana-baked-oatmeal',
+                destination: '/recipes/baked-oatmeal-cups',
+                permanent: true,
+            },
+            {
+                source: '/our-favorite-baking-bloggers-a-spotlight-on-sally-mckenney',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/measurement-converter',
+                destination: '/tools/measurement-converter',
+                permanent: true,
+            },
+            {
+                source: '/pumpkin-crumb-cake-muffins',
+                destination: '/recipes/apple-cinnamon-crumb-muffins',
+                permanent: true,
+            },
+            {
+                source: '/weight-converter',
+                destination: '/tools/weight-converter',
+                permanent: true,
+            },
+            {
+                source: '/pregnancy-calculator',
+                destination: '/tools',
+                permanent: true,
+            },
+            {
+                source: '/sweetener-converter',
+                destination: '/blog/sweetener-conversion',
+                permanent: true,
+            },
+            {
+                source: '/homemade-pumpkin-pie-spice-blend',
+                destination: '/recipes',
+                permanent: true,
+            },
+            {
+                source: '/ganache-calculator',
+                destination: '/tools/ganache-calculator',
+                permanent: true,
+            },
+            {
+                source: '/relaxing-videos',
+                destination: '/blog/relaxing-baking-videos',
+                permanent: true,
+            },
+            {
+                source: '/order-management',
+                destination: '/tools/order-management',
+                permanent: true,
+            },
+            {
+                source: '/tip-calculator',
+                destination: '/tools/tip-calculator',
+                permanent: true,
+            },
+            // Batch 7: New User Screenshot URLs
+            {
+                source: '/get-your-spook-on-easy-halloween-dessert-recipes-for-2026',
+                destination: '/blog',
+                permanent: true,
+            },
+            {
+                source: '/interest-calculator',
+                destination: '/tools/investment-calculator',
+                permanent: true,
+            },
+            {
+                source: '/pumpkin-coffee-cake-with-crumb-topping',
+                destination: '/blog/autumnal-delights-seasonal-baking-ideas-for-fall',
+                permanent: true,
+            },
+            {
+                source: '/pace-calculator',
+                destination: '/tools/pace-calculator',
+                permanent: true,
+            },
+            {
+                source: '/bakers-percentage',
+                destination: '/tools/bakers-percentage',
+                permanent: true,
+            },
+            {
+                source: '/cake-pricing',
+                destination: '/tools/cake-pricing',
+                permanent: true,
+            },
+            {
+                source: '/flavor-pairing-guide',
+                destination: '/tools/flavor-pairing-guide',
+                permanent: true,
+            },
+            {
+                source: '/multiple-timer',
+                destination: '/tools/multiple-timer',
+                permanent: true,
+            },
+            {
+                source: '/privacy',
+                destination: '/privacy-policy',
+                permanent: true,
+            },
+            {
+                source: '/comments/feed',
+                destination: '/',
                 permanent: true,
             },
         ];
