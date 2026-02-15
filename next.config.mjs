@@ -372,7 +372,12 @@ const nextConfig = {
             },
             {
                 source: '/blog/fluffy-buttermilk-pancakes',
-                destination: '/blog/fluffy-buttermilk-pancakes-recipe',
+                destination: '/recipes/fluffy-buttermilk-pancakes-recipe',
+                permanent: true,
+            },
+            {
+                source: '/blog/fluffy-buttermilk-pancakes-recipe',
+                destination: '/recipes/fluffy-buttermilk-pancakes-recipe',
                 permanent: true,
             },
             // Batch 4 User Reported Fixes
@@ -393,7 +398,12 @@ const nextConfig = {
             },
             {
                 source: '/recipes/best-banana-bread-recipe',
-                destination: '/blog/classic-banana-bread-recipe',
+                destination: '/recipes/classic-banana-bread-recipe',
+                permanent: true,
+            },
+            {
+                source: '/blog/classic-banana-bread-recipe',
+                destination: '/recipes/classic-banana-bread-recipe',
                 permanent: true,
             },
             {
